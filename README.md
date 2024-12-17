@@ -10,14 +10,19 @@ llm_reliability_framework/
 │   ├── data/              # Benchmark data files
 │   ├── evaluators/        # Evaluation implementations
 │   └── data_loaders/      # Data loading utilities
-├── evaluated_repos/        # External methods to be evaluated
-├── notebooks/              # Jupyter notebooks for analysis
-├── results/                # Test results and evaluations
-├── tests/                  # Framework unit tests
-├── utils/                  # Utility functions and model interfaces
-├── environment.yaml        # Conda environment specification
-├── main.py                # Main testing framework
-├── run_coverage.sh        # Test coverage script
+├── config/                 # Configuration files
+│   ├── methods/           # Method-specific configs
+│   ├── benchmarks/        # Benchmark-specific configs
+│   └── default.yaml       # Default framework config
+├── evaluate/              # Directory for testing your method
+├── evaluated_methods/     # Reference implementations for paper
+├── notebooks/             # Jupyter notebooks for analysis
+├── results/               # Test results and evaluations
+├── tests/                 # Framework unit tests
+├── utils/                 # Utility functions and model interfaces
+├── environment.yaml       # Conda environment specification
+├── main.py               # Main testing framework
+├── run_coverage.sh       # Test coverage script
 ├── run_pylint.sh         # Code quality checking
 ├── run.slurm             # Slurm job submission script
 └── setup.py              # Package setup file
@@ -51,8 +56,19 @@ export ANTHROPIC_API_KEY="your-anthropic-key"
 
 ## Testing Your Method
 
-### 1. Prepare Your Method
-Place your method's code in the `evaluated_repos` directory. Your method should have an entry point function that accepts a model and input text:
+### 1. Add Your Method
+Place your method's code in the `evaluate` directory:
+
+```
+evaluate/
+└── your-method/              # Your method's directory
+    ├── method/              # Your implementation
+    │   ├── __init__.py
+    │   └── main.py         # Contains your solve function
+    └── requirements.txt     # Any additional dependencies
+```
+
+Your entry point function should accept a model and input text:
 
 ```python
 def solve_function(model, input_text: str) -> str:
@@ -67,38 +83,47 @@ def solve_function(model, input_text: str) -> str:
     pass
 ```
 
-Create a `method_config.json` in your method's directory:
-```json
-{
-    "entry_module": "your_package.your_module",
-    "entry_function": "your_solve_function"
-}
+### 2. Create Method Configuration
+Create a configuration file in `config/methods/your-method.yaml`:
+
+```yaml
+entry_module: method.main
+entry_function: solve_function
+description: "Brief description of your method"
 ```
 
-### 2. Create Test Configuration
-Create a configuration file for your test run:
+### 3. Create Test Configuration
+Create or modify `config/default.yaml`:
 
-```json
-{
-    "benchmark_name": "gsm8k",  # or other supported benchmark
-    "benchmark_path": "/path/to/benchmark/data",
-    "model_names": [
-        "gpt-4",
-        "gpt-3.5-turbo",
-        "llama-base"
-    ],
-    "methods_to_test": [
-        "evaluated_repos/your_method",
-        "evaluated_repos/baseline_method"
-    ],
-    "output_dir": "./results"
-}
+```yaml
+benchmark_name: "gsm8k"  # or other supported benchmark
+benchmark_path: "/path/to/benchmark/data"
+model_names:
+  - "gpt-4"
+  - "gpt-3.5-turbo"
+  - "llama-base"
+method_name: "your-method"  # Name of your directory in evaluate/
+output_dir: "./results"
+batch_size: 10
 ```
 
-### 3. Run Tests
+### 4. Run Tests
 ```bash
-python main.py --config your_config.json
+python main.py --config config/default.yaml
 ```
+
+## Reference Implementations
+
+The `evaluated_methods` directory contains implementations that were evaluated for our paper. You can use these as examples for implementation patterns and expected outputs.
+
+## Supported Models
+
+- GPT-4
+- GPT-3.5-turbo
+- Llama (base)
+- Llama (large)
+- Mistral (base)
+- Phi-2
 
 ## Supported Benchmarks
 
@@ -137,14 +162,11 @@ class CustomHFBenchmarkEvaluator(BaseEvaluator):
 ```
 
 Configuration for Hugging Face dataset:
-```json
-{
-    "benchmark_name": "custom_hf",
-    "benchmark_config": {
-        "dataset_name": "bigscience/P3",
-        "split": "test"
-    }
-}
+```yaml
+benchmark_name: "custom_hf"
+benchmark_config:
+  dataset_name: "bigscience/P3"
+  split: "test"
 ```
 
 ### 2. Adding Custom Benchmark Data
@@ -156,20 +178,20 @@ benchmarks/
 │   ├── your_benchmark/
 │   │   ├── __init__.py
 │   │   ├── data/               # Your benchmark data files
-│   │   └── metadata.json       # Benchmark metadata
+│   │   └── metadata.yaml       # Benchmark metadata
 ```
 
-2. Create metadata.json:
-```json
-{
-    "name": "your_benchmark",
-    "version": "1.0",
-    "description": "Description of your benchmark",
-    "input_format": "Description of input format",
-    "output_format": "Description of expected outputs",
-    "metrics": ["metric1", "metric2"],
-    "citation": "Optional citation"
-}
+2. Create metadata.yaml:
+```yaml
+name: "your_benchmark"
+version: "1.0"
+description: "Description of your benchmark"
+input_format: "Description of input format"
+output_format: "Description of expected outputs"
+metrics:
+  - "metric1"
+  - "metric2"
+citation: "Optional citation"
 ```
 
 3. Implement your evaluator:
@@ -196,18 +218,22 @@ class YourBenchmarkEvaluator(BaseEvaluator):
 
 ## Results
 
-Results are saved in JSON format in the `results` directory:
-```json
-{
-    "problem_id": {
-        "method_name": {
-            "model_name": {
-                "solution": "model's solution",
-                "score": 1.0
-            }
-        }
-    }
-}
+Results are saved in YAML format in the `results` directory:
+```yaml
+method_name:
+  problem_id:
+    model_outputs:
+      gpt-4:
+        solution: "model's solution"
+        score: 1.0
+      gpt-3.5-turbo:
+        solution: "another solution"
+        score: 0.8
+    evaluation:
+      accuracy: 0.9
+      other_metrics:
+        metric1: 0.85
+        metric2: 0.92
 ```
 
 ## Running on HPC
@@ -246,6 +272,11 @@ Run unit tests with coverage:
 3. Data Loading Issues:
    - Verify benchmark data paths are correct
    - Check data format matches evaluator expectations
+
+4. Method Loading Issues:
+   - Ensure your method is in the correct directory (`evaluate/`)
+   - Verify method configuration exists in `config/methods/`
+   - Check entry module and function names match your implementation
 
 ## Contributing
 
