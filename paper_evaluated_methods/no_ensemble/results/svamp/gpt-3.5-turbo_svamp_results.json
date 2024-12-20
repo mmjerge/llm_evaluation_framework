@@ -1,0 +1,502 @@
+[
+    {
+        "full_question": "Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack How much do you have to pay to buy each pack?",
+        "model_response": "To calculate the final price after the discount, you subtract the discount amount from the original price.\n\nFinal price = Original price - Discount amount\nFinal price = 76 dollars - 25 dollars\nFinal price = 51 dollars\n\nTherefore, you have to pay 51 dollars to buy each pack of DVDs after the discount.",
+        "correct_answer": 51.0
+    },
+    {
+        "full_question": "Dan had $ 3 left with him after he bought a candy bar. If he had $ 4 at the start How much did the candy bar cost?",
+        "model_response": "The candy bar cost $1. \n\nStarting amount = $4\nAmount left after buying candy bar = $3\nAmount spent on candy bar = $4 - $3 = $1. \n\nTherefore, the candy bar cost $1.",
+        "correct_answer": 1.0
+    },
+    {
+        "full_question": "Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies. How many salty cookies did Paco have left?",
+        "model_response": "Paco had 26 - 9 = 17 salty cookies left.\nSo, he had 17 salty + 3 sweet = 20 salty cookies left.",
+        "correct_answer": 17.0
+    },
+    {
+        "full_question": "43 children were riding on the bus. At the bus stop some children got off the bus. Then there were 21 children left on the bus. How many children got off the bus at the bus stop?",
+        "model_response": "22 children got off the bus at the bus stop.",
+        "correct_answer": 22.0
+    },
+    {
+        "full_question": "28 children were riding on the bus. At the bus stop 82 children got on the bus while some got off the bus. Then there were 30 children altogether on the bus. How many more children got on the bus than those that got off?",
+        "model_response": "Let X be the number of children who got off the bus.\nAfter 82 children got on the bus and X children got off, there were originally 28 children + 82 children - X children = 30 children on the bus.\nThus, 110 - X = 30\nX = 80\n82 - 80 = 2 more children got on the bus than those that got off.",
+        "correct_answer": 2.0
+    },
+    {
+        "full_question": "There were 3 dollars in Olivia's wallet. She collected 49 more dollars from an atm. After she visited a supermarket there were 49 dollars left. How much more money did she collect at the atm than she spent at the supermarket?",
+        "model_response": "Olivia had $3 in her wallet to start with. After collecting $49 from the ATM, she had a total of $3 + $49 = $52.\nAfter visiting the supermarket, she had $49 left. \nSo, she spent $52 - $49 = $3 at the supermarket.\nTherefore, Olivia collected $49 from the ATM, and she spent $3 at the supermarket, she collected $49 - $3 = $46 more at the ATM than she spent at the supermarket.",
+        "correct_answer": 46.0
+    },
+    {
+        "full_question": "Jerry had some action figures on a shelf in his room. Later he added 7 more action figures to the shelf. If there are a total of 10 action figures on his shelf now How many action figures did he have initially on the shelf?",
+        "model_response": "Jerry initially had 3 action figures on the shelf. \n\nExplanation: \nLet x be the number of action figures Jerry initially had on the shelf. \nAfter adding 7 more action figures, the total number of action figures on the shelf is x + 7. \nAccording to the given information, x + 7 = 10. \nSubtracting 7 from both sides of the equation, we get x = 3.",
+        "correct_answer": 3.0
+    },
+    {
+        "full_question": "Paco had 41 cookies. He gave 9 cookies to his friend and ate 18 cookies. How many more cookies did he eat than those he gave to his friend?",
+        "model_response": "Paco gave 9 cookies to his friend and ate 18 cookies, so he gave away and ate a total of 9 + 18 = 27 cookies.\nHe had 41 cookies to start with, so he had 41 - 27 = 14 cookies left.\nHe ate 18 cookies and gave 9 away, so he ate 18 - 9 = 9 more cookies than he gave away.",
+        "correct_answer": 9.0
+    },
+    {
+        "full_question": "Mary is baking a cake. The recipe calls for 3 cups of sugar 10 cups of flour and 15 cups of salt. She already put in 6 cups of flour. How many more cups of flour does she need to add?",
+        "model_response": "Mary needs to add 4 more cups of flour to meet the recipe requirement of 10 cups of flour.",
+        "correct_answer": 4.0
+    },
+    {
+        "full_question": "A waiter had some customers. After 9 customers left he still had 12 customers. How many customers did he have at the start?",
+        "model_response": "The waiter initially had 21 customers. \n\n9 customers left, so the remaining customers were 12.\n\n21 - 9 = 12\n\nTherefore, the waiter had 21 customers at the start.",
+        "correct_answer": 21.0
+    },
+    {
+        "full_question": "3 birds were sitting on the fence. 6 more storks and 2 more birds came to join them. How many more storks than birds are sitting on the fence?",
+        "model_response": "There are a total of 9 storks (6 original storks + 3 new storks) and 5 birds (3 original birds + 2 new birds) sitting on the fence. \n\nTherefore, there are 4 more storks (9 storks - 5 birds) than birds sitting on the fence.",
+        "correct_answer": 1.0
+    },
+    {
+        "full_question": "They decided to hold the party in their backyard. If they have 11 sets of tables and each set has 13 chairs How many chairs do they have in the backyard?",
+        "model_response": "To find the total number of chairs, you would multiply the number of sets of tables by the number of chairs in each set.\n\n11 sets of tables x 13 chairs per set = 143 chairs\n\nTherefore, they have 143 chairs in the backyard.",
+        "correct_answer": 143.0
+    },
+    {
+        "full_question": "In a school there are 458 more girls than boys. If there are 692 girls How many pupils are there in that school?",
+        "model_response": "Let the number of boys be x.\nThen the number of girls is x + 458 = 692\nSolving for x, we have x = 692 - 458 = 234\n\nSo, the total number of pupils in the school is:\n234 boys + 692 girls = 926 pupils.",
+        "correct_answer": 926.0
+    },
+    {
+        "full_question": "After resting they decided to go for a swim. The depth of the water is 15 times Dean's height. Dean is 4 feet taller than Ron. If Ron stands at 13 feet How deep was the water?",
+        "model_response": "Since Dean is 4 feet taller than Ron, his height is 13 + 4 = 17 feet.\n\nThe depth of the water is 15 times Dean's height, so it is 15 * 17 = 255 feet deep. \n\nThus, the water is 255 feet deep.",
+        "correct_answer": 255.0
+    },
+    {
+        "full_question": "6 birds were sitting on the fence. 4 more birds and 8 more storks came to join them. How many birds are sitting on the fence?",
+        "model_response": "Initially there were 6 birds on the fence. Then 4 more birds and 8 storks joined them, which makes a total of 6 birds + 4 birds + 8 storks = 18 birds sitting on the fence.",
+        "correct_answer": 10.0
+    },
+    {
+        "full_question": "Marco and his dad went strawberry picking. Together they collected strawberries that weighed 36 pounds. On the way back Marco ' dad lost 8 pounds of strawberries. Marco's strawberries now weighed 12 pounds. How much did his dad's strawberries weigh now?",
+        "model_response": "If Marco's strawberries weighed 12 pounds after his dad lost 8 pounds of strawberries, then his dad's strawberries weighed 36 pounds - 12 pounds = 24 pounds.",
+        "correct_answer": 16.0
+    },
+    {
+        "full_question": "In a school there are 697 girls and the rest are boys. If there are 228 more girls than boys How many boys are there in that school?",
+        "model_response": "Let x be the number of boys in the school.\n\nGiven that there are 697 girls and 228 more girls than boys, we can set up an equation:\n\n697 = x + 228\n\nSubtracting 228 from both sides, we get:\n\nx = 697 - 228\nx = 469\n\nSo, there are 469 boys in the school.",
+        "correct_answer": 469.0
+    },
+    {
+        "full_question": "In a school there are 732 girls and 761 boys. 682 more girls and 8 more boys joined the school. How many girls are there in the school now?",
+        "model_response": "Initial number of girls = 732\nInitial number of boys = 761\n\nAfter new students joined:\nNumber of girls = 732 + 682 = 1414\nNumber of boys = 761 + 8 = 769\n\nTherefore, there are 1414 girls in the school now.",
+        "correct_answer": 1414.0
+    },
+    {
+        "full_question": "Danny collects bottle caps and wrappers. He found 22 bottle caps and 30 wrappers at the park. Now he has 17 bottle caps and 57 wrappers in his collection. How many wrappers did danny have at first?",
+        "model_response": "Danny had 47 wrappers at first. \n\n30 wrappers found at the park + 57 wrappers in his collection - 47 wrappers currently = 40 wrappers originally.",
+        "correct_answer": 27.0
+    },
+    {
+        "full_question": "Paul got a box of 457 erasers and 617 crayons for his birthday. At the end of the school year he only had 523 crayons left while not having lost a single eraser. How many more crayons than erasers did he have left?",
+        "model_response": "Paul had 94 more crayons left than erasers. \n\nTo find this, subtract the number of crayons left from the original amount of crayons: 617 crayons - 523 crayons = 94 crayons\n\nTherefore, Paul had 94 more crayons left than erasers.",
+        "correct_answer": 66.0
+    },
+    {
+        "full_question": "Baker made 121 cakes. He sold 105 of them and bought 170 new cakes. How many cakes does baker still have?",
+        "model_response": "Baker originally had 121 cakes, sold 105, and bought 170 new cakes, so he now has 121 - 105 + 170 = 186 cakes. Baker still has 186 cakes.",
+        "correct_answer": 186.0
+    },
+    {
+        "full_question": "An industrial machine worked for 5 minutes. It can make 4 shirts a minute. How many shirts did machine make?",
+        "model_response": "The machine worked for 5 minutes, so the total number of shirts made by the machine is 4 shirts/minute x 5 minutes = 20 shirts. \n\nTherefore, the machine made 20 shirts in total.",
+        "correct_answer": 20.0
+    },
+    {
+        "full_question": "The bananas in Philip's collection are organized into groups of size 18. If there are a total of 180 bananas in Philip's banana collection How many groups are there?",
+        "model_response": "There are a total of 180 bananas in Philip's collection. If the bananas are organized into groups of size 18, we can calculate the number of groups by dividing the total number of bananas by the size of each group:\n\n180 bananas / 18 bananas per group = 10 groups\n\nTherefore, there are 10 groups of bananas in Philip's collection.",
+        "correct_answer": 10.0
+    },
+    {
+        "full_question": "There were some birds sitting on the fence. 4 more birds came to join them. If there are a total of 5 birds on the fence now How many birds had been sitting on the fence at the start?",
+        "model_response": "There were originally 3 birds sitting on the fence.",
+        "correct_answer": 1.0
+    },
+    {
+        "full_question": "Jerry had 3 action figures on a shelf in his room. Later he added 4 more action figures to the shelf and removed some of the old ones. If there are 6 action figures on his shelf now How many action figures did he remove from the shelf?",
+        "model_response": "Jerry removed 1 action figure from the shelf. \n\nHe started with 3 action figures, added 4 more, making a total of 7 action figures. If there are now only 6 action figures on the shelf, he must have removed 1.",
+        "correct_answer": 1.0
+    },
+    {
+        "full_question": "Danny collects bottle caps and wrappers. He found 65 wrappers and 5 bottle caps at the park. Now he has 31 bottle caps and 9 wrappers in his collection. How many more wrappers than bottle caps did danny find at the park?",
+        "model_response": "Danny found 65 wrappers - 9 wrappers = 56 more wrappers than he has in his collection.\nHe found 5 bottle caps - 31 bottle caps = 26 fewer bottle caps than he has in his collection.\n56 wrappers - 26 bottle caps = 30 more wrappers than bottle caps. Answer: \\boxed{30}.",
+        "correct_answer": 60.0
+    },
+    {
+        "full_question": "Because of the decision Sofia asked the students to suggest specific types of food from a total of 66 choices. If 450 students suggested adding mashed potatoes 38 suggested adding bacon to the menu and the rest did not participate How many students participated in the suggestion of new food items?",
+        "model_response": "The total number of students who participated in suggesting new food items is 450 + 38 = 488 students.\n\nTherefore, 488 students participated in suggesting new food items.",
+        "correct_answer": 488.0
+    },
+    {
+        "full_question": "Matthew gave equal numbers of crackers and cakes to his 28 friends. If he had 13 crackers and 15 cakes initially How many crackers and cakes did each person eat?",
+        "model_response": "To find out how many crackers and cakes each person ate, we need to divide the total number of crackers and cakes by the number of friends.\n\nTotal number of crackers = 13\nTotal number of cakes = 15\nTotal number of friends = 28\n\nEach friend received an equal number of crackers and cakes, so we divide the total number of crackers and cakes by the total number of friends to find out how many crackers and cakes each person ate:\n\nCrackers per person = Total number of crackers / Total number of friends\nCrackers per person = 13 / 28\nCrackers per person = 0.46\n\nCakes per person = Total number of cakes / Total number of friends\nCakes per person = 15 / 28\nCakes per person = 0.54\n\nEach person ate approximately 0.46 crackers and 0.54 cakes.",
+        "correct_answer": 1.0
+    },
+    {
+        "full_question": "A grocery store had 49 bottles of regular soda, 40 bottles of diet soda and 6 bottles of lite soda. How many bottles of regular soda and diet soda did they have altogether?",
+        "model_response": "Altogether, the grocery store had 49 bottles of regular soda and 40 bottles of diet soda, so 49 + 40 = 89 bottles of regular and diet soda altogether.",
+        "correct_answer": 89.0
+    },
+    {
+        "full_question": "Dan has $ 3. He bought 2 candy bar for $ 4, each one costing the same amount of money. How much did each candy bar cost?",
+        "model_response": "Let's say the cost of each candy bar is $x.\n\nDan bought 2 candy bars for $4, so we can write this as an equation:\n\n2x = 4\n\nTo find out how much each candy bar costs, we need to solve for x:\n\nx = 4/2\nx = 2\n\nEach candy bar costs $2.",
+        "correct_answer": 2.0
+    },
+    {
+        "full_question": "Tiffany was collecting cans for recycling. On monday she had 7 bags of cans. The next day she found 12 more bags worth of cans. How many more bags did she find on the next day than she had on monday?",
+        "model_response": "She found 5 more bags on the next day than she had on Monday.",
+        "correct_answer": 5.0
+    },
+    {
+        "full_question": "There were 15 roses and 62 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 17 roses and 96 orchids in the vase. How many roses did she cut?",
+        "model_response": "To find out how many roses Jessica cut, we need to determine the increase in the number of roses from the initial number to the final number.\n\nThere was initially 15 roses and now there are 17 roses, so the increase is 17 - 15 = 2 roses.\n\nTherefore, Jessica cut 2 roses from her flower garden.",
+        "correct_answer": 2.0
+    },
+    {
+        "full_question": "There are some baskets of peaches. Each basket has 4 red peaches and 3 green peaches. If there are a total of 7 peaches in all baskets How many baskets of peaches are there?",
+        "model_response": "Let's represent the number of baskets as x.\n\nSince each basket has 4 red peaches and 3 green peaches, the total number of peaches in x baskets is:\n4x + 3x = 7x\n\nGiven that there are a total of 7 peaches in all baskets:\n7 = 7x\n\nSolving for x:\nx = 1\n\nTherefore, there is only 1 basket of peaches.",
+        "correct_answer": 1.0
+    },
+    {
+        "full_question": "There were 78 dollars in Olivia's wallet. She spent 15 dollars at a supermarket. How much money does she have left?",
+        "model_response": "Olivia has 78 - 15 = 63 dollars left in her wallet. \nTherefore, Olivia has 63 dollars left.",
+        "correct_answer": 63.0
+    },
+    {
+        "full_question": "Jack received 6 emails in the morning, 3 emails in the afternoon and some more in the evening. If he received a total of 10 emails in the day How many emails did Jack receive in the afternoon?",
+        "model_response": "Let x be the number of emails Jack received in the evening.\n\nTherefore, the total number of emails Jack received is:\n6 (morning) + 3 (afternoon) + x (evening) = 10\n\nSimplifying the equation:\n6 + 3 + x = 10\n9 + x = 10\nx = 10 - 9\nx = 1\n\nTherefore, Jack received 1 email in the evening.",
+        "correct_answer": 1.0
+    },
+    {
+        "full_question": "Dan has $ 4. He bought a candy bar for $ 8. Then his friend have him $ 5 How much money is left?",
+        "model_response": "Initially, Dan had $4. After buying the candy bar for $8, he was left with $4 - $8 = -$4.\n\nWhen his friend gave him $5, he now has -$4 + $5 = $1.\n\nTherefore, Dan has $1 left.",
+        "correct_answer": 1.0
+    },
+    {
+        "full_question": "After eating a hearty meal they went to see the Buckingham palace. There, Rachel learned that 703 visitors came to the Buckingham palace on the previous day. If there were 246 visitors on that day How many visited the Buckingham palace within 25 days?",
+        "model_response": "Let's break it down.\n\nOn the previous day, there were 703 visitors.\nOn the day Rachel visited, there were 246 visitors.\n\nTherefore, the total visitors in 25 days can be calculated as follows:\n\nTotal visitors = 25 * (703 + 246)\n\nTotal visitors = 25 * 949\n\nTotal visitors = 23725\n\nTherefore, a total of 23,725 visitors visited the Buckingham palace within 25 days.",
+        "correct_answer": 949.0
+    },
+    {
+        "full_question": "For Gwen's birthday she received 5 dollars from her dad. Her mom gave her 7 more dollars. If she spent 4 dollars. How much more money did she receive from her mom than she did from her dad?",
+        "model_response": "Gwen received $12 in total from her mom because 5 + 7 = $12\nGwen received $8 more from her mom than she did from her dad because 12 - 5 = $7. Answer: $7.",
+        "correct_answer": 2.0
+    },
+    {
+        "full_question": "There are 142 bananas and 356 oranges in Philip's collection. If the bananas are organized into 47 groups and oranges are organized into 178 groups How big is each group of oranges?",
+        "model_response": "To find out how big each group of oranges is, we need to divide the total number of oranges by the number of groups they are organized into.\n\nTotal number of oranges = 356\nNumber of groups of oranges = 178\n\nEach group of oranges will contain: 356/178 = 2 oranges\n\nTherefore, each group of oranges contains 2 oranges.",
+        "correct_answer": 2.0
+    },
+    {
+        "full_question": "There are 8 different books and 5 different movies in the ' crazy silly school ' series. If you read 19 of the movies and watched 16 of the books How many more movies than books have you read?",
+        "model_response": "You read 19 movies and watched 16 books, so in total you have experienced 35 pieces of content. Since there are 8 books and 5 movies in the series, you should have read 11 books and watched 24 movies. \n\nTherefore, you have watched 5 more movies than books.",
+        "correct_answer": 3.0
+    },
+    {
+        "full_question": "Mary is baking a cake. The recipe calls for 12 cups of flour and 5 cups of sugar. She already put in some cups of flour. If she still needs 2 more cups of flour How many cups of flour did she put in?",
+        "model_response": "Mary put in 10 cups of flour. \n12 cups of flour - 2 cups of flour she still needs = 10 cups of flour.",
+        "correct_answer": 10.0
+    },
+    {
+        "full_question": "Danny collects bottle caps and wrappers. He found 46 wrappers and 50 bottle caps at the park. Now he has 21 bottle caps and 52 wrappers in his collection. How many more bottle caps than wrappers did danny find at the park?",
+        "model_response": "Danny found 50 bottle caps at the park, so he found 50 - 21 = 29 more bottle caps than he already had.\nHe found 46 wrappers at the park, so he found 46 - 52 = -6 fewer wrappers than he already had.\nTherefore, Danny found 29 more bottle caps than wrappers at the park.",
+        "correct_answer": 4.0
+    },
+    {
+        "full_question": "Luke played 177 rounds of a trivia game. If he gained 46 points in each round How many points did he score in the game?",
+        "model_response": "To find the total number of points Luke scored in the game, multiply the number of rounds he played by the number of points gained in each round:\n\n177 rounds x 46 points = 8136 points\n\nLuke scored 8136 points in the game.",
+        "correct_answer": 8142.0
+    },
+    {
+        "full_question": "3 birds and 4 storks were sitting on the fence. 2 more birds came to join them. How many more birds than storks are sitting on the fence?",
+        "model_response": "There are a total of 5 birds (3 original birds + 2 new birds) and 4 storks on the fence.\n\nTherefore, there are 1 more bird than storks sitting on the fence.",
+        "correct_answer": 1.0
+    },
+    {
+        "full_question": "The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 9 inches. The mouse jumped 3 inches lesser than the frog who jumped 33 inches farther than the grasshopper. How far did the mouse jump?",
+        "model_response": "Let's say that the frog jumped x inches.\n\nAccording to the information given:\n- The grasshopper jumped 9 inches\n- The mouse jumped 3 inches less than the frog, so the mouse jumped (x-3) inches\n- The frog jumped 33 inches farther than the grasshopper, so the frog jumped (9+33) inches\n\nSo, we have:\n9 inches + 33 inches = x inches - 3 inches\n42 inches = x - 3 inches\nx = 42 inches + 3 inches\nx = 45 inches\n\nTherefore, the mouse jumped x-3 = 45-3 = 42 inches.",
+        "correct_answer": 39.0
+    },
+    {
+        "full_question": "Zachary did 35 push-ups and 3 crunches in gym class today. David did 58 more push-ups but 87 less crunches than zachary. How many more push-ups than crunches did Zachary do?",
+        "model_response": "Zachary did 35 push-ups and 3 crunches.\n\nDavid did 35 + 58 = 93 push-ups.\nDavid did 3 - 87 = -84 crunches.\n\nThe difference in the number of push-ups Zachary did compared to crunches is 35 - 3 = 32 push-ups more than crunches.",
+        "correct_answer": 32.0
+    },
+    {
+        "full_question": "Jack received 4 emails in the morning, 5 emails in the afternoon and 8 emails in the evening. How many emails did Jack receive in the afternoon and evening?",
+        "model_response": "Jack received 5 emails in the afternoon and 8 emails in the evening, so he received a total of 5 + 8 = 13 emails in the afternoon and evening.",
+        "correct_answer": 13.0
+    },
+    {
+        "full_question": "Jerry had 7 action figures on a shelf in his room. Later he added some more action figures to the shelf and removed 10 of the old ones. If there are 8 action figures on his shelf now How many action figures did he add to the shelf?",
+        "model_response": "Let x be the number of new action figures Jerry added to the shelf.\n\nAfter adding x action figures and removing 10 old ones, Jerry is left with 7 - 10 + x = 8 action figures on the shelf.\n\nThis can be simplified to x - 3 = 8.\n\nAdding 3 to both sides gives x = 11.\n\nJerry added 11 action figures to the shelf.",
+        "correct_answer": 11.0
+    },
+    {
+        "full_question": "Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?",
+        "model_response": "Let x be the number of kids Julia played tag with on Monday and y be the number of kids she played tag with on Tuesday.\n\nFrom the given information, we have the following equations:\nx + y = 26 (total number of kids she played tag with on both days)\n12x + 14y = 34 (total hours spent playing tag on both days)\n\nSolving the system of equations, we get:\nx = 26 - y\n12(26 - y) + 14y = 34\n312 - 12y + 14y = 34\n2y = 22\ny = 11\n\nSubstitute y = 11 into x = 26 - y,\nx = 26 - 11\nx = 15\n\nTherefore, Julia played tag with 15 kids on Monday and 11 kids on Tuesday, making a total of 26 kids she played tag with altogether.",
+        "correct_answer": 26.0
+    },
+    {
+        "full_question": "Nell collects cards. She had 309 baseball cards and 356 Ace cards. She gave some of her cards to Jeff and now has 415 baseball cards and Ace cards left. How many more baseball cards than Ace cards does Nell have?",
+        "model_response": "Let x be the number of cards Nell gave to Jeff. \n\nAfter giving x cards to Jeff, Nell has 309 + 356 - x = 665 - x cards left. \n\nAfter giving x cards to Jeff, Nell has 415 + 415 = 830 cards left. \n\nSo, 665 - x = 830 \n\nx = 830 - 665 \n\nx = 165 \n\nNell gave 165 cards to Jeff. \n\nNell now has 415 + 356 = 771 cards left. \n\nNell has 771 - 415 = 356 baseball cards left. \n\nNell has 356 Ace cards left. \n\nNell has 356 - 356 = 0 more baseball cards than Ace cards.",
+        "correct_answer": 266.0
+    },
+    {
+        "full_question": "At the zoo, a cage had 93 snakes and 97 alligators. If 40 alligators were hiding How many alligators were not hiding?",
+        "model_response": "If 40 alligators were hiding, then there were originally 97 - 40 = 57 alligators not hiding.",
+        "correct_answer": 57.0
+    },
+    {
+        "full_question": "You have read 8 books from the ' crazy silly school ' series. If there are a total of 14 different books in the ' crazy silly school ' series How many more do you still have to read?",
+        "model_response": "You still have 6 more books to read from the 'crazy silly school' series.",
+        "correct_answer": 6.0
+    },
+    {
+        "full_question": "Emily is making bead necklaces for her 43 friends. She had 20 beads and she was able to make 5 necklaces. How many beads did each necklace need?",
+        "model_response": "Each necklace needed 4 beads. (20 beads / 5 necklaces = 4 beads per necklace)",
+        "correct_answer": 4.0
+    },
+    {
+        "full_question": "Frank put 11 pieces of candy in each bag. If he had 22 pieces of candy How many bags would he have?",
+        "model_response": "Frank would have 2 bags.",
+        "correct_answer": 2.0
+    },
+    {
+        "full_question": "A waiter had 12 customers. After some left he still had 14 customers. Then he got 10 new customers How many customers does he have now?",
+        "model_response": "The waiter originally had 12 customers, some left, leaving 14 customers. Then he got 10 new customers, so now he would have 14 + 10 = 24 customers.",
+        "correct_answer": 24.0
+    },
+    {
+        "full_question": "A farmer had 90 tomatoes in his garden. If he picked 154 of them yesterday and 50 today. How many tomatoes did he pick in all?",
+        "model_response": "The farmer picked a total of 154 + 50 = 204 tomatoes.",
+        "correct_answer": 204.0
+    },
+    {
+        "full_question": "5 red peaches, 14 yellow peaches and 6 green peaches are in the basket. How many green and yellow peaches are in the basket?",
+        "model_response": "There are a total of 14 yellow peaches and 6 green peaches in the basket, making a total of 20 green and yellow peaches in the basket.",
+        "correct_answer": 20.0
+    },
+    {
+        "full_question": "Winter is almost here and most animals are migrating to warmer countries. There were 89 bird families living near the mountain. If 60 bird families flew away for winter How many more bird families flew away for the winter than those that stayed behind?",
+        "model_response": "If 60 bird families flew away for winter, then the number of bird families that stayed behind would be:\n\n89 - 60 = 29 bird families\n\nTherefore, 60 - 29 = 31 more bird families flew away for winter than those that stayed behind.",
+        "correct_answer": 31.0
+    },
+    {
+        "full_question": "There were 9 roses and 6 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 13 orchids and 3 roses in the vase. How many more orchids than roses are there in the vase now?",
+        "model_response": "Initially, there were 9 roses and 6 orchids, so there were 3 more roses than orchids.\nAfter Jessica cut more flowers, there are now 13 orchids and 3 roses, so there are 10 more orchids than roses.\nTherefore, there are now 10 more orchids than roses in the vase.",
+        "correct_answer": 10.0
+    },
+    {
+        "full_question": "After eating a hearty meal they went to see the Buckingham palace. There were 39 paintings in the Buckingham palace. There, Rachel learned that 661 visitors came to the Buckingham palace that day. If there were 600 visitors the previous day How many more visitors visited the Buckingham palace on that day than on the previous day?",
+        "model_response": "On that day, there were 661 visitors - 600 visitors from the previous day = 61 more visitors on that day than on the previous day. \n\nTherefore, 61 more visitors visited the Buckingham Palace on that day than on the previous day.",
+        "correct_answer": 61.0
+    },
+    {
+        "full_question": "A waiter had 12 customers. While 15 customers left he got 14 new customers. How many customers does he still have?",
+        "model_response": "He had 12 customers to start with. After 15 left, he was left with 12 - 15 = -3 customers, which doesn't make sense. \n\nAfter getting 14 new customers, he now has -3 + 14 = 11 customers. \n\nTherefore, the waiter now has 11 customers.",
+        "correct_answer": 11.0
+    },
+    {
+        "full_question": "Emily is making bead necklaces for her 72 friends. She has 6 beads and each necklace takes 3 beads. How many necklaces can Emily make?",
+        "model_response": "Emily can make 72 / 3 = 24 necklaces with the beads she has.",
+        "correct_answer": 2.0
+    },
+    {
+        "full_question": "He also had 26 aquariums for saltwater animals. The aquarium had 52 saltwater animals in total and every aquarium had the same number of animals. How many saltwater animals does each aquarium have?",
+        "model_response": "Each aquarium has 2 saltwater animals. \n\n52 saltwater animals / 26 aquariums = 2 saltwater animals per aquarium.",
+        "correct_answer": 2.0
+    },
+    {
+        "full_question": "Mary is baking a cake. The recipe calls for 11 cups of flour and 7 cups of sugar. She already put in some cups of flour. If she still needs 2 more cups of flour than sugar How many cups of flour did she put in?",
+        "model_response": "Let x be the number of cups of flour Mary already put in.\n\nAccording to the information given, she still needs 2 more cups of flour than sugar, so the total amount of flour she needs is 7 cups of sugar + 2 cups = 9 cups of flour.\n\nSince the recipe calls for a total of 11 cups of flour, we can create the equation:\n\nx + 7 = 9\nx = 9 - 7\nx = 2\n\nTherefore, Mary already put in 2 cups of flour.",
+        "correct_answer": 2.0
+    },
+    {
+        "full_question": "Baker made 149 cakes and 91 pastries. If he sold 10 cakes and 90 pastries How many cakes would baker still have?",
+        "model_response": "After selling 10 cakes and 90 pastries, Baker would still have 139 cakes. \n\n(149 cakes - 10 cakes = 139 cakes)",
+        "correct_answer": 139.0
+    },
+    {
+        "full_question": "Dave had 24 files and 13 apps on his phone. After deleting some apps and files he had 17 apps and 21 files left. How many files did he delete?",
+        "model_response": "Dave deleted 7 apps and 3 files.",
+        "correct_answer": 3.0
+    },
+    {
+        "full_question": "An industrial machine made 9 shirts yesterday and 8 shirts today. It can make 2 shirts a minute. How many minutes did the machine work today?",
+        "model_response": "The machine made a total of 9 + 8 = 17 shirts yesterday and today.\nSince the machine can make 2 shirts in 1 minute, it worked for 17 / 2 = 8.5 minutes today.",
+        "correct_answer": 4.0
+    },
+    {
+        "full_question": "Rebecca wants to split a collection of eggs into 3 groups. Rebecca has 4 marbles and 15 eggs. How many eggs will each group have?",
+        "model_response": "Each group will have 5 eggs. \n\n15 eggs divided by 3 groups equals 5 eggs per group.",
+        "correct_answer": 5.0
+    },
+    {
+        "full_question": "Matthew had some crackers. If Matthew gave 2 crackers to each of his 11 friends How many crackers did Matthew have?",
+        "model_response": "Matthew would have (2 crackers x 11 friends) + original crackers = 22 crackers + original crackers.",
+        "correct_answer": 22.0
+    },
+    {
+        "full_question": "Olivia spent 78 dollars at a supermarket. If she has 33 dollars left with her How much money did she have initially?",
+        "model_response": "Let x be the initial amount of money Olivia had.\n\nAfter spending 78 dollars, she has 33 dollars left, so we can write the equation:\n\nx - 78 = 33\n\nAdding 78 to both sides, we get:\n\nx = 33 + 78\nx = 111\n\nTherefore, Olivia initially had 111 dollars.",
+        "correct_answer": 111.0
+    },
+    {
+        "full_question": "If Lewis earns $ 1357 every week during the 223 weeks of a harvest season. How much money will he earn if he works for 73 harvest seasons?",
+        "model_response": "First, we need to calculate how much Lewis earns in a single harvest season:\n$1357/week x 223 weeks = $302,611\n\nNext, we need to calculate how much Lewis will earn in 73 harvest seasons:\n$302,611/harvest season x 73 harvest seasons = $22,109,003\n\nTherefore, Lewis will earn $22,109,003 if he works for 73 harvest seasons.",
+        "correct_answer": 22090603.0
+    },
+    {
+        "full_question": "Because of the decision Sofia asked 310 students to suggest specific types of food. 185 students suggested adding mashed potatoes while others suggested adding bacon to the menu. How many students suggested bacon?",
+        "model_response": "310 - 185 = 125 students suggested bacon. \n\nTherefore, 125 students suggested bacon.",
+        "correct_answer": 125.0
+    },
+    {
+        "full_question": "Jack received 3 emails and 64 letters in the morning. He then received 5 emails and 54 letters in the afternoon. How many emails did jack receive in the day?",
+        "model_response": "Jack received a total of 3 + 5 = 8 emails in a day.\nSo, Jack received a total of 8 emails.",
+        "correct_answer": 8.0
+    },
+    {
+        "full_question": "Paco had 40 cookies. He ate 2 of them. Then he bought 37 more cookies How many cookies did Paco have left?",
+        "model_response": "Paco had 40 cookies - 2 cookies he ate + 37 cookies he bought = 75 cookies. \nPaco had 75 cookies left.",
+        "correct_answer": 75.0
+    },
+    {
+        "full_question": "Because of the decision Sofia asked the students to suggest specific types of food. If 218 students suggested adding mashed potatoes as well as bacon while 351 suggested adding only bacon to the menu How many students suggested adding bacon?",
+        "model_response": "Out of the total number of students who suggested adding mashed potatoes and bacon, 218 students suggested adding mashed potatoes and bacon. Out of the total number of students who suggested adding only bacon, 351 students suggested adding only bacon.\n\nSo, the total number of students who suggested adding bacon is 218 + 351 = 569 students.",
+        "correct_answer": 569.0
+    },
+    {
+        "full_question": "If each bag has 41 cookies and you had 53 bags of cookies How many cookies would you have?",
+        "model_response": "You would have 53 bags x 41 cookies = 2173 cookies.",
+        "correct_answer": 2173.0
+    },
+    {
+        "full_question": "Rachel had to complete 2 pages of reading homework and 4 pages of math homework. How many more pages of math homework than reading homework did she have?",
+        "model_response": "Rachel had 2 more pages of math homework than reading homework.",
+        "correct_answer": 2.0
+    },
+    {
+        "full_question": "Allan brought 5 balloons and Jake brought 4 balloons to the park. Allan then bought 3 more balloons at the park. How many balloons did Allan bring to the park?",
+        "model_response": "Allan brought a total of 8 balloons to the park (5 + 3 = 8).",
+        "correct_answer": 8.0
+    },
+    {
+        "full_question": "Julia played tag with 8 kids on monday, 11 kids on tuesday and 9 kids on wednesday. How many more kids did she play with on tuesday than on wednesday?",
+        "model_response": "Julia played with 11 kids on Tuesday and 9 kids on Wednesday. \n\nThe difference in the number of kids she played with on Tuesday and Wednesday is:\n11 - 9 = 2\n\nJulia played with 2 more kids on Tuesday than on Wednesday.",
+        "correct_answer": 2.0
+    },
+    {
+        "full_question": "The Razorback shop makes $ 5 dollars off each jersey and $ 215 off each t-shirt. During the Arkansas and Texas tech game they sold 20 t-shirts and 64 jerseys. How much money did they make from selling the t-shirts?",
+        "model_response": "The Razorback shop made $4,300 from selling the t-shirts.\n\nCalculation: $215(t-shirt profit) x 20 (number of t-shirts) = $4,300.",
+        "correct_answer": 4300.0
+    },
+    {
+        "full_question": "36 children were riding on the bus. At the bus stop 68 children got off the bus while some more got on the bus. Then there were 12 children altogether on the bus. How many more children got off the bus than those that got on?",
+        "model_response": "68 children got off the bus and 12 children remained on the bus, so 68 - 12 = 56 children got off the bus.\n\nThere were initially 36 children on the bus, so 36 + x (additional children that got on) - 56 = 12\nx - 20 = 12\nx = 32\n\nSo there were 32 children that got on the bus.\n\nTherefore, 56 - 32 = 24 more children got off the bus than those that got on.",
+        "correct_answer": 24.0
+    },
+    {
+        "full_question": "Brenda's mother made 14 cookies for 2 guests. If each of them had the same number of cookies How many did each of them have?",
+        "model_response": "Each guest had 7 cookies.",
+        "correct_answer": 7.0
+    },
+    {
+        "full_question": "Tiffany was collecting cans for recycling. On monday she had 4 bags of cans. The next day she found some more bags worth of cans. If she had a total of 6 bags altogether How many bags did she find on the next day?",
+        "model_response": "Tiffany found 2 bags of cans on the next day. \n\nShe had 4 bags on Monday and a total of 6 bags altogether. \n\n6 bags total - 4 bags on Monday = 2 bags found on the next day.",
+        "correct_answer": 2.0
+    },
+    {
+        "full_question": "In a school there are 632 girls and 410 boys. 465 more girls joined the school. How many more girls than boys does the school have?",
+        "model_response": "Initially, the school had 632 girls and 410 boys.\nAfter 465 more girls joined the school, the total number of girls became 632 + 465 = 1097 girls.\n\nThe number of boys remained the same, which is 410 boys.\n\nNow, the school has 1097 girls - 410 boys = 687 more girls than boys. \n\nTherefore, the school has 687 more girls than boys.",
+        "correct_answer": 687.0
+    },
+    {
+        "full_question": "Emily is making bead necklaces for her friends where each necklace takes 5 beads. She made 4 necklaces. How many beads did Emily have?",
+        "model_response": "Emily had 4 necklaces x 5 beads = 20 beads.",
+        "correct_answer": 20.0
+    },
+    {
+        "full_question": "Randy has 95 blocks. He uses 20 blocks to build a house and 50 blocks to build a tower. How many more blocks did he use to build the tower than he did to build the house?",
+        "model_response": "Randy used 50 - 20 = 30 more blocks to build the tower than he did to build the house.",
+        "correct_answer": 30.0
+    },
+    {
+        "full_question": "2 birds and 6 storks were sitting on the fence. 3 more birds came to join them. How many more storks than birds are sitting on the fence?",
+        "model_response": "There are a total of 8 birds and 6 storks sitting on the fence. \n\nTherefore, there are 2 more storks than birds sitting on the fence.",
+        "correct_answer": 1.0
+    },
+    {
+        "full_question": "The Razorback t-shirt shop made $ 51 dollars from selling 3 t-shirt during the Arkansas and Texas tech game they. What is the cost of each t-shirt?",
+        "model_response": "To find the cost of each t-shirt, you can divide the total revenue by the number of t-shirts sold. \n\nCost of each t-shirt = Total revenue / Number of t-shirts sold\nCost of each t-shirt = $51 / 3\nCost of each t-shirt = $17\n\nTherefore, the cost of each t-shirt is $17.",
+        "correct_answer": 17.0
+    },
+    {
+        "full_question": "Paco had 12 cookies. He ate 16 cookies and gave 21 of them to his friend. How many more cookies did he give to his friend than those he ate?",
+        "model_response": "Paco had a total of 12 cookies. He ate 16 cookies and gave 21 cookies to his friend. \n\nThe total number of cookies that he ate and gave to his friend is 16 + 21 = 37 cookies. \n\nHe gave his friend 21 cookies and ate 16 cookies, so he gave 21 - 16 = 5 more cookies to his friend than those he ate. \n\nTherefore, Paco gave his friend 5 more cookies than those he ate.",
+        "correct_answer": 5.0
+    },
+    {
+        "full_question": "After eating a hearty meal they went to see the Buckingham palace. There, Rachel learned that 317 visitors came to the Buckingham palace that day. If there were 295 visitors the previous day How many more visitors visited the Buckingham palace on that day than on the previous day?",
+        "model_response": "On that day, 22 more visitors visited the Buckingham palace than on the previous day. \n\nThis can be calculated by: \n22 = 317 - 295. \n\nTherefore, there were 22 more visitors on that day than on the previous day.",
+        "correct_answer": 22.0
+    },
+    {
+        "full_question": "Josh had 3 marbles in his collection. He found 6 marbles while he lost 5 marbles. How many more marbles did he find than those he lost?",
+        "model_response": "Josh found 6 marbles.\nJosh lost 5 marbles.\nHe found 6-5=1 more marble than he lost. Answer: \\boxed{1}.",
+        "correct_answer": 1.0
+    },
+    {
+        "full_question": "Because of the decision Sofia asked the students to suggest specific types of food. If 408 students suggested adding mashed potatoes while 42 suggested adding bacon to the menu How many more students suggested mashed potatoes than those that suggested bacon?",
+        "model_response": "408 - 42 = 366\n\nTherefore, 366 more students suggested adding mashed potatoes than those that suggested bacon.",
+        "correct_answer": 366.0
+    },
+    {
+        "full_question": "Paco had 40 cookies. He ate 5 cookies and gave 13 of them to his friend. How many cookies did paco have left?",
+        "model_response": "Paco had 40 - 5 - 13 = 22 cookies left. \nPaco had 22 cookies left.",
+        "correct_answer": 22.0
+    },
+    {
+        "full_question": "Paco had 17 cookies. He ate 14 cookies and gave 13 of them to his friend. How many more cookies did he eat than those he gave to his friend?",
+        "model_response": "Paco ate 14 cookies and gave 13 cookies to his friend. \nSo, he ate 14 - 13 = 1 more cookie than he gave to his friend. \nTherefore, Paco ate 1 more cookie than he gave to his friend.",
+        "correct_answer": 1.0
+    },
+    {
+        "full_question": "Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?",
+        "model_response": "Let x be the number of kids Julia played with on Monday and y be the number of kids she played with on Tuesday.\n\nFrom the given information, we have:\nx + y = 19 (equation 1)\nx = 19 - y\n\nJulia spent 38 hours playing tag with 19 kids on Monday and 18 kids on Tuesday.\nLet a be the time Julia spent playing tag on Monday and b be the time she spent playing tag on Tuesday.\n\nWe know that:\na + b = 38 (equation 2)\n\nUsing the information provided, we can also express the time spent playing tag in terms of the number of kids:\na = 19x (equation 3)\nb = 18y (equation 4)\n\nNow, substitute equations 3 and 4 into equation 2:\n19x + 18y = 38\n\nSubstitute x from equation 1 into the above equation:\n19(19 - y) + 18y = 38\n361 - 19y + 18y = 38\n- y = -323\ny = 17\n\nSubstitute y back into equation 1:\nx + 17 = 19\nx = 2\n\nTherefore, Julia played with 2 more kids on Monday than on Tuesday.",
+        "correct_answer": 1.0
+    },
+    {
+        "full_question": "Dan has $ 5. He bought a candy bar for $ 2 and a chocolate for $ 3. How much money did he spend to buy chocolate than he did to buy candy bar?",
+        "model_response": "Dan spent $1 more to buy chocolate than he did to buy the candy bar. \nHe spent $2 on the candy bar and $3 on the chocolate. \nTherefore, $3 - $2 = $1 spent more on chocolate.",
+        "correct_answer": 1.0
+    },
+    {
+        "full_question": "Ed had 29 more marbles than Doug. Ed lost 17 of his marbles at the playground. How many more marbles did Ed have than Doug then?",
+        "model_response": "Initially Ed had 29 more marbles than Doug, so let's say Ed had x marbles and Doug had x-29 marbles.\n\nAfter Ed lost 17 marbles at the playground, he had x-17 marbles.\n\nWe know that x-17 = (x-29). We can rearrange the equation to find x:\n\nx-17 = x-29\nx - x = -29 + 17\n0 = -12\n\nThis means that x = -12, which is not possible in this context. Therefore, there seems to be a mistake in the initial information provided.",
+        "correct_answer": 12.0
+    },
+    {
+        "full_question": "The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 19 inches. The frog jumped 10 inches farther than the grasshopper and the mouse jumped 20 inches farther than the frog. How much farther did the mouse jump than the grasshopper?",
+        "model_response": "The frog jumped 19 + 10 = 29 inches.\nThe mouse jumped 29 + 20 = 49 inches.\nTherefore, the mouse jumped 49 - 19 = 30 inches farther than the grasshopper.",
+        "correct_answer": 30.0
+    },
+    {
+        "full_question": "Frank was reading through his favorite book. It took him 16 days to finish the book. If the book had 112 pages How many pages did he read per day?",
+        "model_response": "To find out how many pages Frank read per day, we can divide the total number of pages in the book by the number of days it took him to finish it.\n\nPages read per day = Total pages / Days taken\nPages read per day = 112 pages / 16 days\nPages read per day = 7 pages per day\n\nTherefore, Frank read 7 pages per day.",
+        "correct_answer": 7.0
+    },
+    {
+        "full_question": "There are 20 different books in the ' crazy silly school ' series. If you are yet to read 5 of the books How many books have you already read?",
+        "model_response": "You have already read 15 books in the 'crazy silly school' series.",
+        "correct_answer": 15.0
+    }
+]

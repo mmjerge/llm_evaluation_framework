@@ -1,0 +1,502 @@
+[
+    {
+        "question": "Q: Severe anaemia at birth is a feature of what? (a) Alpha-thalassaemia (b) Beta-thalassaemia (c) Hereditary persistence of fetal haemoglobin (d) Sickle cell disease\nA:",
+        "model_response": "(a) Alpha-thalassaemia",
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: Which of the following statements are true concerning a triangular or recursive system?\n\ni) The parameters can be validly estimated using separate applications of OLS to\n\neach equation\n\n\nii) The independent variables may be correlated with the error terms in other\n\nequations\n\n\niii) An application of 2SLS would lead to unbiased but inefficient parameter estimates\n\n\niv) The independent variables may be correlated with the error terms in the equations\n\nin which they appear as independent variables (a) (ii) and (iv) only (b) (i) and (iii) only (c) (i), (ii), and (iii) only (d) (i), (ii), (iii), and (iv)\nA:",
+        "model_response": "(b) (i) and (iii) only",
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: This question refers to the following information.\n\"Those whose condition is such that their function is the use of their bodies and nothing better can be expected of them, those, I say, are slaves of nature. It is better for them to be ruled thus.\"\nJuan de Sepulveda, Politics, 1522\n\"When Latin American nations gained independence in the 19th century, those two strains converged, and merged with an older, more universalist, natural law tradition. The result was a distinctively Latin American form of rights discourse. Paolo Carozza traces the roots of that discourse to a distinctive application, and extension, of Thomistic moral philosophy to the injustices of Spanish conquests in the New World. The key figure in that development seems to have been Bartolom\u00e9 de Las Casas, a 16th-century Spanish bishop who condemned slavery and championed the cause of Indians on the basis of a natural right to liberty grounded in their membership in a single common humanity. 'All the peoples of the world are humans,' Las Casas wrote, and 'all the races of humankind are one.' According to Brian Tierney, Las Casas and other Spanish Dominican philosophers laid the groundwork for a doctrine of natural rights that was independent of religious revelation 'by drawing on a juridical tradition that derived natural rights and natural law from human rationality and free will, and by appealing to Aristotelian philosophy.'\"\nMary Ann Glendon, \"The Forgotten Crucible: The Latin American Influence on the Universal Human Rights Idea,\u201d 2003\nWhich one of the following statements about the Spanish conquest of the Americas is most accurate? (a) African slavery was a direct result of Spanish settlements in Florida. (b) Early native civilizations in Mexico introduced Spanish explorers to cattle ranching and wheat cultivation. (c) Christopher Columbus was not the first European to have explored North America. (d) Due to racial prejudice, Spanish explorers shunned intermarriage with native people.\nA:",
+        "model_response": "(d) Due to racial prejudice, Spanish explorers shunned intermarriage with native people.",
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: Castration in adulthood (a) will produce a high voice because of decreased testosterone production. (b) will produce a high voice because of the pain that accompanies the procedure. (c) will not produce a high voice because the larynx has already grown. (d) will not produce a high voice because castration does not affect testosterone production.\nA:",
+        "model_response": "(c) will not produce a high voice because the larynx has already grown.",
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: The mucosa of the hard palate is (a) keratinised and has submucosa and minor salivary glands posterolaterally. (b) non-keratinised and has submucosa and minor salivary glands posteromedially. (c) keratinised and lacks submucosa and minor salivary glands. (d) non-keratinised and lacks submucosa and minor salivary glands.\nA:",
+        "model_response": "(b) non-keratinised and has submucosa and minor salivary glands posteromedially.",
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: A resident announced his candidacy for state representative. A law in the state requires new political entrants, regardless of party affiliation, to obtain five times the number of signatures as other candidates who have run for office previously. The resident, however, failed to obtain the necessary number of authenticating signatures to have his name placed on the ballot. On the substantive constitutional issue regarding the validity of the authenticating requirement, the most probable judicial resolution will be to (a) hold the authenticating requirement unconstitutional as violative of the due process clause of the Fourteenth Amendment. (b) hold the authenticating requirement unconstitutional as violative of the equal protection clause of the Fourteenth Amendment. (c) dismiss the cause of action because state election procedures are a sovereign state function. (d) assign the burden of proving the validity of the authenticating requirement to thestate.\nA:",
+        "model_response": "(b) hold the authenticating requirement unconstitutional as violative of the equal protection clause of the Fourteenth Amendment.",
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: A magnetic field is directed perpendicular to the plane of a circular coil of area 0.2 m^2 and 250 turns. If the magnetic field is increased from 0.01 T to 0.06 T during a time interval of 0.25 s, the average induced EMF in the coil is (a) 0.04 V (b) 0.1 V (c) 2.5 V (d) 10 V\nA:",
+        "model_response": "(b) 0.1 V\n\nThe induced EMF in a coil is given by the formula EMF = -N * A * dB/dt, where N is the number of turns in the coil, A is the area of the coil, and dB/dt is the rate of change of the magnetic field.\n\nIn this case, N = 250 turns, A = 0.2 m^2, dB/dt = (0.06 T - 0.01 T) / 0.25 s = 0.2 T/s.\n\nTherefore, the induced EMF = -250 * 0.2 * 0.2 = -10 V. Since EMF is a scalar quantity, we take the absolute value to get 10 V. The correct answer choice is (d) 10 V.\n\nNote: The negative sign in the formula indicates the direction of induced current flow.",
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: Opponents of genetically modified organisms (GMOs) in food are afraid that the GMOs (a) will hinder global trade. (b) make plants more resistant to disease. (c) may cause irreversible changes in humans. (d) make plants more resistant to drought.\nA:",
+        "model_response": "(c) may cause irreversible changes in humans.",
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: What is a derogation? (a) Derogations are exemptions from particular human rights obligations contained in a treaty (b) A derogation refers to the ability of rights holders to bring a claim against the State for breach of an obligation (c) A State may suspend particular rights by means of a derogation in circumstances that threaten its existence (d) Derogations are enforcement clauses in human rights treaties\nA:",
+        "model_response": "(a) Derogations are exemptions from particular human rights obligations contained in a treaty",
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: Amy's therapist shakes her head affirmatively and says, \"Yes, uh huh,\" as Amy talks about her problems. Which of the following treatments did she experience? (a) psychoanalysis (b) behavior therapy (c) humanistic therapy (d) cognitive therapy\nA:",
+        "model_response": "(c) humanistic therapy",
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: A scientist studied the migration patterns of two types of whales. The humpback whales traveled 2,240 miles in 28 days. The gray whales traveled 2,368 miles in 32 days. If the humpback whales had traveled at the same rate for 32 days, how many more miles would they have traveled than the gray whales? (a) 128 (b) 192 (c) 280 (d) 408\nA:",
+        "model_response": " (c) 280\n\nTo find the rate at which the humpback whales were traveling, divide the total distance traveled by the number of days: 2240 miles / 28 days = 80 miles per day.\nThen, calculate how many miles the humpback whales would have traveled in 32 days at this rate: 80 miles/day x 32 days = 2560 miles.\nFinally, subtract the distance traveled by the gray whales from the distance the humpback whales would have traveled: 2560 miles - 2368 miles = 192 miles.",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: Which of the following might be considered part of the 'deepening and broadening' of security? (a) The nexus between identity and security. (b) War, the military, and the sovereign state. (c) Environmental changes. (d) All of these options.\nA:",
+        "model_response": "(d) All of these options.",
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: Why do jovian planets bulge around the equator that is have a \"squashed\" appearance? (a) Their large systems of moons and rings gravitationally attract the mass around the equator more. (b) They are much more massive than the terrestrial planets. (c) Their rapid rotation flings the mass near the equator outward. (d) Their internal heat sources exert a pressure against the sides of the planets.\nA:",
+        "model_response": "(c) Their rapid rotation flings the mass near the equator outward.",
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: This question refers to the following information.\nAt a meeting of working girls held at Hull House during a strike in a large shoe factory, the discussions made it clear that the strikers who had been most easily frightened, and therefore the first to capitulate, were naturally those girls who were paying board and were afraid of being put out if they fell too far behind. After a recital of a case of peculiar hardship one of them exclaimed: \"Wouldn't it be fine if we had a boarding club of our own, and then we could stand behind each other in a time like this?\" After that events moved quickly. We \u2026 discussed all the difficulties and fascinations of such an undertaking, and on the first of May, 1891, two comfortable apartments near Hull House were rented and furnished. The Settlement was responsible for the furniture and paid the first month's rent, but beyond that the members managed the club themselves.\u2026 At the end of the third year the club occupied all of the six apartments which the original building contained, and numbered fifty members.\n\u2014Jane Addams, Twenty Years at Hull House, 1912\nWhich of the following best reflects the perspective of Jane Addams in the passage above? (a) Poor people need the leadership of reformers like herself. (b) Poor people need support in helping themselves. (c) Poor people don't need outside help. (d) Poor people don't deserve help.\nA:",
+        "model_response": "(b) Poor people need support in helping themselves.",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: Oedema is the presence of: (a) excessive intravascular fluid. (b) excessive extravascular fluid. (c) excessive intracranial fluid. (d) excessive necrotic cells.\nA:",
+        "model_response": "(b) excessive extravascular fluid.",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: Which of the following must be true in order for evolution to have occurred? (a) The frequencies of some alleles in a population's gene pool has changed over successive generations. (b) The frequencies of some alleles in a population's gene pool has changed during the organisms' lifetimes. (c) The frequencies of each allele in a population's gene pool has remained constant over successive generations. (d) The frequencies of each allele in an organism's genotype has remained constant within the organism's lifetime.\nA:",
+        "model_response": "(a) The frequencies of some alleles in a population's gene pool has changed over successive generations.",
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: Given that P(E) = 0.32, P(F) = 0.15, and P(E \u2229 F) = 0.048, which of the following is a correct conclusion? (a) The events E and F are both independent and mutually exclusive. (b) The events E and F are neither independent nor mutually exclusive. (c) The events E and F are mutually exclusive but not independent. (d) The events E and F are independent but not mutually exclusive.\nA:",
+        "model_response": "(c) The events E and F are mutually exclusive but not independent. \n\nExplanation: Two events are mutually exclusive if they cannot occur at the same time. In this case, since P(E \u2229 F) \u2260 0, the events E and F are not independent. Independent events are events where the occurrence of one does not affect the probability of the other.",
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: Which of the following adaptations would limit pollination by bees and promote hummingbird pollination? (a) Patterns of ultraviolet color on the petals (b) Modified petals to provide a landing space (c) Pendant (hanging) red-colored flowers (d) Nectar with high sugar concentration produced in limited amounts\nA:",
+        "model_response": "(c) Pendant (hanging) red-colored flowers",
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: What do we know about the people who built Stonehenge based on the analysis of animal teeth from a nearby village? (a) They raised livestock at the site, including cattle, sheep, and goats. (b) They brought animals to the site from outside of the region. (c) They had no domesticated animals but hunted wild animals for meat. (d) They hunted antelope, gazelle, and bear.\nA:",
+        "model_response": "a) They raised livestock at the site, including cattle, sheep, and goats.",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: Find the degree for the given field extension Q(sqrt(2)) over Q. (a) 0 (b) 2 (c) 1 (d) 3\nA:",
+        "model_response": "(b) 2",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: The respiratory tract is crossed by the isthmus of the thyroid gland at the level of the (a) thyroid cartilage. (b) cricothyroid membrane. (c) cricoid cartilage. (d) tracheal rings.\nA:",
+        "model_response": "(c) cricoid cartilage.",
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: This question refers to the following information.\n\"After all the slaves had been brought together and severally marked with the letter G, the emperor's fifths and then Cort\u00e9s' were deducted before we were aware of it; and, besides this, on the night preceding, the finest of the Indian females had been secretly set apart, so that when it came to a division among us soldiers, we found none left but old and ugly women&\u2026.Another soldier asked Cort\u00e9s if the division he had made of the gold in Mexico was not a sufficient imposition, for, at first, he had merely spoken of 300,000 pesos, but when we were obliged to retreat from the city, it was estimated at 700,000 pesos. And now he was going to deprive the poor soldier, who had undergone so many hardships, and suffered from innumerable wounds, of this small remuneration, and not even allow him a pretty Indian female for a companion&\u2026\n[Later], when Cort\u00e9s learnt that there were still a great many bars of gold among the men, and heavy gambling in consequence, (for, according to the old saying, gold and love cannot lie long concealed,) he made known, under threats of severe punishment, that everyone should produce the gold he had obtained on the night of our retreat, of which one third was to be returned to him; but that anyone who refused to pay this, should have the whole taken from him. Many of our men refused downright to comply with this; yet Cort\u00e9s managed to extort a good deal of it under the pretence of a loan&\u2026\"\nThe Memoirs of the Conquistador Bernal Diaz del Castillo, 1568\nUpon the return of Cort\u00e9s's expedition, which of the following was a consequence of the actions described in the memoir? (a) A decentralized political state (b) A strengthened agricultural sector (c) An increased rate of inflation (d) Less tolerance for Jews and Muslims\nA:",
+        "model_response": "(c) An increased rate of inflation",
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: Assume that a TLS connection has been established successfully between a client and a server. Establishing the session included checking the server certificate and executing a DiffieHelmann exchange, but the client did not provide a client certificate. Further, assume that the client and server are honest, that the client and server don\u2019t leak their keys, and that the cryptography is good. Which of the following attacks does TLS protect against?\n1. An attacker replacing bytes sent by a client with bytes of the attacker\u2019s own choosing.\n2. An attacker reading the plaintext bytes sent by a client. (a) True, True (b) False, False (c) True, False (d) False, True\nA:",
+        "model_response": "(c) True, False\n\nTLS protects against the first attack where an attacker replaces bytes sent by a client with their own chosen bytes by providing data integrity through message authentication codes. However, TLS does not protect against an attacker reading the plaintext bytes sent by a client in this scenario since the client did not provide a client certificate for authentication.",
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: Which of the following characteristics distinguishes angiosperms from gymnosperms? (a) Perennial growth (b) True roots (c) Apical growth (d) Seeds enclosed in ovaries\nA:",
+        "model_response": "(d) Seeds enclosed in ovaries",
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: To verify a digital signature we need the (a) Sender\u2019s Private key (b) Sender\u2019s Public key (c) Receiver\u2019s Private key (d) Receiver\u2019s Public key\nA:",
+        "model_response": "(b) Sender's Public key",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: One of the ethical problems with covert participant observation is: (a) not being able to write comprehensive fieldnotes or record conversations (b) deceiving the respondents as to the reason for your presence (c) observing people outside of their natural setting (d) subjecting the participants to physical harm\nA:",
+        "model_response": "(b) deceiving the respondents as to the reason for your presence",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: This question refers to the following information.\nBut the decline of Rome was the natural and inevitable effect of immoderate greatness. Prosperity ripened the principle of decay; the causes of destruction multiplied with the extent of conquest; and, as soon as time or accident had removed the artificial supports, the stupendous fabric yielded to the pressure of its own weight. . . . The victorious legions, who, in distant wars, acquired the vices of strangers and mercenaries, first oppressed the freedom of the republic, and afterwards violated the majesty of the purple. The emperors, anxious for their personal safety and the public peace, were reduced to the base expedient of corrupting the discipline which rendered them alike formidable to their sovereign and to the enemy; the vigour of the military . . . was relaxed . . . ; and the Roman world was overwhelmed by a deluge of Barbarians.\n\u2014Adapted from Decline and Fall of the Roman Empire, by Edward Gibbon\nThe author of the above passage claims: \"Prosperity ripened the principle of decay; the causes of destruction multiplied with the extent of conquest.\" What does he mean by this? (a) The rulers became too rich and thus were overthrown. (b) The empire became too large to control effectively. (c) Decay begins the minute something begins to grow. (d) Conquest and prosperity are mutually exclusive.\nA:",
+        "model_response": "(b) The empire became too large to control effectively.",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: What letters are on the '3' button of a touch-tone telephone? (a) ABC (b) DEF (c) GHI (d) WXY\nA:",
+        "model_response": "(b) DEF",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: Which of these vowels does NOT have a vertical axis of symmetry? (a) A (b) E (c) I (d) O\nA:",
+        "model_response": "I",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: As of 2016, about what percentage of adults aged 18 years or older were obese? (a) 6% (b) 13% (c) 27% (d) 46%\nA:",
+        "model_response": "(c) 27%",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: International development may be tied to the security of the state, why? (a) Threats to the state centralize political and economic power, threatening state development (b) Too many casualties drain the productive power of the state (c) Threats to the state encourage socialism (d) The two are correlated, but there is no causal effect\nA:",
+        "model_response": "(a) Threats to the state centralize political and economic power, threatening state development.",
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q:  Which of the following is not an objection Pence gives to the argument that SCNT is not best for the child? (a) The argument assumes genetic determinism or genetic reductionism. (b) The expectations people will place on SCNT individuals could be no worse than normal expectations of children created sexually. (c) People's prejudicial attitudes are likely to change. (d) If people's prejudicial attitudes do not change, then we should not allow SCNT.\nA:",
+        "model_response": "(b) The expectations people will place on SCNT individuals could be no worse than normal expectations of children created sexually.",
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: Statement 1| The Stanford Sentiment Treebank contained movie reviews, not book reviews. Statement 2| The Penn Treebank has been used for language modeling. (a) True, True (b) False, False (c) True, False (d) False, True\nA:",
+        "model_response": "(c) True, False",
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: Consider the following numbers.\n   \u00b0 Binary 1100\n   \u00b0 Decimal 11\n   \u00b0 Hexadecimal D\n Which of the following lists the numbers in order from least to greatest? (a) Binary 1100, Decimal 11, Hexadecimal D (b) Decimal 11, Binary 1100, Hexadecimal D (c) Decimal 11, Hexadecimal D, Binary 1100 (d) Hexadecimal D, Decimal 11, Binary 1100\nA:",
+        "model_response": "(c) Decimal 11, Hexadecimal D, Binary 1100",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: While ratifying the Constitution, the primary point of disagreement between Federalists and Anti-Federalists was over (a) whether representation in Congress should be equal among states or proportional to population (b) the strength of the federal government relative to the states (c) the future of the slave trade (d) whether people had inalienable rights\nA:",
+        "model_response": "(b) the strength of the federal government relative to the states",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: What are the main metabolites of alcohol metabolism?\n (a) Acetaldehyde, acetate, (b) Pyruvate, beta-hydroxybutyrate, (c) Acetyl-CoA, lipids, (d) Acetone, lactate\nA:",
+        "model_response": "(a) Acetaldehyde, acetate",
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: A woman has a schizophrenic brother. According to research area, the probability thar she is or will become schizophrenic is about (a) 0.01 (b) 0.42 (c) 0.5 (d) 0.7\nA:",
+        "model_response": "(b) 0.42",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: An internal hash table has 5 buckets, numbered 0, 1, 2, 3, 4. Keys are integers, and the hash function h(i) = i mod 5 is used, with linear resolution of collisions (i.e., if bucket h(i) is filled, the buckets h(i) + 1, h(i) + 2, ... are tried successively with all bucket numbers computed modulo 5). If elements with keys 13, 8, 24, 10, and 3 are inserted, m that order, into an initially blank hash table, then the content of the bucket numbered 2 is (a) 3 (b) 8 (c) 10 (d) 13\nA:",
+        "model_response": "(c) 10",
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: X is a finite set with the following property: The number of subsets of X that contain exactly 3 elements is 14 more than the number of subsets of X that contain exactly 2 elements. How many subsets of X contain exactly 4 elements? (a) 24 (b) 25 (c) 28 (d) 35\nA:",
+        "model_response": "(c) 28\n\nLet the number of elements in set X be n.\n\nThe number of subsets of X that contain exactly 3 elements is given by the binomial coefficient n choose 3, which is equal to n! / (3!(n-3)!) = n(n-1)(n-2) / 6.\n\nThe number of subsets of X that contain exactly 2 elements is given by the binomial coefficient n choose 2, which is equal to n! / (2!(n-2)!) = n(n-1) / 2.\n\nAccording to the given property, the number of subsets of X that contain exactly 3 elements is 14 more than the number of subsets that contain exactly 2 elements. Therefore, we have:\n\nn(n-1)(n-2) / 6 = n(n-1) / 2 + 14.\n\nSimplifying this equation, we get:\n\nn(n-1)(n-2) = 3n(n-1) + 84.\n\nExpanding and simplifying further, we get:\n\nn^3 - 3n^2 - 84 = 0.\n\nThis equation factors as (n - 7)(n^2 + 4n + 12) = 0. Since n must be a positive integer, the only solution is n = 7.\n\nTherefore, set X has 7 elements, and the number of subsets of X that contain exactly 4 elements is given by the binomial coefficient 7 choose 4, which is equal to 35 / 4! = 35 / 24 = 28. \n\nTherefore, the answer is (c) 28.",
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: This question refers to the following information.\n\"And then Shapur, King of Kings, passed away. Then his son Hormizd, King of Kings, rose over the empire. And Hormizd, King of Kings, conferred on me cap and belt and created for me a higher rank and dignity, and at court and in kingdom after kingdom, place after place, throughout the whole empire he gave me more authority and power in matters of the divine services, and created for me the title \"Kerdir, Ahura Mazda's [Chief Priest]\" after the name of Ahura Mazda, the Deity. And thereupon in kingdom after kingdom, place after place, many divine services were performed in magnificence, and many Warham fires were established, and many magi became happy and prosperous, and many fires and magi were imperially installed\u2026\nAnd then Hormizd, King of Kings, passed away. Then Bahram, King of Kings, son of Shapur, King of Kings, and brother of Hormizd, King of Kings, rose over the empire. And Bahram, King of Kings, also held me in high honor and dignity and at court and in kingdom after kingdom, place after place, gave me authority and power for divine services of every sort. And thereupon in kingdom after kingdom, place after place, many divine services were performed in magnificence and many Warharan fires were established, and many magi became happy and prosperous, and many fires and magi were imperially installed\u2026\nAnd in kingdom after kingdom and place after place throughout the whole empire the services of Ahura Mazda and the gods became preeminent, and great dignity came to the Mazdayanian religion and the magi in the empire, and the gods and water and fire and small cattle in the empire attained great satisfaction, while Ahriman [the evil counterpart to Ahura Mazda] and the demons were punished and rebuked, and the teachings of Ahriman and the demons departed from the empire and were abandoned. And Jews, Buddhists, Hindus, Nasoreans [Orthodox Christians], Christians, Maktak [Baptists], and Manichaeans in the empire were smitten, and destruction of idols and scattering of the stores of the demons and god-seats and nests was abandoned.\"\nExcerpt from the inscription of Kerdir at Naqsh-e-Rustam, Persia, late third century C.E.\nWhich of the following best explains the presence of Buddhist communities within Sassanid Persia? (a) Persian efforts to convert people away from Buddhism inspired further followers. (b) Buddhism's apocalyptic message swayed converts in Persia. (c) Persia's location sat astride international trade routes with India. (d) Buddhists were granted limited toleration by Zoroastrians.\nA:",
+        "model_response": "(c) Persia's location sat astride international trade routes with India.",
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: The energy stored in the magnetic field in a solenoid 30 cm long and 3 cm diameter wound with 1000 turns of wire carrying a current at 10 amp, is (a) 0.015 joule. (b) 0.15 joule. (c) 0.015 joule. (d) 1.15 joule.\nA:",
+        "model_response": "(b) 0.15 joule.",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: Of the following, which best characterizes computers that use memory-mapped I/O? (a) The computer provides special instructions for manipulating I/O ports. (b) I/O ports are placed at addresses on the bus and are accessed just like other memory locations. (c) To perform an I/O operation, it is sufficient to place the data in an address register and call the channel to perform the operation. (d) Ports are referenced only by memory-mapped instructions of the computer and are located at hardwired memory locations.\nA:",
+        "model_response": "(b) I/O ports are placed at addresses on the bus and are accessed just like other memory locations.",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: What is the approximate speed of light? (a) 165 miles per hour (b) 122000 miles per hour (c) 186000 miles per second (d) 293000 miles per second\nA:",
+        "model_response": "(c) 186000 miles per second",
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: To prevent desiccation and injury, the embryos of terrestrial vertebrates are encased within a fluid secreted by the (a) amnion (b) chorion (c) allantois (d) yolk sac\nA:",
+        "model_response": "(a) amnion",
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: Which of the following is the correct anatomical order of structures in the mammalian female reproductive tract? (a) Oviduct, uterus, rete, vagina (b) Oviduct, epididymis, uterus, vagina (c) Ovary, oviduct, uterus, vagina (d) Ovary, uterus, vagina, rete\nA:",
+        "model_response": "(c) Ovary, oviduct, uterus, vagina",
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: Phophocreatine resynthesis during recovery from exercise is inhibited by: (a) an excess of creatine. (b) hyperventilation. (c) an excess of oxygen. (d) a lack of oxygen.\nA:",
+        "model_response": "(d) a lack of oxygen.",
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: Given the following major premise, which of the following minor premises could lead to a valid conclusion?\n\n\"Either I'm going to do well on this test or I'm going to be mad.\" (a) \"I won't do well on the test\" (b) \"I won't take the test\" (c) \"My birthday is today\" (d) both A and B\nA:",
+        "model_response": "(a) \"I won't do well on the test\" - This minor premise would lead to a valid conclusion, as it falls under the major premise that either the person will do well on the test or be mad. If the person believes they won't do well on the test, then they may conclude that they will be mad.",
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q:  Where is the key to liberation found within Sikhism? (a) In the community (b) In faith in God (c) In ascetic renunciation (d) In the life of the householder\nA:",
+        "model_response": "(b) In faith in God",
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: Socialization is: (a) the formation of an attachment bond between an infant and its carer (b) a tendency of social theorists to explain everything in terms of social causes (c) the process of becoming part of a society by learning its norms and values (d) the historical process by which societies change from traditional to modern\nA:",
+        "model_response": "(c) the process of becoming part of a society by learning its norms and values",
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: Which of the following is a type of bacterium that produces a toxin in food under anaerobic conditions? (a) Clostridium botulinum (b) Clostridium tetani (c) Mycobacterium bovis (d) Staphylococcus aureus\nA:",
+        "model_response": "(a) Clostridium botulinum",
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: What is another way of writing-'six feet'? (a) 6' (b) 6 (c) 6'' (d) 6#\nA:",
+        "model_response": "(a) 6'",
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: Muscle lactate production increases when: (a) oxygen is readily available. (b) pyruvate cannot be formed from glucose breakdown. (c) the pH of the muscle falls. (d) glycolysis is activated at the onset of exercise.\nA:",
+        "model_response": "(c) the pH of the muscle falls.",
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: Tariffs and quotas (a) result in lower domestic prices. (b) sometimes raise and sometimes lower the amount of the product sold domestically. (c) lower the amount of the product sold domestically. (d) raise the amount of the product sold domestically.\nA:",
+        "model_response": "(b) sometimes raise and sometimes lower the amount of the product sold domestically.",
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: In all of her relationships Helen is typically uncomfortable feeling close to another person or having that person feel close to her. According to attachment theory Helen would best be described as: (a) a secure lover (b) an avoidant lover (c) an anxious-ambivalent lover (d) a passionate lover\nA:",
+        "model_response": "(b) an avoidant lover",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: What kind of therapy involves both behavioral and cognitive interventions? (a) counterconditioning (b) symptom substitution (c) primary preventions (d) systematic desensitization\nA:",
+        "model_response": "(d) systematic desensitization",
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: Which of the following is not a chromosome instability syndrome? (a) Klinefelter syndrome (b) Ataxia telangiectasia (c) Fanconi anaemia (d) Bloom syndrome\nA:",
+        "model_response": "(a) Klinefelter syndrome",
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: What happens to the image formed by a concave mirror as the object is moved from far away to near the focal point? (a) The image moves away from the mirror and gets shorter. (b) The image moves away from the mirror and gets taller. (c) The image moves toward the mirror and gets shorter. (d) The image moves toward the mirror and gets taller.\nA:",
+        "model_response": "(c) The image moves toward the mirror and gets shorter.",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: If the wage paid to all units of labor is $4.50, how many units of labor are hired? (a) 1 (b) 2 (c) 3 (d) 4\nA:",
+        "model_response": "(b) 2 units of labor are hired. \n\nThis can be calculated by dividing the total wage paid ($4.50) by the wage per unit of labor ($4.50), which equals 1 unit of labor. Since the question states that multiple units of labor are hired, we choose the closest whole number to 1, which is 2.",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: Is the jurisdiction of international tribunals regulated by the same principles applicable to national courts? (a) The jurisdictional principles applicable to national courts are also common to international tribunals (b) The jurisdiction of all international tribunals is regulated by the UN Security Council (c) International tribunals share some, but not all, of the jurisdictional principles applicable to national courts (d) The jurisdiction of international tribunals is dictated solely by their founding treaties\nA:",
+        "model_response": "c) International tribunals share some, but not all, of the jurisdictional principles applicable to national courts.",
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: Which of the following is a characteristic of perfect competition? (a) Firms produce a homogeneous product. (b) Barriers to entry exist. (c) Firms are price-setting profit maximizers. (d) The government regulates the price so that deadweight loss is eliminated.\nA:",
+        "model_response": "(a) Firms produce a homogeneous product.",
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: The 'new racism' refers to: (a) a subtler form of prejudice, masked by nationalist pride (b) a post-modern deconstruction of racist ideas to reveal their lack of depth (c) racist practices found in newly emerging areas of social life, such as cyberspace (d) an anti-fascist movement which challenges nationalist politics\nA:",
+        "model_response": "(a) a subtler form of prejudice, masked by nationalist pride",
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: The slowing that occurs with advanced age appears to be centered in (a) The sense organs themselves (b) The brain (c) The muscle fibers (d) The peripheral nervous system\nA:",
+        "model_response": "(b) The brain",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: The central ingredient of the most effective behavioral treatment for agoraphobic is (a) deep muscle relaxation (b) prolonged exposure in vivo (c) shaping of the desired behavior with an implemented reward system (d) exposure in fantasy\nA:",
+        "model_response": "(b) prolonged exposure in vivo",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: An increase in the inbreeding coefficient, F, is likely to result in: (a) reduced likelihood of heterozygotes being present in a population (b) higher proportion of genes that show linkage (c) higher proportion of genes with introns (d) higher level of difference between RNA molecules in two daughter cells\nA:",
+        "model_response": "(a) reduced likelihood of heterozygotes being present in a population",
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: A demand curve slopes downward for an individual as the result of (a) diminishing marginal utility (b) diminishing marginal returns (c) the Fisher effect (d) diminishing returns to scale\nA:",
+        "model_response": "(a) diminishing marginal utility",
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: For Socrates, an unexamined life is a tragedy because it results in grievous harm to _____. (a) the state (b) the justice system (c) the body (d) the soul\nA:",
+        "model_response": "(d) the soul",
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: What is the term for the 'rule of thumb' type of bias in decision making? (a) Framing bias (b) Hindsight bias (c) Over-confidence bias (d) Heuristics\nA:",
+        "model_response": "(d) Heuristics",
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: Joe is the trustee of a trust set up for his father. Under the Internal Revenue Code, when Joe prepares the annual trust tax return, Form 1041, he (a) Must obtain the written permission of the beneficiary prior to signing as a tax return preparer. (b) Is not considered a tax return preparer. (c) May not sign the return unless he receives additional compensation for the tax return. (d) Is considered a tax return preparer because his father is the grantor of the trust.\nA:",
+        "model_response": "(d) Is considered a tax return preparer because his father is the grantor of the trust.",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q:  The way in which the product is delivered to meet the customers' needs refers to: (a) New product concepts and improvements. (b) Selling. (c) Advertising and promotion activities. (d) Place or distribution activities.\nA:",
+        "model_response": "(d) Place or distribution activities.",
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: What characteristic is not representative of a type IIb muscle fibre?\n (a) Low oxidative capacity (b) High fatigue resistance (c) High motor unit strength (d) Fast contractile speed\nA:",
+        "model_response": "(b) High fatigue resistance",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: In what ways does the idea of 'victim' impact on the way in which gender security is regarded? (a) Woman as 'victim' is, and continues to be, an important narrative of war stories. In 1990 an estimated 90% of war casualties were civilian, the majority women and children. Reports that women are the primary casualties of war has contributed to the enduring perception that women are dependent on men for protection, and that men are responsible for sacrificing their own well bring for the protection of women and the state (often confused with one another through propaganda and imagery). (b) The role of men as intrinsically heroic has been marginalized as the traumas of war, desertion, and conscription become more apparent. When imagining victims, there is no longer a gender divide. Instead, there is a growing perception that those who fight are courageous and heroic, whilst those who do not take on female characteristics. (c) Increasing awareness regarding the barbaric nature of warfare and the problems of trauma in war has led to a reversal in the belief that the idea of war is a natural place for males. In contemporary societies across the globe, men are regarded as the victims of gender stereotypes that coerce them into violent behaviour as 'protectors' or aggressors on behalf of the state. (d) All of these options.\nA:",
+        "model_response": "(d) All of these options. The idea of 'victim' impacts the way in which gender security is regarded in multiple ways, including perpetuating traditional gender roles, challenging notions of heroism and vulnerability, and highlighting the impact of gender stereotypes on both men and women in times of conflict.",
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: What kind of car did Burt Reynolds drive in the movie 'Smokey and the Bandit'? (a) Lamborghini (b) Camaro (c) Corvette (d) Transam\nA:",
+        "model_response": "(d) Transam",
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: Dworkin contends that to every legal question there is only one right answer. Which proposition below is most inconsistent with this claim? (a) In hard cases judges generally decide cases on the basis of rights. (b) The rights of the parties feature in the determination of most cases before the courts. (c) Judges exercise strong discretion. (d) Judges seek the best 'fit' with constitutional and institutional history.\nA:",
+        "model_response": "(c) Judges exercise strong discretion.",
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: This question refers to the following information.\n\"His Majesty the Emperor of China agrees, that British subjects, with their families and establishments, shall be allowed to reside, for the purposes of carrying on their mercantile pursuits, without molestation or restraint, at the cities and towns of Canton, Amoy, Foochowfoo, Ningpo, and Shanghai; and Her Majesty the Queen of Great Britain, &c., will appoint Superintendents, or Consular officers, to reside at each of the above-named cities or towns, to be the medium of communication between the Chinese authorities and the said merchants, and to see that the just duties and other dues of the Chinese Government, as hereafter provided for, are duly discharged by Her Britannic Majesty's subjects.\"\nTreaty of Nanjing, 1839\nThe concessions offered in this treaty most directly created British (a) colonies (b) spheres of influence (c) protectorates (d) businesses\nA:",
+        "model_response": "(b) spheres of influence",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: Based on periodic relationships, the concepts related to bond strength, and the concept relating bond strength to acid strength, which of the following correctly predicts the strength of binary acids from strongest to weakest? (a) H2Se > H2O > H2S (b) H2S > H2Se > H2O (c) H2O < H2S < H2Se (d) H2Se > H2S > H2O\nA:",
+        "model_response": "(a) H2Se > H2O > H2S",
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: Xena has been able to conceive but has repeatedly miscarried early in her pregnancies. Which of the following would be her best option for having a child? (a) artificial insemination (b) in vitro fertilization (c) zygote intra-fallopian transfer (d) embryo transfer\nA:",
+        "model_response": "(b) in vitro fertilization",
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: What are major reasons why organizations retain outside public relations counsel?  (a) They offer flexibility of talents and skills. (b) They bring greater credibility to the work.  (c) They will provide sound ROI on the project or program. (d) They can provide more attention and detail to a project that in-house staff.\nA:",
+        "model_response": "(a) They offer flexibility of talents and skills. \n(b) They bring greater credibility to the work. \n(d) They can provide more attention and detail to a project than in-house staff.",
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: Instantaneous power in inductor is proportional to the (a) product of the instantaneous current and rate of change of current. (b) square of instantaneous current. (c) square of the rate of change of current. (d) temperature of the inductor.\nA:",
+        "model_response": "(a) product of the instantaneous current and rate of change of current.",
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: An investment of $4000 grows at the rate of 320*e^(0.08t) dollars per year after t years. Its value after 10 years is approximately (a) $4,902 (b) $8,902 (c) $7,122 (d) $12,902\nA:",
+        "model_response": "To find the value of the investment after 10 years, we can plug in t = 10 into the formula:\n\nP(t) = 4000 + 320e^(0.08*10)\nP(10) = 4000 + 320e^(0.8)\nP(10) \u2248 4000 + 320(2.225540928)\n\nP(10) \u2248 4000 + 711.6917402\nP(10) \u2248 4711.69\n\nTherefore, the value of the investment after 10 years is approximately $4,711.69. \nSince this value is not one of the options provided, the closest option is (c) $7,122.",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: In a hypothetical syllogism, when the minor premise affirms the antecedent (a) no valid conclusion can be drawn (b) the conclusion must affirm the consequent (c) the conclusion must deny the consequent (d) the conclusion must deny the antecedent\nA:",
+        "model_response": "(d) the conclusion must deny the antecedent",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: Find the characteristic of the ring Z x Z. (a) 0 (b) 3 (c) 12 (d) 30\nA:",
+        "model_response": "(c) 12",
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: Which of the following is NOT one of the most rewarding aspects of being a grandparent as reported by grandparents? (a) Feelings of immortality (b) Spoiling the grandchildren (c) Having others to wait on you (d) Remembering when they were grandchildren\nA:",
+        "model_response": "(c) Having others to wait on you",
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: We are interested in the proportion p of people who are unemployed in a large city. Eight percent of a simple random sample of 500 people are unemployed. What is the midpoint for a 95% confidence interval estimate of p? (a) 0.012 (b) 0.025 (c) 0.475 (d) None of the above.\nA:",
+        "model_response": "(b) 0.025",
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: Which group represents the Persian (Iranian) variation of Islam and believes in the infallibility and divine right to authority of the Imams descended from Ali? (a) Sunni (b) Shiite (c) Imam (d) Untouchables\nA:",
+        "model_response": "(b) Shiite",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: This question refers to the following information.\n\"The greatest contribution that Africa can make to the peace of the world is to avoid all the dangers inherent in disunity, by creating a political union which will also by its success, stand as an example to a divided world. A Union of African states will project more effectively the African personality. It will command respect from a world that has regard only for size and influence. The scant attention paid to African opposition to the French atomic tests in the Sahara, and the ignominious spectacle of the U.N. in the Congo quibbling about constitutional niceties while the Republic was tottering into anarchy, are evidence of the callous disregard of African Independence by the Great Powers.\"\nKwame Nkrumah, Ghanian leader, 1961\nWhich of the following explains why Nkrumah feels Africa must \"avoid all the dangers inherent in disunity\"? (a) African nations will not achieve independence without unity. (b) Disunity is what originally led many African nations into disarray. (c) The African continent has already experienced its share of civil wars. (d) The world community sees power as a function of size and influence.\nA:",
+        "model_response": "(d) The world community sees power as a function of size and influence.",
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: Each of the two main political parties of the United States is organized (a) as a single party with a presence at the national level only (b) into a federal structure in which state and local parties have no power (c) as a relatively independent organization that exists at all levels of government (d) in a top-down fashion, so that instructions are dispersed from the national level to the state and local levels\nA:",
+        "model_response": "c) as a relatively independent organization that exists at all levels of government",
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: A certain element emits 1 alpha particle, and its products then emit 2 beta particles in succession. The atomic number of the resulting element is changed by (a) zero (b) minus 1 (c) minus 2 (d) plus 1\nA:",
+        "model_response": "(c) minus 2",
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: The ___________, otherwise known as _________ was launched in 1997 and is a global workplace standard that covers key labour rights such as working hours, forced labour and discrimination, with compliance being certified by independent auditors. (a) Social accountability standard, SA 8000 (b) Social accountability standard, SA 9000 (c) Sarbanes-Oxley Act, SA 8000 (d) Sarbanes-Oxley Act, SA 9000\nA:",
+        "model_response": "(a) Social accountability standard, SA 8000",
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: S(s) + O2(g) \u2192 SO2(g) (a) one atom of S reacts with one molecule of O2 to yield one molecule of SO2 (b) one mole of sulfur atoms reacts with one mole of oxygen molecules to yield one mole of sulfur dioxide molecules (c) the position of equilibrium must be on the product side (d) the entropy increase will be large\nA:",
+        "model_response": "(b) one mole of sulfur atoms reacts with one mole of oxygen molecules to yield one mole of sulfur dioxide molecules",
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: In the Republic, Thrasymachus claims that justice is: (a) telling the truth and paying one\u2019s debts. (b) doing what pleases the gods. (c) the advantage of the stronger. (d) a harmony of the soul.\nA:",
+        "model_response": "(c) the advantage of the stronger.",
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: _______________ is the central node of 802.11 wireless operations. (a) WPA (b) Access Point (c) WAP (d) Access Port\nA:",
+        "model_response": "(b) Access Point",
+        "correct_answer": "b"
+    },
+    {
+        "question": "Q: For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I gave my children vitamins once a week. Scenario 2 | I like to give my husband a kiss when he isn't expecting it. (a) Wrong, Wrong (b) Wrong, Not wrong (c) Not wrong, Wrong (d) Not wrong, Not wrong\nA:",
+        "model_response": "(a) Wrong, Wrong - Scenario 1 would be considered wrong according to ordinary moral standards in the US as of 2020, as giving children vitamins only once a week may not provide them with adequate nutrition. Giving a kiss to your husband when he isn't expecting it would not be considered morally wrong.",
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: Which of the following is an important consideration when deciding the nature of tests to use in a financial statement audit? (a) Tests of details typically provide a low level of assurance. (b) Analytical procedures are an inefficient means of obtaining assurance. (c) The procedures to be applied on a particular engagement are a matter of the auditor\u2019s professional judgment. (d) The use of tests of controls should be considered without regard to the level of assurance required.\nA:",
+        "model_response": "c) The procedures to be applied on a particular engagement are a matter of the auditor\u2019s professional judgment.",
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: Which of the following types of electromagnetic radiation has the longest wavelength? (a) Gamma rays (b) Ultraviolet (c) Blue light (d) Orange light\nA:",
+        "model_response": "(c) Blue light",
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: To what extent is TNC linked with terrorism, and in what ways? (a) There is growing evidence of direct partnerships between terrorist groups and transnational criminal organization resulting from the end of the Cold War and the need to secure new forms of financial sponsorship. For most terrorist groups criminal activity has been amongst the most important sources of funds with the diffusion of terrorist networks globally operating in correlation to the diffusion of illicit market activities. (b) The nexus between terrorist groups and criminal organizations are generally a temporary aberration. Differential long-term strategic goals meant that levels of cooperation were generally tactical temporary alliances that would have little pervasive effects. (c) There is increasing evidence over the convergence of terrorism and transnational crime, but there is no consensus about whether this phenomenon is a long-term strategic alliance or episodic \"marriages of convenience\". (d) All of these options.\nA:",
+        "model_response": "d) All of these options.",
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: Of the following atoms, which has the lowest electron affinity? (a) F (b) Si (c) O (d) Ca\nA:",
+        "model_response": "(d) Ca",
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: According to Keynesian analysis the Great Depression was caused by (a) a lack of spending. (b) a sharp rise in the marginal propensity to consume. (c) too much investment. (d) too much foreign influence on the economy.\nA:",
+        "model_response": "(a) a lack of spending.",
+        "correct_answer": "a"
+    },
+    {
+        "question": "Q: This question refers to the following information.\n\"The quicksilver mines of Huancavelica are where the poor Indians are so harshly punished, where they are tortured and so many Indians die; it is there that the noble caciques [headmen] of this kingdom are finished off and tortured. The same is true in all the other mines: the silver mines of Potosi [and others]\u2026.The owners and stewards of the mines, whether Spaniards, mestizos, or Indians, are such tyrants, with no fear of God or Justice, because they are not audited and are not inspected twice a year\u2026.\nAnd they are not paid for the labor of traveling to and from the mines or for the time they spend at the mines. The Indians, under the pretext of mining chores, are made to spend their workdays herding cattle and conveying goods; they are sent off to the plains, and the Indians die. These Indians are not paid for their labor, and their work is kept hidden.\nAnd [the mine owners] keep Indian cooking women in their residences; they use cooking as a pretext for taking concubines\u2026.And they oblige the Indians to accept corn or meat or chicha [corn beer]\u2026at their own expense, and they deduct the price from their labor and their workdays. In this way, the Indians end up very poor and deep in debt, and they have no way to pay their tribute.\nThere is no remedy for all this, because any [colonial official] who enters comes to an agreement with the mine owners, and all the owners join forces in bribing him\u2026.Even the protector of the Indians is useless;\u2026he [does not] warn Your Majesty or your royal Audiencia [court] about the harms done to the poor Indians.\"\nExcerpt from The First New Chronicle and Good Government [abridged], by Felipe Guaman Poma de Alaya. Selected, translated, and annotated by David Frye. Copyright 2006 Hackett Publishing Company. Reprinted with permission from the publisher.\nFelipe Guaman Poma de Ayala, The First New Chronicle and Good Government, ca. 1610\nWhich of the following changes to the Spanish policies towards Native Americans occurred on account of the practices described in the passage? (a) The replacement of native laborers in the mines with an almost exclusively African slave workforce (b) The foundation of viceroyalties to allow for more effective royal administration of native relations (c) The promulgation of royal decrees insisting on more humane treatment of the natives (d) The enfranchisement of all natives by local Spanish elites in the colonies\nA:",
+        "model_response": "(c) The promulgation of royal decrees insisting on more humane treatment of the natives",
+        "correct_answer": "c"
+    },
+    {
+        "question": "Q: The Old Testament presents the view that sexuality is (a) fundamentally positive (b) to be considered in light of its social consequences (c) comparable to other biological functions (d) a and b\nA:",
+        "model_response": "(d) a and b",
+        "correct_answer": "d"
+    },
+    {
+        "question": "Q: Which of the following entities is a state? (a) Antarctica (b) American Samoa (c) Egypt (d) Marshall Islands\nA:",
+        "model_response": "(c) Egypt\n(d) Marshall Islands",
+        "correct_answer": "c"
+    }
+]

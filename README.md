@@ -10,14 +10,19 @@ llm_reliability_framework/
 │   ├── data/              # Benchmark data files
 │   ├── evaluators/        # Evaluation implementations
 │   └── data_loaders/      # Data loading utilities
-├── evaluated_repos/        # External methods to be evaluated
-├── notebooks/              # Jupyter notebooks for analysis
-├── results/                # Test results and evaluations
-├── tests/                  # Framework unit tests
-├── utils/                  # Utility functions and model interfaces
-├── environment.yaml        # Conda environment specification
-├── main.py                # Main testing framework
-├── run_coverage.sh        # Test coverage script
+├── config/                 # Configuration files
+│   ├── methods/           # Method-specific configs
+│   ├── benchmarks/        # Benchmark-specific configs
+│   └── default.yaml       # Default framework config
+├── evaluate/              # Directory for testing your method
+├── evaluated_methods/     # Reference implementations for paper
+├── notebooks/             # Jupyter notebooks for analysis
+├── results/               # Test results and evaluations
+├── tests/                 # Framework unit tests
+├── utils/                 # Utility functions and model interfaces
+├── environment.yaml       # Conda environment specification
+├── main.py               # Main testing framework
+├── run_coverage.sh       # Test coverage script
 ├── run_pylint.sh         # Code quality checking
 ├── run.slurm             # Slurm job submission script
 └── setup.py              # Package setup file
@@ -51,9 +56,21 @@ export ANTHROPIC_API_KEY="your-anthropic-key"
 
 ## Testing Your Method
 
-### 1. Prepare Your Method
-Place your method's code in the `evaluated_repos` directory. Your method should have an entry point function that accepts a model and input text:
+This framework allows you to evaluate how your method performs across different language models and benchmarks. The testing process involves several key steps, each serving a specific purpose:
 
+### 1. Add Your Method to the Framework
+
+Place your method's code in the `evaluate` directory with the following structure:
+```
+evaluate/
+└── your-method/              # Your method's directory
+    ├── method/              # Your implementation
+    │   ├── __init__.py
+    │   └── main.py         # Contains your solve function
+    └── requirements.txt     # Any additional dependencies
+```
+
+Your entry point function should follow this interface:
 ```python
 def solve_function(model, input_text: str) -> str:
     """
@@ -67,38 +84,120 @@ def solve_function(model, input_text: str) -> str:
     pass
 ```
 
-Create a `method_config.json` in your method's directory:
-```json
-{
-    "entry_module": "your_package.your_module",
-    "entry_function": "your_solve_function"
-}
+**Why this structure?**
+- The `evaluate` directory is separate from `evaluated_methods` to clearly distinguish your method from reference implementations
+- The standardized structure ensures the framework can reliably find and load your code
+- The common interface (`model, input_text -> str`) allows your method to work with any supported model and benchmark
+
+**Important Considerations:**
+- Your method receives a model instance that handles all API calls and token management
+- The input text format depends on the benchmark being used (e.g., math problems for GSM8K, questions for TruthfulQA)
+- Your method must return a string in the format expected by the benchmark (e.g., "#### 42" for GSM8K)
+
+### 2. Configure Your Method
+
+Create a configuration file in `config/methods/your-method.yaml`:
+```yaml
+entry_module: method.main        # Python module path to your code
+entry_function: solve_function   # Function name to call
+description: "Brief description of your method"
 ```
 
-### 2. Create Test Configuration
-Create a configuration file for your test run:
+**Why Configuration Files?**
+- Separates implementation from configuration
+- Allows changing entry points without modifying code
+- Provides documentation and metadata about your method
+- Enables the framework to properly load and execute your code
 
-```json
-{
-    "benchmark_name": "gsm8k",  # or other supported benchmark
-    "benchmark_path": "/path/to/benchmark/data",
-    "model_names": [
-        "gpt-4",
-        "gpt-3.5-turbo",
-        "llama-base"
-    ],
-    "methods_to_test": [
-        "evaluated_repos/your_method",
-        "evaluated_repos/baseline_method"
-    ],
-    "output_dir": "./results"
-}
+**Configuration Options:**
+- `entry_module`: Path to your Python module (relative to your method directory)
+- `entry_function`: Name of the function that implements your method
+- Additional parameters specific to your method can be added here
+
+### 3. Create Test Configuration
+
+Create or modify `config/default.yaml` to specify how to test your method:
+```yaml
+benchmark_name: "gsm8k"         # Which benchmark to use
+benchmark_path: "/path/to/data" # Where benchmark data is stored
+model_names:                    # Which models to test with
+  - "gpt-4"
+  - "gpt-3.5-turbo"
+  - "llama-base"
+method_name: "your-method"      # Your method's directory name
+output_dir: "./results"         # Where to save results
+batch_size: 10                  # How many problems to process at once
 ```
 
-### 3. Run Tests
+**Why These Settings?**
+- `benchmark_name`: Different benchmarks test different capabilities (reasoning, truthfulness, etc.)
+- `model_names`: Testing across models reveals how your method performs with different LLMs
+- `batch_size`: Controls memory usage and allows for efficient processing
+- `output_dir`: Organizes results for analysis and comparison
+
+**Benchmark Selection Considerations:**
+- GSM8K: Best for testing mathematical reasoning
+- TruthfulQA: Evaluates model truthfulness and factual accuracy
+- Choose based on what aspect of LLM behavior your method aims to improve
+
+### 4. Run Tests
+
+Execute the framework:
 ```bash
-python main.py --config your_config.json
+python main.py --config config/default.yaml
 ```
+
+**What Happens During Testing:**
+1. Framework loads your method and configuration
+2. Initializes specified models
+3. Loads benchmark data
+4. For each problem in the benchmark:
+   - Passes the problem to your method with each model
+   - Evaluates responses using benchmark-specific metrics
+   - Records results and any errors
+5. Saves detailed results in YAML format
+
+**Understanding Results:**
+Results are saved in `results/your-method/` with the following structure:
+```yaml
+method_name:
+  problem_id:
+    model_outputs:           # Raw outputs from each model
+      gpt-4:
+        solution: "..."      # Your method's solution
+        score: 1.0          # Benchmark-specific score
+    evaluation:             # Overall evaluation metrics
+      accuracy: 0.9         # Percentage correct
+      other_metrics:        # Benchmark-specific metrics
+        metric1: 0.85
+```
+
+These results allow you to:
+- Compare performance across different models
+- Identify where your method succeeds or fails
+- Compare against baseline methods
+- Generate statistics for research papers
+
+### 5. Compare with Reference Implementations
+
+The `evaluated_methods` directory contains previously tested methods that you can use to:
+- Understand implementation patterns
+- Compare performance against established baselines
+- Verify your results are reasonable
+
+Each reference implementation includes:
+- Complete source code
+- Configuration files
+- Documentation of results
+
+## Supported Models
+
+- GPT-4
+- GPT-3.5-turbo
+- Llama (base)
+- Llama (large)
+- Mistral (base)
+- Phi-2
 
 ## Supported Benchmarks
 
@@ -137,14 +236,11 @@ class CustomHFBenchmarkEvaluator(BaseEvaluator):
 ```
 
 Configuration for Hugging Face dataset:
-```json
-{
-    "benchmark_name": "custom_hf",
-    "benchmark_config": {
-        "dataset_name": "bigscience/P3",
-        "split": "test"
-    }
-}
+```yaml
+benchmark_name: "custom_hf"
+benchmark_config:
+  dataset_name: "bigscience/P3"
+  split: "test"
 ```
 
 ### 2. Adding Custom Benchmark Data
@@ -156,20 +252,20 @@ benchmarks/
 │   ├── your_benchmark/
 │   │   ├── __init__.py
 │   │   ├── data/               # Your benchmark data files
-│   │   └── metadata.json       # Benchmark metadata
+│   │   └── metadata.yaml       # Benchmark metadata
 ```
 
-2. Create metadata.json:
-```json
-{
-    "name": "your_benchmark",
-    "version": "1.0",
-    "description": "Description of your benchmark",
-    "input_format": "Description of input format",
-    "output_format": "Description of expected outputs",
-    "metrics": ["metric1", "metric2"],
-    "citation": "Optional citation"
-}
+2. Create metadata.yaml:
+```yaml
+name: "your_benchmark"
+version: "1.0"
+description: "Description of your benchmark"
+input_format: "Description of input format"
+output_format: "Description of expected outputs"
+metrics:
+  - "metric1"
+  - "metric2"
+citation: "Optional citation"
 ```
 
 3. Implement your evaluator:
@@ -192,22 +288,6 @@ class YourBenchmarkEvaluator(BaseEvaluator):
     def evaluate(self, prediction: str, reference: Any) -> Dict:
         """Implement evaluation logic"""
         pass
-```
-
-## Results
-
-Results are saved in JSON format in the `results` directory:
-```json
-{
-    "problem_id": {
-        "method_name": {
-            "model_name": {
-                "solution": "model's solution",
-                "score": 1.0
-            }
-        }
-    }
-}
 ```
 
 ## Running on HPC
@@ -246,6 +326,11 @@ Run unit tests with coverage:
 3. Data Loading Issues:
    - Verify benchmark data paths are correct
    - Check data format matches evaluator expectations
+
+4. Method Loading Issues:
+   - Ensure your method is in the correct directory (`evaluate/`)
+   - Verify method configuration exists in `config/methods/`
+   - Check entry module and function names match your implementation
 
 ## Contributing
 

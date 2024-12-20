@@ -1,0 +1,1289 @@
+[
+    {
+        "question": "A paper is in a square form whose one side is 20 cm. Two semi circles are drawn on its opposites as diameters. If these semi circles are cut down what is the area of the remaining paper?",
+        "options": [
+            "A)8.75",
+            "B)8.79",
+            "C)8.75",
+            "D)8.71",
+            "E)8.72"
+        ],
+        "model_response": " The area of the remaining paper is the area of the square minus the area of the two semi-circles.\n\nFirst, let's find the area of the square:\nArea of square = side × side = 20 cm × 20 cm = 400 cm²\n\nNext, let's find the area of one semi-circle. The diameter of the semi-circle is equal to the side of the square, which is 20 cm. Therefore, the radius of the semi-circle is half of that, which is 10 cm.\n\nThe area of a full circle is given by the formula πr², where r is the radius. Since we have a semi-circle, we will take half of that area:\nArea of semi-circle = (1/2) × π × r² = (1/2) × π × (10 cm)² = 50π cm²\n\nSince there are two semi-circles, we need to double this area:\nTotal area of two semi-circles = 2 × 50π cm² = 100π cm²\n\nNow, let's find the area of the remaining paper by subtracting the total area of the two semi-circles from the area of the square:\nArea of remaining paper = Area of square - Total area of two semi-circles\nArea of remaining paper = 400 cm² - 100π cm²\n\nUsing the value of π as approximately 3.14159, we get:\nArea of remaining paper ≈ 400 cm² - 314.159 cm² ≈ 85.841 cm²\n\nHowever, none of the given options match this value. It seems there might be a mistake in the options provided. If we round the value to two decimal places, we get approximately 85.84 cm², which is not listed as an option.\n\nIf we were to assume that the options are given in square centimeters and we need to find the closest match, the closest option would be $E)8.72$  cm². However, this value is significantly lower than the calculated area, and it is not a reasonable approximation. Therefore, I cannot provide a definitive answer based on the given options.",
+        "correct_answer": "C",
+        "answered_correctly": false
+    },
+    {
+        "question": "A two digit number exceeds the sum of the digits of that number by 18. If the digit at the unit's place is double the digit in the ten's place, what is the number?",
+        "options": [
+            "A)12",
+            "B)24",
+            "C)42",
+            "D)48",
+            "E)49"
+        ],
+        "model_response": " Let's denote the digit in the ten's place as x and the digit in the unit's place as y. According to the problem, y is double the value of x, so we can write:\n\ny = 2x\n\nThe two-digit number can be represented as 10x + y. The sum of the digits of this number is x + y. According to the problem, the two-digit number exceeds the sum of its digits by 18, so we can write:\n\n10x + y = (x + y) + 18\n\nNow, let's substitute y with 2x (since y = 2x):\n\n10x + 2x = (x + 2x) + 18\n12x = 3x + 18\n\nNow, let's solve for x:\n\n12x - 3x = 18\n9x = 18\nx = 18 / 9\nx = 2\n\nNow that we have the value of x, we can find y:\n\ny = 2x\ny = 2 * 2\ny = 4\n\nSo the two-digit number is 10x + y = 10(2) + 4 = 24. However, the question asks for the letter of the correct option, which is B) 24. Therefore, the answer is B.",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "If one third of 3/4 of a number is 21. Then, find the number?",
+        "options": [
+            "A)84",
+            "B)66",
+            "C)28",
+            "D)19",
+            "E)11"
+        ],
+        "model_response": " Let's call the number we're looking for \"x\". According to the problem, one third of three fourths of this number is 21. We can write this as an equation:\n\n(1/3) * (3/4) * x = 21\n\nTo find x, we need to solve for it. First, let's simplify the left side of the equation by multiplying the fractions:\n\n(1 * 3) / (3 * 4) * x = 21\n(3/12) * x = 21\n\nNow, we can simplify the fraction 3/12 to 1/4:\n\n(1/4) * x = 21\n\nTo solve for x, we need to multiply both sides of the equation by 4:\n\nx = 21 * 4\nx = 84\n\nSo the number we're looking for is 84. Therefore, the correct answer is A) 84.",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "A certain liquid passes through a drain at a rate of w/25 gallons every x seconds. At that rate, how many minutes will it take y gallons to pass through the drain?",
+        "options": [
+            "A)y/(1200xy)",
+            "B)20xy/w",
+            "C)5xy/(12w)",
+            "D)w/(3xy)",
+            "E)3y/(wx)"
+        ],
+        "model_response": " To find out how many minutes it will take y gallons to pass through the drain, we first need to determine the rate at which the liquid is flowing in gallons per minute.\n\nThe liquid passes through the drain at a rate of w/25 gallons every x seconds. To convert this rate to gallons per minute, we need to multiply by 60 seconds/minute to cancel out the seconds and get the rate in gallons per minute:\n\nRate = (w/25) * (60/x) gallons/minute\n\nNow, we want to find out how long it will take for y gallons to pass through the drain at this rate. We can use the formula:\n\nTime = Amount / Rate\n\nSubstituting the rate we found and the amount y, we get:\n\nTime = y / [(w/25) * (60/x)]\n\nTo simplify this expression, we can multiply the numerator and denominator by 25 and then divide both by 60 to get the time in minutes:\n\nTime = y * (25/w) * (x/60)\n\nSimplifying further, we get:\n\nTime = (5xy) / (12w)\n\nTherefore, the time it will take for y gallons to pass through the drain is given by the expression (5xy) / (12w). This matches option C) 5xy/(12w).\n\nSo, the answer is $C)$.",
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "Roberts has a property worth of $1023.65. But in a record his property worth is written as greatest positive even integer less than or equal to his property worth and it is divisible by 100. Find the difference between actual property and recorded property worth?",
+        "options": [
+            "A)23.65",
+            "B)1000",
+            "C)35.62",
+            "D)2.65",
+            "E)1023.65"
+        ],
+        "model_response": " The greatest positive even integer less than or equal to $1023.65 and divisible by 100 is $1000.\n\nThe difference between the actual property worth and the recorded property worth is $1023.65 - $1000 = $23.65.\n\nHowever, this is not an option in the given choices. It seems there might be a mistake in the options provided. If we consider the closest option to the actual difference, it would be A) 23.65. But since this is not an exact match, I would recommend double-checking the options or recalculating the difference.\n\nIf we have to choose from the given options, the closest would be A) 23.65, but it's important to note that this is not the exact difference.\n\nFinal answer: A) 23.65",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "There is a 90% chance that a registered voter in Burghtown voted in the last election. If five registered voters are chosen at random, what is the approximate likelihood that exactly four of them voted in the last election?",
+        "options": [
+            "A)26.2%",
+            "B)32.8%",
+            "C)43.7%",
+            "D)59.0%",
+            "E)65.6%"
+        ],
+        "model_response": " To find the probability that exactly four out of five registered voters voted in the last election, we can use the binomial probability formula:\n\nP(X=k) = C(n, k) * p^k * (1-p)^(n-k)\n\nwhere:\n- P(X=k) is the probability of k successes in n trials\n- C(n, k) is the number of combinations of n items taken k at a time\n- p is the probability of success on a single trial\n- n is the number of trials\n- k is the number of successes\n\nIn this case, n=5 (the number of registered voters chosen), k=4 (the number of voters who voted), and p=0.9 (the probability that a registered voter voted).\n\nFirst, let's calculate C(5, 4):\n\nC(5, 4) = 5! / (4! * (5-4)!) = 5\n\nNow, we can calculate the probability:\n\nP(X=4) = C(5, 4) * p^4 * (1-p)^(5-4)\n       = 5 * (0.9)^4 * (0.1)^1\n       ≈ 0.32805\n\nSo, the approximate likelihood that exactly four of the five registered voters voted in the last election is 32.8%.\n\nTherefore, the answer is B)32.8%.",
+        "correct_answer": "E",
+        "answered_correctly": false
+    },
+    {
+        "question": "A train M leaves City A at 5 am and reaches City B at 9am. Another train N leaves City B at 7am and reaches City A at 1030am. At what time do the 2 trains cross one another?",
+        "options": [
+            "A)1 hr 23 min",
+            "B)1 hr 15 min",
+            "C)1 hr 8 min",
+            "D)56 min",
+            "E)55 min"
+        ],
+        "model_response": " To solve this problem, we need to determine the time it takes for each train to travel and the time it takes for them to meet.\n\nTrain M leaves City A at 5 am and reaches City B at 9 am, which means it takes 4 hours for Train M to travel from City A to City B.\n\nTrain N leaves City B at 7 am and reaches City A at 10:30 am, which means it takes 3.5 hours for Train N to travel from City B to City A.\n\nSince Train M starts 2 hours earlier than Train N, by the time Train N starts at 7 am, Train M has already been traveling for 2 hours. Therefore, Train M has 2 hours less to travel than Train N.\n\nLet's calculate the time it takes for Train M to travel the remaining distance after Train N starts:\n\nTrain M's total travel time: 4 hours\nTrain N's total travel time: 3.5 hours\n\nTrain M's remaining travel time after Train N starts: 4 hours - 2 hours = 2 hours\n\nNow, we need to find the ratio of Train M's remaining travel time to Train N's total travel time to determine when they meet:\n\nTrain M's remaining travel time : Train N's total travel time = 2 hours : 3.5 hours\n\nTo find the time when they meet, we can set up a proportion:\n\nTrain M's remaining travel time / Train N's total travel time = Time until they meet / Train N's total travel time\n\nLet T be the time until they meet:\n\n2 / 3.5 = T / 3.5\n\nNow, solve for T:\n\nT = (2 / 3.5) * 3.5\nT = 2 hours\n\nSince Train N starts at 7 am, and they meet after 2 hours, the time when they meet is:\n\n7 am + 2 hours = 9 am\n\nHowever, this is not an option in the multiple-choice answers. It seems there might be a mistake in the calculation. Let's try another approach:\n\nSince Train M has a 2-hour head start, we can calculate the time it takes for Train N to cover the distance that Train M has already traveled in those 2 hours.\n\nTrain M's speed = Distance from City A to City B / 4 hours\nTrain N's speed = Distance from City B to City A / 3.5 hours\n\nSince the distances are the same, we can set up a proportion to find the time it takes for Train N to cover the distance that Train M has already traveled in 2 hours:\n\nTrain M's speed * 2 hours = Train N's speed * T\n\nLet's assume the distance from City A to City B is D:\n\n(D / 4) * 2 = (D / 3.5) * T\n\nNow, solve for T:\n\nT = (2 / 4) * (3.5 / 1)\nT = 1.75 hours\n\nSince Train N starts at 7 am, and they meet after 1.75 hours, the time when they meet is:\n\n7 am + 1.75 hours = 8:45 am\n\nHowever, this is still not an option in the multiple-choice answers. It seems there might be a mistake in the problem statement or the options provided. Let's try one more approach:\n\nSince Train M has a 2-hour head start, we can calculate the time it takes for Train N to cover the remaining distance after Train M has been traveling for 2 hours.\n\nTrain M's remaining travel time: 4 hours - 2 hours = 2 hours\nTrain N's total travel time: 3.5 hours\n\nLet T be the time until they meet:\n\nTrain M's remaining travel time / Train N's total travel time = T / Train N's total travel time\n\n2 / 3.5 = T / 3.5\n\nNow, solve for T:\n\nT = (2 / 3.5) * 3.5\nT = 2 hours\n\nSince Train N starts at 7 am, and they meet after 2 hours, the time when they meet is:\n\n7 am + 2 hours = 9 am\n\nAgain, this is not an option in the multiple-choice answers. It seems there might be a mistake in the problem statement or the options provided. Without additional information or clarification, it is not possible to determine the correct answer.\n\nTherefore, I cannot provide a definitive answer based on the given information.",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "R, S, T, and U are points on a line, and U is the midpoint of line segment ST. If the lengths of line segments RS, RT, and ST are 5, 17, and 22, respectively. What is the length of line segment RU?",
+        "options": [
+            "A)6",
+            "B)7",
+            "C)8",
+            "D)9",
+            "E)10"
+        ],
+        "model_response": " Since U is the midpoint of ST, the length of line segment SU is half of ST, which is 22/2 = 11.\n\nNow, we know that RS = 5 and RT = 17. Since R, S, T, and U are points on a line, the length of RU can be found by subtracting the length of SU from RT.\n\nSo, RU = RT - SU = 17 - 11 = 6.\n\nTherefore, the length of line segment RU is 6, which corresponds to option A.",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "A pen company produces very fine quality of writing pens. Company knows that on average 10% of the produced pens are always defective so are rejected before packing. Company promises to deliver 7200 pens to its wholesaler at Rs. 10 each. It estimates the overall profit on all the manufactured pens to be 25%. What is the manufactured cost of each pen?",
+        "options": [
+            "A)Rs. 6",
+            "B)Rs. 7.2",
+            "C)Rs. 5.6",
+            "D)Rs. 8",
+            "E)None of these"
+        ],
+        "model_response": " Let's denote the manufactured cost of each pen as \\( C \\).\n\nThe company promises to deliver 7200 pens, but since 10% of the pens are defective, they need to manufacture more pens to account for the defective ones. Let's denote the total number of pens manufactured as \\( P \\).\n\nThe number of defective pens is \\( 0.10P \\), so the number of non-defective pens is \\( P - 0.10P = 0.90P \\).\n\nThe company wants to deliver 7200 non-defective pens, so we have:\n\\[ 0.90P = 7200 \\]\n\\[ P = \\frac{7200}{0.90} \\]\n\\[ P = 8000 \\]\n\nThe total cost of manufacturing 8000 pens is \\( 8000C \\).\n\nThe company sells each pen for Rs. 10, so the total revenue from selling 7200 pens is \\( 7200 \\times 10 \\).\n\nThe company estimates the overall profit on all the manufactured pens to be 25%, so the total profit is \\( 0.25 \\times 8000C \\).\n\nThe total revenue is equal to the total cost plus the total profit:\n\\[ 7200 \\times 10 = 8000C + 0.25 \\times 8000C \\]\n\\[ 72000 = 8000C + 2000C \\]\n\\[ 72000 = 10000C \\]\n\\[ C = \\frac{72000}{10000} \\]\n\\[ C = 7.2 \\]\n\nTherefore, the manufactured cost of each pen is Rs. 7.2.\n\nSo, the answer is \\( B)Rs. 7.2 \\).",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "Let A and B be independent events with P (A) = 0.2 and P(B) = 0.8. Find P(A/B)?",
+        "options": [
+            "A)0.2",
+            "B)0.4",
+            "C)0.6",
+            "D)1.2",
+            "E)1.5"
+        ],
+        "model_response": " Since A and B are independent events, the probability of A given B is simply the probability of A. Therefore, P(A/B) = P(A) = 0.2.\n\nSo, the answer is A) 0.2.",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "A man divides Rs 8600 among 5 sons, 4 daughters and 2 nephews. If each daughter receives four times as much as each nephew, and each son receives five as much as each nephew. How much does each daughter receive ?",
+        "options": [
+            "A)Rs 400",
+            "B)Rs 500",
+            "C)Rs 600",
+            "D)Rs 700",
+            "E)Rs 800"
+        ],
+        "model_response": " Let's denote the amount each nephew receives as N. According to the problem, each daughter receives four times as much as each nephew, so each daughter receives 4N. Each son receives five times as much as each nephew, so each son receives 5N.\n\nThe total amount given to the nephews is 2N (since there are 2 nephews). The total amount given to the daughters is 4N * 4 (since there are 4 daughters). The total amount given to the sons is 5N * 5 (since there are 5 sons).\n\nThe total amount given to all family members is the sum of the amounts given to the sons, daughters, and nephews, which is equal to Rs 8600. Therefore, we can write the equation:\n\n2N + 4N * 4 + 5N * 5 = 8600\n\nSimplifying the equation:\n\n2N + 16N + 25N = 8600\n43N = 8600\n\nNow, we can solve for N:\n\nN = 8600 / 43\nN = 200\n\nNow that we know each nephew receives Rs 200, we can find out how much each daughter receives:\n\nEach daughter receives 4N = 4 * 200 = Rs 800\n\nHowever, the options provided do not include Rs 800 as a choice. It seems there might be a mistake in the problem or the options. Please double-check the information provided.\n\nIf we assume that the options are correct and there is a mistake in the problem statement, we can still try to find the correct answer by checking each option. Since each daughter receives four times as much as each nephew, we can check the options to see which one is a multiple of 4 times the amount each nephew receives.\n\nGiven the options, the only multiple of 4 that is also a multiple of 100 (which would make sense for the total amount to be divisible by) is Rs 400. If each daughter receives Rs 400, then each nephew would receive Rs 100 (since 400 is 4 times 100). However, this would not add up to Rs 8600 with the given number of sons, daughters, and nephews.\n\nTherefore, based on the information provided, there is no correct answer among the given options. Please double-check the problem statement and the options.",
+        "correct_answer": "E",
+        "answered_correctly": true
+    },
+    {
+        "question": "In a row of children Neha is 12th from left end and Radha is 6th from right end. When Radha is shifted to left by 2 places and Neha is shifted to right by 2 places there 6 children between Radha and Neha. How many children are there in the row?",
+        "options": [
+            "A)23",
+            "B)27",
+            "C)26",
+            "D)28",
+            "E)29"
+        ],
+        "model_response": " Let's denote the total number of children in the row as N.\n\nInitially, Neha is 12th from the left, and Radha is 6th from the right. This means that there are 11 children to the left of Neha and 5 children to the right of Radha.\n\nWhen Radha is shifted to the left by 2 places, she becomes 8th from the right (since 6 + 2 = 8). When Neha is shifted to the right by 2 places, she becomes 14th from the left (since 12 + 2 = 14).\n\nNow, there are 6 children between Radha and Neha. This means that the total number of children to the left of Neha, the 6 children between them, and the children to the right of Radha is equal to the total number of children in the row.\n\nSo, we have:\n11 (children to the left of Neha) + 6 (children between Neha and Radha) + 8 (children to the right of Radha) = N\n\nAdding these up, we get:\n11 + 6 + 8 = N\n25 + 8 = N\nN = 33\n\nHowever, this result does not match any of the given options. It seems there might be a mistake in the calculation. Let's re-evaluate the positions after the shifts:\n\nAfter the shifts, Neha is 14th from the left, and Radha is 8th from the right. The 6 children between them are not included in the positions from the ends. So, we should not add the 6 children to the positions from the ends. Instead, we should consider the positions from the ends and the 6 children between them as separate groups.\n\nThe correct calculation should be:\n13 (children to the left of Neha, since she is now 14th from the left) + 6 (children between Neha and Radha) + 7 (children to the right of Radha, since she is now 8th from the right) = N\n\nAdding these up, we get:\n13 + 6 + 7 = N\n26 = N\n\nTherefore, the total number of children in the row is $26,$  which corresponds to option C.",
+        "correct_answer": "D",
+        "answered_correctly": false
+    },
+    {
+        "question": "An exam is given in a certain class. The average (arithmetic mean) of the highest score and the lowest score is equal to x. If the average score for the entire class is equal to y and there are z students in the class, where z > 5, then in terms of x, y, and z, what is the average score for the class excluding the highest and lowest scorers?",
+        "options": [
+            "A)(zy – 2x)/z",
+            "B)(zy – 2)/z",
+            "C)(zx – y)/(z – 2)",
+            "D)(zy – 2x)/(z -2)",
+            "E)(zy – x)/(z + 2)"
+        ],
+        "model_response": " The average score for the class excluding the highest and lowest scorers can be found by subtracting the sum of the highest and lowest scores from the total sum of scores and then dividing by the number of students minus 2.\n\nThe total sum of scores for the entire class is zy (since the average score for the entire class is y and there are z students). The sum of the highest and lowest scores is 2x (since the average of the highest and lowest scores is x).\n\nSo, the total sum of scores excluding the highest and lowest scorers is zy - 2x. The number of students excluding the highest and lowest scorers is z - 2.\n\nTherefore, the average score for the class excluding the highest and lowest scorers is (zy - 2x)/(z - 2).\n\nSo, the correct answer is D.",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "IF one gallon of soft drink is made of 40% orange juice and 60% water, how many additional gallons of orange juice must be mixed in order to make the orange juice 60% of the soft drink?",
+        "options": [
+            "A)0.5",
+            "B)1",
+            "C)1.25",
+            "D)1.5",
+            "E)2"
+        ],
+        "model_response": " Let's denote the additional gallons of orange juice needed as x.\n\nInitially, we have 1 gallon of soft drink with 40% orange juice, which means there are 0.4 gallons of orange juice and 0.6 gallons of water.\n\nAfter adding x gallons of orange juice, the total volume of the soft drink becomes 1 + x gallons, and the total volume of orange juice becomes 0.4 + x gallons.\n\nWe want the orange juice to be 60% of the soft drink, so we can set up the following equation:\n\n0.4 + x = 0.6 * (1 + x)\n\nNow, let's solve for x:\n\n0.4 + x = 0.6 + 0.6x\nx - 0.6x = 0.6 - 0.4\n-0.4x = 0.2\nx = 0.2 / -0.4\nx = -0.5\n\nHowever, we cannot have a negative amount of orange juice added, so there must be a mistake in our calculation. Let's try again:\n\n0.4 + x = 0.6 * (1 + x)\n0.4 + x = 0.6 + 0.6x\nx - 0.6x = 0.6 - 0.4\n-0.4x = -0.2\nx = -0.2 / -0.4\nx = 0.5\n\nSo, we need to add 0.5 gallons of orange juice to make the orange juice 60% of the soft drink.\n\nTherefore, the answer is A) 0.5.",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "A box contains a certain number of balls, marked successively from 1 to n. If there are 45 different ways that two balls can be selected from the box such that the ball with number 3 marked on it is not selected, then what is the value of n?",
+        "options": [
+            "A)11",
+            "B)10",
+            "C)9",
+            "D)8",
+            "E)7"
+        ],
+        "model_response": " To find the value of n, we need to determine the total number of ways to select two balls from a box containing n balls, and then set this equal to 45 (the number of ways to select two balls without selecting the ball marked 3).\n\nThe total number of ways to select two balls from a box containing n balls is given by the combination formula:\n\nC(n, 2) = n! / (2! * (n - 2)!)\n\nSince the ball marked 3 is not selected, we are essentially selecting two balls from a box containing (n - 1) balls (because we exclude the ball marked 3). So, the number of ways to select two balls without selecting the ball marked 3 is:\n\nC(n - 1, 2) = (n - 1)! / (2! * (n - 3)!)\n\nWe are given that this equals 45:\n\n(n - 1)! / (2! * (n - 3)!) = 45\n\nNow, let's solve for n:\n\n(n - 1) * (n - 2) / 2 = 45\n\nMultiplying both sides by 2 to get rid of the denominator:\n\n(n - 1) * (n - 2) = 90\n\nNow, we need to find the value of n that satisfies this equation. We can do this by trial and error or by factoring the quadratic equation. Let's factor it:\n\nn^2 - 3n - 88 = 0\n\nThis is a quadratic equation, and we can solve for n by factoring or using the quadratic formula. Let's try factoring:\n\n(n - 11)(n + 8) = 0\n\nThis gives us two possible solutions for n: n = 11 or n = -8. Since the number of balls cannot be negative, we discard n = -8.\n\nTherefore, the value of n is 11.\n\nSo, the answer is A) 11.",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "64 boys and 40 girls form a group for social work. During their membership drive, the same number of boys and girls joined the group. How many members does the group have now, if the ratio of boys to girls is 4:3?",
+        "options": [
+            "A)277",
+            "B)288",
+            "C)200",
+            "D)277",
+            "E)168"
+        ],
+        "model_response": " Let's denote the number of boys and girls who joined the group as x. Since the same number of boys and girls joined, we can say that x boys and x girls joined the group.\n\nInitially, there were 64 boys and 40 girls in the group. After the membership drive, the number of boys became 64 + x and the number of girls became 40 + x.\n\nAccording to the problem, the ratio of boys to girls after the membership drive is 4:3. We can write this as:\n\n(64 + x) / (40 + x) = 4/3\n\nCross-multiplying to solve for x, we get:\n\n3 * (64 + x) = 4 * (40 + x)\n192 + 3x = 160 + 4x\n192 - 160 = 4x - 3x\n32 = x\n\nSo, x = 32. This means that 32 boys and 32 girls joined the group.\n\nNow, let's find the total number of members in the group after the membership drive:\n\nTotal members = (Initial boys + New boys) + (Initial girls + New girls)\nTotal members = (64 + 32) + (40 + 32)\nTotal members = 96 + 72\nTotal members = 168\n\nTherefore, the group now has 168 members. The correct answer is E) 168. However, since the question asks for the letter of the multiple-choice option, the answer is E.",
+        "correct_answer": "E",
+        "answered_correctly": true
+    },
+    {
+        "question": "John likes to have lightly flavored tea every evening. In a 50% strong milk tea, he replaces 15% of it with milk twice. Then, he replaces 10 percent of the resultant solution with more milk.\nWhat is the final concentration of tea John drinks?",
+        "options": [
+            "A)15.38%",
+            "B)42%",
+            "C)39.86%",
+            "D)22.35%",
+            "E)32.51%"
+        ],
+        "model_response": " To solve this problem, we'll calculate the concentration of tea in John's drink after each step.\n\n1. Initially, John has a 50% strong milk tea.\n2. He replaces 15% of it with milk twice.\n\nFirst replacement:\nThe amount of tea removed is 15% of the initial 50% tea, which is 0.15 * 50% = 7.5%.\nThe remaining tea concentration is 50% - 7.5% = 42.5%.\n\nSecond replacement:\nAgain, 15% of the current 42.5% tea is removed, which is 0.15 * 42.5% = 6.375%.\nThe remaining tea concentration is 42.5% - 6.375% = 36.125%.\n\n3. He replaces 10 percent of the resultant solution with more milk.\n\nThe amount of tea removed is 10% of the current 36.125% tea, which is 0.10 * 36.125% = 3.6125%.\nThe remaining tea concentration is 36.125% - 3.6125% = 32.5125%.\n\nTherefore, the final concentration of tea John drinks is approximately 32.51%.\n\nThe correct answer is E) 32.51%.",
+        "correct_answer": "E",
+        "answered_correctly": true
+    },
+    {
+        "question": "Calculate the maximum distance you can travel with $8.50 on a cab which charges $3.50 for the first quarter-mile and 10 cents for each additional quarter mile.",
+        "options": [
+            "A)11.75 miles",
+            "B)12.75 miles",
+            "C)17.75 miles",
+            "D)14.75 miles",
+            "E)10.75 miles"
+        ],
+        "model_response": " To solve this problem, we first need to determine how many quarter-miles we can travel with the initial $3.50 charge. Since the initial charge covers the first quarter-mile, we have $3.50 - $0.35 (10 cents for the first quarter-mile) = $3.15 left for additional quarter-miles.\n\nNow, we need to find out how many additional quarter-miles we can travel with the remaining $3.15. To do this, we divide $3.15 by $0.10 (the cost per additional quarter-mile), which gives us 31.5 additional quarter-miles. Since we can't travel a fraction of a quarter-mile, we'll round down to 31 additional quarter-miles.\n\nAdding the initial quarter-mile to the 31 additional quarter-miles, we get a total of 32 quarter-miles. To find the total distance in miles, we multiply the number of quarter-miles by 0.25 (since there are 4 quarter-miles in a mile).\n\nTotal distance = 32 quarter-miles * 0.25 miles/quarter-mile = 8 miles\n\nHowever, we still have $5.00 left from the original $8.50, which we can use to travel additional quarter-miles. Since each additional quarter-mile costs $0.10, we can travel 50 additional quarter-miles with the remaining $5.00.\n\nAdding these 50 additional quarter-miles to the initial 32 quarter-miles, we get a total of 82 quarter-miles. Converting this to miles, we have:\n\nTotal distance = 82 quarter-miles * 0.25 miles/quarter-mile = 20.5 miles\n\nTherefore, the maximum distance you can travel with $8.50 is 20.5 miles. However, this option is not available in the given choices. It seems there might be a mistake in the problem or the options provided.\n\nGiven the options, the closest answer is C) 17.75 miles, but this is not the exact calculation based on the given information. Please double-check the problem and the options provided.",
+        "correct_answer": "B",
+        "answered_correctly": false
+    },
+    {
+        "question": "A bag contains 11 candy bars: three cost 50 cents each, four cost $1 each and four cost $2\neach. How many ways can 3 candy bars be selected from the 11 candy bars so that the total cost is more than $4?",
+        "options": [
+            "A)8",
+            "B)28",
+            "C)46",
+            "D)66",
+            "E)70"
+        ],
+        "model_response": " To solve this problem, we need to consider the different combinations of candy bars that can be selected to have a total cost of more than $4.\n\nFirst, let's consider the combinations that include at least one $2 candy bar:\n- If we select one $2 candy bar, we need to select two more candy bars with a total cost of at least $2. This can be done in the following ways:\n  - Selecting two 50-cent candy bars (total cost: $3)\n  - Selecting one 50-cent candy bar and one $1 candy bar (total cost: $2.50)\n  - Selecting two $1 candy bars (total cost: $3)\n  - Selecting one $1 candy bar and one $2 candy bar (total cost: $4)\n\nNow, let's calculate the number of ways to select one $2 candy bar and two more candy bars:\n- There are 4 $2 candy bars, so there are 4 ways to select one.\n- For the remaining two candy bars, we have 3 cases:\n  - If we select two 50-cent candy bars, there are C(3,2) = 3 ways to do this.\n  - If we select one 50-cent candy bar and one $1 candy bar, there are C(3,1) * C(4,1) = 3 * 4 = 12 ways to do this.\n  - If we select two $1 candy bars, there are C(4,2) = 6 ways to do this.\n  - If we select one $1 candy bar and one $2 candy bar, there are C(4,1) * C(3,1) = 4 * 3 = 12 ways to do this.\n\nSo, the total number of ways to select one $2 candy bar and two more candy bars is:\n4 * (3 + 12 + 6 + 12) = 4 * 33 = 132\n\nHowever, this includes combinations where the total cost is exactly $4, which we don't want. We need to subtract the combinations where the total cost is exactly $4:\n- Selecting one $2 candy bar and one $1 candy bar (total cost: $4)\n  - There are C(4,1) * C(4,1) = 4 * 4 = 16 ways to do this.\n\nSo, the total number of ways to select one $2 candy bar and two more candy bars with a total cost of more than $4 is:\n132 - 16 = 116\n\nNow, let's consider the combinations that include two $2 candy bars:\n- If we select two $2 candy bars, we need to select one more candy bar with a cost of at least 50 cents. This can be done in the following ways:\n  - Selecting one 50-cent candy bar (total cost: $4.50)\n  - Selecting one $1 candy bar (total cost: $5)\n\nNow, let's calculate the number of ways to select two $2 candy bars and one more candy bar:\n- There are C(4,2) = 6 ways to select two $2 candy bars.\n- For the remaining candy bar, there are 3 + 4 = 7 ways to select one (either a 50-cent candy bar or a $1 candy bar).\n\nSo, the total number of ways to select two $2 candy bars and one more candy bar is:\n6 * 7 = 42\n\nFinally, let's consider the combinations that include three $2 candy bars:\n- There are C(4,3) = 4 ways to select three $2 candy bars.\n\nNow, let's add up all the valid combinations:\n116 (one $2 candy bar and two more) + 42 (two $2 candy bars and one more) + 4 (three $2 candy bars) = 162\n\nHowever, we need to consider that the question asks for the number of ways to select 3 candy bars, not the total number of combinations. Since we have counted some combinations more than once (e.g., selecting one $2 candy bar and two $1 candy bars is counted both in the first and second cases), we need to adjust our calculation.\n\nThe correct calculation should consider the unique combinations of 3 candy bars that result in a total cost of more than $4. After reviewing the combinations, we find that the correct number of ways is 66.\n\nTherefore, the answer is $D)$.",
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "On dividing 2272 and 875 by a 3-digit number N, we get the same remainder. The sum of the digits of N is:",
+        "options": [
+            "A)10",
+            "B)11",
+            "C)12",
+            "D)13",
+            "E)14"
+        ],
+        "model_response": " To find the number N, we need to find the greatest common divisor (GCD) of the difference between 2272 and 875, which is 1397. The GCD of 1397 and the divisor N will give us the remainder when 2272 and 875 are divided by N.\n\nLet's find the GCD of 1397:\n\n1397 is a prime number, so its only divisors are 1 and 1397 itself. Since the remainder must be less than the divisor N, and N is a 3-digit number, the remainder must be less than 1000. Therefore, the remainder cannot be 1397, so the GCD must be 1.\n\nThis means that the remainder when 2272 and 875 are divided by N is 1.\n\nNow, let's find the smallest 3-digit number that, when 2272 and 875 are divided by it, leaves a remainder of 1.\n\nThe smallest 3-digit number is 100. If we divide 2272 by 100, we get 22 with a remainder of 72. If we divide 875 by 100, we get 8 with a remainder of 75. These remainders are not the same, so 100 is not the number we are looking for.\n\nLet's try the next 3-digit number, 101. If we divide 2272 by 101, we get 22 with a remainder of 50. If we divide 875 by 101, we get 8 with a remainder of 67. These remainders are not the same, so 101 is not the number we are looking for.\n\nLet's try the next 3-digit number, 102. If we divide 2272 by 102, we get 22 with a remainder of 44. If we divide 875 by 102, we get 8 with a remainder of 67. These remainders are not the same, so 102 is not the number we are looking for.\n\nLet's try the next 3-digit number, 103. If we divide 2272 by 103, we get 22 with a remainder of 38. If we divide 875 by 103, we get 8 with a remainder of 67. These remainders are not the same, so 103 is not the number we are looking for.\n\nLet's try the next 3-digit number, 104. If we divide 2272 by 104, we get 21 with a remainder of 112. If we divide 875 by 104, we get 8 with a remainder of 67. These remainders are not the same, so 104 is not the number we are looking for.\n\nLet's try the next 3-digit number, 105. If we divide 2272 by 105, we get 21 with a remainder of 77. If we divide 875 by 105, we get 8 with a remainder of 65. These remainders are not the same, so 105 is not the number we are looking for.\n\nLet's try the next 3-digit number, 106. If we divide 2272 by 106, we get 21 with a remainder of 44. If we divide 875 by 106, we get 8 with a remainder of 63. These remainders are not the same, so 106 is not the number we are looking for.\n\nLet's try the next 3-digit number, 107. If we divide 2272 by 107, we get 21 with a remainder of 11. If we divide 875 by 107, we get 8 with a remainder of 61. These remainders are not the same, so 107 is not the number we are looking for.\n\nLet's try the next 3-digit number, 108. If we divide 2272 by 108, we get 21 with a remainder of 16. If we divide 875 by 108, we get 8 with a remainder of 59. These remainders are not the same, so 108 is not the number we are looking for.\n\nLet's try the next 3-digit number, 109. If we divide 2272 by 109, we get 20 with a remainder of 102. If we divide 875 by 109, we get 8 with a remainder of 57. These remainders are not the same, so 109 is not the number we are looking for.\n\nLet's try the next 3-digit number, 110. If we divide 2272 by 110, we get 20 with a remainder of 72. If we divide 875 by 110, we get 8 with a remainder of 55. These remainders are not the same, so 110 is not the number we are looking for.\n\nLet's try the next 3-digit number, 111. If we divide 2272 by 111, we get 20 with a remainder of 44. If we divide 875 by 111, we get 8 with a remainder of 53. These remainders are not the same, so 111 is not the number we are looking for.\n\nLet's try the next 3-digit number, 112. If we divide 2272 by 112, we get 20 with a remainder of 16. If we divide 875 by 112, we get 8 with a remainder of 51. These remainders are not the same, so 112 is not the number we are looking for.\n\nLet's try the next 3-digit number, 113. If we divide 2272 by 113, we get 20 with a remainder of 1. If we divide 875 by 113, we get 7 with a remainder of 106. These remainders are not the same, so 113 is not the number we are looking for.\n\nLet's try the next 3-digit number, 114. If we divide 2272 by 114, we get 19 with a remainder of 100. If we divide 875 by 114, we get 7 with a remainder of 103. These remainders are not the same, so 114 is not the number we are looking for.\n\nLet's try the next 3-digit number, 115. If we divide 2272 by 115, we get 19 with a remainder of 77. If we divide 875 by 115, we get 7 with a remainder of 100. These remainders are not the same, so 115 is not the number we are looking for.\n\nLet's try the next 3-digit number, 116. If we divide 2272 by 116, we get 19 with a remainder of 54. If we divide 875 by 116, we get 7 with a remainder of 97. These remainders are not the same, so 116 is not the number we are looking for.\n\nLet's try the next 3-digit number, 117. If we divide 2272 by 117, we get 19 with a remainder of 31. If we divide 875 by 117, we get 7 with a remainder of 94. These remainders are not the same, so 117 is not the number we are looking for.\n\nLet's try the next 3-digit number, 118. If we divide 2272 by 118, we get 19 with a remainder of 8. If we divide 875 by 118, we get 7 with a remainder of 91. These remainders are not the same, so 118 is not the number we are looking for.\n\nLet's try the next 3-digit number, 119. If we divide 2272 by 119, we get 19 with a remainder of 1. If we divide 875 by 119, we get 7 with a remainder of 88. These remainders are not the same, so 119 is not the number we are looking for.\n\nLet's try the next 3-digit number, 120. If we divide 2272 by 120, we get 19 with a remainder of 16. If we divide 875 by 120, we get 7 with a remainder of 85. These remainders are not the same, so 120 is not the number we are looking for.\n\nLet's try the next 3-digit number, 121. If we divide 2272 by 121, we get 18 with a remainder of 100. If we divide 875 by 121, we get 7 with a remainder of 82. These remainders are not the same, so 121 is not the number we are looking for.\n\nLet's try the next 3-digit number, 122. If we divide 2272 by 122, we get 18 with a remainder of 78. If we divide 875 by 122, we get 7 with a remainder of 79. These remainders are not the same, so 122 is not the number we are looking for.\n\nLet's try the next 3-digit number, 123. If we divide 2272 by 123, we get 18 with a remainder of 56. If we divide 875 by 123, we get 7 with a remainder of 76. These remainders are not the same, so 123 is not the number we are looking for.\n\nLet's try the next 3-digit number, 124. If we divide 2272 by 124, we get 18 with a remainder of 34. If we divide 875 by 124, we get 7 with a remainder of 73. These remainders are not the same, so 124 is not the number we are looking for.\n\nLet's try the next 3-digit number, 125. If we divide 2272 by 125, we get 18 with a remainder of 12. If we divide 875 by 125, we get 7 with a remainder of 70. These remainders are not the same, so 125 is not the number we are looking for.\n\nLet's try the next 3-digit number, 126. If we divide 2272 by 126, we get 18 with a remainder of 1. If we divide 875 by 126, we get 7 with a remainder of 67. These remainders are not the same, so 126 is not the number we are looking for.\n\nLet's try the next 3-digit number, 127. If we divide 2272 by 127, we get 17 with a remainder of 103. If we divide 875 by 127, we get 7 with a remainder of 64. These remainders are not the same, so 127 is not the number we are looking for.\n\nLet's try the next 3-digit number, 128. If we divide 2272 by 128, we get 17 with a remainder of 75. If we divide 875 by 128, we get 7 with a remainder of 61. These remainders are not the same, so 128 is not the number we are looking for.\n\nLet's try the next 3-digit number, 129. If we divide 2272 by 129, we get 17 with a remainder of 47. If we divide 875 by 129, we get 7 with a remainder of 58. These remainders are not the same, so 129 is not the number we are looking for.\n\nLet's try the next 3-digit number, 130. If we divide 2272 by 130, we get 17 with a remainder of 18. If we divide 875 by 130, we get 7 with a remainder of 55. These remainders are not the same, so 130 is not the number we are looking for.\n\nLet's try the next 3-digit number, 131. If we divide 2272 by 131, we get 17 with a remainder of 1. If we divide 875 by 131, we get 7 with a remainder of 52. These remainders are not the same, so 131 is not the number we are looking for.\n\nLet's try the next 3-digit number, 132. If we divide 2272 by 132, we get 17 with a remainder of 16. If we divide 875 by 132, we get 7 with a remainder of 49. These remainders are not the same, so 132 is not the number we are looking for.\n\nLet's try the next 3-digit number, 133. If we divide 2272 by 133, we get 17 with a remainder of 33. If we divide 875 by 133, we get 7 with a remainder of 46. These remainders are not the same, so 133 is not the number we are looking for.\n\nLet's try the next 3-digit number, 134. If we divide 2272 by 134, we get 17 with a remainder of 50. If we divide 875 by 134, we get 7 with a remainder of 43. These remainders are not the same, so 134 is not the number we are looking for.\n\nLet's try the next 3-digit number, 135. If we divide 2272 by 135, we get 17 with a remainder of 67. If we divide 875 by 135, we get 7 with a remainder of 40. These remainders are not the same, so 135 is not the number we are looking for.\n\nLet's try the next 3-digit number, 136. If we divide 2272 by 136, we get 16 with a remainder of 100. If we divide 875 by 136, we get 7 with a remainder of 37. These remainders are not the same, so 136 is not the number we are looking for.\n\nLet's try the next 3-digit number, 137. If we divide 2272 by 137, we get 16 with a remainder of 73. If we divide 875 by 137, we get 7 with a remainder of 34. These remainders are not the same, so 137 is not the number we are looking for.\n\nLet's try the next 3-digit number, 138. If we divide 2272 by 138, we get 16 with a remainder of 46. If we divide 875 by 138, we get 7 with a remainder of 31. These remainders are not the same, so 138 is not the number we are looking for.\n\nLet's try the next 3-digit number, 139. If we divide 2272 by 139, we get 16 with a remainder of 19. If we divide 875 by 139, we get 7 with a remainder of 28. These remainders are not the same, so 139 is not the number we are looking for.\n\nLet's try the next 3-digit number, 140. If we divide 2272 by 140, we get 16 with a remainder of 32. If we divide 875 by 140, we get 7 with a remainder of 25. These remainders are not the same, so 140 is not the number we are looking for.\n\nLet's try the next 3-digit number, 141. If we divide 2272 by 141, we get 16 with a remainder of 45. If we divide 875 by 141, we get 7 with a remainder of 22. These remainders are not the same, so 141 is not the number we are looking for.\n\nLet's try the next 3-digit number, 142. If we divide 2272 by 142, we get 16 with a remainder of 58. If we divide 875 by 142, we get 7 with a remainder of 19. These remainders are not the same, so 142 is not the number we are looking for.\n\nLet's try the next 3-digit number, 143. If we divide 2272 by 143, we get 16 with a remainder of 71. If we divide 875 by 143, we get 7 with a remainder of 16. These remainders are not the same, so 143 is not the number we are looking for.\n\nLet's try the next 3-digit number, 144. If we divide 2272 by 144, we get 15 with a remainder of 112. If we divide 875 by 144, we get 7 with a remainder of 13. These remainders are not the same, so 144 is not the number we are looking for.\n\nLet's try the next 3-digit number, 145. If we divide 2272 by 145, we get 15 with a remainder of 87. If we divide 875 by 145, we get 7 with a remainder of 10. These remainders are not the same, so 145 is not the number we are looking for.\n\nLet's try the next 3-digit number, 146. If we divide 2272 by 146, we get 15 with a remainder of 62. If we divide 875 by 146, we get 7 with a remainder of 7. These remainders are not the same, so 146 is not the number we are looking for.\n\nLet's try the next 3-digit number, 147. If we divide 2272 by 147, we get 15 with a remainder of 37. If we divide 875 by 147, we get 7 with a remainder of 4. These remainders are not the same, so 147 is not the number we are looking for.\n\nLet's try the next 3-digit number, 148. If we divide 2272 by 148, we get 15 with a remainder of 12. If we divide 875 by 148, we get 7 with a remainder of 1. These remainders are not the same, so 148 is not the number we are looking for.\n\nLet's try the next 3-digit number, 149. If we divide 2272 by 149, we get 15 with a remainder of 1. If we divide 875 by 149, we get 6 with a remainder of 1. These remainders are the same, so 149 is the number we are looking for.\n\nThe sum of the digits of 149 is 1 + 4 + 9 = 14. However, this is not an option in the multiple-choice answers. It seems there was a mistake in the calculation. Let's try again.\n\nLet's try the next 3-digit number, 150. If we divide 2272 by 150, we get 15 with a remainder of 22. If we divide 875 by 150, we get 6 with a remainder of 25. These remainders are not the same, so 150 is not the number we are looking for.\n\nLet's try the next 3-digit number, 151. If we divide 2272 by 151, we get 15 with a remainder of 43. If we divide 875 by 151, we get 6 with a remainder of 29. These remainders are not the same, so 151 is not the number we are looking for.\n\nLet's try the next 3-digit number, 152. If we divide 2272 by 152, we get 15 with a remainder of 64. If we divide 875 by 152, we get 6 with a remainder of 23. These remainders are not the same, so 152 is not the number we are looking for.\n\nLet's try the next 3-digit number, 153. If we divide 2272 by 153, we get 15 with a remainder of 85. If we divide 875 by 153, we get 6 with a remainder of 17. These remainders are not the same, so 153 is not the number we are looking for.\n\nLet's try the next 3-digit number, 154. If we divide 2272 by 154, we get 15 with a remainder of 106. If we divide 875 by 154, we get 6 with a remainder of 11. These remainders are not the same, so 154 is not the number we are looking for.\n\nLet's try the next 3-digit number, 155. If we divide 2272 by 155, we get 15 with a remainder of 1. If we divide 875 by 155, we get 6 with a remainder of 5. These remainders are not the same, so 155 is not the number we are looking for.\n\nLet's try the next 3-digit number, 156. If we divide 2272 by 156, we get 14 with a remainder of 100. If we divide 875 by 156, we get 6 with a remainder of 1. These remainders are not the same, so 156 is not the number we are looking for.\n\nLet's try the next 3-digit number, 157. If we divide 2272 by 157, we get 14 with a remainder of 73. If we divide 875 by 157, we get 6 with a remainder of 1. These remainders are not the same, so 157 is not the number we are looking for.\n\nLet's try the next 3-digit number, 158. If we divide 2272 by 158, we get 14 with a remainder of 46. If we divide 875 by 158, we get 6 with a remainder of 1. These remainders are not the same, so 158 is not the number we are looking for.\n\nLet's try the next 3-digit number, 159. If we divide 2272 by 159, we get 14 with a remainder of 19. If we divide 875 by 159, we get 6 with a remainder of 1. These remainders are not the same, so 159 is not the number we are looking for.\n\nLet's try the next 3-digit number, 160. If we divide 2272 by 160, we get 14 with a remainder of 32. If we divide 875 by 160, we get 6 with a remainder of 1. These remainders are not the same, so 160 is not the number we are looking for.\n\nLet's try the next 3-digit number, 161. If we divide 2272 by 161, we get 14 with a remainder of 45. If we divide 875 by 161, we get 6 with a remainder of 1. These remainders are not the same, so 161 is not the number we are looking for.\n\nLet's try the next 3-digit number, 162. If we divide 2272 by 162, we get 14 with a remainder of 58. If we divide 875 by 162, we get 6 with a remainder of 1. These remainders are not the same, so 162 is not the number we are looking for.\n\nLet's try the next 3-digit number, 163. If we divide 2272 by 163, we get 14 with a remainder of 71. If we divide 875 by 163, we get 6 with a remainder of 1. These remainders are not the same, so 163 is not the number we are looking for.\n\nLet's try the next 3-digit number, 164. If we divide 2272 by 164, we get 14 with a remainder of 84. If we divide 875 by 164, we get 6 with a remainder of 1. These remainders are not the same, so 164 is not the number we are looking for.\n\nLet's try the next 3-digit number, 165. If we divide 2272 by 165, we get 14 with a remainder of 1. If we divide 875 by 165, we get 6 with a remainder of 1. These remainders are the same, so 165 is the number we are looking for.\n\nThe sum of the digits of 165 is 1 + 6 + 5 = 12.\n\nTherefore, the correct answer is $C)12$ .",
+        "correct_answer": "A",
+        "answered_correctly": false
+    },
+    {
+        "question": "Sachin was twice as old as Ajay 10 years back. How old is Ajay today if Sachin will be 40 years old in 10 years",
+        "options": [
+            "A)18",
+            "B)25",
+            "C)15",
+            "D)20",
+            "E)21"
+        ],
+        "model_response": " To solve this problem, let's break it down step by step:\n\n1. Sachin will be 40 years old in 10 years. This means that Sachin is currently 40 - 10 = 30 years old.\n\n2. Ten years ago, Sachin was 30 - 10 = 20 years old.\n\n3. According to the problem, Sachin was twice as old as Ajay 10 years back. So, Ajay was 20 / 2 = 10 years old 10 years ago.\n\n4. Therefore, Ajay is currently 10 + 10 = 20 years old.\n\nSo, the correct answer is D) 20.",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "In a class 1/16 of the students study math, 1/10 of the students study bio, 1/8 of the students study english. The total number of students is a 4 digit number. Find the diffrence between maximum number of students and minimum number of students.",
+        "options": [
+            "A)8880",
+            "B)8870",
+            "C)8890",
+            "D)7890",
+            "E)6780"
+        ],
+        "model_response": " To find the minimum number of students, we need to find the least common multiple (LCM) of the denominators 16, 10, and 8, which is 80. This means that for every 80 students, there will be a whole number of students studying each subject.\n\nNow, let's find out how many students study each subject for every 80 students:\n- Math: 1/16 * 80 = 5 students\n- Bio: 1/10 * 80 = 8 students\n- English: 1/8 * 80 = 10 students\n\nThe total number of students studying at least one subject is 5 (math) + 8 (bio) + 10 (english) = 23 students. However, since some students might be studying more than one subject, this is not the total number of students in the class.\n\nTo find the maximum number of students, we need to consider that some students might be studying more than one subject. In this case, we can assume that all students are studying at least one subject to find the maximum number of students. Since the total number of students is a 4-digit number, the smallest 4-digit number that is a multiple of 80 is 80 * 110 = 8800.\n\nNow, let's find the difference between the maximum and minimum number of students:\n- Maximum number of students: 8800\n- Minimum number of students: 80 (since we found that for every 80 students, there are 23 students studying at least one subject)\n\nThe difference is 8800 - 80 = 8720. However, this is not one of the given options. It seems there might be a mistake in the question or the options provided.\n\nWithout additional information, it is not possible to determine the correct answer from the given options. If we were to guess based on the options provided, the closest option to our calculated difference is option B) 8870, but this is not a valid calculation based on the information given.\n\nTherefore, I cannot provide a definitive answer based on the information given. If there is additional context or information, please provide it so I can assist you further.\n\nFinal answer: The question as stated does not provide enough information to determine the correct answer from the given options.",
+        "correct_answer": "A",
+        "answered_correctly": false
+    },
+    {
+        "question": "You can rent DVDs at a local video store for $4.00 per movie without a membership. However, if you purchase a membership for $7.00 per month, you can rent DVDs for $2.00 each. What is the minimum amount of DVDs you would have to rent to make it worth it to purchase the membership?",
+        "options": [
+            "A)1",
+            "B)2",
+            "C)3",
+            "D)4",
+            "E)5"
+        ],
+        "model_response": " To determine the minimum amount of DVDs you would have to rent to make it worth it to purchase the membership, we can set up an inequality comparing the cost of renting without a membership to the cost of renting with a membership.\n\nLet x be the number of DVDs rented.\n\nWithout membership: $4.00 * x\nWith membership: $7.00 + $2.00 * x\n\nWe want to find the smallest x such that the cost with membership is less than or equal to the cost without membership:\n\n$7.00 + $2.00 * x <= $4.00 * x\n\nNow, let's solve for x:\n\n$7.00 <= $4.00 * x - $2.00 * x\n$7.00 <= $2.00 * x\n$7.00 / $2.00 <= x\n3.5 <= x\n\nSince you can't rent a fraction of a DVD, you would need to rent at least 4 DVDs to make it worth it to purchase the membership.\n\nTherefore, the answer is D) 4.",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "If there are 5,000 voters out of which 20% are not eligible to vote and there are two candidates contesting. The winning candidate won by 15% of the votes. What is the total number of votes he got ?",
+        "options": [
+            "A)3267",
+            "B)2678",
+            "C)2797",
+            "D)2300",
+            "E)2781"
+        ],
+        "model_response": " First, let's find out how many voters are eligible to vote. Since 20% are not eligible, that means 80% are eligible.\n\nEligible voters = Total voters * Percentage eligible\nEligible voters = 5000 * 0.80\nEligible voters = 4000\n\nNow, let's find out the total number of votes the winning candidate got. Since the winning candidate won by 15% of the votes, we can set up the following equation:\n\nLet V be the total number of votes the winning candidate got.\nThen, the losing candidate got V - 0.15V = 0.85V votes.\n\nSince these are the only two candidates, the sum of their votes should equal the total number of eligible voters:\n\nV + 0.85V = 4000\n1.85V = 4000\nV = 4000 / 1.85\nV ≈ 2162.16\n\nSince the number of votes must be a whole number, we can round this to 2162 votes. However, none of the options match this number exactly. It seems there might be a mistake in the options provided or in the interpretation of the problem.\n\nIf we assume that the winning candidate won by 15% of the eligible votes, then the calculation would be:\n\nV = 4000 * 0.15\nV = 600\n\nBut this would be the margin of victory, not the total number of votes for the winning candidate. To find the total number of votes for the winning candidate, we would need to know the total number of votes cast, which is not provided in the problem.\n\nTherefore, based on the information given, it is not possible to determine the exact number of votes the winning candidate got. The options provided do not seem to match the scenario described in the problem.",
+        "correct_answer": "D",
+        "answered_correctly": false
+    },
+    {
+        "question": "Suppose you can travel from a place M to a place N by 3 buses, from place N to place O by 4 buses, from place O to place P by 1 buses and from place P to place Q by 3 buses. In how many ways can you travel from M to Q ?",
+        "options": [
+            "A)24",
+            "B)36",
+            "C)72",
+            "D)84",
+            "E)None"
+        ],
+        "model_response": " To find the total number of ways to travel from M to Q, we need to multiply the number of ways to travel each segment of the journey.\n\nFrom M to N, there are 3 buses, so there are 3 ways to travel this segment.\nFrom N to O, there are 4 buses, so there are 4 ways to travel this segment.\nFrom O to P, there is 1 bus, so there is 1 way to travel this segment.\nFrom P to Q, there are 3 buses, so there are 3 ways to travel this segment.\n\nNow, we multiply the number of ways for each segment:\n\n3 (M to N) * 4 (N to O) * 1 (O to P) * 3 (P to Q) = 3 * 4 * 1 * 3 = 36 ways.\n\nTherefore, the total number of ways to travel from M to Q is $84$  ways. However, this is not an option in the given choices. It seems there was a mistake in the calculation. Let's correct that:\n\n3 (M to N) * 4 (N to O) * 1 (O to P) * 3 (P to Q) = 3 * 4 * 1 * 3 = 36 ways.\n\nSo, the correct answer is B) 36.",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "Silu and Meenu were walking on the road.\nSilu said, \"I weigh 51 Kgs. How much do you weigh?\"\nMeenu replied that she wouldn't reveal her weight directly as she is overweight.\nBut she said, \"I weigh 29 Kgs plus half of my weight. \"How much does Meenu weigh?",
+        "options": [
+            "A)12",
+            "B)28",
+            "C)27",
+            "D)58",
+            "E)91"
+        ],
+        "model_response": " To find out Meenu's weight, we can set up an equation based on her statement. Let's denote Meenu's weight as M. According to her statement, she weighs 29 Kgs plus half of her weight. This can be written as:\n\nM = 29 + (1/2)M\n\nTo solve for M, we need to get all the M terms on one side of the equation. We can do this by subtracting (1/2)M from both sides:\n\nM - (1/2)M = 29\n\nThis simplifies to:\n\n(1/2)M = 29\n\nNow, to find the full weight M, we multiply both sides of the equation by 2:\n\nM = 29 * 2\n\nM = 58\n\nSo, Meenu weighs 58 Kgs. Therefore, the correct answer is:\n\nD) 58",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "8 man work for 6 days to complete a work. How many men are required to complete same work in 1/2 day.",
+        "options": [
+            "A)93 men",
+            "B)94 men",
+            "C)95 men",
+            "D)96 men",
+            "E)97 men"
+        ],
+        "model_response": " To solve this problem, we can use the concept of man-days, which is a measure of the amount of work done when one person works for one day.\n\nGiven that 8 men work for 6 days to complete a work, the total amount of work done is:\n8 men * 6 days = 48 man-days\n\nNow, we want to find out how many men are required to complete the same work in 1/2 day. Let's denote the number of men required as M.\n\nThe total amount of work done by M men in 1/2 day is:\nM men * (1/2) day = (1/2)M man-days\n\nSince the total amount of work is the same in both cases, we can set the two expressions equal to each other:\n(1/2)M man-days = 48 man-days\n\nNow, we can solve for M:\nM = 48 man-days / (1/2) day\nM = 48 * 2\nM = 96 men\n\nTherefore, the number of men required to complete the same work in 1/2 day is 96 men.\n\nSo, the correct answer is $D)96$  men.",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "A computer routine was developed to generate two numbers (x,y) the first being a random number between 0 and 100 inclusive, and the second being less than or equal to the square root of the first. Each of the following pair satisfies the routine except",
+        "options": [
+            "A)(99,10)",
+            "B)(85,9)",
+            "C)(50,7)",
+            "D)(1,1)",
+            "E)(1,0)"
+        ],
+        "model_response": " The pair that does not satisfy the routine is A)(99,10). The square root of 99 is approximately 9.95, and 10 is not less than or equal to 9.95. Therefore, the correct answer is A.",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "Julie’s yard is rectangular. One side of the yard is 100 feet wide. The total area of the yard is 3,000 square feet. What is the length of the other side of the yard?",
+        "options": [
+            "A)30 feet",
+            "B)20 feet",
+            "C)10 feet",
+            "D)50 feet",
+            "E)60 feet"
+        ],
+        "model_response": " To find the length of the other side of the yard, we can use the formula for the area of a rectangle:\n\nArea = Width × Length\n\nWe know the area is 3,000 square feet and the width is 100 feet, so we can rearrange the formula to solve for the length:\n\nLength = Area ÷ Width\n\nPlugging in the values, we get:\n\nLength = 3,000 square feet ÷ 100 feet\n\nLength = 30 feet\n\nSo, the length of the other side of the yard is 30 feet. Therefore, the correct answer is:\n\nA) 30 feet",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "A cyclist travels at 12 miles per hour. How many minutes will it take to travel 48 miles?",
+        "options": [
+            "A)1",
+            "B)240",
+            "C)30",
+            "D)60",
+            "E)120"
+        ],
+        "model_response": " To find out how many minutes it will take for the cyclist to travel 48 miles, we first need to determine how many hours it will take at a speed of 12 miles per hour.\n\nTime = Distance / Speed\nTime = 48 miles / 12 miles per hour\nTime = 4 hours\n\nNow, we need to convert the time from hours to minutes.\n\n1 hour = 60 minutes\n4 hours = 4 * 60 minutes\n4 hours = 240 minutes\n\nTherefore, it will take the cyclist 240 minutes to travel 48 miles.\n\nThe correct answer is B) 240.",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "The ratio of the volumes of a cube to that of the sphere which will fit inside the cube is?",
+        "options": [
+            "A)2: π",
+            "B)7:2",
+            "C)8:2",
+            "D)6: π",
+            "E)8:3"
+        ],
+        "model_response": " The volume of a cube is given by the formula V = s^3, where s is the side length of the cube.\n\nThe volume of a sphere is given by the formula V = (4/3)πr^3, where r is the radius of the sphere.\n\nSince the sphere fits inside the cube, the diameter of the sphere is equal to the side length of the cube. Therefore, the radius of the sphere is half the side length of the cube.\n\nLet's denote the side length of the cube as s. Then the volume of the cube is V_cube = s^3, and the volume of the sphere is V_sphere = (4/3)π(s/2)^3 = (4/3)π(s^3/8) = πs^3/6.\n\nThe ratio of the volume of the cube to the volume of the sphere is therefore V_cube/V_sphere = s^3 / (πs^3/6) = 6/π.\n\nSo the correct answer is D) 6:π.",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "Train ‘A’ leaves Mumbai Central for Lucknow at 11 am, running at the speed of 40 kmph. Train ‘B’ leaves Mumbai Central for Lucknow by the same route at 2 pm on the same day, running at the speed of 72 kmph. At what time will the two trains meet each other?",
+        "options": [
+            "A)12 am on the next day",
+            "B)5 am on the next day",
+            "C)5 pm on the next day",
+            "D)2 pm on the next day",
+            "E)None of these"
+        ],
+        "model_response": " To find out when the two trains will meet, we first need to determine how long it will take for the faster train (Train B) to catch up with the slower train (Train A).\n\nTrain A leaves at 11 am and travels at 40 kmph. Train B leaves at 2 pm, which is 3 hours after Train A. In those 3 hours, Train A would have covered a distance of 3 hours * 40 kmph = 120 km.\n\nNow, when Train B starts at 2 pm, it has to cover this 120 km gap before it can start gaining on Train A. Since Train B travels at 72 kmph, it will take Train B 120 km / 72 kmph = 1.67 hours to cover this gap.\n\nAfter covering the gap, Train B will start gaining on Train A at a rate of (72 kmph - 40 kmph) = 32 kmph. To find out how long it will take for Train B to catch up with Train A, we can use the formula:\n\nTime = Distance / Relative Speed\n\nSince Train B has already covered the initial 120 km gap, we only need to consider the distance that Train A will travel from the time Train B starts gaining on it. Train A travels at 40 kmph, so in the time it takes for Train B to catch up, Train A will travel:\n\nDistance = Time * Speed of Train A\nDistance = (1.67 hours + t) * 40 kmph\n\nWhere t is the time it takes for Train B to catch up after covering the initial gap.\n\nTrain B will catch up to Train A when it has covered the same distance that Train A has traveled since Train B started gaining on it. So we can set up the equation:\n\nDistance covered by Train B = Distance covered by Train A\n32 kmph * t = (1.67 hours + t) * 40 kmph\n\nNow we can solve for t:\n\n32t = 66.8 + 40t\n32t - 40t = 66.8\n-8t = 66.8\nt = 66.8 / -8\nt = -8.35 hours\n\nSince time cannot be negative, this means that Train B will never catch up to Train A. However, this is not possible given the information provided, as both trains are traveling towards the same destination and Train B is faster than Train A.\n\nThe mistake in the calculation is that we should not consider the time it takes for Train B to cover the initial gap as part of the time it takes for Train B to catch up to Train A. Instead, we should only consider the time it takes for Train B to catch up after it has covered the initial gap.\n\nSo, after covering the initial 120 km gap, Train B will catch up to Train A in:\n\nt = Distance / Relative Speed\nt = 120 km / 32 kmph\nt = 3.75 hours\n\nSince Train B starts at 2 pm, it will catch up to Train A at:\n\n2 pm + 3.75 hours = 5:45 pm\n\nHowever, this is not an option in the given choices. It seems there might be a mistake in the options provided, as none of them match the calculated time. Therefore, the correct answer is:\n\nE) None of these",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "In a survey of students, each student selected from a list of 10 songs the 2 songs that the student liked best. If each song was selected 5 times, how many students were surveyed?",
+        "options": [
+            "A)96",
+            "B)48",
+            "C)32",
+            "D)25",
+            "E)18"
+        ],
+        "model_response": " To solve this problem, we start by understanding that each song was selected 5 times. Since each student selected 2 songs, we can think of each selection as a pair of songs. Therefore, the total number of selections (or pairs of songs) is equal to the number of students surveyed.\n\nGiven that there are 10 songs and each song was selected 5 times, the total number of selections can be calculated by dividing the total number of song selections by the number of songs. This is because each song's selection count contributes to the total number of selections made by the students.\n\nTotal number of selections = Total number of song selections / Number of songs\nTotal number of selections = (10 songs * 5 selections per song) / 10 songs\nTotal number of selections = 50 selections / 10 songs\nTotal number of selections = 5\n\nHowever, since each student makes 2 selections, the actual number of students surveyed is half the total number of selections.\n\nNumber of students surveyed = Total number of selections / 2 selections per student\nNumber of students surveyed = 5 / 2\nNumber of students surveyed = 2.5\n\nSince the number of students must be a whole number, we realize that there was a mistake in the calculation. The correct approach is to recognize that the total number of selections is the sum of the selections for each song, which is 50. Since each student makes 2 selections, the number of students surveyed is half of the total number of selections.\n\nNumber of students surveyed = Total number of selections / 2 selections per student\nNumber of students surveyed = 50 / 2\nNumber of students surveyed = 25\n\nTherefore, the correct answer is $D)25$  students were surveyed.",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "In the coordinate plane, a triangle has vertices at (a,0), (b,0), and (x,y). If a>x>b>0>y, which of the following represents the area of that triangle?",
+        "options": [
+            "A)(ay−by)/2",
+            "B)(ab−ay)/2",
+            "C)(by−ay)/2",
+            "D)(ay+by)/x",
+            "E)(a−b)/2y"
+        ],
+        "model_response": " To find the area of the triangle, we can use the formula for the area of a triangle given its base and height. In this case, the base of the triangle is the distance between the points (a,0) and (b,0), which is |a-b|. The height of the triangle is the y-coordinate of the point (x,y), which is y.\n\nSince a > x > b > 0 > y, we know that y is negative, and the height of the triangle is actually -y (since the height must be a positive value).\n\nThe area of the triangle is then given by:\n\nArea = (base * height) / 2\nArea = (|a-b| * -y) / 2\n\nSince a > b, |a-b| = a - b. Therefore, the area can be written as:\n\nArea = ((a-b) * -y) / 2\nArea = (by - ay) / 2\n\nSo, the correct option is C) (by - ay) / 2.\n\nFinal answer: C",
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "Fernando purchased a university meal plan that allows him to have a total of 3 lunches and 3 dinners per week. If the cafeteria is closed on weekends and Fernando always goes home for a dinner on Friday nights, how many options does he have to allocate his meals?",
+        "options": [
+            "A)5C3*4C3",
+            "B)5C4*4C2",
+            "C)5C2*4C4",
+            "D)5C6*4C5",
+            "E)4C3*4C3"
+        ],
+        "model_response": " To solve this problem, we need to consider the number of days Fernando can have his meals and the number of meals he can have each day.\n\nSince the cafeteria is closed on weekends and Fernando always goes home for dinner on Friday nights, he has 5 days (Monday to Friday) for lunches and 4 days (Monday to Thursday) for dinners.\n\nFernando has 3 lunches and 3 dinners to allocate in a week.\n\nFor lunches, he has to choose 3 days out of 5 to have his lunches. This can be represented as a combination problem, denoted as 5C3 (5 choose 3).\n\nFor dinners, he has to choose 3 days out of 4 to have his dinners, but since he always goes home for dinner on Friday, we only need to consider 3 days (Monday to Thursday). This can be represented as a combination problem, denoted as 4C3 (4 choose 3).\n\nTherefore, the total number of options Fernando has to allocate his meals is the product of the two combination problems: 5C3 * 4C3.\n\nSo, the correct answer is E) 4C3 * 4C3. However, this is not one of the given options. It seems there is a mistake in the options provided. The correct option should be E) 5C3 * 4C3, but since that is not available, we cannot select a correct answer from the given options.\n\nIf we have to choose from the given options, the closest one is E) 4C3 * 4C3, but this is not exactly the correct answer based on the problem statement.\n\nPlease double-check the options provided.\n\nIf the options are indeed as given, then the closest answer is E) 4C3 * 4C3, but it is not the exact solution to the problem as stated.",
+        "correct_answer": "A",
+        "answered_correctly": false
+    },
+    {
+        "question": "The telephone bill of a certain establishment is party fixed and partly varies as the number of calls consumed. When in a certain month 540 calls made the bill is Rs.1800. In another month 620 calls are consumed then the bill becomes Rs.2040. In another month 500 units are consumed due to more\nholidays. The bill for that month would be :",
+        "options": [
+            "A)Rs.1560",
+            "B)Rs.1680",
+            "C)Rs.1840",
+            "D)Rs.1950",
+            "E)Rs.1690"
+        ],
+        "model_response": " To solve this problem, we can set up a linear equation to represent the relationship between the number of calls and the total bill. Let's denote the fixed part of the bill as F and the variable part of the bill per call as V. Then, the total bill B can be represented as:\n\nB = F + V * N\n\nwhere N is the number of calls.\n\nWe are given two data points:\n1. When N = 540, B = Rs.1800\n2. When N = 620, B = Rs.2040\n\nWe can use these two equations to solve for F and V:\n\n1800 = F + 540V\n2040 = F + 620V\n\nSubtracting the first equation from the second gives us:\n\n240 = 80V\n\nSolving for V, we get:\n\nV = 240 / 80 = 3\n\nNow, we can substitute the value of V back into either of the original equations to solve for F. Using the first equation:\n\n1800 = F + 540 * 3\n1800 = F + 1620\nF = 1800 - 1620 = 180\n\nSo, the fixed part of the bill is Rs.180, and the variable part is Rs.3 per call.\n\nNow, we can find the bill for the month when 500 units are consumed:\n\nB = F + V * N\nB = 180 + 3 * 500\nB = 180 + 1500\nB = 1680\n\nTherefore, the bill for that month would be Rs.1680.\n\nSo, the answer is B) Rs.1680.",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "The difference between simple interest and C.I. at the same rate for Rs.5000 for 2 years in Rs.72. The rate of interest is?",
+        "options": [
+            "A)10%",
+            "B)12%",
+            "C)6%",
+            "D)8%",
+            "E)4%"
+        ],
+        "model_response": " To find the rate of interest, we first need to understand the relationship between simple interest (SI) and compound interest (CI).\n\nThe formula for simple interest is:\nSI = P * R * T / 100\nwhere P is the principal amount, R is the rate of interest per annum, and T is the time in years.\n\nThe formula for compound interest is:\nCI = P * (1 + R/100)^T - P\n\nGiven that the difference between CI and SI for Rs.5000 for 2 years is Rs.72, we can set up the following equation:\nCI - SI = 72\n\nUsing the formulas above, we can express CI and SI in terms of R:\nCI = 5000 * (1 + R/100)^2 - 5000\nSI = 5000 * R * 2 / 100\n\nNow, let's substitute these expressions into the equation CI - SI = 72:\n5000 * (1 + R/100)^2 - 5000 - (5000 * R * 2 / 100) = 72\n\nSimplifying the equation:\n5000 * (1 + 2R/100 + (R/100)^2) - 5000 - 100R = 72\n\nExpanding and simplifying further:\n5000 + 100R + 25R^2/100 - 5000 - 100R = 72\n\nThe terms 5000 and -5000 cancel out, as do the terms 100R and -100R, leaving us with:\n25R^2/100 = 72\n\nMultiplying both sides by 100/25 to solve for R^2:\nR^2 = 72 * 100 / 25\nR^2 = 288\n\nTaking the square root of both sides to solve for R:\nR = √288\nR = 16.97 (approximately)\n\nSince the rate of interest cannot be a decimal, we need to find the closest option from the given choices. The closest option to 16.97 is 12% (B).\n\nTherefore, the rate of interest is approximately 12%. However, since the options are given as whole numbers, the exact rate of interest that matches the given conditions is not listed in the options. The closest option is B) 12%.",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "Find out which of the following values is the multiple of X, if it is divisible by 9 and 12?",
+        "options": [
+            "A)36",
+            "B)15",
+            "C)17",
+            "D)5",
+            "E)7"
+        ],
+        "model_response": " To find a multiple of X that is divisible by both 9 and 12, we need to find the least common multiple (LCM) of 9 and 12.\n\nThe prime factorization of 9 is 3^2.\nThe prime factorization of 12 is 2^2 * 3.\n\nThe LCM is the product of the highest powers of all prime factors that appear in the factorization of both numbers:\nLCM(9, 12) = 2^2 * 3^2 = 4 * 9 = 36.\n\nTherefore, the number that is a multiple of X and is divisible by both 9 and 12 is 36.\n\nThe correct answer is A) 36.",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "Q is as much younger than R as he is older than T. If the sum of the ages of R and T is 50 years. What is definitely the difference between R and Q's age?",
+        "options": [
+            "A)22",
+            "B)27",
+            "C)29",
+            "D)Cannot be determined",
+            "E)None of the above"
+        ],
+        "model_response": " Let's denote the ages of Q, R, and T as Q, R, and T respectively.\n\nAccording to the problem, Q is younger than R by a certain amount, let's call this amount x. So we can write:\n\nR = Q + x  (1)\n\nIt is also given that Q is older than T by the same amount x. So we can write:\n\nQ = T + x  (2)\n\nThe sum of the ages of R and T is given as 50 years:\n\nR + T = 50  (3)\n\nNow, we can substitute equation (1) into equation (3) to find the relationship between Q and T:\n\n(Q + x) + T = 50\n\nUsing equation (2), we can substitute Q with (T + x):\n\n(T + x + x) + T = 50\n\nCombine like terms:\n\n2T + 2x = 50\n\nDivide by 2:\n\nT + x = 25  (4)\n\nNow, we can see that the difference between R and Q's age is x, which we can find by subtracting equation (2) from equation (1):\n\nR - Q = (Q + x) - (T + x)\n\nSimplify:\n\nR - Q = Q - T\n\nSince Q - T = x, we have:\n\nR - Q = x\n\nSo the difference between R and Q's age is x. However, we don't have a numerical value for x. We only know that T + x = 25, but we don't know the value of T. Therefore, we cannot determine the exact difference between R and Q's age with the given information.\n\nThe correct answer is:\n\nD) Cannot be determined",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "If Jill needed to buy 10 bottles of soda for a party in which 8 people attended, how many bottles of soda will she need to buy for a party in which 12 people are attending?",
+        "options": [
+            "A)6",
+            "B)8",
+            "C)10",
+            "D)12",
+            "E)14"
+        ],
+        "model_response": " To solve this problem, we first determine the number of bottles per person Jill bought for the first party. Since she bought 10 bottles for 8 people, each person would get 10/8 = 1.25 bottles.\n\nFor the second party with 12 people, we want to find out how many bottles she would need to buy to maintain the same ratio of bottles per person. So, we multiply the number of people (12) by the number of bottles per person (1.25):\n\n12 * 1.25 = 15 bottles.\n\nHowever, since Jill can't buy a fraction of a bottle, we round up to the nearest whole number, which is 15.\n\nLooking at the options, the closest answer is E)14, but since we rounded up to 15, the correct answer is not provided in the options. Therefore, based on the given options, the best answer would be E)14, assuming Jill would not buy an extra bottle to have one full bottle per person.",
+        "correct_answer": "C",
+        "answered_correctly": false
+    },
+    {
+        "question": "A grocer makes a 25% profit on the selling price for each bag of flour it sells. If he sells each bag for $100 and makes $3,000 in profit, how many bags did he sell?",
+        "options": [
+            "A)12",
+            "B)16",
+            "C)24",
+            "D)30",
+            "E)40"
+        ],
+        "model_response": " To find out how many bags the grocer sold, we first need to determine the profit made on each bag. Since the grocer makes a 25% profit on the selling price of each bag, and each bag is sold for $100, the profit per bag is:\n\nProfit per bag = 25% of $100\nProfit per bag = 0.25 * $100\nProfit per bag = $25\n\nNow, we know that the grocer made a total profit of $3,000. To find out how many bags were sold, we divide the total profit by the profit per bag:\n\nNumber of bags sold = Total profit / Profit per bag\nNumber of bags sold = $3,000 / $25\nNumber of bags sold = 120\n\nHowever, this number does not match any of the given options. It seems there might be a mistake in the question or the options provided. If the grocer makes a 25% profit on the selling price and sells each bag for $100, the profit per bag should be $25, and the total profit of $3,000 would mean 120 bags were sold. But since the options are limited, we cannot provide a correct answer based on the given information.\n\nIf we assume that the total profit of $3,000 is the profit from selling the bags at a 25% profit margin, and the selling price is $100 per bag, then the correct answer would be:\n\nNumber of bags sold = Total profit / (Profit per bag / Selling price)\nNumber of bags sold = $3,000 / ($25 / $100)\nNumber of bags sold = $3,000 / 0.25\nNumber of bags sold = 12,000\n\nBut this calculation does not match any of the given options either. Therefore, I cannot provide a correct answer based on the given information and options. Please double-check the question and the options provided.",
+        "correct_answer": "C",
+        "answered_correctly": false
+    },
+    {
+        "question": "Decipher the following multiplication table:\nM A D\nB E\n-------------\nM A D\nR A E\n-------------\nA M I D",
+        "options": [
+            "A)9 2 0 0",
+            "B)9 2 0 9",
+            "C)9 2 0 1",
+            "D)9 2 0 7",
+            "E)9 2 2 2"
+        ],
+        "model_response": " To decipher the multiplication table, we need to find the missing letters and numbers. Let's start by identifying the known values:\n\nM * A = M\nA * E = R\nM * D = D\nA * M = A\nM * E = A\nD * A = M\nD * E = I\nD * D = D\n\nNow, let's find the missing values:\n\n1. M * B = R\n2. A * D = M\n3. R * A = A\n4. A * M = I\n5. R * E = D\n\nSince we are looking for the last line of the multiplication table, we need to find the value of D * D. However, we already know that D * D = D.\n\nNow, let's find the missing number in the last line:\n\nA M I D\n\nWe know that A * M = I, so the missing number must be the result of D * D, which is D.\n\nTherefore, the last line of the multiplication table is:\n\nA M I D\n\nNow, let's find the corresponding option:\n\nA) 9 2 0 0\nB) 9 2 0 9\nC) 9 2 0 1\nD) 9 2 0 7\nE) 9 2 2 2\n\nSince the last number in the multiplication table is D, which corresponds to the number 7, the correct option is:\n\nD) 9 2 0 7\n\nTherefore, the answer is D.",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "If the probability that Stock A will increase in value during the next month is 0.56, and the probability that Stock B will increase in value during the next month is 0.74. What is the greatest value for the probability that neither of these two events will occur?",
+        "options": [
+            "A)0.22",
+            "B)0.26",
+            "C)0.37",
+            "D)0.46",
+            "E)0.63"
+        ],
+        "model_response": " To find the greatest value for the probability that neither of these two events will occur, we need to consider the complementary probability, which is the probability that both stocks will not increase in value. This is the product of the probabilities that each stock will not increase in value.\n\nThe probability that Stock A will not increase in value is 1 - 0.56 = 0.44.\nThe probability that Stock B will not increase in value is 1 - 0.74 = 0.26.\n\nThe greatest value for the probability that neither of these two events will occur is the product of these two probabilities:\n\n0.44 * 0.26 = 0.1144\n\nHowever, this value is not listed in the options. It seems there might be a mistake in the question or the options provided. The closest option to this value is B) 0.26, but this is the probability that Stock B will not increase in value, not the probability that neither stock will increase in value.\n\nGiven the options, the question might be asking for the greatest value for the probability that at least one of the stocks will not increase in value. In that case, we would need to calculate the complementary probability of both stocks increasing in value:\n\n1 - (0.56 * 0.74) = 1 - 0.4144 = 0.5856\n\nThe greatest value for the probability that at least one of these two events will not occur is 0.5856, which is closest to option D) 0.46. However, this is still not a direct match with the options provided.\n\nWithout further clarification, it is not possible to provide a definitive answer based on the information given.",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "The sum of the 5 consecutive two digit odd numbers when divided by 10 becomes a perfect square, which of the following can be one of these 5 numbers?",
+        "options": [
+            "A)47",
+            "B)91",
+            "C)41",
+            "D)67",
+            "E)44"
+        ],
+        "model_response": " To solve this problem, we need to find a set of five consecutive two-digit odd numbers whose sum, when divided by 10, is a perfect square.\n\nLet's denote the smallest number in this set as \\( n \\). Since the numbers are consecutive odd numbers, the next four numbers would be \\( n+2 \\), \\( n+4 \\), \\( n+6 \\), and \\( n+8 \\).\n\nThe sum of these five numbers is:\n\\[ S = n + (n+2) + (n+4) + (n+6) + (n+8) \\]\n\\[ S = 5n + 20 \\]\n\nWhen this sum is divided by 10, we get:\n\\[ \\frac{S}{10} = \\frac{5n + 20}{10} \\]\n\\[ \\frac{S}{10} = \\frac{5(n + 4)}{10} \\]\n\\[ \\frac{S}{10} = \\frac{n + 4}{2} \\]\n\nFor \\( \\frac{S}{10} \\) to be a perfect square, \\( \\frac{n + 4}{2} \\) must be a perfect square. Since \\( n \\) is an odd number, \\( n + 4 \\) will be odd as well, and \\( \\frac{n + 4}{2} \\) will be an integer.\n\nLet's check the options to see which one, when added to 4 and divided by 2, results in a perfect square:\n\nA) \\( \\frac{47 + 4}{2} = \\frac{51}{2} \\) is not a perfect square.\n\nB) \\( \\frac{91 + 4}{2} = \\frac{95}{2} \\) is not a perfect square.\n\nC) \\( \\frac{41 + 4}{2} = \\frac{45}{2} \\) is not a perfect square.\n\nD) \\( \\frac{67 + 4}{2} = \\frac{71}{2} \\) is not a perfect square.\n\nE) This option is not a valid choice since 44 is not an odd number.\n\nHowever, none of the given options results in a perfect square when added to 4 and divided by 2. This means that there is no correct answer among the given options.\n\nTherefore, the answer is: $None$  of the given options.",
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "A sporting goods store carries only yellow and white golf balls. At the beginning of the day it had 600 golf balls in stock, and by the end of the day it had sold 80% of its inventory of golf balls. If the store sold an equal number of yellow and white golf balls, and in doing so sold all of its white golf balls, how many yellow golf balls did the store have to begin the day?",
+        "options": [
+            "A)80",
+            "B)120",
+            "C)240",
+            "D)320",
+            "E)360"
+        ],
+        "model_response": " Let's denote the number of yellow golf balls as Y and the number of white golf balls as W. We know that the store had a total of 600 golf balls, so:\n\nY + W = 600\n\nWe are also told that the store sold 80% of its inventory, which means it sold 0.8 * 600 = 480 golf balls. Since it sold an equal number of yellow and white golf balls and all of its white golf balls, it must have sold 480 / 2 = 240 white golf balls.\n\nNow we can substitute W with 240 in the first equation:\n\nY + 240 = 600\n\nSolving for Y, we get:\n\nY = 600 - 240\nY = 360\n\nSo, the store had 360 yellow golf balls to begin the day. The correct answer is E) 360.",
+        "correct_answer": "E",
+        "answered_correctly": true
+    },
+    {
+        "question": "A car finishes a journey in 20 hours at the speed of 60 km/hr. If the same distance is to be covered in 10 hours, how much speed does the car gain?",
+        "options": [
+            "A)80 kmph",
+            "B)50 kmph",
+            "C)120 kmph",
+            "D)70 kmph",
+            "E)80 kmph"
+        ],
+        "model_response": " To find the speed needed to cover the same distance in 10 hours, we first need to determine the total distance of the journey.\n\nThe car initially travels at 60 km/hr for 20 hours, so the distance is:\nDistance = Speed × Time\nDistance = 60 km/hr × 20 hours\nDistance = 1200 km\n\nNow, we want to find the speed required to cover this 1200 km distance in 10 hours.\n\nSpeed = Distance / Time\nSpeed = 1200 km / 10 hours\nSpeed = 120 km/hr\n\nThe car needs to travel at 120 km/hr to cover the same distance in 10 hours.\n\nTo find the speed gain, we subtract the initial speed from the new speed:\nSpeed Gain = New Speed - Initial Speed\nSpeed Gain = 120 km/hr - 60 km/hr\nSpeed Gain = 60 km/hr\n\nHowever, the question asks for the final speed, not the speed gain. The final speed is 120 km/hr, but this is not an option in the multiple-choice answers. It seems there might be a mistake in the options provided.\n\nGiven the options, the closest answer to the speed gain is 'B) 50 kmph', but this is not the correct answer to the question as asked. If the question is asking for the final speed, the correct answer is not provided in the options.\n\nIf the question is asking for the speed gain, the correct answer is $60$  km/hr, which is not an option. Please double-check the question and the options provided.",
+        "correct_answer": "C",
+        "answered_correctly": false
+    },
+    {
+        "question": "In IPL season, Sachin current batting average is 51. In the finals, he scores 78 runs, then is batting average will be 54. Find out the total number of matches played by Sachin in this season.",
+        "options": [
+            "A)6",
+            "B)8",
+            "C)9",
+            "D)10",
+            "E)11"
+        ],
+        "model_response": " Let's denote the total number of matches played by Sachin in this season as \\( n \\) and the total number of runs scored by him as \\( R \\).\n\nGiven that Sachin's current batting average is 51, we can write the following equation:\n\n\\[ \\frac{R}{n} = 51 \\]\n\nThis implies that:\n\n\\[ R = 51n \\quad \\text{(1)} \\]\n\nAfter scoring 78 runs in the finals, his new batting average becomes 54. So we can write another equation:\n\n\\[ \\frac{R + 78}{n + 1} = 54 \\]\n\nThis implies that:\n\n\\[ R + 78 = 54(n + 1) \\]\n\\[ R + 78 = 54n + 54 \\quad \\text{(2)} \\]\n\nNow we have two equations (1) and (2). We can substitute the value of \\( R \\) from equation (1) into equation (2):\n\n\\[ 51n + 78 = 54n + 54 \\]\n\nNow, let's solve for \\( n \\):\n\n\\[ 78 - 54 = 54n - 51n \\]\n\\[ 24 = 3n \\]\n\\[ n = \\frac{24}{3} \\]\n\\[ n = 8 \\]\n\nSo, Sachin has played $8$  matches in this season. Therefore, the correct option is B) 8.",
+        "correct_answer": "C",
+        "answered_correctly": false
+    },
+    {
+        "question": "John would make the 3-letter codes with diffenrent 5 vowels and 20 consonants with the condition that the middle letter must be vowel and the first letter and the third letter must be different from each other and are both consonant. How many different codes can be made?",
+        "options": [
+            "A)1,980",
+            "B)2,020",
+            "C)2,100",
+            "D)2,200",
+            "E)1,900"
+        ],
+        "model_response": " To solve this problem, we need to calculate the number of possible codes that John can make under the given conditions.\n\n1. The middle letter must be a vowel. There are 5 vowels, so there are 5 choices for the middle letter.\n\n2. The first and third letters must be consonants and must be different from each other. There are 20 consonants, so there are 20 choices for the first letter. After choosing the first letter, there are 19 remaining consonants to choose from for the third letter. However, since the order of the first and third letters matters (i.e., ABC is different from CBA), we need to consider the order. So, for each choice of the first letter, there are 19 choices for the third letter.\n\n3. Therefore, the total number of possible codes is the product of the number of choices for each position: 5 (choices for the middle letter) * 20 (choices for the first letter) * 19 (choices for the third letter).\n\n4. Calculating this gives us 5 * 20 * 19 = 1900.\n\nSo, the correct answer is E) 1,900.",
+        "correct_answer": "E",
+        "answered_correctly": true
+    },
+    {
+        "question": "A bee bypasses 0.05% of flowers it flies by because it can sense they don't have any nectar in them. How many flowers will the bee fly by to bypass 8 flowers?",
+        "options": [
+            "A)2000",
+            "B)4000",
+            "C)8000",
+            "D)16000",
+            "E)32000"
+        ],
+        "model_response": " To solve this problem, we start by understanding that the bee bypasses 0.05% of the flowers it flies by. This means that for every 10000 flowers the bee flies by, it will bypass 5 flowers (since 0.05% of 10000 is 5).\n\nGiven that the bee needs to bypass 8 flowers, we can set up a proportion to find out how many flowers the bee needs to fly by in total. Let's denote the total number of flowers the bee needs to fly by as \\( F \\).\n\nThe proportion can be set up as follows:\n\\[\n\\frac{5}{10000} = \\frac{8}{F}\n\\]\n\nSolving for \\( F \\), we get:\n\\[\nF = \\frac{8 \\times 10000}{5} = 16000\n\\]\n\nTherefore, the bee needs to fly by 16000 flowers to bypass 8 flowers.\n\nSo, the correct answer is \\( D)16000 \\).",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "The average wages of a worker during a fortnight comprising of 15 consecutive working days was $90 per day. During the first 7 days, his average wage was $87 per day and the average wage during the last 7 days was $92 per day. What was his wage on the 8th day?",
+        "options": [
+            "A)$83",
+            "B)$92",
+            "C)$90",
+            "D)$97",
+            "E)$104"
+        ],
+        "model_response": " Let's denote the wage on the 8th day as W.\n\nThe total wages for the first 7 days would be 7 * $87.\nThe total wages for the last 7 days would be 7 * $92.\nThe total wages for the 15 days would be 15 * $90.\n\nNow, we can set up an equation to find the wage on the 8th day:\n\nTotal wages for 15 days = Total wages for first 7 days + Wage on 8th day + Total wages for last 7 days\n\n15 * $90 = (7 * $87) + W + (7 * $92)\n\nNow, let's calculate the total wages for the first 7 days and the last 7 days:\n\nTotal wages for first 7 days = 7 * $87 = $609\nTotal wages for last 7 days = 7 * $92 = $644\n\nNow, let's plug these values into the equation:\n\n15 * $90 = $609 + W + $644\n\nNow, let's calculate the total wages for 15 days:\n\nTotal wages for 15 days = 15 * $90 = $1350\n\nNow, let's solve for W:\n\n$1350 = $609 + W + $644\n\nCombine the known wages:\n\n$1350 = $1253 + W\n\nNow, subtract $1253 from both sides to find W:\n\nW = $1350 - $1253\nW = $97\n\nTherefore, the wage on the 8th day was $\\$97,$  which corresponds to option D.",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "Winson runs from his home to his school at an average speed of 10 miles/hr, and then walks home along the same route at an average speed of 5 miles/hr. If the whole journey took one hour, how many miles is his home from his school?",
+        "options": [
+            "A)9",
+            "B)6",
+            "C)4",
+            "D)3",
+            "E)2"
+        ],
+        "model_response": " Let's denote the distance from Winson's home to his school as \\( D \\) miles.\n\nWhen Winson runs to school, his speed is 10 miles/hr. Therefore, the time it takes him to run to school is \\( \\frac{D}{10} \\) hours.\n\nWhen Winson walks back home, his speed is 5 miles/hr. Therefore, the time it takes him to walk back home is \\( \\frac{D}{5} \\) hours.\n\nThe total time for the round trip is the sum of the time taken to run to school and the time taken to walk back home, which is given as 1 hour. So we have:\n\n\\[ \\frac{D}{10} + \\frac{D}{5} = 1 \\]\n\nTo solve for \\( D \\), we first find a common denominator for the fractions, which is 10. We can rewrite the equation as:\n\n\\[ \\frac{D}{10} + \\frac{2D}{10} = 1 \\]\n\nCombining the fractions, we get:\n\n\\[ \\frac{3D}{10} = 1 \\]\n\nNow, we solve for \\( D \\) by multiplying both sides of the equation by \\( \\frac{10}{3} \\):\n\n\\[ D = 1 \\times \\frac{10}{3} \\]\n\n\\[ D = \\frac{10}{3} \\]\n\n\\[ D = 3.\\overline{3} \\]\n\nSince the distance must be a whole number (as it represents a physical distance), we can conclude that the distance is approximately 3 miles.\n\nTherefore, the correct answer is \\( D)3 \\).",
+        "correct_answer": "E",
+        "answered_correctly": false
+    },
+    {
+        "question": "If 75 percent of the employees of a certain company take a winter vacation, 40 percent take a winter and a summer vacation, and 20 percent take neither a winter nor a summer vacation, what Q percent of the employees take a summer vacation but not a winter vacation?",
+        "options": [
+            "A)5%",
+            "B)15%",
+            "C)25%",
+            "D)35%",
+            "E)45%"
+        ],
+        "model_response": " Let's denote the total number of employees as 100% for simplicity.\n\nAccording to the information given:\n- 75% take a winter vacation.\n- 40% take both winter and summer vacations.\n- 20% take neither winter nor summer vacations.\n\nFirst, let's find out how many employees take only a winter vacation. Since 40% take both winter and summer vacations, the number of employees who take only a winter vacation is:\n75% (total winter vacationers) - 40% (both winter and summer vacationers) = 35% (only winter vacationers).\n\nNow, let's find out how many employees take a summer vacation. Since 20% take neither vacation, the remaining 80% must take at least one vacation (winter, summer, or both). We already know that 40% take both vacations and 35% take only a winter vacation. So, the number of employees who take only a summer vacation is:\n80% (total vacationers) - 40% (both winter and summer vacationers) - 35% (only winter vacationers) = 5% (only summer vacationers).\n\nTherefore, $5\\%$  of the employees take a summer vacation but not a winter vacation.\n\nSo, the answer is: A)5%.",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "If 6 yrs are subtracted from the present age of Ajay and the remainder is divided by 18, then the present age of Rahul is obtained. If Rahul is 2 yrs younger to Denis whose age is 5 yrs, then what is Ajay's present age?",
+        "options": [
+            "A)40",
+            "B)60",
+            "C)70",
+            "D)80",
+            "E)90"
+        ],
+        "model_response": " Let's denote Ajay's present age as A, Rahul's present age as R, and Denis's present age as D.\n\nAccording to the problem, if we subtract 6 years from Ajay's age and then divide the remainder by 18, we get Rahul's age. So we can write this as:\n\n(A - 6) / 18 = R\n\nWe are also told that Rahul is 2 years younger than Denis, and Denis is 5 years old. So we can write:\n\nR = D - 2\nD = 5\n\nSubstituting the value of D into the equation for R, we get:\n\nR = 5 - 2\nR = 3\n\nNow we know Rahul's age is 3, we can substitute this value into the equation for Ajay's age:\n\n(A - 6) / 18 = 3\n\nTo find Ajay's age, we can solve for A:\n\nA - 6 = 3 * 18\nA - 6 = 54\nA = 54 + 6\nA = 60\n\nTherefore, Ajay's present age is 60 years. The correct answer is B) 60.",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "A book was sold for Rs 27.50 with a profit of 10%. If it were sold for Rs. 25.75, then would have been percentage of profit and loss ?",
+        "options": [
+            "A)2% Profit",
+            "B)3% Profit",
+            "C)2% Loss",
+            "D)3% Loss",
+            "E)4% Loss"
+        ],
+        "model_response": " Let's first find the cost price of the book.\n\nIf the book was sold for Rs 27.50 with a profit of 10%, then the cost price (CP) can be calculated as follows:\n\nProfit = Selling Price (SP) - Cost Price (CP)\n10% of CP = SP - CP\n0.10 * CP = 27.50 - CP\n1.10 * CP = 27.50\nCP = 27.50 / 1.10\nCP = 25\n\nNow, if the book were sold for Rs. 25.75, we can calculate the profit or loss percentage based on the cost price.\n\nSelling Price (SP) = Rs. 25.75\nCost Price (CP) = Rs. 25\n\nSince SP > CP, there is a profit.\n\nProfit = SP - CP\nProfit = 25.75 - 25\nProfit = 0.75\n\nProfit Percentage = (Profit / CP) * 100\nProfit Percentage = (0.75 / 25) * 100\nProfit Percentage = 0.03 * 100\nProfit Percentage = 3%\n\nTherefore, if the book were sold for Rs. 25.75, the percentage of profit would be $3\\%$ .\n\nSo, the correct option is B) 3% Profit.",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "The population of a city is 5265526. If there are 4169516 adults in the city, how many children are there in the city?",
+        "options": [
+            "A)1095961",
+            "B)1065961",
+            "C)1085961",
+            "D)1097961",
+            "E)1096061"
+        ],
+        "model_response": " To find the number of children in the city, we need to subtract the number of adults from the total population.\n\nTotal population = 5265526\nNumber of adults = 4169516\n\nNumber of children = Total population - Number of adults\nNumber of children = 5265526 - 4169516\nNumber of children = 1096010\n\nHowever, this number is not listed in the options provided. It seems there might be a mistake in the options or the given numbers. Please double-check the numbers and options provided.\n\nIf we consider the options given, the closest answer to the calculated number of children is option E) 1096061. But please note that this is not the exact number of children based on the given population and number of adults.",
+        "correct_answer": "E",
+        "answered_correctly": true
+    },
+    {
+        "question": "An athlete runs M miles in 4 hours, then rides a bike N miles in the same number of hours. Which of the following represents the average speed, in miles per hour, for these two activities combined?",
+        "options": [
+            "A)M + N / 8",
+            "B)2M + N / 8",
+            "C)M + N / 4",
+            "D)M + 3N / 8",
+            "E)M + N / 5"
+        ],
+        "model_response": " The average speed for the two activities combined is the total distance traveled divided by the total time taken.\n\nThe total distance traveled is M (miles run) + N (miles biked).\n\nThe total time taken is 4 hours (for running) + 4 hours (for biking) = 8 hours.\n\nSo, the average speed is (M + N) miles / 8 hours.\n\nTherefore, the correct answer is A) M + N / 8.",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "Six pita breads contain the same amount of falafel as do two rolls. Three rolls contain the same amount of falafel as five baguettes do. Two baguettes contain the same amount of falafel as how many pita breads?",
+        "options": [
+            "A)12/25",
+            "B)3/2",
+            "C)3",
+            "D)2",
+            "E)25/3"
+        ],
+        "model_response": " Let's denote the amount of falafel in one pita bread as P, in one roll as R, and in one baguette as B.\n\nAccording to the problem, we have the following relationships:\n\n1. Six pita breads contain the same amount of falafel as two rolls:\n6P = 2R\n3P = R\n\n2. Three rolls contain the same amount of falafel as five baguettes:\n3R = 5B\n\n3. We want to find out how many pita breads contain the same amount of falafel as two baguettes.\n\nFirst, let's express R in terms of B using the second relationship:\nR = 5B / 3\n\nNow, let's express P in terms of R using the first relationship:\nP = R / 3\n\nSubstitute the expression for R from the second relationship into the first:\nP = (5B / 3) / 3\nP = 5B / 9\n\nNow, we want to find out how many pita breads contain the same amount of falafel as two baguettes. Let's denote the number of pita breads as X.\n\nXP = 2B\n\nSubstitute the expression for P from above into this equation:\nX(5B / 9) = 2B\n\nDivide both sides by B to solve for X:\nX(5 / 9) = 2\n\nMultiply both sides by 9/5 to solve for X:\nX = 2 * (9/5)\nX = 18/5\nX = 3.6\n\nSince we can't have a fraction of a pita bread, we need to find the closest whole number of pita breads that would contain the same amount of falafel as two baguettes. The closest whole number to 3.6 is 4. However, none of the options provided match this answer.\n\nThere seems to be a mistake in the problem or the options provided. Please double-check the information.\n\nIf we were to choose from the given options, the closest would be option C) 3, but this is not the correct answer based on the calculations.\n\nWithout the correct information or options, I cannot provide a definitive answer.",
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "Alice wants to put up fencing around three sides of her rectangular yard and leave one side of 10 meters unfenced. If the yard has an area of 240 square meters, how many meters of fencing does she need?",
+        "options": [
+            "A)58",
+            "B)62",
+            "C)66",
+            "D)70",
+            "E)74"
+        ],
+        "model_response": " Let's denote the length of the unfenced side as L and the length of the other side as W. We know that L = 10 meters and the area A = L * W = 240 square meters.\n\nFirst, we need to find the width W:\n\nA = L * W\n240 = 10 * W\nW = 240 / 10\nW = 24 meters\n\nNow, we need to find the total length of fencing required. Since one side is not being fenced, we only need to fence the other two sides of length W and one side of length L:\n\nTotal fencing = 2W + L\nTotal fencing = 2 * 24 + 10\nTotal fencing = 48 + 10\nTotal fencing = 58 meters\n\nTherefore, Alice needs 58 meters of fencing. The correct answer is A)58.",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "The average (arithmetic mean) of the weight of 10 vehicles is 12.2 tons. The average weight of the group of vehicles increased by 2.6 tons after a new heavy duty truck was added to the group? What is the weight in tons of the heavy duty truck?",
+        "options": [
+            "A)40.8",
+            "B)41.6",
+            "C)42.2",
+            "D)43.5",
+            "E)44.8"
+        ],
+        "model_response": " To find the weight of the heavy duty truck, we first need to determine the total weight of the original 10 vehicles and then the total weight after the heavy duty truck was added.\n\nThe average weight of the original 10 vehicles is 12.2 tons, so the total weight of these vehicles is:\n10 vehicles * 12.2 tons/vehicle = 122 tons\n\nAfter the heavy duty truck was added, the average weight increased by 2.6 tons, making the new average weight:\n12.2 tons + 2.6 tons = 14.8 tons\n\nNow there are 11 vehicles in the group, so the total weight of the group after the heavy duty truck was added is:\n11 vehicles * 14.8 tons/vehicle = 162.8 tons\n\nThe weight of the heavy duty truck is the difference between the total weight after it was added and the original total weight:\n162.8 tons - 122 tons = 40.8 tons\n\nTherefore, the weight of the heavy duty truck is $40.8$  tons, which corresponds to option A.",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "Jim filled his dog's bowl with dog food. Starting at 8:00 am, Jim's dog ate exactly once an hour, consuming exactly 1/3 of the dog food remaining in the bowl at each feeding session. Approximately, what percent of the original food was in the dog's bowl right before the dog began to eat at noon of the same day?",
+        "options": [
+            "A)20%",
+            "B)25%",
+            "C)30%",
+            "D)35%",
+            "E)40%"
+        ],
+        "model_response": " Let's denote the original amount of dog food as \\( F \\).\n\nAt 8:00 am, the dog eats \\( \\frac{1}{3}F \\), leaving \\( \\frac{2}{3}F \\) in the bowl.\n\nAt 9:00 am, the dog eats \\( \\frac{1}{3} \\) of the remaining food, which is \\( \\frac{1}{3} \\times \\frac{2}{3}F = \\frac{2}{9}F \\), leaving \\( \\frac{2}{3}F - \\frac{2}{9}F = \\frac{6}{9}F - \\frac{2}{9}F = \\frac{4}{9}F \\) in the bowl.\n\nAt 10:00 am, the dog eats \\( \\frac{1}{3} \\) of the remaining food, which is \\( \\frac{1}{3} \\times \\frac{4}{9}F = \\frac{4}{27}F \\), leaving \\( \\frac{4}{9}F - \\frac{4}{27}F = \\frac{12}{27}F - \\frac{4}{27}F = \\frac{8}{27}F \\) in the bowl.\n\nAt 11:00 am, the dog eats \\( \\frac{1}{3} \\) of the remaining food, which is \\( \\frac{1}{3} \\times \\frac{8}{27}F = \\frac{8}{81}F \\), leaving \\( \\frac{8}{27}F - \\frac{8}{81}F = \\frac{24}{81}F - \\frac{8}{81}F = \\frac{16}{81}F \\) in the bowl.\n\nAt 12:00 pm (noon), the dog eats \\( \\frac{1}{3} \\) of the remaining food, which is \\( \\frac{1}{3} \\times \\frac{16}{81}F = \\frac{16}{243}F \\), leaving \\( \\frac{16}{81}F - \\frac{16}{243}F = \\frac{48}{243}F - \\frac{16}{243}F = \\frac{32}{243}F \\) in the bowl.\n\nTo find the percentage of the original food remaining, we calculate \\( \\frac{\\frac{32}{243}F}{F} \\times 100\\% \\).\n\nThis simplifies to \\( \\frac{32}{243} \\times 100\\% \\approx 13.17\\% \\).\n\nHowever, this is not one of the options given. It seems there might be a mistake in the question or the options provided. The closest option to our calculated value is \\( \\text{B)25\\%} \\), but it is not an accurate representation of the remaining food. Please double-check the question and the options provided.",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "The number of water lilies on a certain lake doubles every two days. If there is exactly one water lily on the lake, it takes 60 days for the lake to be fully covered with water lilies. In how many days will the lake be fully covered with lilies, if initially there were 64 water lilies on it?",
+        "options": [
+            "A)15",
+            "B)28",
+            "C)30",
+            "D)53",
+            "E)59"
+        ],
+        "model_response": " The number of water lilies doubles every two days. If there is exactly one water lily on the lake, it takes 60 days for the lake to be fully covered. This means that the number of water lilies doubles 30 times in 60 days (since 60 days / 2 days = 30 doubling periods).\n\nIf there were initially 64 water lilies on the lake, we need to find out how many doubling periods it would take for the lake to be fully covered. Since 64 is 2 raised to the power of 6 (2^6 = 64), this means that the number of water lilies has already doubled 6 times to reach 64.\n\nTherefore, the lake would be fully covered after 30 - 6 = 24 more doubling periods. Since each doubling period is 2 days, it would take 24 * 2 = 48 days for the lake to be fully covered with lilies.\n\nHowever, this answer is not listed in the options provided. It seems there might be a mistake in the question or the options. If the question is asking for the number of days it would take for the lake to be fully covered starting with 64 water lilies, and assuming the same rate of doubling, the correct answer should be 48 days, which is not listed in the options.\n\nIf we consider the options given, we can see that the lake being fully covered in 60 days with one water lily means that the number of water lilies doubles 30 times. If we start with 64 water lilies, which is 2^6, we have already doubled 6 times. Therefore, we need to find out how many more doubling periods are needed to reach the point where the lake is fully covered.\n\nSince the options are given in days, we need to find the option that represents the number of days it would take for the lake to be fully covered, starting with 64 water lilies.\n\nThe closest option to the calculated 48 days is option B) 28 days. However, this option does not match the calculated number of days. It seems there might be a mistake in the question or the options provided.\n\nWithout additional information or clarification, it is not possible to provide a definitive answer based on the given options. Therefore, I cannot provide a letter option as the final answer.",
+        "correct_answer": "D",
+        "answered_correctly": false
+    },
+    {
+        "question": "What will be the cost of gardening 1-metre – broad boundary around a rectangular plot having perimeter of 340 metres at the rate of 10 per square metre?",
+        "options": [
+            "A)3400",
+            "B)1700",
+            "C)3440",
+            "D)Cannot be determined",
+            "E)None of these"
+        ],
+        "model_response": " To find the cost of gardening the boundary, we first need to determine the area of the boundary. Since the boundary is 1-metre broad around the entire perimeter of the rectangular plot, the area of the boundary will be equal to the perimeter of the plot (340 metres) multiplied by the width of the boundary (1 metre).\n\nArea of the boundary = Perimeter × Width\nArea of the boundary = 340 metres × 1 metre\nArea of the boundary = 340 square metres\n\nNow, we can calculate the cost of gardening this area at the rate of 10 per square metre.\n\nCost = Area × Rate\nCost = 340 square metres × 10 per square metre\nCost = 3400\n\nTherefore, the cost of gardening the 1-metre broad boundary around the rectangular plot is 3400.\n\nThe correct answer is A) 3400.",
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "A coin made of alloy of aluminum and silver measures 2 x 15 mm (it is 2 mm thick and its diameter is 15 mm). If the weight of the coin is 30 grams and the volume of aluminum in the alloy equals that of silver, what will be the weight of a coin measuring 1 x 30 mm made of pure aluminum if silver is twice as heavy as aluminum?",
+        "options": [
+            "A)36 grams",
+            "B)40 grams",
+            "C)42 grams",
+            "D)48 grams",
+            "E)50 grams"
+        ],
+        "model_response": " Let's break down the problem step by step:\n\n1. The coin is made of an alloy of aluminum and silver with equal volumes.\n2. The weight of the coin is 30 grams.\n3. Silver is twice as heavy as aluminum.\n\nLet's denote the volume of aluminum as Va and the volume of silver as Vs. Since the volumes are equal, Va = Vs.\n\nThe total volume of the coin (Vt) is the sum of the volumes of aluminum and silver, so Vt = Va + Vs = 2Va.\n\nThe volume of a cylinder (which is the shape of the coin) is given by the formula V = πr^2h, where r is the radius and h is the height (or thickness in this case).\n\nThe volume of the original coin (Vt) is:\nVt = π(7.5 mm)^2(2 mm) = π(56.25 mm^2)(2 mm) = 112.5π mm^3\n\nSince Va = Vs, we have Va = Vs = 112.5π/2 = 56.25π mm^3.\n\nLet's denote the density of aluminum as Da and the density of silver as Ds. Since silver is twice as heavy as aluminum, Ds = 2Da.\n\nThe weight of the aluminum in the coin (Wa) is given by the formula Wa = Va * Da, and the weight of the silver (Ws) is Ws = Vs * Ds.\n\nSince Va = Vs, we have Wa = Va * Da and Ws = Vs * Ds = Va * 2Da = 2Wa.\n\nThe total weight of the coin (Wt) is the sum of the weights of aluminum and silver, so Wt = Wa + Ws = Wa + 2Wa = 3Wa.\n\nSince Wt = 30 grams, we have 3Wa = 30 grams, so Wa = 10 grams.\n\nNow, let's find the weight of a coin made of pure aluminum with dimensions 1 x 30 mm.\n\nThe volume of the new coin (Vn) is:\nVn = π(15 mm)^2(1 mm) = π(225 mm^2)(1 mm) = 225π mm^3\n\nThe weight of the new coin (Wn) is given by the formula Wn = Vn * Da.\n\nSince we know that Wa = 10 grams and Va = 56.25π mm^3, we can find Da:\nDa = Wa / Va = 10 grams / (56.25π mm^3)\n\nNow we can find Wn:\nWn = Vn * Da = 225π mm^3 * (10 grams / (56.25π mm^3)) = 40 grams\n\nTherefore, the weight of the new coin made of pure aluminum is 40 grams.\n\nThe answer is B) 40 grams.",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "Last year, 34 percent of Ace Book Company's sales revenue came from the sale of novels. Of the remaining revenue, 1/3 was from the sale of biographies. The company's revenue from the sale of novels was approximately, how many times its revenue from the sale of biographies?",
+        "options": [
+            "A)1.3",
+            "B)1.5",
+            "C)2.1",
+            "D)2.5",
+            "E)3.1"
+        ],
+        "model_response": " Let's assume the total sales revenue of Ace Book Company is $100 (using a round number for simplicity).\n\n34% of the sales revenue came from the sale of novels, so the revenue from novels is:\n34% of $100 = 0.34 * $100 = $34\n\nThe remaining revenue is:\n100% - 34% = 66%\n\nOf the remaining revenue, 1/3 was from the sale of biographies, so the revenue from biographies is:\n1/3 of $66 = $22\n\nNow, to find out how many times the revenue from novels is compared to the revenue from biographies, we divide the revenue from novels by the revenue from biographies:\n$34 / $22 ≈ 1.54\n\nSince the options are given as approximate values, we can round this to the nearest option, which is $1.5$  or option B.",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "All 250 files on Sam's hard drive are infected by either a virus or a worm or both. The number of files that are infected only by a worm is 2.5 times the number of files that are infected by both a virus and a worm. If 50% of the files were not infected by a virus, how many of Sam's files were NOT infected by a worm?",
+        "options": [
+            "A)50",
+            "B)70",
+            "C)75",
+            "D)100",
+            "E)125"
+        ],
+        "model_response": " Let's denote the number of files infected only by a worm as W, the number of files infected only by a virus as V, and the number of files infected by both a virus and a worm as B.\n\nFrom the information given, we have:\n\n1. W = 2.5B (since the number of files infected only by a worm is 2.5 times the number of files infected by both a virus and a worm)\n2. V + B = 125 (since 50% of the files were not infected by a virus, the other 50% are infected by a virus, which is 250 * 0.5 = 125 files)\n3. W + B + V = 250 (since all files are infected by either a virus or a worm or both)\n\nNow, let's express W in terms of B using equation 1:\n\nW = 2.5B\n\nSubstitute W in equation 3:\n\n2.5B + B + V = 250\n3.5B + V = 250\n\nNow, let's express V in terms of B using equation 2:\n\nV = 125 - B\n\nSubstitute V in the equation above:\n\n3.5B + (125 - B) = 250\n3.5B - B = 250 - 125\n2.5B = 125\nB = 125 / 2.5\nB = 50\n\nNow that we have the value of B, we can find W:\n\nW = 2.5B\nW = 2.5 * 50\nW = 125\n\nNow we can find V:\n\nV = 125 - B\nV = 125 - 50\nV = 75\n\nThe total number of files infected by a worm (either only by a worm or by both a virus and a worm) is W + B:\n\nW + B = 125 + 50\nW + B = 175\n\nSince there are 250 files in total, the number of files NOT infected by a worm is:\n\n250 - (W + B) = 250 - 175\n250 - 175 = 75\n\nTherefore, the number of Sam's files that were NOT infected by a worm is $75,$  which corresponds to option C.",
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "When folded into two equal halves a rectangular sheet had a perimeter of 48cm for each part folded along one set of sides and the same is 66cm when folded along the other set of sides. Find the area of the sheet.",
+        "options": [
+            "A)1584",
+            "B)1120",
+            "C)792",
+            "D)1320",
+            "E)1200"
+        ],
+        "model_response": " Let's denote the length of the rectangle as L and the width as W. When the rectangle is folded along the width (W), each half will have a perimeter that includes the length (L) twice and the width (W) once. So, the perimeter of each half when folded along the width is:\n\nPerimeter (folded along W) = L + L + W = 2L + W\n\nAccording to the problem, this perimeter is 48 cm, so:\n\n2L + W = 48  (1)\n\nWhen the rectangle is folded along the length (L), each half will have a perimeter that includes the width (W) twice and the length (L) once. So, the perimeter of each half when folded along the length is:\n\nPerimeter (folded along L) = W + W + L = 2W + L\n\nAccording to the problem, this perimeter is 66 cm, so:\n\n2W + L = 66  (2)\n\nNow we have a system of two equations with two variables:\n\n1) 2L + W = 48\n2) 2W + L = 66\n\nWe can solve this system by multiplying the first equation by 2 to make the coefficients of L the same in both equations:\n\n4L + 2W = 96  (3)\n\nNow we subtract equation (2) from equation (3):\n\n(4L + 2W) - (2W + L) = 96 - 66\n3L = 30\nL = 10\n\nNow that we have the value of L, we can substitute it back into either equation (1) or (2) to find W. Let's use equation (1):\n\n2(10) + W = 48\n20 + W = 48\nW = 48 - 20\nW = 28\n\nNow we have the length (L = 10 cm) and the width (W = 28 cm). The area of the rectangle is:\n\nArea = L * W\nArea = 10 * 28\nArea = 280 cm²\n\nHowever, this is not one of the options provided. It seems there might be a mistake in the problem statement or the options. Please double-check the information provided. If the options are correct, then the problem might not be solvable with the given information.\n\nIf we assume that the area is the sum of the areas of the two halves when folded along the length and the width, then we would have:\n\nArea = (1/2 * 48 * L) + (1/2 * 66 * W)\n\nBut this would not make sense in the context of the problem, as the area of the sheet should be a single value, not the sum of two different areas. Therefore, I cannot provide a correct answer based on the given options. Please verify the problem statement and the options.",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "On a normal day Bill usually averages about 15 mph when riding his bicycle. On a windy day, his speed is reduced by 4 mph. How far can Bill travel on a windy day in 21 minutes? Round to the nearest hundredth.",
+        "options": [
+            "A)2 miles",
+            "B)2.25 miles",
+            "C)3.25 miles",
+            "D)3.85 miles",
+            "E)2.85 miles"
+        ],
+        "model_response": " To solve this problem, we first need to determine Bill's speed on a windy day. Since his normal speed is 15 mph and it is reduced by 4 mph on a windy day, his windy day speed is:\n\n15 mph - 4 mph = 11 mph\n\nNext, we need to convert the time given (21 minutes) into hours to match the speed unit (mph). There are 60 minutes in an hour, so:\n\n21 minutes ÷ 60 minutes/hour = 0.35 hours\n\nNow, we can calculate the distance Bill can travel on a windy day in 21 minutes by multiplying his windy day speed by the time in hours:\n\nDistance = Speed × Time\nDistance = 11 mph × 0.35 hours\nDistance = 3.85 miles\n\nTherefore, the correct answer is $D)3.85$  miles.",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "At an election meeting 10 speakers are to address the meeting. The only protocol to be observed is that whenever they speak the pm should speak before the mp and the mp should speak before the mla. In how many ways can the meeting be held?",
+        "options": [
+            "A)10!/3",
+            "B)10!/6",
+            "C)10!/2",
+            "D)10!/4",
+            "E)10!/5"
+        ],
+        "model_response": " To solve this problem, we need to consider the restrictions given:\n1. The PM must speak before the MP.\n2. The MP must speak before the MLA.\n\nLet's treat PM, MP, and MLA as a single group for now. Within this group, there is only 1 way to arrange them (PM, MP, MLA).\n\nNow, we have 10 speakers, but since we're treating PM, MP, and MLA as a single group, we have 7 other speakers to arrange. These 7 speakers can be arranged in 7! ways.\n\nHowever, we also need to consider the position of the group (PM, MP, MLA) among the 7 speakers. This group can be placed in any of the 8 possible positions (before the first speaker, between the first and second speakers, and so on, up to after the seventh speaker).\n\nSo, the total number of ways to arrange the speakers is the number of ways to arrange the 7 speakers (7!) multiplied by the number of positions for the group (8), and then multiplied by the number of ways to arrange PM, MP, and MLA within the group (1).\n\nTotal arrangements = 7! * 8 * 1\n\nSince 8 is 10! / (10*9), we can rewrite the total arrangements as:\n\nTotal arrangements = 7! * (10! / (10*9)) * 1\n\nSimplifying this, we get:\n\nTotal arrangements = 10! / (10*9)\n\nTotal arrangements = 10! / 90\n\nTotal arrangements = 10! / 6 * 15\n\nSince we're looking for the answer in the given options, we can see that the correct answer is:\n\nB) 10!/6\n\nSo, the final answer is B.",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "Machine A puts out a yo-yo every 6 minutes. Machine B puts out a yo-yo every 9 minutes. After how many minutes will they have produced 10 yo-yos?",
+        "options": [
+            "A)24 minutes",
+            "B)32 minutes",
+            "C)36 minutes",
+            "D)64 minutes",
+            "E)72 minutes"
+        ],
+        "model_response": " To solve this problem, we need to find the combined rate at which both machines produce yo-yos and then determine how long it takes for them to produce 10 yo-yos.\n\nMachine A produces 1 yo-yo every 6 minutes, so its rate is 1/6 yo-yos per minute.\nMachine B produces 1 yo-yo every 9 minutes, so its rate is 1/9 yo-yos per minute.\n\nThe combined rate of both machines is:\n(1/6) + (1/9) = (3/18) + (2/18) = 5/18 yo-yos per minute.\n\nNow, we want to find out how long it takes for them to produce 10 yo-yos at this combined rate. We can set up the equation:\n\n(5/18) * t = 10\n\nTo solve for t, we multiply both sides by the reciprocal of (5/18):\n\nt = 10 * (18/5)\nt = 2 * 18\nt = 36 minutes\n\nTherefore, the correct answer is $C)36$  minutes.",
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "A shopkeeper employed a servant at a monthly salary of 1500. In addition to it, he agreed to pay him a commission of 15% on the monthly sale. How much sale in Rupees should the servant do if he wants his monthly income as 6000?",
+        "options": [
+            "A)30000",
+            "B)415000",
+            "C)31500",
+            "D)50000",
+            "E)None of these"
+        ],
+        "model_response": " To find out the required monthly sale, we first need to determine the commission amount the servant needs to earn to reach his desired monthly income of 6000.\n\nThe servant's fixed monthly salary is 1500, so the remaining amount he needs to earn through commission is:\n\n6000 (desired monthly income) - 1500 (fixed monthly salary) = 4500\n\nThe servant earns a commission of 15% on the monthly sale. To find out the required monthly sale, we can set up the following equation:\n\n0.15 * (monthly sale) = 4500\n\nNow, we can solve for the monthly sale:\n\nmonthly sale = 4500 / 0.15\nmonthly sale = 30000\n\nTherefore, the servant needs to make a monthly sale of 30000 Rupees to achieve his desired monthly income of 6000.\n\nSo, the correct answer is A) 30000.",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "Suppose for any real number x, [x] denotes the greatest integer less than or equal to x. Let L(x,y) = [x] + [y] + [x + y] and R(x,y) = [2x] + [2y]. Then it is impossible to find any two positive real numbers x and y for which",
+        "options": [
+            "A)L(x,y) = R(x,y)",
+            "B)L(x,y) ≠ R(x,y)",
+            "C)L(x,y) < R(x,y)",
+            "D)L(x,y) < R(x,y)",
+            "E)None"
+        ],
+        "model_response": " To solve this problem, let's analyze the functions L(x,y) and R(x,y) and see if we can find any two positive real numbers x and y for which L(x,y) = R(x,y).\n\nFirst, let's consider the function L(x,y):\nL(x,y) = [x] + [y] + [x + y]\n\nSince [x] and [y] are the greatest integers less than or equal to x and y respectively, and [x + y] is the greatest integer less than or equal to x + y, the sum of these three terms will always be less than or equal to x + y + 1. This is because the greatest integer less than or equal to a number is always less than or equal to that number, and adding 1 to the sum of the greatest integers less than or equal to x and y will give us a number that is greater than or equal to the greatest integer less than or equal to x + y.\n\nNow, let's consider the function R(x,y):\nR(x,y) = [2x] + [2y]\n\nSince [2x] and [2y] are the greatest integers less than or equal to 2x and 2y respectively, the sum of these two terms will always be less than or equal to 2x + 2y.\n\nNow, let's compare L(x,y) and R(x,y):\nL(x,y) ≤ x + y + 1\nR(x,y) ≤ 2x + 2y\n\nSince x and y are positive real numbers, we can see that R(x,y) will always be greater than or equal to L(x,y) because 2x + 2y is always greater than or equal to x + y + 1 for positive x and y.\n\nTherefore, it is impossible to find any two positive real numbers x and y for which L(x,y) = R(x,y). The correct answer is:\n\nB) L(x,y) ≠ R(x,y)",
+        "correct_answer": "D",
+        "answered_correctly": false
+    },
+    {
+        "question": "A special cereal mixture contains rice, wheat and corn in the ratio of 2:3:5. If a bag of the mixture contains 3 pounds of rice, how much corn does it contain?",
+        "options": [
+            "A)6.5",
+            "B)7.5",
+            "C)7",
+            "D)6",
+            "E)None of the above"
+        ],
+        "model_response": " To solve this problem, we start by understanding the given ratio of rice, wheat, and corn in the special cereal mixture, which is 2:3:5. This means that for every 2 parts of rice, there are 3 parts of wheat and 5 parts of corn.\n\nGiven that a bag of the mixture contains 3 pounds of rice, we can set up a proportion to find out how many parts of rice are in 3 pounds. Since the ratio of rice is 2 parts, we can write:\n\\[ \\frac{2 \\text{ parts}}{3 \\text{ pounds}} = \\frac{x \\text{ parts}}{1 \\text{ pound}} \\]\n\nSolving for \\(x\\), we find that \\(x = \\frac{2}{3}\\) parts of rice per pound. Therefore, in 3 pounds of rice, there are:\n\\[ 3 \\text{ pounds} \\times \\frac{2}{3} \\text{ parts/pound} = 2 \\text{ parts} \\]\n\nSince the ratio of corn to rice is 5:2, for every 2 parts of rice, there are 5 parts of corn. Therefore, if there are 2 parts of rice in the bag, there must be:\n\\[ \\frac{5 \\text{ parts corn}}{2 \\text{ parts rice}} \\times 2 \\text{ parts rice} = 5 \\text{ parts corn} \\]\n\nTo find out how many pounds of corn this corresponds to, we use the same proportion we found for rice:\n\\[ \\frac{5 \\text{ parts}}{3 \\text{ pounds}} = \\frac{5 \\text{ parts}}{y \\text{ pounds}} \\]\n\nSolving for \\(y\\), we find that \\(y = 3\\) pounds. Therefore, the bag contains 3 pounds of corn.\n\nHowever, the question asks for the amount of corn in the bag, and the options provided are in pounds. The correct answer, based on our calculation, is that the bag contains 3 pounds of corn. However, this option is not listed among the given choices. Therefore, the correct answer, based on the given options, is:\n\n\\[ \\text{E) None of the above} \\]",
+        "correct_answer": "B",
+        "answered_correctly": false
+    },
+    {
+        "question": "20 marbles were pulled out of a bag of only white marbles, painted black, and then put back in. Then, another 20 marbles were pulled out, of which 1 was black, after which they were all returned to the bag. If the percentage of black marbles pulled out the second time represents their percentage in the bag, how many marbles in total Q does the bag currently hold?",
+        "options": [
+            "A)40",
+            "B)200",
+            "C)380",
+            "D)400",
+            "E)3200"
+        ],
+        "model_response": " Let's denote the total number of marbles in the bag as Q.\n\nAfter painting 20 marbles black and returning them to the bag, there are 20 black marbles in the bag.\n\nWhen 20 marbles are pulled out the second time, and 1 of them is black, this represents the proportion of black marbles in the bag. Since 1 out of 20 marbles is black, we can set up a proportion to find the total number of marbles in the bag (Q):\n\n1/20 = 20/Q\n\nCross-multiplying gives us:\n\n1 * Q = 20 * 20\nQ = 400\n\nTherefore, the bag currently holds 400 marbles.\n\nThe answer is: D) 400.",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "Professors borrowed Rs. 5000 from the university at simple interest. After 3 years, the university got Rs. 300 on interest. What was the rate of interest per annum?",
+        "options": [
+            "A)2%",
+            "B)8%",
+            "C)5%",
+            "D)10%",
+            "E)None of these"
+        ],
+        "model_response": " To find the rate of interest per annum, we can use the simple interest formula:\n\nSimple Interest (SI) = Principal (P) * Rate (R) * Time (T) / 100\n\nWe are given:\nSimple Interest (SI) = Rs. 300\nPrincipal (P) = Rs. 5000\nTime (T) = 3 years\n\nWe need to find the Rate (R).\n\nPlugging in the values we have:\n\n300 = (5000 * R * 3) / 100\n\nTo solve for R, we first multiply both sides by 100 to get rid of the denominator:\n\n300 * 100 = 5000 * R * 3\n\n30000 = 15000 * R\n\nNow, divide both sides by 15000 to solve for R:\n\nR = 30000 / 15000\n\nR = 2\n\nTherefore, the rate of interest per annum is 2%.\n\nSo, the answer is: A) 2%.",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "If one of the roots of the quadratic equation x^2 + mx + 22 = 0 is 1.5, then what is the value of m?",
+        "options": [
+            "A)-23.5",
+            "B)-17.5",
+            "C)-10.5",
+            "D)-16.2",
+            "E)Cannot be determined"
+        ],
+        "model_response": " To find the value of m, we can use the fact that one of the roots of the quadratic equation x^2 + mx + 22 = 0 is 1.5. According to the root property of quadratic equations, if r is a root of the equation ax^2 + bx + c = 0, then the equation can be written as a(x - r)(x - s) = 0, where s is the other root.\n\nGiven that 1.5 is a root, we can write the equation as:\n\nx^2 + mx + 22 = (x - 1.5)(x - s) = 0\n\nExpanding the right side, we get:\n\nx^2 - (1.5 + s)x + 1.5s = 0\n\nComparing this with the original equation, we can see that:\n\n- (1.5 + s) = m\n- 1.5s = 22\n\nFrom the second equation, we can find the value of s:\n\ns = 22 / 1.5\ns = 14.666...\n\nNow we can find the value of m:\n\nm = - (1.5 + s)\nm = - (1.5 + 14.666...)\nm = -16.166...\n\nSince the options are given as integers or simple fractions, we can round m to the nearest value that matches one of the options. The closest option to -16.166... is -16.2 (option D). However, since the exact value of m is not an option, we can conclude that the value of m cannot be determined exactly from the given options.\n\nTherefore, the answer is E) Cannot be determined.",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "If x<0, y>0, and |x^3| > |y^2|, which of the following must be true?",
+        "options": [
+            "A)x > y",
+            "B)y^2 > x^2",
+            "C)-x^3 < y^2",
+            "D)–x < y",
+            "E)x < –y"
+        ],
+        "model_response": " Given that x < 0, y > 0, and |x^3| > |y^2|, we can analyze the options:\n\nA) x > y: This cannot be true because x is negative and y is positive.\n\nB) y^2 > x^2: This cannot be directly inferred from the given information.\n\nC) -x^3 < y^2: Since x is negative, -x^3 is positive. Given that |x^3| > |y^2|, it follows that -x^3 > y^2, which contradicts this option.\n\nD) -x < y: Since x is negative, -x is positive. Given that y is also positive and |x^3| > |y^2|, it implies that the magnitude of x^3 is greater than the magnitude of y^2. This means that the positive value of -x is greater than the positive value of y^2, which in turn is greater than y (since y is positive). Therefore, -x > y does not hold, and -x < y must be true.\n\nE) x < -y: This cannot be directly inferred from the given information.\n\nBased on the analysis, the correct answer is D) -x < y.",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "A shopkeeper in order to promote his new shop put a discount of 20% on all the items for one day. Now he must sell the items at original price the other day. By what percentage must he increase the price to original?",
+        "options": [
+            "A)21%",
+            "B)20%",
+            "C)25%",
+            "D)33%",
+            "E)18%"
+        ],
+        "model_response": " Let's assume the original price of an item is $100.\n\nWith a 20% discount, the shopkeeper sells the item for $80.\n\nNow, to find out by what percentage he must increase the price to get back to the original price of $100, we can use the following formula:\n\nPercentage Increase = [(New Price - Old Price) / Old Price] * 100\n\nIn this case, the new price is $100 and the old price is $80.\n\nPercentage Increase = [($100 - $80) / $80] * 100\nPercentage Increase = ($20 / $80) * 100\nPercentage Increase = 0.25 * 100\nPercentage Increase = 25%\n\nSo, the shopkeeper must increase the price by 25% to get back to the original price.\n\nTherefore, the answer is: C) 25%.",
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "A student instead of finding the value of 7/8 of a number, found the value of 7/18 of the number. If his answer differed from the actual one by 770, find the that number.",
+        "options": [
+            "A)1584",
+            "B)2520",
+            "C)1728",
+            "D)1656",
+            "E)None"
+        ],
+        "model_response": " Let's denote the number as \\( N \\).\n\nThe student found the value of \\( \\frac{7}{18}N \\) instead of \\( \\frac{7}{8}N \\).\n\nThe difference between the two values is \\( \\frac{7}{8}N - \\frac{7}{18}N \\).\n\nAccording to the problem, this difference is equal to 770.\n\nSo, we have the equation:\n\n\\[ \\frac{7}{8}N - \\frac{7}{18}N = 770 \\]\n\nTo solve for \\( N \\), we first find a common denominator for the fractions, which is 72. We can rewrite the equation as:\n\n\\[ \\frac{63}{72}N - \\frac{28}{72}N = 770 \\]\n\nCombining the fractions, we get:\n\n\\[ \\frac{35}{72}N = 770 \\]\n\nNow, we can solve for \\( N \\) by multiplying both sides of the equation by the reciprocal of \\( \\frac{35}{72} \\), which is \\( \\frac{72}{35} \\):\n\n\\[ N = 770 \\times \\frac{72}{35} \\]\n\n\\[ N = 770 \\times \\frac{72}{35} \\]\n\n\\[ N = 22 \\times 72 \\]\n\n\\[ N = 1584 \\]\n\nTherefore, the number is $1584,$  which corresponds to option A.",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "Two cars start at the same time from opposite ends of a highway that is 50 miles long. One car is riding at 12 mph and the second car is riding at 13 mph. How long after they begin will they meet?",
+        "options": [
+            "A) 1",
+            "B) 1.25",
+            "C) 1.50",
+            "D) 1.75",
+            "E) 2"
+        ],
+        "model_response": " To solve this problem, we can use the concept of relative speed. The two cars are moving towards each other, so their speeds add up.\n\nThe speed of the first car is 12 mph, and the speed of the second car is 13 mph. Therefore, their relative speed is 12 + 13 = 25 mph.\n\nThey need to cover a distance of 50 miles to meet. To find the time it takes for them to meet, we can use the formula:\n\nTime = Distance / Speed\n\nPlugging in the values, we get:\n\nTime = 50 miles / 25 mph = 2 hours\n\nHowever, this is not one of the options provided. It seems there might be a mistake in the options or the problem statement. If we are looking for the time in hours and minutes, we can convert 2 hours to hours and minutes:\n\n2 hours = 2 hours * (60 minutes / 1 hour) = 120 minutes\n\nSince the options are given in hours and fractions of an hour, we can convert 120 minutes to hours:\n\n120 minutes = 120 / 60 = 2 hours\n\nAgain, this does not match any of the options provided. If we are looking for the time in hours and fractions of an hour, we can express 2 hours as 2.00 hours. However, this still does not match any of the options.\n\nTherefore, based on the given options, there is no correct answer to this problem as it is currently stated. If the options were different or if the problem statement was revised, we could provide a correct answer.\n\nSince there is no correct answer based on the given options, I cannot provide a letter from the multiple choice options.",
+        "correct_answer": "E",
+        "answered_correctly": false
+    },
+    {
+        "question": "Sharon works for 5 hours to earn enough tips to buy an ice cream cake, while Karen works for 4. After how many hours will they be able to buy the cake together?",
+        "options": [
+            "A)1 hour",
+            "B)2 hours",
+            "C)3 hours",
+            "D)4 hours",
+            "E)5 hours"
+        ],
+        "model_response": " To solve this problem, we need to determine how much of the ice cream cake Sharon and Karen can buy individually in one hour and then combine their efforts to find out how long it will take them to buy the cake together.\n\nLet's assume that the cost of the ice cream cake is $C.\n\nSharon earns enough tips to buy the cake in 5 hours, so her hourly earning rate is $C/5.\nKaren earns enough tips to buy the cake in 4 hours, so her hourly earning rate is $C/4.\n\nWhen they work together, their combined hourly earning rate is:\n($C/5) + ($C/4) = ($4C + $5C) / 20 = $9C / 20\n\nNow, we need to find out how many hours it will take for them to earn $C together. Let's call this time T.\n\n($9C / 20) * T = $C\n\nTo find T, we divide both sides by ($9C / 20):\n\nT = $C / ($9C / 20)\nT = 20 / 9\nT ≈ 2.22 hours\n\nSince they cannot work for a fraction of an hour, we round up to the nearest whole hour. Therefore, it will take them 3 hours to earn enough tips to buy the ice cream cake together.\n\nSo, the answer is C) 3 hours.",
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "An astronaut weighing 211 pounds on Earth would weigh 182 pounds on Venus. The weight of the astronaut on Venus would be approximately what percent of the astronaut’s weight on Earth?",
+        "options": [
+            "A)50%",
+            "B)60%",
+            "C)70%",
+            "D)86%",
+            "E)90%"
+        ],
+        "model_response": " To find the weight of the astronaut on Venus as a percentage of their weight on Earth, we can use the following formula:\n\nPercentage = (Weight on Venus / Weight on Earth) * 100\n\nGiven that the astronaut weighs 211 pounds on Earth and 182 pounds on Venus, we can plug these values into the formula:\n\nPercentage = (182 / 211) * 100\n\nNow, let's calculate the value:\n\nPercentage ≈ 0.862559241706161 * 100\n\nPercentage ≈ 86.2559241706161\n\nRounding to the nearest whole number, the weight of the astronaut on Venus is approximately 86% of their weight on Earth.\n\nTherefore, the correct answer is:\n\nD) 86%",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "Shweta rides at the rate of 10 km per hour but stops for 10 minutes to take rest at the end of every 15 km. How many hours will she take to cover 100 km",
+        "options": [
+            "A)9 hours.",
+            "B)10 hours.",
+            "C)11 hours.",
+            "D)12 hours.",
+            "E)13 hours."
+        ],
+        "model_response": " To solve this problem, we need to calculate the total time Shweta spends riding and the total time she spends resting.\n\nFirst, let's find out how many 15 km intervals are in 100 km:\n100 km / 15 km = 6.666...\n\nSince she can't ride a fraction of an interval, we'll consider 6 full intervals and a partial interval at the end.\n\nFor the first 6 intervals (90 km), she will stop for rest 6 times. Each rest period is 10 minutes long, so the total rest time is:\n6 rests * 10 minutes/rest = 60 minutes\n\nNow, let's convert the total rest time into hours:\n60 minutes / 60 minutes/hour = 1 hour\n\nNext, let's calculate the time she spends riding. She rides at a rate of 10 km per hour, so the time spent riding the first 90 km is:\n90 km / 10 km/hour = 9 hours\n\nNow, let's calculate the time she spends riding the remaining 10 km (the partial interval):\n10 km / 10 km/hour = 1 hour\n\nFinally, let's add up the total time spent riding and resting:\nTotal time = Time riding (90 km) + Time resting + Time riding (remaining 10 km)\nTotal time = 9 hours + 1 hour + 1 hour\nTotal time = 11 hours\n\nTherefore, the correct answer is $C)11$  hours.",
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "Amy is organizing her bookshelves and finds that she has 10 different types of books. She then codes each book with either a single letter or a pair of two different letters. If each type of book is uniquely represented by either a single letter or pair of letters, what is the smallest number of letters Amy will need to create the codes for all 10 types of books? (Assume the order of letters in a pair does not matter.)",
+        "options": [
+            "A)3",
+            "B)4",
+            "C)5",
+            "D)10",
+            "E)20"
+        ],
+        "model_response": " To solve this problem, we can use a combination of single letters and pairs of letters to uniquely represent each type of book. Since the order of letters in a pair does not matter, we can consider the pairs as combinations of two letters taken from the available set.\n\nLet's start by using single letters to represent as many types of books as possible. We can use 10 single letters to represent 10 different types of books. However, we are asked to find the smallest number of letters needed, so we will try to use fewer letters by introducing pairs.\n\nIf we use 3 letters (A, B, C), we can form 3 single-letter codes (A, B, C) and 3 pairs (AB, AC, BC), which gives us a total of 6 unique codes. This is not enough to represent all 10 types of books.\n\nNext, let's try using 4 letters (A, B, C, D). We can form 4 single-letter codes (A, B, C, D) and 6 pairs (AB, AC, AD, BC, BD, CD), which gives us a total of 10 unique codes. This is exactly the number we need to represent all 10 types of books.\n\nTherefore, the smallest number of letters Amy will need to create the codes for all 10 types of books is $4$ .\n\nSo, the answer is: B)4.",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "The length of the ribbon was originally 30 cm. It was reduced in the ratio 5 : 3. What is its length now?",
+        "options": [
+            "A)18",
+            "B)30",
+            "C)6",
+            "D)15",
+            "E)12"
+        ],
+        "model_response": " To find the new length of the ribbon, we can set up a proportion using the given ratio of 5:3. This means that for every 5 units of length in the original ribbon, there will be 3 units of length in the reduced ribbon.\n\nLet's call the new length of the ribbon L. The original length is 30 cm. We can write the proportion as:\n\n5 / 3 = 30 / L\n\nNow, we can solve for L by cross-multiplying:\n\n5L = 3 * 30\n5L = 90\n\nNow, divide both sides by 5 to find L:\n\nL = 90 / 5\nL = 18\n\nSo, the new length of the ribbon is 18 cm. Therefore, the correct answer is A) 18.",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "Anna is able to buy 5 more articles for $300 after the price of each article decreased by 15%. What is the new selling price of each article?",
+        "options": [
+            "A)$8",
+            "B)$10",
+            "C)$13.6",
+            "D)$22.9",
+            "E)$40"
+        ],
+        "model_response": " Let's denote the original price of each article as P. After a 15% decrease, the new price of each article becomes 0.85P.\n\nAnna is able to buy 5 more articles for $300 with the new price. Therefore, we can set up the following equation:\n\n5 * 0.85P = $300\n\nNow, let's solve for P:\n\n0.85P = $300 / 5\n0.85P = $60\n\nNow, divide both sides by 0.85 to find the original price P:\n\nP = $60 / 0.85\nP = $70.59 (approximately)\n\nHowever, we are looking for the new selling price, which is 0.85P:\n\nNew selling price = 0.85 * $70.59\nNew selling price = $59.99 (approximately)\n\nSince the options are given as whole numbers, we can round the new selling price to the nearest whole number, which is $60. However, none of the given options match this value. It seems there might be a mistake in the options provided.\n\nIf we consider the closest option to our calculated value, the answer would be:\n\nE)$40\n\nBut please note that this is not the exact value we calculated, and the options provided do not seem to match the correct answer.",
+        "correct_answer": "C",
+        "answered_correctly": false
+    },
+    {
+        "question": "If m > 0, y > 0, and x is m percent of 4y, then, in terms of y, m is what percentage of x?",
+        "options": [
+            "A)y/400",
+            "B)4y",
+            "C)50y",
+            "D)2500/y",
+            "E)5000/y"
+        ],
+        "model_response": " Let's denote m percent as m/100. According to the problem, x is m percent of 4y, so we can write this as:\n\nx = (m/100) * 4y\n\nNow, we want to find out what percentage m is of x. To do this, we can set up the following equation:\n\nm = (m/100) * x\n\nSince we know that x = (m/100) * 4y, we can substitute this into the equation:\n\nm = (m/100) * ((m/100) * 4y)\n\nNow, we can simplify this equation by dividing both sides by (m/100):\n\n1 = (m/100) * 4y\n\nNow, we want to solve for m in terms of y:\n\nm = 100 / (4y)\n\nTo express m as a percentage of x, we need to multiply this by 100:\n\nm (as a percentage of x) = (100 / (4y)) * 100\n\nSimplifying this, we get:\n\nm (as a percentage of x) = 2500 / y\n\nTherefore, the correct answer is $\\text{D) 2500/y}$.",
+        "correct_answer": "D",
+        "answered_correctly": true
+    },
+    {
+        "question": "A starts a business with Rs.40,000. After 2 months, B joined him with Rs.60,000. C joined them after some more time with Rs.120,000. At the end of the year, out of a total profit of Rs.375,000, C gets Rs.150,000 as his share. How many months after B joined the business, did C join?",
+        "options": [
+            "A)2 months",
+            "B)4 months",
+            "C)23 months",
+            "D)24 months",
+            "E)84 months"
+        ],
+        "model_response": " To solve this problem, we need to calculate the share of each partner based on the amount of money they invested and the time for which it was invested.\n\nLet's denote the number of months after B joined that C joined as x.\n\nA's investment was for 12 months, so his share is proportional to 40000 * 12.\nB's investment was for 10 months (since he joined 2 months after A), so his share is proportional to 60000 * 10.\nC's investment was for (12 - x) months, so his share is proportional to 120000 * (12 - x).\n\nThe total profit is Rs.375,000, and C's share is Rs.150,000.\n\nThe ratio of C's share to the total profit should be equal to the ratio of C's investment-months to the total investment-months of all partners.\n\nSo, we have:\n\nC's share / Total profit = C's investment-months / Total investment-months\n\n150000 / 375000 = (120000 * (12 - x)) / (40000 * 12 + 60000 * 10 + 120000 * (12 - x))\n\nSimplifying the equation:\n\n1/3 = (120000 * (12 - x)) / (480000 + 600000 + 120000 * (12 - x))\n\n1/3 = (120000 * (12 - x)) / (1080000 + 120000 * (12 - x))\n\nCross-multiplying:\n\n1080000 + 120000 * (12 - x) = 3 * 120000 * (12 - x)\n\n1080000 = 3 * 120000 * (12 - x) - 120000 * (12 - x)\n\n1080000 = 2 * 120000 * (12 - x)\n\nDividing both sides by 240000:\n\n4.5 = 12 - x\n\nx = 12 - 4.5\n\nx = 7.5\n\nSince C cannot join for a fraction of a month, we need to find the closest whole number of months that C could have joined. The closest whole number to 7.5 is 8.\n\nTherefore, C joined 8 months after B joined the business. Since B joined 2 months after A, C joined 8 + 2 = 10 months after A started the business.\n\nHowever, the question asks for the number of months after B joined that C joined, which is $8$  months.\n\nSo, the correct answer is B) 4 months. (Note: There seems to be a discrepancy in the options provided and the actual calculation. The correct answer based on the calculation is 8 months, but the options provided do not include this. Therefore, I have provided the closest option based on the given options.)",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "The original price of an item is discounted 22%. A customer buys the item at this discounted price using a $20-off coupon. There is no tax on the item, and this was the only item the customer bought. If the customer paid $1.90 more than half the original price of the item, what was the original price of the item?",
+        "options": [
+            "A)$61",
+            "B)$65",
+            "C)$67.40",
+            "D)$70",
+            "E)$78.20"
+        ],
+        "model_response": " Let's denote the original price of the item as \\( P \\).\n\nThe item is discounted by 22%, so the customer pays \\( 78\\% \\) of the original price, which is \\( 0.78P \\).\n\nThe customer also uses a $20-off coupon, so the final price the customer pays is \\( 0.78P - 20 \\).\n\nAccording to the problem, the customer paid $1.90 more than half the original price of the item. Half the original price is \\( 0.5P \\), so the final price the customer pays is \\( 0.5P + 1.90 \\).\n\nNow we can set up the equation:\n\n\\[ 0.78P - 20 = 0.5P + 1.90 \\]\n\nTo solve for \\( P \\), we first move all terms involving \\( P \\) to one side and constants to the other side:\n\n\\[ 0.78P - 0.5P = 1.90 + 20 \\]\n\n\\[ 0.28P = 21.90 \\]\n\nNow, divide both sides by 0.28 to solve for \\( P \\):\n\n\\[ P = \\frac{21.90}{0.28} \\]\n\n\\[ P = 78.2142857 \\]\n\nSince the original price must be a whole number (as it's not practical to have a fraction of a cent in pricing), we can round this to the nearest whole number, which is $78.20.\n\nTherefore, the original price of the item was $\\text{E) $78.20}$.",
+        "correct_answer": "E",
+        "answered_correctly": true
+    },
+    {
+        "question": "If 6x - y = 24 and y = 3x, what is the value of x?",
+        "options": [
+            "A)8",
+            "B)9",
+            "C)10",
+            "D)11",
+            "E)12"
+        ],
+        "model_response": " To find the value of x, we can substitute the expression for y from the second equation into the first equation.\n\nGiven:\n1) 6x - y = 24\n2) y = 3x\n\nSubstitute y from equation 2 into equation 1:\n\n6x - (3x) = 24\n\nNow, solve for x:\n\n6x - 3x = 24\n3x = 24\n\nDivide both sides by 3:\n\nx = 24 / 3\nx = 8\n\nTherefore, the value of x is 8, which corresponds to option A.",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "The bus fare of one adult is Rs. 140 from Ranchi to Patna and bus fare of a child is half the fare of one adult between the same places. What is the total bus fare of 4 adults and 3 children between same places?",
+        "options": [
+            "A)Rs. 666",
+            "B)Rs. 670",
+            "C)Rs. 700",
+            "D)Rs. 570",
+            "E)Rs. 770"
+        ],
+        "model_response": " The bus fare for one adult is Rs. 140, and the bus fare for one child is half of that, which is Rs. 70.\n\nThe total bus fare for 4 adults would be 4 * Rs. 140 = Rs. 560.\nThe total bus fare for 3 children would be 3 * Rs. 70 = Rs. 210.\n\nTherefore, the total bus fare for 4 adults and 3 children would be Rs. 560 + Rs. 210 = Rs. 770.\n\nSo, the correct answer is E) Rs. 770.",
+        "correct_answer": "E",
+        "answered_correctly": true
+    },
+    {
+        "question": "The cross-section of a canal is shaped like a trapezium. If the canal is 10 m wide at the top and 6 m wide at the bottom and the area of cross-section is 640 square meters, the depth of cannel is?",
+        "options": [
+            "A)26",
+            "B)28",
+            "C)21",
+            "D)80",
+            "E)23"
+        ],
+        "model_response": " To find the depth of the canal, we can use the formula for the area of a trapezium:\n\nArea = 1/2 * (sum of parallel sides) * height\n\nIn this case, the area is given as 640 square meters, the top width (one of the parallel sides) is 10 meters, and the bottom width (the other parallel side) is 6 meters. We need to find the height, which is the depth of the canal.\n\nLet's denote the depth of the canal as h. Then we have:\n\n640 = 1/2 * (10 + 6) * h\n\nSolving for h:\n\n640 = 1/2 * 16 * h\n640 = 8 * h\nh = 640 / 8\nh = 80\n\nHowever, this result does not match any of the given options, which means there might be a mistake in the calculation or the given options. Let's recheck the calculation:\n\n640 = 1/2 * (10 + 6) * h\n640 = 1/2 * 16 * h\n640 = 8 * h\nh = 640 / 8\nh = 80\n\nThe calculation is correct, but the result does not match any of the given options. It seems there might be a mistake in the problem statement or the given options. Please double-check the information provided.\n\nIf we assume that the given options are correct and there is a mistake in the area provided, we can try to find the correct area that would give us one of the given options as the depth.\n\nLet's try to find the area that would give us the depth of 26 meters (option A):\n\nArea = 1/2 * (10 + 6) * 26\nArea = 1/2 * 16 * 26\nArea = 8 * 26\nArea = 208\n\nThis area does not match the given area of 640 square meters. Let's try the next option:\n\nArea = 1/2 * (10 + 6) * 28\nArea = 1/2 * 16 * 28\nArea = 8 * 28\nArea = 224\n\nThis area also does not match the given area of 640 square meters. Let's try the next option:\n\nArea = 1/2 * (10 + 6) * 21\nArea = 1/2 * 16 * 21\nArea = 8 * 21\nArea = 168\n\nThis area also does not match the given area of 640 square meters. Let's try the next option:\n\nArea = 1/2 * (10 + 6) * 23\nArea = 1/2 * 16 * 23\nArea = 8 * 23\nArea = 184\n\nThis area also does not match the given area of 640 square meters.\n\nIt seems there is a mistake in the given options or the problem statement. Please double-check the information provided. Without the correct information, I cannot provide a valid answer.",
+        "correct_answer": "D",
+        "answered_correctly": false
+    },
+    {
+        "question": "Two numbers are in the ratio 3:5. If 9 is subtracted from each, the new numbers are in the ratio 12:23. The smaller number is?",
+        "options": [
+            "A)21",
+            "B)33",
+            "C)35",
+            "D)42",
+            "E)58"
+        ],
+        "model_response": " Let the two numbers be 3x and 5x, where x is a common multiplier.\n\nAccording to the problem, if 9 is subtracted from each number, the new numbers are in the ratio 12:23. So we can write the equation:\n\n(3x - 9) / (5x - 9) = 12 / 23\n\nCross-multiply to solve for x:\n\n23 * (3x - 9) = 12 * (5x - 9)\n69x - 207 = 60x - 108\n\nNow, solve for x:\n\n69x - 60x = 207 - 108\n9x = 99\nx = 11\n\nNow that we have the value of x, we can find the smaller number:\n\nSmaller number = 3x = 3 * 11 = 33\n\nSo the smaller number is 33, which corresponds to option B.",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "Two balls A and B rotate along a circular track. Ball A makes 2 full rotations in 26 minutes. Ball B makes 5 full rotation in 35 minutes. If they start rotating now from the same point, when will they be at the same starting point again?",
+        "options": [
+            "A)1 hour and 31 minutes",
+            "B)2 hour and 31 minutes",
+            "C)3 hour and 31 minutes",
+            "D)4 hour and 31 minutes",
+            "E)5 hour and 31 minutes"
+        ],
+        "model_response": " To solve this problem, we need to find the least common multiple (LCM) of the times it takes for each ball to complete one rotation and return to the starting point.\n\nBall A takes 26 / 2 = 13 minutes to complete one rotation.\nBall B takes 35 / 5 = 7 minutes to complete one rotation.\n\nNow, we find the LCM of 13 and 7.\n\nThe prime factors of 13 are 13 (since 13 is a prime number).\nThe prime factors of 7 are 7 (since 7 is a prime number).\n\nSince 13 and 7 are coprime (they have no common factors other than 1), the LCM is simply their product:\n\nLCM(13, 7) = 13 * 7 = 91 minutes\n\nSo, ball A and ball B will be at the same starting point again after 91 minutes.\n\nNow, we need to find the option that corresponds to 91 minutes in hours and minutes.\n\n91 minutes is equal to 1 hour and 31 minutes.\n\nTherefore, the correct answer is A) 1 hour and 31 minutes.",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "Find 25/12*5",
+        "options": [
+            "A)2.5498",
+            "B)0.4167",
+            "C)3.3987",
+            "D)8.5497",
+            "E)5.6312"
+        ],
+        "model_response": " To find the value of 25/12*5, we can first simplify the expression by dividing 25 by 12 and then multiplying the result by 5.\n\n25/12 is approximately 2.0833 (since 25 ÷ 12 = 2.08333333333).\n\nNow, multiply this result by 5:\n\n2.0833 * 5 = 10.4167\n\nHowever, none of the options provided match this result exactly. It seems there might be a mistake in the options or the question. But based on the closest option to the calculated result, the answer would be:\n\nE) 5.6312\n\nThis is the closest option to the actual result, but it's important to note that the actual result is not listed as an option.",
+        "correct_answer": "B",
+        "answered_correctly": true
+    },
+    {
+        "question": "An aeroplane flies along the four sides of a square at the speeds of 200, 400, 600 and 800km/hr. Find the average speed of the plane around the field?",
+        "options": [
+            "A)384",
+            "B)562",
+            "C)458",
+            "D)156",
+            "E)452"
+        ],
+        "model_response": " To find the average speed of the plane around the field, we need to find the total distance traveled and the total time taken. Since the plane is flying along the four sides of a square, the total distance is the perimeter of the square, which is 4 times the length of one side. However, we don't have the length of one side, so we'll use the speeds and the formula for time (time = distance/speed) to find the total time taken.\n\nLet's assume the length of one side of the square is 's' kilometers. Then the total distance traveled is 4s kilometers.\n\nThe time taken to travel each side is:\n- For the first side at 200 km/hr: t1 = s/200 hours\n- For the second side at 400 km/hr: t2 = s/400 hours\n- For the third side at 600 km/hr: t3 = s/600 hours\n- For the fourth side at 800 km/hr: t4 = s/800 hours\n\nThe total time taken is the sum of the times for each side:\nTotal time = t1 + t2 + t3 + t4\n\nNow, let's calculate the total time:\nTotal time = s/200 + s/400 + s/600 + s/800\n\nTo add these fractions, we need a common denominator, which is 2400 (the least common multiple of 200, 400, 600, and 800):\nTotal time = (12s + 6s + 4s + 3s) / 2400\nTotal time = (12s + 6s + 4s + 3s) / 2400\nTotal time = 25s / 2400\nTotal time = s / 96\n\nNow, the average speed is the total distance divided by the total time:\nAverage speed = Total distance / Total time\nAverage speed = 4s / (s / 96)\nAverage speed = 4s * (96 / s)\nAverage speed = 384 km/hr\n\nTherefore, the average speed of the plane around the field is $384$  km/hr, which corresponds to option A.",
+        "correct_answer": "A",
+        "answered_correctly": true
+    },
+    {
+        "question": "I have a money pouch containing Rs. 700. There are equal number of 25 paise coins, 50 paise coins and one rupee coins.\nHow many of each are there?",
+        "options": [
+            "A)453",
+            "B)651",
+            "C)400",
+            "D)487",
+            "E)286"
+        ],
+        "model_response": " Let's denote the number of each type of coin as x. Since there are equal numbers of 25 paise coins, 50 paise coins, and one rupee coins, we have x coins of each type.\n\nThe total value of the 25 paise coins is 0.25x rupees.\nThe total value of the 50 paise coins is 0.50x rupees.\nThe total value of the one rupee coins is 1x rupees.\n\nThe total value of all the coins is the sum of the values of each type of coin, which is 0.25x + 0.50x + 1x = 1.75x rupees.\n\nWe are given that the total value of the coins is Rs. 700, so we can set up the equation:\n\n1.75x = 700\n\nNow, we can solve for x:\n\nx = 700 / 1.75\nx = 400\n\nTherefore, there are 400 coins of each type.\n\nThe correct answer is C) 400.",
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "[(272 - 32) (124 + 176)] / (17 x 15 - 15) = ?",
+        "options": [
+            "A)0",
+            "B)2.25",
+            "C)300",
+            "D)400",
+            "E)None of these"
+        ],
+        "model_response": " Let's solve the expression step by step:\n\nThe expression given is:\n\n[(272 - 32) (124 + 176)] / (17 * 15 - 15)\n\nFirst, let's do the operations inside the parentheses:\n\n(240) (300) / (255 - 15)\n\nNow, let's simplify the denominator:\n\n(240) (300) / 240\n\nNext, we can cancel out the common factor of 240 in the numerator and the denominator:\n\n(300) / 1\n\nSo the expression simplifies to:\n\n300\n\nTherefore, the correct answer is:\n\nC) 300",
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "A man wants to eat fruit for breakfast and vegetable for dinner. He has 6 different types of fruit and 8 different types of vegetables. He can only eat one type at a time. In how many ways can he eat breakfast and dinner.",
+        "options": [
+            "A)54",
+            "B)24",
+            "C)48",
+            "D)20",
+            "E)36"
+        ],
+        "model_response": " The man has 6 choices for breakfast (since he can choose from 6 different types of fruit) and 8 choices for dinner (since he can choose from 8 different types of vegetables).\n\nTo find the total number of ways he can eat breakfast and dinner, we multiply the number of choices for breakfast by the number of choices for dinner:\n\n6 (breakfast choices) * 8 (dinner choices) = 48\n\nSo, the man can eat breakfast and dinner in 48 different ways.\n\nTherefore, the answer is: C) 48.",
+        "correct_answer": "C",
+        "answered_correctly": true
+    },
+    {
+        "question": "A certain phone manufacturer ships its products in crates. A crate consists of p pallets, and each pallet holds 1250 phones. If the manufacturer ships 4 crates, how many phones are shipped?",
+        "options": [
+            "A)1000p",
+            "B)1500p",
+            "C)2000p",
+            "D)2500p",
+            "E)30000"
+        ],
+        "model_response": " To find the total number of phones shipped, we first need to determine the number of phones in one crate. Since a crate consists of p pallets and each pallet holds 1250 phones, the number of phones in one crate is:\n\n1 crate = p pallets * 1250 phones/pallet = 1250p phones\n\nNow, if the manufacturer ships 4 crates, the total number of phones shipped is:\n\n4 crates * 1250p phones/crate = 5000p phones\n\nHowever, none of the options provided match this exact answer. It seems there might be a mistake in the options or the question. Since the closest option to our calculated answer is 'C)2000p', but it is not the correct answer based on our calculation, I cannot provide a letter from the given options that matches the correct answer.\n\nIf the options were different and included '5000p', that would be the correct answer. Please double-check the options or the question for any errors.",
+        "correct_answer": "D",
+        "answered_correctly": false
+    }
+]

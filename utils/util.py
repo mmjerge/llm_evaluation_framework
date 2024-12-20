@@ -7,34 +7,87 @@ import json
 import numpy as np
 import time
 import pandas as pd
-import numpy as np
 import numpy.typing as npt
-import pandas as pd
 import torch
 import torch.nn as nn
 import torch.distributed as distributed
 import torch.nn.functional as F
 from torch.nn.parallel import DistributedDataParallel as DDP
-import neo4j
-import spacy
-from typing import Dict, Union, Optional, List
+from typing import Dict, Union, Optional, List, Protocol, Any, TypeVar, Generic
 from openai import OpenAI
 from transformers import pipeline, AutoModelForCausalLM, AutoTokenizer
-import google.generativeai as genai
 from itertools import islice
+from dataclasses import dataclass, field
+from enum import Enum, auto
+from pathlib import Path
+import asyncio
+import aiohttp
+from functools import wraps
+import logging
+from datetime import datetime
+import datasets
+
+T = TypeVar('T', bound=Any)
+ModelOutput = TypeVar('ModelOutput', bound=Dict[str, Any])
+Prompt = str
+Reference = str
+Score = float
+
+@dataclass(frozen=True)
+class EvaluationResult:
+    """
+    Represents the result of an evaluation.
+
+    Attributes:
+        method_name (str): The name of the evaluation method used.
+        model_name (str): The name of the model being evaluated.
+        scores (List[float]): A list of scores from the evaluation.
+        metadata (Dict[str, Any]): Additional metadata related to the evaluation. Defaults to an empty dictionary.
+    """
+
+    method_name: str
+    model_name: str
+    scores: List[float]
+    metadata: Dict[str, Any] = field(default_factory=dcit)
+
+    @property
+    def mean_score(self) -> float:
+        """
+        Calculate the mean of the evaluation scores.
+
+        Returns:
+            float: The mean of the scores.
+        """
+        return float(np.mean(self.scores))
+
+    @property
+    def std_score(self) -> float:
+        """
+        Calculate the standard deviation of the evaluation scores.
+
+        Returns:
+            float: The standard deviation of the scores.
+        """
+        return float(np.std(self.scores))
 
 def extract_tokens(data):
-    """_summary_
+    """
+    Recursively extracts tokens from nested data structures.
+
+    This function traverses dictionaries and lists to extract tokens
+    (keys from dictionaries nested within single-item lists) in a
+    hierarchical structure.
 
     Parameters
     ----------
-    data : _type_
-        _description_
+    data : dict or list
+        The input data structure to traverse. It can be a nested combination 
+        of dictionaries and lists.
 
     Yields
     ------
     token : str
-        _description_
+        Tokens (dictionary keys) extracted from the input data structure.
     """
     if isinstance(data, dict):
         for value in data.values():
@@ -47,7 +100,27 @@ def extract_tokens(data):
                     for token in inner_dict.keys():
                         yield token
 
+
 def extract_token_logprob_pairs(data):
+    """
+    Recursively extracts token-logprob pairs from nested data structures.
+
+    This function traverses dictionaries and lists to extract key-value pairs
+    (tokens and their associated log probabilities) from dictionaries nested
+    within single-item lists.
+
+    Parameters
+    ----------
+    data : dict or list
+        The input data structure to traverse. It can be a nested combination 
+        of dictionaries and lists.
+
+    Yields
+    ------
+    tuple
+        A tuple of (token, logprob), where `token` is a string representing 
+        the key and `logprob` is the associated value.
+    """
     if isinstance(data, dict):
         for value in data.values():
             yield from extract_token_logprob_pairs(value)
@@ -59,253 +132,95 @@ def extract_token_logprob_pairs(data):
                     for token, logprob in inner_dict.items():
                         yield (token, logprob)
 
-class Connection(ABC):
-    @abstractmethod
-    def __enter__(self):
-        pass
-    
-    @abstractmethod
-    def __exit__(self, exc_type, exc_val, exc_tb):
-        pass
-
-
-class BaseAgent(Connection):
-    """Base class for creating different llm baesd agents
+class ModelPlatform(Enum):
     """
-    def __init__(self,
-                 model_name: str,
-                 neo4j_uri: str,
-                 neo4j_username: str,
-                 neo4j_password: str) -> None:
-        super().__init__()
+    Enumeration of model types supported in the evaluation.
+
+    Attributes:
+        HUGGINGFACE: Represents models from the Hugging Face library.
+        OPENAI: Represents models from OpenAI.
+        ANTHROPIC: Represents models from Anthropic.
+    """
+    HUGGINGFACE = auto()
+    OPENAI = auto()
+    ANTHROPIC = auto()
+
+    @property
+    def default_endpoint(self) -> Optional[str]:
+        endpoints = {
+            ModelPlatform.OPENAI: "https://api.openai.com/v1",
+            ModelPlatform.ANTHROPIC: "https://api.anthropic.com/v1",
+            ModelPlatform.HUGGINGFACE: None
+        }
+        return endpoints[self]
+
+class BaseAgent(ABC):
+    """Base class for creating different LLM-based agents"""
+    API_RETRY_SLEEP = 10
+    API_RESPONSE_ERROR = "$ERROR$"
+    API_QUERY_SLEEP = 0.5
+    API_MAX_RETRY = 5
+    API_TIMEOUT = 20.0
+
+    def __init__(self, platform: ModelPlatform, model_name: str) -> None:
+        self.platform = platform
         self.model_name = model_name
-        self.neo4j_uri = neo4j_uri
-        self.neo4j_username = neo4j_username
-        self.neo4j_password = neo4j_password
-        self.driver = None
 
-    # To use with a "with" block
-    def __enter__(self):
-        """
-        Initialize a connection to the Neo4j database when entering a context.
+    @abstractmethod
+    def generate_response(self, prompt: str) -> str:
+        pass
 
-        This method is called when the instance is entered using a 'with' statement.
-        It attempts to establish a connection to the Neo4j database using the credentials
-        provided during the instance's initialization. If successful, it returns the
-        instance itself, allowing it to be used within the 'with' block.
+class OpenAIAgent(BaseAgent):
+    def __init__(self,
+                model_name,
+                api_key: Optional[str]=None,
+                temperature: float=0.5,
+                max_tokens: int=256) -> None:
+        super().__init__(ModelPlatform.OPENAI, model_name)
+        self.client = OpenAI(
+            api_key=api_key or os.getenv("OPENAI_API_KEY"),
+            base_url=self.platform.default_endpoint
+        )
+        self.temperature = temperature
+        self.max_tokens = max_tokens
 
-        Returns
-        -------
-        self : object
-            The instance itself, now holding an active connection to the Neo4j database.
-
-        Raises
-        ------
-        Exception
-            If there is any issue in establishing a connection to the Neo4j database,
-            an exception is raised. Any connection error leads to a cleanup where any
-            partially created resources are closed before re-raising the exception.
-
-        Example
-        -------
-        >>> with YourClassInstance as instance:
-        >>>     # Use instance connected to Neo4j here
-        """
-        try:
-            auth = (self.neo4j_username, self.neo4j_password)
-            self.driver = neo4j.GraphDatabase.driver(self.neo4j_uri, auth=auth)
-            return self
-        except Exception as e:
-            # If there is a connection error, this cleans up resources
-            if self.driver is not None:
-                self.driver.close()
-            raise e
-  
-    def __exit__(self, exc_type, exc_val, exc_tb):
-        """
-        Clean up the Neo4j database connection when exiting a context.
-
-        This method is automatically called at the end of a 'with' block, ensuring
-        that the database connection is properly closed and resources are freed.
-        It is part of the context manager protocol which allows for automatic
-        resource management, preventing resource leaks.
-
-        Parameters
-        ----------
-        exc_type : type
-            The type of the exception if an exception was raised within the 'with' block.
-        exc_val : Exception
-            The exception instance if an exception was raised within the 'with' block.
-        exc_tb : traceback
-            The traceback object if an exception was raised within the 'with' block.
-
-        Notes
-        -----
-        - If an exception is raised within the 'with' block, it is passed to this method,
-        allowing for potential logging or custom exception handling before the cleanup.
-        - The connection to the Neo4j database is closed regardless of whether an
-        exception occurred or not, ensuring a clean exit.
-
-        Example
-        -------
-        >>> with YourClassInstance as instance:
-        >>>     # Operations with Neo4j here
-        >>> # Automatic cleanup here
-        """
-        if self.driver is not None:
-            self.driver.close()
-
-class GeminiAgent(BaseAgent):
-    """Google Gemini Agent Class
-
-    Parameters
-    ----------
-    BaseAgent : class
-        Super class for all agents
-    """
-    API_RETRY_SLEEP = 10
-    API_RESPONSE_ERROR = "$ERROR$"
-    API_QUERY_SLEEP = 1.0
-    API_MAX_RETRY = 5
-    API_TIMEOUT = 20.0
-    API_KEY = os.getenv("GEMINI_API_KEY")
-    def __init__(self, 
-                 model_name: str, 
-                 neo4j_uri: str, 
-                 neo4j_username: str, 
-                 neo4j_password: str,
-                 api_key=API_KEY) -> None:
-        """_summary_
-
-        Parameters
-        ----------
-        model_name : str
-            _description_
-        neo4j_uri : str
-            _description_
-        neo4j_username : str
-            _description_
-        neo4j_password : str
-            _description_
-        api_key : _type_, optional
-            _description_, by default API_KEY
-        """
-        super().__init__(model_name, neo4j_uri, neo4j_username, neo4j_password)
-        self.client = genai.configure(api_key=api_key)
-    
-    def start_chat(self, prompt: str):
-        """_summary_
-
-        Parameters
-        ----------
-        prompt : str
-            _description_
-
-        Returns
-        -------
-        _type_
-            _description_
-        """
+    def generate(self, prompt: str) -> str:
+        """Generate a response using any OpenAI model"""
         response = self.API_RESPONSE_ERROR
         for _ in range(self.API_MAX_RETRY):
             try:
-                model = genai.GenerativeModel(
-                    model_name = self.model_name
+                chat = self.client.chat.completions.create(
+                    messages=[
+                        {
+                            "role": "user",
+                            "content": prompt
+                        }
+                    ],
+                    model=self.model_name,
+                    logprobs=True, 
+                    max_tokens=self.max_tokens,
+                    temperature=self.temperature,
+                    timeout=self.API_TIMEOUT
                 )
-                chat = model.start_chat()
-                response = chat.send_message(prompt)
+                response = chat.choices[0].message.content
                 break
             except Exception as e:
-                print(f"Failed to initialize Google client: {e}")
+                print(f"Failed to generate response: {e}")
                 time.sleep(self.API_RETRY_SLEEP)
-            time.sleep(self.API_RETRY_SLEEP)
-        return response.text
-    
-    def count_tokens(self, response):
-        """_summary_
+        return response
 
-        Parameters
-        ----------
-        response : _type_
-            _description_
-
-        Returns
-        -------
-        _type_
-            _description_
-        """
-        content = response._raw_response.usage_metadata
-        return content
-    
-class ReplicateAgent(BaseAgent):
-    """_summary_
-
-    Parameters
-    ----------
-    BaseAgent : _type_
-        _description_
-    """
-    API_RETRY_SLEEP = 10
-    API_RESPONSE_ERROR = "$ERROR$"
-    API_QUERY_SLEEP = 1.0
-    API_MAX_RETRY = 5
-    API_TIMEOUT = 20.0
-    API_KEY = os.getenv("REPLICATE_API_KEY")
-    def __init__(self, 
-                 model_name: str, 
-                 neo4j_uri: str, 
-                 neo4j_username: str, 
-                 neo4j_password: str,
-                 api_key=API_KEY) -> None:
-        """_summary_
-
-        Parameters
-        ----------
-        model_name : str
-            _description_
-        neo4j_uri : str
-            _description_
-        neo4j_username : str
-            _description_
-        neo4j_password : str
-            _description_
-        api_key : _type_, optional
-            _description_, by default API_KEY
-        """
-        super().__init__(model_name, neo4j_uri, neo4j_username, neo4j_password)
-        self.client = genai.configure(api_key=api_key)
-    
-    def start_chat(self, prompt: str):
-        response = self.API_RESPONSE_ERROR
-        for _ in range(self.API_MAX_RETRY):
-            try:
-                model = genai.GenerativeModel(
-                    model_name = self.model_name
-                )
-                chat = model.start_chat()
-                response = chat.send_message(prompt)
-                break
-            except Exception as e:
-                print(f"Failed to initialize OpenAI client: {e}")
-                time.sleep(self.API_RETRY_SLEEP)
-            time.sleep(self.API_RETRY_SLEEP)
-        return response.text
-    
-    def count_tokens(self, response):
-        """_summary_
-
-        Parameters
-        ----------
-        response : _type_
-            _description_
-
-        Returns
-        -------
-        _type_
-            _description_
-        """
-        content = response._raw_response.usage_metadata
-        return content
+    def retrieve_tokens_logprobs(self, prompt: str) -> List[Dict[int, Dict[str, float]]]:
+        """Retrieve token logprobs for a given prompt"""
+        chat = self.client.chat.completions.create(
+            messages=[{"role": "user", "content": prompt}],
+            model=self.model_name,
+            logprobs=True,
+            max_tokens=self.max_tokens,
+            temperature=self.temperature,
+            timeout=self.API_TIMEOUT
+        )
+        return [{count: {value.token: value.logprob}} 
+                for count, value in enumerate(chat.choices[0].logprobs.content)]
 
 class GPT35Agent(BaseAgent):
     """GPT 3.5 Turbo Agent Class
@@ -740,7 +655,7 @@ class LlamaBaseAgent(BaseAgent):
             for index, (token, logprob) in enumerate(zip(generated_tokens[0], transition_scores[0])):
                 logprob = logprob.cpu().numpy()
                 token_str = tokenizer.decode([token])
-                output_structure.append({index: {token_str: float(logprob)}}) #List[Dict[int, Dict[str, float]]]
+                output_structure.append({index: {token_str: float(logprob)}})
             return output_structure
         else:
             outputs = model.generate(**inputs, max_new_tokens=200)
@@ -924,7 +839,6 @@ class LlamaLargeAgent(BaseAgent):
         print("Graph created.")
 
 class MicrosoftAgent(BaseAgent):
-
     def __init__(self, 
                  model_name: str, 
                  neo4j_uri: str, 

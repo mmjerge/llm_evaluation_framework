@@ -1,0 +1,502 @@
+[
+    {
+        "question": "How much do you have to pay to buy each pack?",
+        "model_response": "To find the price after the discount, subtract the discount from the original price.\n\nOriginal price: $76\nDiscount: $25\n\nPrice after discount: $76 - $25 = $51\n\nSo, you would have to pay $51 to buy each pack.",
+        "correct_answer": 51.0
+    },
+    {
+        "question": "How much did the candy bar cost?",
+        "model_response": "## Step 1: Determine the amount of money Dan had after buying the candy bar.\nDan had $3 left after buying the candy bar.\n\n## Step 2: Determine the amount of money Dan had at the start.\nDan had $4 at the start.\n\n## Step 3: Calculate the cost of the candy bar by subtracting the amount of money Dan had after buying the candy bar from the amount of money he had at the start.\nCost of candy bar = Amount of money at the start - Amount of money after buying the candy bar\nCost of candy bar = $4 - $3\nCost of candy bar = $1\n\nThe final answer is: $\\boxed{1}$",
+        "correct_answer": 1.0
+    },
+    {
+        "question": "How many salty cookies did Paco have left?",
+        "model_response": "## Step 1: Calculate the initial number of salty cookies Paco had.\nPaco initially had 26 salty cookies.\n\n## Step 2: Calculate the number of salty cookies Paco ate.\nPaco ate 9 salty cookies.\n\n## Step 3: Subtract the number of salty cookies Paco ate from the initial number of salty cookies to find out how many he had left.\n26 (initial salty cookies) - 9 (salty cookies eaten) = 17\n\nThe final answer is: $\\boxed{17}$",
+        "correct_answer": 17.0
+    },
+    {
+        "question": "How many children got off the bus at the bus stop?",
+        "model_response": "Let's use subtraction to find out how many children got off the bus.\n\nThere were originally 43 children on the bus. After some children got off, there were 21 children left.\n\nTo find out how many children got off, we subtract 21 from 43:\n\n43 - 21 = 22\n\nSo, 22 children got off the bus at the bus stop.",
+        "correct_answer": 22.0
+    },
+    {
+        "question": "How many more children got on the bus than those that got off?",
+        "model_response": "## Step 1: Calculate the total number of children who got on the bus and those who were already on the bus before the stop.\nThere were 28 children initially on the bus. At the bus stop, 82 children got on the bus. So, the total number of children on the bus after the stop but before any got off is 28 + 82 = 110.\n\n## Step 2: Determine the number of children who got off the bus.\nAfter the stop, there were 30 children on the bus. Since we know there were 110 children on the bus before any got off, the number of children who got off is 110 - 30 = 80.\n\n## Step 3: Calculate the difference between the number of children who got on the bus and those who got off.\nTo find out how many more children got on the bus than those that got off, we subtract the number of children who got off from the number of children who got on. So, 82 (children who got on) - 80 (children who got off) = 2.\n\nThe final answer is: $\\boxed{2}$",
+        "correct_answer": 2.0
+    },
+    {
+        "question": "How much more money did she collect at the atm than she spent at the supermarket?",
+        "model_response": "## Step 1: Calculate the total amount of money Olivia had after collecting from the ATM.\nOlivia initially had 3 dollars in her wallet. She then collected 49 more dollars from an ATM, so the total amount of money she had after collecting from the ATM is 3 + 49 = 52 dollars.\n\n## Step 2: Calculate the amount of money Olivia spent at the supermarket.\nAfter visiting the supermarket, Olivia had 49 dollars left. This means she spent 52 - 49 = 3 dollars at the supermarket.\n\n## Step 3: Calculate how much more money Olivia collected at the ATM than she spent at the supermarket.\nTo find out how much more money Olivia collected at the ATM than she spent at the supermarket, we need to subtract the amount she spent at the supermarket from the amount she collected at the ATM. So, 49 - 3 = 46 dollars.\n\nThe final answer is: $\\boxed{46}$",
+        "correct_answer": 46.0
+    },
+    {
+        "question": "How many action figures did he have initially on the shelf?",
+        "model_response": "There were 3 action figures on the shelf initially. If there are a total of 10 action figures on the shelf now, then 10 - 7 = 3 action figures were on the shelf initially. The answer is 3.",
+        "correct_answer": 3.0
+    },
+    {
+        "question": "How many more cookies did he eat than those he gave to his friend?",
+        "model_response": "## Step 1: Calculate the number of cookies Paco gave to his friend.\nPaco gave 9 cookies to his friend.\n\n## Step 2: Calculate the number of cookies Paco ate.\nPaco ate 18 cookies.\n\n## Step 3: Find the difference between the number of cookies Paco ate and the number he gave to his friend.\nTo find out how many more cookies Paco ate than he gave to his friend, we need to subtract the number of cookies he gave to his friend from the number of cookies he ate. difference = 18 - 9 = 9\n\nThe final answer is: $\\boxed{9}$",
+        "correct_answer": 9.0
+    },
+    {
+        "question": "How many more cups of flour does she need to add?",
+        "model_response": "The recipe calls for 10 cups of flour. Mary has already put in 6 cups of flour. To find out how many more cups of flour she needs to add, we need to subtract 6 from 10.\n\n10 - 6 = 4\n\nSo, Mary needs to add 4 more cups of flour.",
+        "correct_answer": 4.0
+    },
+    {
+        "question": "How many customers did he have at the start?",
+        "model_response": "Let's call the number of customers the waiter had at the start \"x\".\n\nAfter 9 customers left, he had x - 9 customers.\n\nBut we know that after 9 customers left, he still had 12 customers. So, we can set up the equation:\n\nx - 9 = 12\n\nTo solve for x, we can add 9 to both sides of the equation:\n\nx = 12 + 9\nx = 21\n\nSo, the waiter had 21 customers at the start.",
+        "correct_answer": 21.0
+    },
+    {
+        "question": "How many more storks than birds are sitting on the fence?",
+        "model_response": "There are 3 birds.  There are 6 storks.  6 + 3 = 9.  9 - 3 = 6.  The answer is 6.",
+        "correct_answer": 1.0
+    },
+    {
+        "question": "How many chairs do they have in the backyard?",
+        "model_response": "To find the total number of chairs, we need to multiply the number of sets of tables by the number of chairs in each set.\n\nNumber of sets of tables = 11\nNumber of chairs in each set = 13\n\nTotal number of chairs = 11 x 13 = 143\n\nSo, they have 143 chairs in the backyard.",
+        "correct_answer": 143.0
+    },
+    {
+        "question": "How many pupils are there in that school?",
+        "model_response": "## Step 1: Determine the number of boys by subtracting the difference in the number of girls and boys from the total number of girls.\nTo find the number of boys, we need to subtract 458 from the total number of girls, which is 692.\n\n## Step 2: Calculate the number of boys.\nNumber of boys = Total number of girls - Difference in the number of girls and boys\nNumber of boys = 692 - 458\nNumber of boys = 234\n\n## Step 3: Add the number of boys and girls to find the total number of pupils in the school.\nTotal number of pupils = Number of boys + Number of girls\nTotal number of pupils = 234 + 692\n\n## Step 4: Calculate the total number of pupils.\nTotal number of pupils = 926\n\nThe final answer is: $\\boxed{926}$",
+        "correct_answer": 926.0
+    },
+    {
+        "question": "How deep was the water?",
+        "model_response": "## Step 1: Determine Ron's height\nRon stands at 13 feet.\n\n## Step 2: Calculate Dean's height\nDean is 4 feet taller than Ron, so Dean's height is 13 + 4 = 17 feet.\n\n## Step 3: Calculate the depth of the water\nThe depth of the water is 15 times Dean's height, so the depth of the water is 15 * 17 = 255 feet.\n\nThe final answer is: $\\boxed{255}$",
+        "correct_answer": 255.0
+    },
+    {
+        "question": "How many birds are sitting on the fence?",
+        "model_response": "Let's count the birds:\n\nInitially, there were 6 birds on the fence.\n\n4 more birds joined them, so we add 4 to 6:\n6 + 4 = 10\n\nThen, 8 more storks came to join them. However, storks are not birds, so we don't need to add them to the count of birds. The number of birds remains the same.\n\nSo, there are still 10 birds sitting on the fence.",
+        "correct_answer": 10.0
+    },
+    {
+        "question": "How much did his dad's strawberries weigh now?",
+        "model_response": "## Step 1: Calculate the total weight of strawberries Marco had initially.\nMarco's strawberries weighed 12 pounds after his dad lost some.\n\n## Step 2: Calculate the weight of strawberries Marco's dad had initially.\nSince together they collected 36 pounds of strawberries, and Marco had 12 pounds, his dad had 36 - 12 = 24 pounds initially.\n\n## Step 3: Calculate the weight of strawberries Marco's dad had after losing some.\nMarco's dad lost 8 pounds of strawberries, so he had 24 - 8 = 16 pounds left.\n\nThe final answer is: $\\boxed{16}$",
+        "correct_answer": 16.0
+    },
+    {
+        "question": "How many boys are there in that school?",
+        "model_response": "## Step 1: Let's denote the number of boys as B and the number of girls as G. We know that G = 697.\n\n## Step 2: We are also given that there are 228 more girls than boys, so we can express this as G = B + 228.\n\n## Step 3: Since we know G = 697, we can substitute this into the equation from step 2 to get 697 = B + 228.\n\n## Step 4: To find the number of boys, we need to solve the equation for B. We can do this by subtracting 228 from both sides of the equation.\n\n## Step 5: Subtracting 228 from 697 gives us B = 697 - 228.\n\n## Step 6: Performing the subtraction, we get B = 469.\n\nThe final answer is: $\\boxed{469}$",
+        "correct_answer": 469.0
+    },
+    {
+        "question": "How many girls are there in the school now?",
+        "model_response": "## Step 1: Calculate the initial number of girls in the school.\nThere are 732 girls initially in the school.\n\n## Step 2: Calculate the number of girls after 682 more girls joined the school.\nThe number of girls after 682 more joined is 732 + 682 = 1414.\n\n## Step 3: There is no need to calculate the number of boys as the question only asks for the number of girls in the school now.\n\nThe final answer is: $\\boxed{1414}$",
+        "correct_answer": 1414.0
+    },
+    {
+        "question": "How many wrappers did danny have at first?",
+        "model_response": "## Step 1: Identify the initial and final number of bottle caps and wrappers.\nDanny initially found 22 bottle caps and 30 wrappers at the park. After collecting more, he had 17 bottle caps and 57 wrappers in his collection.\n\n## Step 2: Calculate the number of bottle caps Danny collected.\nTo find out how many bottle caps Danny collected, we subtract the initial number of bottle caps from the final number. collected_bottle_caps = final_bottle_caps - initial_bottle_caps = 17 - 22 = -5. However, since we cannot have a negative number of bottle caps collected, this indicates that Danny actually lost some bottle caps. But for the purpose of this problem, we are focusing on the wrappers.\n\n## Step 3: Calculate the number of wrappers Danny collected.\nTo find out how many wrappers Danny collected, we subtract the initial number of wrappers from the final number. collected_wrappers = final_wrappers - initial_wrappers = 57 - 30 = 27.\n\n## Step 4: Determine the initial number of wrappers Danny had.\nSince we are looking for the initial number of wrappers Danny had, we need to subtract the number of wrappers he collected from the final number of wrappers. initial_wrappers = final_wrappers - collected_wrappers = 57 - 27 = 30.\n\nThe final answer is: $\\boxed{30}$",
+        "correct_answer": 27.0
+    },
+    {
+        "question": "How many more crayons than erasers did he have left?",
+        "model_response": "## Step 1: Calculate the number of crayons Paul had at the beginning of the school year.\nPaul started with 617 crayons.\n\n## Step 2: Calculate the number of crayons Paul had left at the end of the school year.\nPaul had 523 crayons left.\n\n## Step 3: Calculate the difference between the number of crayons Paul had at the beginning and the end of the school year.\nThe difference is 617 - 523 = 94 crayons.\n\n## Step 4: Since Paul did not lose any erasers, the number of erasers he had left is the same as the number he started with.\nPaul started with 457 erasers.\n\n## Step 5: Calculate the difference between the number of crayons and erasers Paul had left.\nThe difference is 94 - 457 = -363.\n\n## Step 6: Since we are asked to find how many more crayons than erasers Paul had left, we need to take the absolute value of the difference.\nThe absolute value of -363 is 363.\n\nThe final answer is: $\\boxed{363}$",
+        "correct_answer": 66.0
+    },
+    {
+        "question": "How many cakes does baker still have?",
+        "model_response": "## Step 1: Calculate the number of cakes Baker had after selling 105 cakes.\nBaker started with 121 cakes and sold 105, so he had 121 - 105 = 16 cakes left.\n\n## Step 2: Calculate the total number of cakes Baker has after buying 170 new cakes.\nBaker had 16 cakes left and bought 170 new ones, so he now has 16 + 170 = 186 cakes.\n\nThe final answer is: $\\boxed{186}$",
+        "correct_answer": 186.0
+    },
+    {
+        "question": "How many shirts did machine make?",
+        "model_response": "To find out how many shirts the machine made, we need to multiply the number of minutes it worked by the number of shirts it can make per minute.\n\nMachine worked for 5 minutes\nMachine can make 4 shirts per minute\n\n5 minutes x 4 shirts/minute = 20 shirts\n\nSo, the machine made 20 shirts.",
+        "correct_answer": 20.0
+    },
+    {
+        "question": "How many groups are there?",
+        "model_response": "## Step 1: Determine the total number of bananas in Philip's collection.\nThe total number of bananas in Philip's collection is given as 180.\n\n## Step 2: Determine the size of each group of bananas.\nThe size of each group of bananas is given as 18.\n\n## Step 3: Calculate the number of groups by dividing the total number of bananas by the size of each group.\nTo find the number of groups, we divide the total number of bananas (180) by the size of each group (18).\n\n## Step 4: Perform the division to find the number of groups.\nNumber of groups = Total number of bananas / Size of each group = 180 / 18 = 10.\n\nThe final answer is: $\\boxed{10}$",
+        "correct_answer": 10.0
+    },
+    {
+        "question": "How many birds had been sitting on the fence at the start?",
+        "model_response": "There were 1 birds on the fence at the start.",
+        "correct_answer": 1.0
+    },
+    {
+        "question": "How many action figures did he remove from the shelf?",
+        "model_response": "Let's break it down step by step:\n\nInitially, Jerry had 3 action figures on the shelf.\n\nLater, he added 4 more action figures, so the total number of action figures became:\n\n3 (initial) + 4 (added) = 7\n\nHowever, we know that there are now 6 action figures on the shelf. This means that Jerry removed 1 action figure from the shelf.\n\nSo, Jerry removed 1 action figure from the shelf.",
+        "correct_answer": 1.0
+    },
+    {
+        "question": "How many more wrappers than bottle caps did danny find at the park?",
+        "model_response": "## Step 1: Calculate the total number of wrappers Danny found at the park.\nTo find the total number of wrappers Danny found at the park, we need to subtract the number of wrappers he already had in his collection from the total number of wrappers he has now. wrappers_found = total_wrappers - wrappers_initially = 9 - 0 (since he didn't have any initially) = 9.\n\n## Step 2: Calculate the total number of bottle caps Danny found at the park.\nTo find the total number of bottle caps Danny found at the park, we need to subtract the number of bottle caps he already had in his collection from the total number of bottle caps he has now. bottle_caps_found = total_bottle_caps - bottle_caps_initially = 31 - 5 = 26.\n\n## Step 3: Find the difference between the number of wrappers and bottle caps Danny found at the park.\nTo find the difference, we need to subtract the number of bottle caps found from the number of wrappers found. difference = wrappers_found - bottle_caps_found = 9 - 26 = -17.\n\n## Step 4: Interpret the result.\nSince the difference is negative, it means that Danny found fewer wrappers than bottle caps at the park.\n\nThe final answer is: $\\boxed{-17}$",
+        "correct_answer": 60.0
+    },
+    {
+        "question": "How many students participated in the suggestion of new food items?",
+        "model_response": "## Step 1: Calculate the total number of students who suggested adding mashed potatoes.\nThe total number of students who suggested adding mashed potatoes is given as 450.\n\n## Step 2: Calculate the number of students who suggested adding bacon.\nThe number of students who suggested adding bacon is given as 38.\n\n## Step 3: Calculate the total number of students who participated in the suggestion of new food items.\nTo find the total number of students who participated, we need to add the number of students who suggested adding mashed potatoes and the number of students who suggested adding bacon. total_participants = 450 + 38 = 488.\n\n## Step 4: Since the problem states that the rest did not participate, we need to subtract the total number of participants from the total number of choices to find the number of students who did not participate.\nHowever, the problem does not ask for the number of students who did not participate, but rather the total number of students who participated in the suggestion of new food items.\n\nThe final answer is: $\\boxed{488}$",
+        "correct_answer": 488.0
+    },
+    {
+        "question": "How many crackers and cakes did each person eat?",
+        "model_response": "## Step 1: Determine the total number of items Matthew had initially.\nMatthew had 13 crackers and 15 cakes initially, so the total number of items he had is 13 + 15 = 28.\n\n## Step 2: Since Matthew gave equal numbers of crackers and cakes to his 28 friends, we need to divide the total number of items by 28 to find out how many each person got.\nHowever, we need to consider that the total number of items is the sum of crackers and cakes, but since he gave equal numbers of each, we should divide the total number of each item by 28.\n\n## Step 3: Divide the total number of crackers by 28 to find out how many crackers each person got.\n13 crackers / 28 friends = 0.464 (approximately) crackers per friend.\n\n## Step 4: Since we are looking for whole numbers of crackers and cakes each person got, and the problem implies a whole number distribution, we need to reconsider our approach.\nGiven that Matthew had 13 crackers and 15 cakes and he gave equal numbers to each of his 28 friends, we should divide the total number of each item by 28, but we should also consider that the division of the total items by 28 might not result in whole numbers for each item.\n\n## Step 5: Reconsider the division of the total number of each item by 28.\nFor crackers: 13 / 28 = 0.464 (approximately), which is not a whole number.\nFor cakes: 15 / 28 = 0.536 (approximately), which is also not a whole number.\n\n## Step 6: Since we are looking for whole numbers of crackers and cakes each person got, and the division of the total number of each item by 28 does not result in whole numbers, we need to find the greatest common divisor (GCD) of 13 and 15 to see if we can distribute the items in a way that results in whole numbers for each item.\nThe GCD of 13 and 15 is 1.\n\n## Step 7: Since the GCD of 13 and 15 is 1, we cannot distribute the items in a way that results in whole numbers for each item.\nHowever, we can try to find a way to distribute the items such that each person gets a whole number of crackers and cakes.\n\n## Step 8: Since we cannot distribute the items in a way that results in whole numbers for each item, we need to reconsider the problem.\nWe should find the largest number of crackers and cakes that can be evenly distributed among the 28 friends.\n\n## Step 9: The largest number of crackers that can be evenly distributed among the 28 friends is 13 / 28 = 0.464 (approximately), but since we are looking for whole numbers, we can try to distribute 12 crackers to each friend.\n12 crackers / 28 friends = 0.429 (approximately), which is close to the original number of crackers.\n\n## Step 10: If we distribute 12 crackers to each friend, we will have 1 cracker left.\n1 cracker left / 28 friends = 0.036 (approximately), which is not a whole number.\n\n## Step 11: We can try to distribute the remaining 1 cracker to one of the friends.\nHowever, we still need to distribute the cakes.\n\n## Step 12: The largest number of cakes that can be evenly distributed among the 28 friends is 15 / 28 = 0.536 (approximately), but since we are looking for whole numbers, we can try to distribute 14 cakes to each friend.\n14 cakes / 28 friends = 0.5 (exactly), which is a whole number.\n\n## Step 13: If we distribute 14 cakes to each friend, we will have 1 cake left.\n1 cake left / 28 friends = 0.036 (approximately), which is not a whole number.\n\n## Step 14: We can try to distribute the remaining 1 cake to one of the friends.\nHowever, we still need to find a way to distribute the crackers and cakes in a way that results in whole numbers for each item.\n\n## Step 15: Since we cannot distribute the items in a way that results in whole numbers for each item, we need to reconsider the problem.\nWe should find the largest number of crackers and cakes that can be evenly distributed among the 28 friends.\n\n## Step 16: The largest number of crackers that can be evenly distributed among the 28 friends is 12 crackers.\n12 crackers / 28 friends = 0.429 (approximately), which is close to the original number of crackers.\n\n## Step 17: If we distribute 12 crackers to each friend, we will have 1 cracker left.\n1 cracker left / 28 friends = 0.036 (approximately), which is not a whole number.\n\n## Step 18: We can try to distribute the remaining 1 cracker to one of the friends.\nHowever, we still need to distribute the cakes.\n\n## Step 19: The largest number of cakes that can be evenly distributed among the 28 friends is 14 cakes.\n14 cakes / 28 friends = 0.5 (exactly), which is a whole number.\n\n## Step 20: If we distribute 14 cakes to each friend, we will have 1 cake left.\n1 cake left / 28 friends = 0.036 (approximately), which is not a whole number.\n\n## Step 21: We can try to distribute the remaining 1 cake to one of the friends.\nHowever, we still need to find a way to distribute the crackers and cakes in a way that results in whole numbers for each item.\n\n## Step 22: Since we cannot distribute the items in a way that results in whole numbers for each item, we need to reconsider the problem.\nWe should find the largest number of crackers and cakes that can be evenly distributed among the 28 friends.\n\n## Step 23: The largest number of crackers that can be evenly distributed among the 28 friends is 12 crackers.\n12 crackers / 28 friends = 0.429 (approximately), which is close to the original number of crackers.\n\n## Step 24: If we distribute 12 crackers to each friend, we will have 1 cracker left.\n1 cracker left / 28 friends = 0.036 (approximately), which is not a whole number.\n\n## Step 25: We can try to distribute the remaining 1 cracker to one of the friends.\nHowever, we still need to distribute the cakes.\n\n## Step 26: The largest number of cakes that can be evenly distributed among the 28 friends is 14 cakes.\n14 cakes / 28 friends = 0.5 (exactly), which is a whole number.\n\n## Step 27: If we distribute 14 cakes to each friend, we will have 1 cake left.\n1 cake left / 28 friends = 0.036 (approximately), which is not a whole number.\n\n## Step 28: We can try to distribute the remaining 1 cake to one of the friends.\nHowever, we still need to find a way to distribute the crackers and cakes in a way that results in whole numbers for each item.\n\n## Step 29: Since we cannot distribute the items in a way that results in whole numbers for each item, we need to reconsider the problem.\nWe should find the largest number of crackers and cakes that can be evenly distributed among the 28 friends.\n\n## Step 30: The largest number of crackers that can be evenly distributed among the 28 friends is 12 crackers.\n12 crackers / 28 friends = 0.429 (approximately), which is close to the original number of crackers.\n\n## Step 31: If we distribute 12 crackers to each friend, we will have 1 cracker left.\n1 cracker left / 28 friends = 0.036 (approximately), which is not a whole number.\n\n## Step 32: We can try to distribute the remaining 1 cracker to one of the friends.\nHowever, we still need to distribute the cakes.\n\n## Step 33: The largest number of cakes that can be evenly distributed among the 28 friends is 14 cakes.\n14 cakes / 28 friends = 0.5 (exactly), which is a whole number.\n\n## Step 34: If we distribute 14 cakes to each friend, we will have 1 cake left.\n1 cake left / 28 friends = 0.036 (approximately), which is not a whole number.\n\n## Step 35: We can try to distribute the remaining 1 cake to one of the friends.\nHowever, we still need to find a way to distribute the crackers and cakes in a way that results in whole numbers for each item.\n\n## Step 36: Since we cannot distribute the items in a way that results in whole numbers for each item, we need to reconsider the problem.\nWe should find the largest number of crackers and cakes that can be evenly distributed among the 28 friends.\n\n## Step 37: The largest number of crackers that can be evenly distributed among the 28 friends is 12 crackers.\n12 crackers / 28 friends = 0.429 (approximately), which is close to the original number of crackers.\n\n## Step 38: If we distribute 12 crackers to each friend, we will have 1 cracker left.\n1 cracker left / 28 friends = 0.036 (approximately), which is not a whole number.\n\n## Step 39: We can try to distribute the remaining 1 cracker to one of the friends.\nHowever, we still need to distribute the cakes.\n\n## Step 40: The largest number of cakes that can be evenly distributed among the 28 friends is 14 cakes.\n14 cakes / 28 friends = 0.5 (exactly), which is a whole number.\n\n## Step 41",
+        "correct_answer": 1.0
+    },
+    {
+        "question": "How many bottles of regular soda and diet soda did they have altogether?",
+        "model_response": "The grocery store had 49 bottles of regular soda and 40 bottles of diet soda. To find the total number of bottles of regular and diet soda, we need to add the two numbers together.\n\n49 + 40 = 89\n\nSo, the grocery store had 89 bottles of regular and diet soda altogether.",
+        "correct_answer": 89.0
+    },
+    {
+        "question": "How much did each candy bar cost?",
+        "model_response": "## Step 1: Calculate the total cost of the candy bars\nDan spent a total of $4 on 2 candy bars.\n\n## Step 2: Determine the cost of each candy bar\nTo find the cost of each candy bar, we need to divide the total cost by the number of candy bars. cost_per_bar = total_cost / number_of_bars = 4 / 2 = 2\n\nThe final answer is: $\\boxed{2}$",
+        "correct_answer": 2.0
+    },
+    {
+        "question": "How many more bags did she find on the next day than she had on monday?",
+        "model_response": "## Step 1: Identify the number of bags Tiffany had on Monday.\nTiffany had 7 bags of cans on Monday.\n\n## Step 2: Identify the number of bags Tiffany found on the next day.\nTiffany found 12 more bags of cans on the next day.\n\n## Step 3: Calculate the difference between the number of bags found on the next day and the number of bags she had on Monday.\nTo find out how many more bags she found on the next day than she had on Monday, we need to subtract the number of bags she had on Monday from the number of bags she found on the next day. difference = 12 - 7 = 5\n\nThe final answer is: $\\boxed{5}$",
+        "correct_answer": 5.0
+    },
+    {
+        "question": "How many roses did she cut?",
+        "model_response": "## Step 1: Determine the initial number of roses and orchids.\nThere were initially 15 roses and 62 orchids in the vase.\n\n## Step 2: Determine the final number of roses and orchids.\nAfter cutting some more, there are now 17 roses and 96 orchids in the vase.\n\n## Step 3: Calculate the number of roses cut.\nTo find out how many roses Jessica cut, we need to subtract the initial number of roses from the final number of roses. roses_cut = final_roses - initial_roses = 17 - 15 = 2\n\nThe final answer is: $\\boxed{2}$",
+        "correct_answer": 2.0
+    },
+    {
+        "question": "How many baskets of peaches are there?",
+        "model_response": "## Step 1: Determine the total number of peaches in one basket.\nEach basket has 4 red peaches and 3 green peaches, making a total of 4 + 3 = 7 peaches in one basket.\n\n## Step 2: Since each basket has 7 peaches, and there are a total of 7 peaches in all baskets, we can determine the number of baskets by dividing the total number of peaches by the number of peaches in one basket.\nTo find the number of baskets, we divide the total number of peaches by the number of peaches in one basket: 7 peaches / 7 peaches per basket.\n\n## Step 3: Perform the division to find the number of baskets.\n7 peaches / 7 peaches per basket = 1 basket.\n\nThe final answer is: $\\boxed{1}$",
+        "correct_answer": 1.0
+    },
+    {
+        "question": "How much money does she have left?",
+        "model_response": "To find out how much money Olivia has left, we need to subtract the amount she spent from the amount she had initially.\n\nInitial amount: $78\nAmount spent: $15\n\n$78 - $15 = $63\n\nSo, Olivia has $63 left.",
+        "correct_answer": 63.0
+    },
+    {
+        "question": "How many emails did Jack receive in the afternoon?",
+        "model_response": "The problem statement is a bit confusing, but I'll try to clarify it. Jack received a total of 10 emails in the day, which includes 6 in the morning and 3 in the afternoon. To find out how many emails he received in the afternoon, we can subtract the number of emails he received in the morning from the total number of emails.\n\n10 (total emails) - 6 (morning emails) = 4\n\nHowever, the problem statement asks for the number of emails Jack received in the afternoon, which is already given as 3. Therefore, the answer is 3.",
+        "correct_answer": 1.0
+    },
+    {
+        "question": "How much money is left?",
+        "model_response": "Dan started with $4. He spent $8 on a candy bar, so he had $4 - $8 = -$4 (he's in debt). Then his friend gave him $5, so he now has -$4 + $5 = $1. The answer is $1.",
+        "correct_answer": 1.0
+    },
+    {
+        "question": "How many visited the Buckingham palace within 25 days?",
+        "model_response": "## Step 1: Calculate the number of visitors on the previous day\nThe number of visitors on the previous day is given as 703.\n\n## Step 2: Calculate the number of visitors on the current day\nThe number of visitors on the current day is given as 246.\n\n## Step 3: Calculate the total number of visitors within 25 days\nTo find the total number of visitors within 25 days, we need to add the number of visitors on the previous day and the current day, and then multiply by 25.\n\n## Step 4: Add the number of visitors on the previous day and the current day\nTotal visitors on the previous day and the current day = 703 + 246 = 949.\n\n## Step 5: Multiply the total number of visitors on the previous day and the current day by 25\nTotal visitors within 25 days = 949 * 25 = 23725.\n\nThe final answer is: $\\boxed{23725}$",
+        "correct_answer": 949.0
+    },
+    {
+        "question": "How much more money did she receive from her mom than she did from her dad?",
+        "model_response": "Gwen received 5 dollars from her dad and 7 dollars from her mom. So she received 5 + 7 = 12 dollars from her mom. She received 5 dollars from her dad. So her mom gave her 12 - 5 = 7 dollars more than her dad. The answer is 7.",
+        "correct_answer": 2.0
+    },
+    {
+        "question": "How big is each group of oranges?",
+        "model_response": "## Step 1: Calculate the number of bananas per group\nTo find out how many bananas are in each group, we need to divide the total number of bananas by the number of groups. bananas_per_group = total_bananas / number_of_banana_groups = 142 / 47.\n\n## Step 2: Calculate the number of oranges per group\nTo find out how many oranges are in each group, we need to divide the total number of oranges by the number of groups. oranges_per_group = total_oranges / number_of_orange_groups = 356 / 178.\n\n## Step 3: Simplify the division for oranges per group\nTo simplify the division for oranges per group, we can divide both the numerator and the denominator by their greatest common divisor. However, since we are looking for the size of each group of oranges, we can directly calculate the result of the division.\n\n## Step 4: Perform the division for oranges per group\nPerform the division to find the size of each group of oranges. oranges_per_group = 356 / 178 = 2.\n\nThe final answer is: $\\boxed{2}$",
+        "correct_answer": 2.0
+    },
+    {
+        "question": "How many more movies than books have you read?",
+        "model_response": "## Step 1: Identify the number of books and movies in the series.\nThere are 8 different books and 5 different movies in the 'crazy silly school' series.\n\n## Step 2: Determine the number of movies read and books watched.\nYou read 19 of the movies and watched 16 of the books.\n\n## Step 3: Calculate the difference between the number of movies read and books watched.\nTo find out how many more movies than books you have read, subtract the number of books watched from the number of movies read. difference = movies_read - books_watched = 19 - 16 = 3\n\nThe final answer is: $\\boxed{3}$",
+        "correct_answer": 3.0
+    },
+    {
+        "question": "How many cups of flour did she put in?",
+        "model_response": "## Step 1: Determine the total amount of flour needed for the recipe.\nThe recipe calls for 12 cups of flour.\n\n## Step 2: Determine how much flour Mary still needs to add.\nMary still needs 2 more cups of flour.\n\n## Step 3: Calculate the amount of flour Mary has already added.\nTo find out how many cups of flour Mary has already put in, we need to subtract the amount she still needs from the total amount required. So, we subtract 2 from 12.\n\n## Step 4: Perform the subtraction to find the amount of flour Mary has already added.\n12 - 2 = 10\n\nThe final answer is: $\\boxed{10}$",
+        "correct_answer": 10.0
+    },
+    {
+        "question": "How many more bottle caps than wrappers did danny find at the park?",
+        "model_response": "## Step 1: Calculate the number of wrappers Danny found at the park.\nTo find out how many wrappers Danny found at the park, we need to subtract the number of wrappers he already had from the total number of wrappers he has now. wrappers_found = total_wrappers - initial_wrappers = 52 - 21 = 31.\n\n## Step 2: Calculate the number of bottle caps Danny found at the park.\nTo find out how many bottle caps Danny found at the park, we need to subtract the number of bottle caps he already had from the total number of bottle caps he has now. bottle_caps_found = total_bottle_caps - initial_bottle_caps = 50 - 21 = 29.\n\n## Step 3: Find the difference between the number of bottle caps and wrappers Danny found at the park.\nTo find out how many more bottle caps than wrappers Danny found at the park, we need to subtract the number of wrappers he found from the number of bottle caps he found. difference = bottle_caps_found - wrappers_found = 29 - 31 = -2.\n\nThe final answer is: $\\boxed{-2}$",
+        "correct_answer": 4.0
+    },
+    {
+        "question": "How many points did he score in the game?",
+        "model_response": "## Step 1: Determine the number of rounds played\nLuke played 177 rounds of the trivia game.\n\n## Step 2: Determine the points gained per round\nLuke gained 46 points in each round.\n\n## Step 3: Calculate the total points scored\nTo find the total points scored, we multiply the number of rounds played by the points gained per round. total_points = 177 * 46\n\n## Step 4: Perform the multiplication\n177 * 46 = 8132\n\nThe final answer is: $\\boxed{8132}$",
+        "correct_answer": 8142.0
+    },
+    {
+        "question": "How many more birds than storks are sitting on the fence?",
+        "model_response": "There are 3 birds and 4 storks. 2 more birds came to join them. So there are 3 + 2 = 5 birds. There are 4 storks. 5 - 4 = 1. The answer is 1.",
+        "correct_answer": 1.0
+    },
+    {
+        "question": "How far did the mouse jump?",
+        "model_response": "## Step 1: Determine the distance the grasshopper jumped.\nThe grasshopper jumped 9 inches.\n\n## Step 2: Calculate the distance the frog jumped.\nThe frog jumped 33 inches farther than the grasshopper, so the frog jumped 9 + 33 = 42 inches.\n\n## Step 3: Determine the distance the mouse jumped.\nThe mouse jumped 3 inches lesser than the frog, so the mouse jumped 42 - 3 = 39 inches.\n\nThe final answer is: $\\boxed{39}$",
+        "correct_answer": 39.0
+    },
+    {
+        "question": "How many more push-ups than crunches did Zachary do?",
+        "model_response": "## Step 1: Calculate the number of push-ups Zachary did.\nZachary did 35 push-ups.\n\n## Step 2: Calculate the number of crunches Zachary did.\nZachary did 3 crunches.\n\n## Step 3: Calculate the number of push-ups David did.\nDavid did 58 more push-ups than Zachary, so David did 35 + 58 = 93 push-ups.\n\n## Step 4: Calculate the number of crunches David did.\nDavid did 87 less crunches than Zachary, so David did 3 - 87 = -84 crunches.\n\n## Step 5: Calculate the difference between the number of push-ups and crunches Zachary did.\nZachary did 35 push-ups and 3 crunches, so the difference is 35 - 3 = 32.\n\n## Step 6: Since the question asks for the difference between push-ups and crunches that Zachary did, we don't need to consider David's numbers for the final answer.\n\nThe final answer is: $\\boxed{32}$",
+        "correct_answer": 32.0
+    },
+    {
+        "question": "How many emails did Jack receive in the afternoon and evening?",
+        "model_response": "## Step 1: Calculate the total number of emails received in the afternoon and evening.\nTo find the total number of emails Jack received in the afternoon and evening, we need to add the number of emails he received in the afternoon to the number of emails he received in the evening.\n\n## Step 2: Add the number of emails received in the afternoon and evening.\nThe number of emails received in the afternoon is 5, and the number of emails received in the evening is 8. So, the total number of emails received in the afternoon and evening is 5 + 8 = 13.\n\nThe final answer is: $\\boxed{13}$",
+        "correct_answer": 13.0
+    },
+    {
+        "question": "How many action figures did he add to the shelf?",
+        "model_response": "## Step 1: Determine the initial number of action figures\nJerry initially had 7 action figures on the shelf.\n\n## Step 2: Calculate the net change in the number of action figures\nAfter adding some and removing 10 of the old ones, Jerry now has 8 action figures on the shelf. This means there was a net increase of 1 action figure from the initial 7.\n\n## Step 3: Calculate the number of action figures added\nSince Jerry removed 10 of the old ones and ended up with 8, the net increase of 1 action figure means that the 10 removed must be offset by the addition of 11 action figures to reach a net increase of 1. This is because removing 10 and then adding x to get a net increase of 1 means that x - 10 = 1.\n\n## Step 4: Solve for x\nSolving the equation x - 10 = 1 for x gives x = 11.\n\nThe final answer is: $\\boxed{11}$",
+        "correct_answer": 11.0
+    },
+    {
+        "question": "How many kids did she play with altogether?",
+        "model_response": "## Step 1: Calculate the total number of kids Julia played with on both days.\nTo find the total number of kids Julia played with, we need to add the number of kids she played with on Monday and Tuesday.\n\n## Step 2: Add the number of kids Julia played with on Monday and Tuesday.\nNumber of kids on Monday = 12\nNumber of kids on Tuesday = 14\nTotal number of kids = 12 + 14 = 26\n\n## Step 3: Determine if the total number of kids is relevant to the problem.\nThe problem asks for the total number of kids Julia played with, which we have already calculated in step 2.\n\n## Step 4: Verify if the total hours spent playing tag is relevant to the problem.\nThe problem mentions that Julia spent a total of 34 hours to play tag on both days, but this information is not necessary to calculate the total number of kids she played with.\n\nThe final answer is: $\\boxed{26}$",
+        "correct_answer": 26.0
+    },
+    {
+        "question": "How many more baseball cards than Ace cards does Nell have?",
+        "model_response": "## Step 1: Calculate the total number of cards Nell had initially.\nNell initially had 309 baseball cards and 356 Ace cards, so the total number of cards she had is 309 + 356 = 665.\n\n## Step 2: Calculate the total number of cards Nell has left after giving some to Jeff.\nAfter giving some cards to Jeff, Nell has 415 cards left.\n\n## Step 3: Determine the number of cards Nell gave away.\nThe number of cards Nell gave away is the difference between the total number of cards she initially had and the total number of cards she has left, which is 665 - 415 = 250.\n\n## Step 4: Set up equations to represent the number of baseball and Ace cards Nell has left.\nLet x be the number of baseball cards Nell gave away and y be the number of Ace cards she gave away. We know that x + y = 250 and that after giving away x baseball cards and y Ace cards, Nell has 309 - x baseball cards and 356 - y Ace cards left.\n\n## Step 5: Use the information that Nell has 415 cards left to set up an equation.\nSince Nell has 415 cards left, we can set up the equation (309 - x) + (356 - y) = 415.\n\n## Step 6: Solve the equation for x + y.\nSimplifying the equation, we get 665 - x - y = 415, which simplifies to x + y = 250.\n\n## Step 7: Since we already know that x + y = 250, we can find the number of baseball cards and Ace cards Nell has left.\nWe know that Nell has 309 - x baseball cards and 356 - y Ace cards left. Since x + y = 250, we can substitute x = 250 - y into the expressions for the number of baseball and Ace cards Nell has left.\n\n## Step 8: Calculate the number of baseball cards Nell has left.\nSubstituting x = 250 - y into the expression for the number of baseball cards Nell has left, we get 309 - (250 - y) = 59 + y.\n\n## Step 9: Calculate the number of Ace cards Nell has left.\nSubstituting x = 250 - y into the expression for the number of Ace cards Nell has left, we get 356 - (250 - y) = 106 + y.\n\n## Step 10: Find the difference between the number of baseball cards and Ace cards Nell has left.\nThe difference between the number of baseball cards and Ace cards Nell has left is (59 + y) - (106 + y) = 59 - 106 = -47.\n\n## Step 11: Take the absolute value of the difference to find the number of more baseball cards than Ace cards Nell has.\nThe absolute value of the difference is |-47| = 47.\n\nThe final answer is: $\\boxed{47}$",
+        "correct_answer": 266.0
+    },
+    {
+        "question": "How many alligators were not hiding?",
+        "model_response": "There were 97 alligators, but 40 were hiding. To find out how many were not hiding, we need to subtract 40 from 97.\n\n97 - 40 = 57\n\nSo, 57 alligators were not hiding.",
+        "correct_answer": 57.0
+    },
+    {
+        "question": "How many more do you still have to read?",
+        "model_response": "## Step 1: Determine the total number of books in the series.\nThere are 14 different books in the 'crazy silly school' series.\n\n## Step 2: Calculate the number of books that have been read.\n8 books have been read from the series.\n\n## Step 3: Calculate the number of books that still need to be read.\nTo find the number of books that still need to be read, we subtract the number of books read from the total number of books in the series. books_left = total_books - books_read = 14 - 8 = 6\n\nThe final answer is: $\\boxed{6}$",
+        "correct_answer": 6.0
+    },
+    {
+        "question": "How many beads did each necklace need?",
+        "model_response": "Let's break this down step by step!\n\nEmily made 5 necklaces for her 43 friends, which means she made a total of 5 necklaces.\n\nShe had 20 beads and was able to make 5 necklaces, so we need to find out how many beads each necklace needed.\n\nTo do this, we can divide the total number of beads (20) by the number of necklaces (5):\n\n20 beads \u00f7 5 necklaces = 4 beads per necklace\n\nSo, each necklace needed 4 beads!",
+        "correct_answer": 4.0
+    },
+    {
+        "question": "How many bags would he have?",
+        "model_response": "## Step 1: Determine the total number of pieces of candy Frank has.\nFrank has 22 pieces of candy.\n\n## Step 2: Determine the number of pieces of candy Frank puts in each bag.\nFrank puts 11 pieces of candy in each bag.\n\n## Step 3: Divide the total number of pieces of candy by the number of pieces per bag to find the number of bags.\nTo find the number of bags, we need to divide the total number of pieces of candy (22) by the number of pieces per bag (11).\n\n## Step 4: Perform the division to find the number of bags.\n22 / 11 = 2\n\nThe final answer is: $\\boxed{2}$",
+        "correct_answer": 2.0
+    },
+    {
+        "question": "How many customers does he have now?",
+        "model_response": "Let's break it down step by step:\n\nInitially, the waiter had 12 customers.\n\nAfter some left, he still had 14 customers. This means that 2 customers left (12 - 14 = 2).\n\nSo, the waiter had 14 customers after 2 customers left.\n\nThen, he got 10 new customers.\n\nTo find the total number of customers now, we add the 10 new customers to the 14 customers he already had:\n\n14 (customers he already had) + 10 (new customers) = 24\n\nTherefore, the waiter now has 24 customers.",
+        "correct_answer": 24.0
+    },
+    {
+        "question": "How many tomatoes did he pick in all?",
+        "model_response": "The farmer picked 154 + 50 = 204 tomatoes in all.",
+        "correct_answer": 204.0
+    },
+    {
+        "question": "How many green and yellow peaches are in the basket?",
+        "model_response": "To find the total number of green and yellow peaches, we need to add the number of green peaches and the number of yellow peaches.\n\nNumber of green peaches = 6\nNumber of yellow peaches = 14\n\nTotal number of green and yellow peaches = 6 + 14 = 20\n\nSo, there are 20 green and yellow peaches in the basket.",
+        "correct_answer": 20.0
+    },
+    {
+        "question": "How many more bird families flew away for the winter than those that stayed behind?",
+        "model_response": "## Step 1: Calculate the number of bird families that stayed behind.\nTo find out how many bird families stayed behind, we need to subtract the number of bird families that flew away from the total number of bird families. So, 89 - 60 = 29 bird families stayed behind.\n\n## Step 2: Calculate the difference between the number of bird families that flew away and those that stayed behind.\nTo find out how many more bird families flew away than those that stayed behind, we need to subtract the number of bird families that stayed behind from the number of bird families that flew away. So, 60 - 29 = 31.\n\nThe final answer is: $\\boxed{31}$",
+        "correct_answer": 31.0
+    },
+    {
+        "question": "How many more orchids than roses are there in the vase now?",
+        "model_response": "## Step 1: Determine the initial number of roses and orchids.\nThere were initially 9 roses and 6 orchids in the vase.\n\n## Step 2: Calculate the number of roses and orchids added.\nJessica added some roses and orchids, resulting in 3 roses and 13 orchids. To find out how many were added, we subtract the initial number from the final number. For roses, 3 (final) - 9 (initial) = -6, meaning 6 roses were removed. For orchids, 13 (final) - 6 (initial) = 7, meaning 7 orchids were added.\n\n## Step 3: Calculate the difference between the number of orchids and roses.\nTo find out how many more orchids than roses are in the vase now, we subtract the number of roses from the number of orchids. 13 (orchids) - 3 (roses) = 10.\n\nThe final answer is: $\\boxed{10}$",
+        "correct_answer": 10.0
+    },
+    {
+        "question": "How many more visitors visited the Buckingham palace on that day than on the previous day?",
+        "model_response": "## Step 1: Determine the number of visitors on the previous day.\nThere were 600 visitors the previous day.\n\n## Step 2: Determine the number of visitors on the current day.\nThere were 661 visitors on the current day.\n\n## Step 3: Calculate the difference in the number of visitors between the current day and the previous day.\nTo find the difference, we need to subtract the number of visitors on the previous day from the number of visitors on the current day. difference = 661 - 600 = 61\n\nThe final answer is: $\\boxed{61}$",
+        "correct_answer": 61.0
+    },
+    {
+        "question": "How many customers does he still have?",
+        "model_response": "Let's break this down step by step:\n\nInitially, the waiter had 12 customers.\n\n15 customers left, so we subtract 15 from 12:\n12 - 15 = -3 (this means he now has 3 fewer customers than he started with)\n\nThen, 14 new customers arrived, so we add 14 to -3:\n-3 + 14 = 11\n\nSo, the waiter now has 11 customers.",
+        "correct_answer": 11.0
+    },
+    {
+        "question": "How many necklaces can Emily make?",
+        "model_response": "## Step 1: Calculate the total number of beads Emily has.\nEmily has 6 beads.\n\n## Step 2: Calculate the number of beads needed for each necklace.\nEach necklace takes 3 beads.\n\n## Step 3: Calculate the total number of necklaces Emily can make.\nTo find out how many necklaces Emily can make, we need to divide the total number of beads by the number of beads needed for each necklace. total_necklaces = total_beads / beads_per_necklace = 6 / 3 = 2.\n\nThe final answer is: $\\boxed{2}$",
+        "correct_answer": 2.0
+    },
+    {
+        "question": "How many saltwater animals does each aquarium have?",
+        "model_response": "## Step 1: Determine the total number of saltwater animals\nThere are 52 saltwater animals in total.\n\n## Step 2: Determine the number of aquariums\nThere are 26 aquariums.\n\n## Step 3: Calculate the number of saltwater animals per aquarium\nTo find out how many saltwater animals each aquarium has, we need to divide the total number of saltwater animals by the number of aquariums. animals_per_aquarium = total_animals / number_of_aquariums = 52 / 26 = 2\n\nThe final answer is: $\\boxed{2}$",
+        "correct_answer": 2.0
+    },
+    {
+        "question": "How many cups of flour did she put in?",
+        "model_response": "## Step 1: Determine the amount of sugar needed\nThe recipe calls for 7 cups of sugar.\n\n## Step 2: Determine the amount of flour needed\nThe recipe calls for 11 cups of flour.\n\n## Step 3: Determine the relationship between the amount of flour and sugar needed\nMary still needs 2 more cups of flour than sugar.\n\n## Step 4: Set up an equation to represent the relationship between the amount of flour and sugar needed\nLet x be the amount of sugar needed. Then, the amount of flour needed is x + 2.\n\n## Step 5: Substitute the known values into the equation\nWe know that the amount of flour needed is 11 cups, and the amount of sugar needed is 7 cups. So, we can set up the equation: 7 + 2 = 11.\n\n## Step 6: Solve for x\nHowever, we realize that the equation 7 + 2 = 11 is not an equation with x. Instead, we need to set up an equation with x to represent the situation. Let's say the amount of sugar Mary has already put in is x. Then, the amount of flour she has already put in is x + 2.\n\n## Step 7: Set up an equation to represent the situation\nWe know that the total amount of flour needed is 11 cups, and Mary has already put in x + 2 cups of flour. So, the equation is: x + 2 + y = 11, where y is the amount of flour Mary still needs to put in.\n\n## Step 8: Determine the amount of flour Mary still needs to put in\nSince Mary still needs 2 more cups of flour than sugar, and she has 7 cups of sugar, she needs 7 + 2 = 9 cups of flour.\n\n## Step 9: Substitute the known values into the equation\nWe know that the amount of flour Mary still needs to put in is 9 cups. So, we can set up the equation: x + 2 + 9 = 11.\n\n## Step 10: Solve for x\nSimplifying the equation, we get: x + 11 = 11.\n\n## Step 11: Solve for x\nSubtracting 11 from both sides of the equation, we get: x = 0.\n\n## Step 12: Determine the amount of flour Mary has already put in\nSince x = 0, Mary has already put in 0 + 2 = 2 cups of flour.\n\nThe final answer is: $\\boxed{2}$",
+        "correct_answer": 2.0
+    },
+    {
+        "question": "How many cakes would baker still have?",
+        "model_response": "## Step 1: Calculate the initial number of cakes and pastries.\nBaker initially made 149 cakes and 91 pastries.\n\n## Step 2: Calculate the number of cakes and pastries sold.\nBaker sold 10 cakes and 90 pastries.\n\n## Step 3: Calculate the remaining number of cakes.\nTo find the remaining number of cakes, we need to subtract the number of cakes sold from the initial number of cakes. remaining_cakes = initial_cakes - cakes_sold = 149 - 10 = 139.\n\nThe final answer is: $\\boxed{139}$",
+        "correct_answer": 139.0
+    },
+    {
+        "question": "How many files did he delete?",
+        "model_response": "## Step 1: Calculate the total number of files and apps Dave had initially.\nDave initially had 24 files and 13 apps.\n\n## Step 2: Calculate the total number of files and apps Dave had after deleting some.\nAfter deleting some, Dave had 17 apps and 21 files left.\n\n## Step 3: Determine the total number of files and apps Dave had initially.\nThe total number of files and apps Dave had initially is 24 + 13 = 37.\n\n## Step 4: Determine the total number of files and apps Dave had after deleting some.\nThe total number of files and apps Dave had after deleting some is 17 + 21 = 38.\n\n## Step 5: Calculate the difference between the initial and final total number of files and apps.\nThe difference between the initial and final total number of files and apps is 38 - 37 = 1.\n\n## Step 6: Since the difference is 1, it means that the number of files and apps deleted is the same.\nSince the difference is 1, it means that the number of files and apps deleted is the same.\n\n## Step 7: Calculate the number of files deleted.\nThe number of files deleted is 24 - 21 = 3.\n\nThe final answer is: $\\boxed{3}$",
+        "correct_answer": 3.0
+    },
+    {
+        "question": "How many minutes did the machine work today?",
+        "model_response": "## Step 1: Calculate the total number of shirts made by the machine.\nThe machine made 9 shirts yesterday and 8 shirts today, so the total number of shirts made is 9 + 8 = 17.\n\n## Step 2: Determine the total time the machine worked to make the shirts.\nSince the machine can make 2 shirts a minute, we need to divide the total number of shirts made by the rate at which the machine makes shirts to find the total time worked.\n\n## Step 3: Calculate the total time the machine worked.\nTotal time worked = Total number of shirts made / Rate of making shirts = 17 / 2 = 8.5 minutes.\n\nThe final answer is: $\\boxed{8.5}$",
+        "correct_answer": 4.0
+    },
+    {
+        "question": "How many eggs will each group have?",
+        "model_response": "We don't have enough information to determine how many eggs each group will have. We know that Rebecca has 4 marbles and 15 eggs, but we don't know how she plans to split the eggs into groups.",
+        "correct_answer": 5.0
+    },
+    {
+        "question": "How many crackers did Matthew have?",
+        "model_response": "A classic lateral thinking puzzle!\n\nThe question asks how many crackers Matthew had, but the answer is not directly provided. Instead, we are given information about what Matthew did with his crackers (gave 2 to each of his 11 friends).\n\nTo find out how many crackers Matthew had, we need to work backwards. If he gave 2 crackers to each of his 11 friends, that means he gave a total of:\n\n2 crackers/friend \u00d7 11 friends = 22 crackers\n\nSo, Matthew had at least 22 crackers to begin with. However, the question doesn't specify that he didn't have any more crackers, so we can't conclude that he had exactly 22 crackers.\n\nA more accurate answer would be \"at least 22 crackers\" or \"we don't know for sure, but he had at least 22 crackers.\"",
+        "correct_answer": 22.0
+    },
+    {
+        "question": "How much money did she have initially?",
+        "model_response": "Let's call the initial amount of money Olivia had \"x\".\n\nWe know that she spent 78 dollars, so the amount of money she has left is x - 78.\n\nWe are also told that she has 33 dollars left, so we can set up the equation:\n\nx - 78 = 33\n\nTo solve for x, we can add 78 to both sides of the equation:\n\nx = 33 + 78\nx = 111\n\nSo, Olivia had 111 dollars initially.",
+        "correct_answer": 111.0
+    },
+    {
+        "question": "How much money will he earn if he works for 73 harvest seasons?",
+        "model_response": "## Step 1: Calculate the total earnings for one harvest season\nTo find out how much Lewis earns in one harvest season, we multiply his weekly earnings by the number of weeks in a harvest season. total_earnings_per_season = $1357 * 223.\n\n## Step 2: Calculate the total earnings for 73 harvest seasons\nNow, we need to multiply the total earnings for one harvest season by the number of harvest seasons Lewis will work. total_earnings = total_earnings_per_season * 73.\n\n## Step 3: Perform the multiplication\nFirst, we calculate the total earnings for one harvest season: total_earnings_per_season = $1357 * 223 = $301,711. Then, we multiply this by 73 to find the total earnings for 73 harvest seasons: total_earnings = $301,711 * 73.\n\n## Step 4: Calculate the final total earnings\nPerforming the multiplication gives us the total earnings for 73 harvest seasons.\n\nThe final answer is: $\\boxed{220551703}$",
+        "correct_answer": 22090603.0
+    },
+    {
+        "question": "How many students suggested bacon?",
+        "model_response": "## Step 1: Determine the total number of students who suggested adding food.\nThe total number of students who suggested adding food is given as 310.\n\n## Step 2: Determine the number of students who suggested adding mashed potatoes.\nThe number of students who suggested adding mashed potatoes is given as 185.\n\n## Step 3: Calculate the number of students who suggested adding bacon.\nTo find the number of students who suggested adding bacon, we need to subtract the number of students who suggested adding mashed potatoes from the total number of students who suggested adding food. students_suggested_bacon = total_students - students_suggested_mashed_potatoes = 310 - 185.\n\n## Step 4: Perform the subtraction to find the number of students who suggested adding bacon.\nstudents_suggested_bacon = 310 - 185 = 125.\n\nThe final answer is: $\\boxed{125}$",
+        "correct_answer": 125.0
+    },
+    {
+        "question": "How many emails did jack receive in the day?",
+        "model_response": "Jack received 3 emails in the morning and 5 emails in the afternoon. To find the total number of emails, we need to add these two numbers together.\n\n3 + 5 = 8\n\nSo, Jack received 8 emails in the day.",
+        "correct_answer": 8.0
+    },
+    {
+        "question": "How many cookies did Paco have left?",
+        "model_response": "Paco started with 40 cookies. He ate 2, so he had 40 - 2 = 38 cookies left. Then he bought 37 more cookies, so he had 38 + 37 = 75 cookies. The answer is 75.",
+        "correct_answer": 75.0
+    },
+    {
+        "question": "How many students suggested adding bacon?",
+        "model_response": "## Step 1:  To find the total number of students who suggested adding bacon, we need to consider both the students who suggested adding both mashed potatoes and bacon, and those who suggested adding only bacon.\n## Step 2:  Let's denote the total number of students who suggested adding bacon as B. We know that 218 students suggested adding both mashed potatoes and bacon, and 351 suggested adding only bacon.\n## Step 3:  The total number of students who suggested adding bacon can be found by adding the number of students who suggested adding both items and the number of students who suggested adding only bacon. This can be represented as B = 218 + 351.\n## Step 4:  By adding these two numbers together, we can determine the total number of students who suggested adding bacon.\n\nThe final answer is: $\\boxed{569}$",
+        "correct_answer": 569.0
+    },
+    {
+        "question": "How many cookies would you have?",
+        "model_response": "To find the total number of cookies, you multiply the number of cookies in each bag by the number of bags.\n\nNumber of cookies in each bag: 41\nNumber of bags: 53\n\nTotal number of cookies: 41 x 53 = 2173\n\nSo, you would have 2173 cookies.",
+        "correct_answer": 2173.0
+    },
+    {
+        "question": "How many more pages of math homework than reading homework did she have?",
+        "model_response": "## Step 1: Determine the number of pages of reading homework.\nRachel had to complete 2 pages of reading homework.\n\n## Step 2: Determine the number of pages of math homework.\nRachel had to complete 4 pages of math homework.\n\n## Step 3: Calculate the difference between the number of pages of math homework and reading homework.\nTo find out how many more pages of math homework than reading homework Rachel had, we need to subtract the number of pages of reading homework from the number of pages of math homework. difference = 4 - 2 = 2\n\nThe final answer is: $\\boxed{2}$",
+        "correct_answer": 2.0
+    },
+    {
+        "question": "How many balloons did Allan bring to the park?",
+        "model_response": "Allan brought 5 balloons to the park. He then bought 3 more balloons. To find the total number of balloons Allan brought to the park, we need to add 5 and 3.\n\n5 + 3 = 8\n\nSo, Allan brought 8 balloons to the park.",
+        "correct_answer": 8.0
+    },
+    {
+        "question": "How many more kids did she play with on tuesday than on wednesday?",
+        "model_response": "## Step 1: Determine the number of kids Julia played with on each day.\nOn Monday, Julia played with 8 kids. On Tuesday, she played with 11 kids. On Wednesday, she played with 9 kids.\n\n## Step 2: Calculate the difference in the number of kids played with on Tuesday and Wednesday.\nTo find out how many more kids Julia played with on Tuesday than on Wednesday, we need to subtract the number of kids played with on Wednesday from the number played with on Tuesday. So, 11 (Tuesday) - 9 (Wednesday) = 2.\n\nThe final answer is: $\\boxed{2}$",
+        "correct_answer": 2.0
+    },
+    {
+        "question": "How much money did they make from selling the t-shirts?",
+        "model_response": "To find out how much money the Razorback shop made from selling the t-shirts, we need to multiply the number of t-shirts sold by the profit made from each t-shirt.\n\nNumber of t-shirts sold = 20\nProfit per t-shirt = $215\n\nTotal profit from t-shirts = Number of t-shirts sold \u00d7 Profit per t-shirt\n= 20 \u00d7 $215\n= $4300\n\nSo, the Razorback shop made $4300 from selling the t-shirts.",
+        "correct_answer": 4300.0
+    },
+    {
+        "question": "How many more children got off the bus than those that got on?",
+        "model_response": "## Step 1: Calculate the initial number of children on the bus.\nThere were 36 children initially on the bus.\n\n## Step 2: Calculate the number of children after some got off.\n68 children got off the bus, so the number of children left on the bus after this is 36 - 68 = -32.\n\n## Step 3: Since the number of children cannot be negative, we need to adjust our understanding of the problem.\nThe initial calculation shows that 68 children got off, which is more than the initial number of children on the bus. This means that the bus was empty after 68 children got off.\n\n## Step 4: Calculate the number of children that got on the bus.\nAfter 68 children got off, there were 12 children on the bus. This means that 68 + 12 = 80 children were on the bus at some point.\n\n## Step 5: Calculate the number of children that got on the bus.\nSince there were 36 children initially and 80 children at some point, 80 - 36 = 44 children got on the bus.\n\n## Step 6: Calculate the difference between the number of children that got off and the number that got on.\n68 children got off and 44 children got on, so the difference is 68 - 44 = 24.\n\nThe final answer is: $\\boxed{24}$",
+        "correct_answer": 24.0
+    },
+    {
+        "question": "How many did each of them have?",
+        "model_response": "## Step 1: Determine the total number of cookies made.\nBrenda's mother made 14 cookies.\n\n## Step 2: Determine the total number of guests.\nThere are 2 guests.\n\n## Step 3: Divide the total number of cookies by the total number of guests to find out how many cookies each guest had.\n14 cookies / 2 guests = 7 cookies per guest.\n\nThe final answer is: $\\boxed{7}$",
+        "correct_answer": 7.0
+    },
+    {
+        "question": "How many bags did she find on the next day?",
+        "model_response": "## Step 1: Identify the initial number of bags Tiffany had on Monday.\nTiffany had 4 bags of cans on Monday.\n\n## Step 2: Identify the total number of bags Tiffany had after finding more bags on the next day.\nTiffany had a total of 6 bags of cans after finding more bags on the next day.\n\n## Step 3: Calculate the number of bags Tiffany found on the next day by subtracting the initial number of bags from the total number of bags.\nTo find the number of bags Tiffany found on the next day, we subtract the initial number of bags (4) from the total number of bags (6). bags_found = total_bags - initial_bags = 6 - 4 = 2\n\nThe final answer is: $\\boxed{2}$",
+        "correct_answer": 2.0
+    },
+    {
+        "question": "How many more girls than boys does the school have?",
+        "model_response": "## Step 1: Calculate the new total number of girls after 465 more girls joined the school.\nThe initial number of girls is 632, and 465 more girls joined, so the new total number of girls is 632 + 465 = 1097.\n\n## Step 2: Calculate the difference between the new total number of girls and the number of boys to find out how many more girls than boys the school has.\nThe number of boys remains the same at 410. The difference between the new total number of girls and the number of boys is 1097 - 410 = 687.\n\nThe final answer is: $\\boxed{687}$",
+        "correct_answer": 687.0
+    },
+    {
+        "question": "How many beads did Emily have?",
+        "model_response": "## Step 1: Determine the number of beads needed for each necklace.\nEach necklace takes 5 beads.\n\n## Step 2: Calculate the total number of beads needed for 4 necklaces.\nSince each necklace takes 5 beads, 4 necklaces will take 4 * 5 = 20 beads.\n\nThe final answer is: $\\boxed{20}$",
+        "correct_answer": 20.0
+    },
+    {
+        "question": "How many more blocks did he use to build the tower than he did to build the house?",
+        "model_response": "## Step 1: Calculate the number of blocks used to build the house.\nRandy used 20 blocks to build the house.\n\n## Step 2: Calculate the number of blocks used to build the tower.\nRandy used 50 blocks to build the tower.\n\n## Step 3: Find the difference between the number of blocks used to build the tower and the house.\nTo find out how many more blocks he used to build the tower than the house, we need to subtract the number of blocks used for the house from the number of blocks used for the tower. difference = blocks_used_for_tower - blocks_used_for_house = 50 - 20 = 30\n\nThe final answer is: $\\boxed{30}$",
+        "correct_answer": 30.0
+    },
+    {
+        "question": "How many more storks than birds are sitting on the fence?",
+        "model_response": "## Step 1: Calculate the initial number of birds and storks.\nThere were initially 2 birds and 6 storks.\n\n## Step 2: Calculate the total number of birds after 3 more birds joined.\n3 more birds joined the initial 2 birds, making a total of 2 + 3 = 5 birds.\n\n## Step 3: Determine the difference between the number of storks and birds.\nTo find out how many more storks than birds are sitting on the fence, we need to subtract the number of birds from the number of storks. The number of storks is 6, and the number of birds is 5.\n\n## Step 4: Calculate the difference.\n6 (storks) - 5 (birds) = 1\n\nThe final answer is: $\\boxed{1}$",
+        "correct_answer": 1.0
+    },
+    {
+        "question": "What is the cost of each t-shirt?",
+        "model_response": "Let's break it down:\n\nThe shop made $51 from selling 3 t-shirts.\n\nTo find the cost of each t-shirt, we need to divide the total amount made ($51) by the number of t-shirts sold (3).\n\n$51 \u00f7 3 = $17\n\nSo, the cost of each t-shirt is $17.",
+        "correct_answer": 17.0
+    },
+    {
+        "question": "How many more cookies did he give to his friend than those he ate?",
+        "model_response": "Paco had 12 cookies. He ate 16 cookies, but he only had 12 cookies. So he ate 16 - 12 = 4 cookies. He gave 21 cookies to his friend. So he gave 21 - 4 = 17 more cookies to his friend than he ate. The answer is 17.",
+        "correct_answer": 5.0
+    },
+    {
+        "question": "How many more visitors visited the Buckingham palace on that day than on the previous day?",
+        "model_response": "## Step 1: Determine the number of visitors on the current day.\nThe number of visitors on the current day is 317.\n\n## Step 2: Determine the number of visitors on the previous day.\nThe number of visitors on the previous day is 295.\n\n## Step 3: Calculate the difference in the number of visitors between the current day and the previous day.\nTo find the difference, we subtract the number of visitors on the previous day from the number of visitors on the current day: 317 - 295 = 22.\n\nThe final answer is: $\\boxed{22}$",
+        "correct_answer": 22.0
+    },
+    {
+        "question": "How many more marbles did he find than those he lost?",
+        "model_response": "Let's break it down step by step:\n\nJosh had 3 marbles initially.\n\nHe found 6 marbles, so now he has: 3 + 6 = 9 marbles.\n\nHe lost 5 marbles, so now he has: 9 - 5 = 4 marbles.\n\nTo find out how many more marbles he found than those he lost, we need to subtract the number of marbles he lost from the number of marbles he found:\n\n6 (marbles found) - 5 (marbles lost) = 1\n\nSo, Josh found 1 more marble than those he lost.",
+        "correct_answer": 1.0
+    },
+    {
+        "question": "How many more students suggested mashed potatoes than those that suggested bacon?",
+        "model_response": "## Step 1: Determine the number of students who suggested mashed potatoes.\n408 students suggested adding mashed potatoes.\n\n## Step 2: Determine the number of students who suggested adding bacon.\n42 students suggested adding bacon.\n\n## Step 3: Calculate the difference between the number of students who suggested mashed potatoes and those who suggested bacon.\nTo find out how many more students suggested mashed potatoes than those that suggested bacon, we need to subtract the number of students who suggested bacon from the number of students who suggested mashed potatoes. difference = 408 - 42 = 366.\n\nThe final answer is: $\\boxed{366}$",
+        "correct_answer": 366.0
+    },
+    {
+        "question": "How many cookies did paco have left?",
+        "model_response": "Let's work through this step by step:\n\nPaco started with 40 cookies.\n\nHe ate 5 cookies, so we subtract 5 from 40:\n40 - 5 = 35\n\nThen, he gave 13 cookies to his friend, so we subtract 13 from 35:\n35 - 13 = 22\n\nSo, Paco has 22 cookies left.",
+        "correct_answer": 22.0
+    },
+    {
+        "question": "How many more cookies did he eat than those he gave to his friend?",
+        "model_response": "## Step 1: Calculate the number of cookies Paco ate.\nPaco started with 17 cookies and ate 14 of them.\n\n## Step 2: Calculate the number of cookies Paco gave to his friend.\nPaco gave 13 cookies to his friend.\n\n## Step 3: Find the difference between the number of cookies Paco ate and the number he gave to his friend.\nTo find out how many more cookies Paco ate than he gave to his friend, we need to subtract the number of cookies he gave away from the number he ate. So, we calculate 14 (cookies eaten) - 13 (cookies given away).\n\n## Step 4: Perform the subtraction to find the difference.\n14 - 13 = 1\n\nThe final answer is: $\\boxed{1}$",
+        "correct_answer": 1.0
+    },
+    {
+        "question": "How many more kids did she play with on monday than on tuesday?",
+        "model_response": "## Step 1: Calculate the total number of kids Julia played with on both days.\nThe total number of kids Julia played with on both days is 19 (on Monday) + 18 (on Tuesday) = 37 kids.\n\n## Step 2: Determine the number of hours Julia spent playing tag with each kid on both days.\nSince Julia spent a total of 38 hours to play tag on both days, and there are 2 days, we can calculate the number of hours she spent playing tag with each kid on both days. 38 hours / 2 days = 19 hours per day.\n\n## Step 3: Calculate the number of kids Julia played with on each day.\nSince Julia played tag with 19 kids on Monday and spent 19 hours playing tag on Monday, we can calculate the number of kids she played with on Monday. 19 hours / 19 kids = 1 hour per kid. Similarly, on Tuesday, she played with 18 kids and spent 19 hours, so 19 hours / 18 kids = 1.06 hours per kid. However, we are not given the number of hours per kid, so we will use the information from step 1.\n\n## Step 4: Calculate the difference in the number of kids Julia played with on Monday and Tuesday.\nThe difference in the number of kids Julia played with on Monday and Tuesday is 19 (on Monday) - 18 (on Tuesday) = 1 kid.\n\nThe final answer is: $\\boxed{1}$",
+        "correct_answer": 1.0
+    },
+    {
+        "question": "How much money did he spend to buy chocolate than he did to buy candy bar?",
+        "model_response": "## Step 1: Calculate the amount spent on the candy bar.\nDan spent $2 on the candy bar.\n\n## Step 2: Calculate the amount spent on the chocolate.\nDan spent $3 on the chocolate.\n\n## Step 3: Find the difference in the amount spent on chocolate and the candy bar.\nTo find out how much more Dan spent on chocolate than on the candy bar, we need to subtract the cost of the candy bar from the cost of the chocolate. Difference = Cost of chocolate - Cost of candy bar = $3 - $2 = $1.\n\nThe final answer is: $\\boxed{1}$",
+        "correct_answer": 1.0
+    },
+    {
+        "question": "How many more marbles did Ed have than Doug then?",
+        "model_response": "## Step 1: Determine the initial difference in the number of marbles between Ed and Doug.\nEd had 29 more marbles than Doug.\n\n## Step 2: Calculate the number of marbles Ed had after losing 17 at the playground.\nEd initially had 29 more marbles than Doug, but we don't know the exact number of marbles Ed or Doug had. Let's denote the number of marbles Doug had as x. Then Ed had x + 29 marbles. After losing 17 marbles, Ed had (x + 29) - 17 = x + 12 marbles.\n\n## Step 3: Determine the difference in the number of marbles between Ed and Doug after Ed lost 17 marbles.\nThe difference in the number of marbles between Ed and Doug after Ed lost 17 marbles is (x + 12) - x = 12.\n\nThe final answer is: $\\boxed{12}$",
+        "correct_answer": 12.0
+    },
+    {
+        "question": "How much farther did the mouse jump than the grasshopper?",
+        "model_response": "## Step 1: Determine how far the frog jumped.\nThe frog jumped 10 inches farther than the grasshopper, who jumped 19 inches. So, the frog jumped 19 + 10 = 29 inches.\n\n## Step 2: Determine how far the mouse jumped.\nThe mouse jumped 20 inches farther than the frog, who jumped 29 inches. So, the mouse jumped 29 + 20 = 49 inches.\n\n## Step 3: Calculate how much farther the mouse jumped than the grasshopper.\nThe mouse jumped 49 inches and the grasshopper jumped 19 inches. So, the mouse jumped 49 - 19 = 30 inches farther than the grasshopper.\n\nThe final answer is: $\\boxed{30}$",
+        "correct_answer": 30.0
+    },
+    {
+        "question": "How many pages did he read per day?",
+        "model_response": "## Step 1: Determine the total number of pages in the book.\nThe book has 112 pages.\n\n## Step 2: Determine the number of days it took to finish the book.\nIt took Frank 16 days to finish the book.\n\n## Step 3: Calculate the number of pages Frank read per day.\nTo find out how many pages Frank read per day, we need to divide the total number of pages by the number of days it took to finish the book. pages_per_day = total_pages / days_to_finish = 112 / 16.\n\n## Step 4: Perform the division to find the number of pages read per day.\npages_per_day = 112 / 16 = 7.\n\nThe final answer is: $\\boxed{7}$",
+        "correct_answer": 7.0
+    },
+    {
+        "question": "How many books have you already read?",
+        "model_response": "To find out how many books you have already read, we need to subtract the number of books you haven't read from the total number of books.\n\nTotal number of books = 20\nNumber of books you haven't read = 5\n\nNumber of books you have already read = Total number of books - Number of books you haven't read\n= 20 - 5\n= 15\n\nSo, you have already read 15 books.",
+        "correct_answer": 15.0
+    }
+]

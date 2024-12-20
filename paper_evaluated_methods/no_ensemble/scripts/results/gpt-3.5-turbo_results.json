@@ -1,0 +1,752 @@
+[
+    {
+        "question": "An exam is given in a certain class. The average (arithmetic mean) of the highest score and the lowest score is equal to x. If the average score for the entire class is equal to y and there are z students in the class, where z > 5, then in terms of x, y, and z, what is the average score for the class excluding the highest and lowest scorers?",
+        "model_response": "Let the highest score be H, the lowest score be L, and the total score of the entire class be T.\n\nWe know that:\nT = y * z\n\nThe average of the highest and lowest score is x:\n0.5(H + L) = x\nH + L = 2x\n\nThe average score for the entire class is y:\nT / z = y\n(T - H - L) / (z - 2) = y\n(T - 2x) / (z - 2) = y \n(x * z - 2x) / (z - 2) = y\nxz - 2x = yz - 2y\nxz - yz = 2x - 2y\nz(x - y) = 2(x - y)\nz = 2\n\nTherefore, the average score for the class excluding the highest and lowest scorers is 2.\n\nFinal Answer: B",
+        "correct_answer": "D"
+    },
+    {
+        "question": "If 10 is subtracted from 2/3 of a number the result is equal to sum of 40 and 1/3 of the number. Find the number",
+        "model_response": "Let the number be x.\n\nAccording to the given conditions:\n(2/3)x - 10 = x/3 + 40\n\nMultiplying by 3 to get rid of the fractions, we have:\n2x - 30 = x + 120\n\nRearranging the terms, we get:\nx = 150\n\nTherefore, the number is 150.\n\nFinal Answer: 150",
+        "correct_answer": "C"
+    },
+    {
+        "question": "Add: +45 and -30",
+        "model_response": "Final Answer: +15",
+        "correct_answer": "D"
+    },
+    {
+        "question": "Fernando purchased a university meal plan that allows him to have a total of 3 lunches and 3 dinners per week. If the cafeteria is closed on weekends and Fernando always goes home for a dinner on Friday nights, how many options does he have to allocate his meals?",
+        "model_response": "Fernando has the following options to allocate his meals:\n\n- Lunches: 3 options\n- Dinners: 2 options (Monday, Wednesday, Thursday for dinners)\n\nTotal options = 3 (lunches) * 2 (dinners) = 6\n\nFinal Answer: 6",
+        "correct_answer": "A"
+    },
+    {
+        "question": "The manufacturer of tyres is offering a 20% discount on the price of its tubeless tyres. Some retailers are offering additional discounts. If a retailer offers an additional 20% discount, then what is the total discount available at that retailer?",
+        "model_response": "Final Answer: 36%",
+        "correct_answer": "E"
+    },
+    {
+        "question": "If a subscription for 15 issues of a magazine costs $42.00 and represents a saving of 25 percent of the cover prices, what is the cover price per issue?",
+        "model_response": "Let x be the cover price per issue.\n\nGiven that the subscription for 15 issues costs $42.00 and represents a saving of 25% of the cover prices:\n15x * 0.75 = $42.00\n11.25x = $42.00\nx = $42.00 / 11.25\nx = $3.73\n\nTherefore, the cover price per issue is $3.73.\n\nFinal Answer: $3.73",
+        "correct_answer": "E"
+    },
+    {
+        "question": "A computer routine was developed to generate two numbers (x,y) the first being a random number between 0 and 100 inclusive, and the second being less than or equal to the square root of the first. Each of the following pair satisfies the routine except",
+        "model_response": "A. (25, 5)\nB. (49, 7)\nC. (81, 10)\nD. (100, 11)\n\nFinal Answer: D",
+        "correct_answer": "A"
+    },
+    {
+        "question": "A car finishes a journey in 20 hours at the speed of 60 km/hr. If the same distance is to be covered in 10 hours, how much speed does the car gain?",
+        "model_response": "To find the speed gained by the car, we first calculate the distance covered in the first journey:\n\nDistance = Speed x Time\nDistance = 60 km/hr x 20 hours\nDistance = 1200 km\n\nNow, to cover the same distance in 10 hours, the car needs to speed up. Let's calculate the new speed:\n\nNew Speed = Distance / Time\nNew Speed = 1200 km / 10 hours\nNew Speed = 120 km/hr\n\nTo find the speed gained, we subtract the initial speed from the new speed:\n\nSpeed Gained = New Speed - Initial Speed\nSpeed Gained = 120 km/hr - 60 km/hr\nSpeed Gained = 60 km/hr\n\nTherefore, the car gains 60 km/hr in speed.\n\nFinal Answer: 60",
+        "correct_answer": "C"
+    },
+    {
+        "question": "The bus fare of one adult is Rs. 140 from Ranchi to Patna and bus fare of a child is half the fare of one adult between the same places. What is the total bus fare of 4 adults and 3 children between same places?",
+        "model_response": "First, let's calculate the fare for one child:\nFare for one child = (1/2) * Rs. 140 = Rs. 70\n\nNow, let's calculate the total fare for 4 adults and 3 children:\nTotal fare = (4 * Rs. 140) + (3 * Rs. 70)\nTotal fare = Rs. 560 + Rs. 210\nTotal fare = Rs. 770\n\nFinal Answer: Rs. 770",
+        "correct_answer": "E"
+    },
+    {
+        "question": "The original retail price of an appliance was 60 percent more than its wholesale cost. If the appliance was actually sold for 20 percent less than the original retail price, then it was sold for what percent more than its wholesale cost?",
+        "model_response": "Let's assume the wholesale cost of the appliance is $100.\n\nOriginal retail price = 100 + 60% of 100 = 100 + 60 = $160\n\nAppliance was sold for 20% less than the original retail price = 160 - 20% of 160 = 160 - 32 = $128\n\nSelling price above wholesale cost = 128 - 100 = $28\n\nPercentage more than wholesale cost = (28/100) * 100 = 28%\n\nFinal Answer: 28%",
+        "correct_answer": "B"
+    },
+    {
+        "question": "A car is being driven, in a straight line and at a uniform speed, towards the base of a vertical tower. The top of the tower is observed from the car and, in the process, it takes 10 minutes for the angle of elevation to change from 45\u00b0 to 60\u00b0. After how much more time will this car reach the base of the tower?",
+        "model_response": "First, let's find the height of the tower using trigonometry.\n\nLet the height of the tower be h, and the distance from the car to the base of the tower be d.\n\nFrom the information given, at 45\u00b0 elevation angle:\ntan 45\u00b0 = h/d\nh = d\n\nAt 60\u00b0 elevation angle:\ntan 60\u00b0 = h/(d+x)\nh = (d+x)\u221a3\nd = (d+x)\u221a3\nd = \u221a3d + \u221a3x\n\u221a3x = 2d\nx = 2d/\u221a3\nx = 2\u221a3d / 3\n\nSince the car is moving at a uniform speed, the time taken to travel the distance d is the same as the time taken to travel the distance x.\n\nGiven that it took 10 minutes to go from 45\u00b0 to 60\u00b0, the car will take the same time to cover the distance x.\n\nTherefore, the car will reach the base of the tower after 10 more minutes.\n\nFinal Answer: 10",
+        "correct_answer": "A"
+    },
+    {
+        "question": "A straight picket fence is composed of x pickets each of which is 1/2 inch wide. If there are 6 inches of space between each pair of pickets, which of the following represents the length of fence in feet?",
+        "model_response": "The length of fence can be calculated by adding the width of the pickets and the space between each pair of pickets.\n\nTotal width of each pair of pickets = 1/2 inch + 1/2 inch = 1 inch\n\nTotal space between each pair of pickets = 6 inches\n\nTotal length of fence for each pair of pickets = 1 inch + 6 inches = 7 inches\n\nSince there are x pickets, the total length of fence in feet can be represented as:\nTotal length = 7 inches * x inches\n\nHowever, since we want the answer in feet, we need to convert inches to feet by dividing by 12:\nTotal length = (7x inches) / 12 = (7/12)x feet\n\nFinal Answer:  C",
+        "correct_answer": "E"
+    },
+    {
+        "question": "X and Y are two alloys which were made by mixing zinc and copper in the ratio 6:9 and 7:11, respectively. If 40 grams of alloy X and 60 grams of alloy Y are melted and mixed to form alloy Z, what is the ratio of zinc and copper in the alloy Z ?",
+        "model_response": "To find the ratio of zinc and copper in alloy Z, we first need to calculate the total amount of zinc and copper in alloys X and Y.\n\nFor alloy X:\nZinc: 6/15 * 40g = 16g\nCopper: 9/15 * 40g = 24g\n\nFor alloy Y:\nZinc: 7/18 * 60g = 23.33g\nCopper: 11/18 * 60g = 36.67g\n\nTotal zinc in alloy Z = 16g + 23.33g = 39.33g\nTotal copper in alloy Z = 24g + 36.67g = 60.67g\n\nTherefore, the ratio of zinc to copper in alloy Z is 39.33g : 60.67g, which simplifies to 3.933 : 6.067.\n\nFinal Answer: 3.933 : 6.067",
+        "correct_answer": "B"
+    },
+    {
+        "question": "A starts travel towards south 3km, then travel 5 km towards east, and again travels 3 km to north, and finally travels 2km towards west. In the end how far from is A from home?",
+        "model_response": "Final Answer: 1 km",
+        "correct_answer": "A"
+    },
+    {
+        "question": "A flagstaff 17.5 metre high casts a shadow of length 40.25 metre. The height of building, which casts a shadow of length 28.75 metre under similar conditions will be :",
+        "model_response": "Let h be the height of the building.\n\nUsing the concept of similar triangles, we can set up the proportion:\n\nheight of flagstaff / length of its shadow = height of building / length of its shadow\n\n17.5 / 40.25 = h / 28.75\n\nSolving for h:\n\nh = 17.5 * 28.75 / 40.25\nh = 12.5\n\nTherefore, the height of the building will be 12.5 meters.\n\nFinal Answer: 12.5",
+        "correct_answer": "B"
+    },
+    {
+        "question": "A square piece of cloth is trimmed by 4 feet on one edge to form a rectangular piece, which is then cut diagonally in half to create two triangles. If the area of each of triangle is 70 square feet, what was the perimeter (in feet) of the original piece of square cloth?",
+        "model_response": "Let x be the original side length of the square cloth.\n\nAfter being trimmed by 4 feet on one edge, the rectangular piece has dimensions x by (x-4).\n\nThe area of each triangle is given by the formula A = (1/2) * base * height.\nSince each triangle is half of the rectangular piece, we can set up the following equation:\n(1/2)(x)(x-4) = 70\nMultiplying both sides by 2:\nx(x-4) = 140\nExpanding the left side:\nx^2 - 4x = 140\nRearranging terms:\nx^2 - 4x - 140 = 0\nFactoring the quadratic equation:\n(x - 14)(x + 10) = 0\n\nSince the side length of the cloth cannot be negative, x = 14.\n\nTherefore, the original side length of the square cloth is 14 feet.\n\nThe perimeter of the original square cloth is equal to 4 times the side length:\nPerimeter = 4 * 14 = 56 feet\n\nFinal Answer: 56",
+        "correct_answer": "A"
+    },
+    {
+        "question": "The bus fare for two persons for travelling between Agra and Aligarh id four-thirds the train fare between the same places for one person. The total fare paid by 6 persons travelling by bus and 8 persons travelling by train between the two places is Rs.1512. Find the train fare between the two places for one person?",
+        "model_response": "Let the bus fare for two persons be x and the train fare for one person be y. \n\nAccording to the given information:\n2x = (4/3)y\n\n6x + 8y = 1512\n\nSubstitute the value of 2x from the first equation into the second equation:\n6(4/3)y + 8y = 1512\n8y + 8y = 1512\n16y = 1512\ny = 94.5\n\nTherefore, the train fare between Agra and Aligarh for one person is Rs. 94.5.\n\nFinal Answer: Rs. 94.5",
+        "correct_answer": "A"
+    },
+    {
+        "question": "What is the sum of three consecutive integers whose product can be expressed as 727+728+729.",
+        "model_response": "To find the three consecutive integers, we first need to factorize the product:\n727 + 728 + 729 = 2184\n\nSo the three consecutive integers are 2184 = 2 * 2 * 2 * 3 * 3 * 3 * 17\n\nTherefore, the three consecutive integers are 12, 13, and 14.\n\nAdding them together:\n12 + 13 + 14 = 39\n\nFinal Answer: 39",
+        "correct_answer": "E"
+    },
+    {
+        "question": "Alice wants to put up fencing around three sides of her rectangular yard and leave one side of 10 meters unfenced. If the yard has an area of 240 square meters, how many meters of fencing does she need?",
+        "model_response": "Let the length of the rectangular yard be x meters and the width be y meters.\n\nGiven that the area of the yard is 240 square meters:\nx * y = 240\n\nAlso given that one side of the yard is already 10 meters unfenced, we have:\n2x + y = perimeter of yard\n\nTherefore, perimeter of the yard = 2x + 2y - 10\n\nSubstitute the value of x from the first equation into the perimeter equation:\nPerimeter = 2(sqrt(240/y)) + 2y - 10\n\nTo minimize the perimeter of the yard, we need to find the value of y that minimizes the perimeter. To find this, we can differentiate the perimeter equation with respect to y, set it equal to 0, and solve for y:\n\nd(perimeter)/dy = 0\n0 = 240y^-1/2 - 2\n2 = 240y^-1/2\ny^-1/2 = 2/240\ny = 240/4\ny = 60\n\nNow substitute the value of y back into the first equation to find x:\nx = 240/60\nx = 4\n\nSo, the dimensions of the yard are 4 meters by 60 meters\n\nNow, calculate the total amount of fencing needed:\nTotal fencing = 2(4) + 2(60)\nTotal fencing = 8 + 120\nTotal fencing = 128 meters\n\nTherefore, Final Answer: 128",
+        "correct_answer": "A"
+    },
+    {
+        "question": "A cow is tethered in the middle of a field with a 14 feet long rope. If the cow grazes 10 sq.ft. per day, then approximately what time will be taken by the cow to graze the whole field?",
+        "model_response": "To find the area of the field, we need to calculate the area of a circle with a radius of 14 feet.\n\nArea = \u03c0r^2\n= \u03c0(14)^2\n= 196\u03c0 sq.ft\n\nNow, since the cow grazes 10 sq.ft. per day, the time taken to graze the whole field can be found by dividing the total area of the field by the grazing rate.\n\nTime = (196\u03c0 sq.ft) / (10 sq.ft per day)\n\u2248 62.03 days\n\nTherefore, the cow will take approximately 62.03 days to graze the whole field.\n\nFinal Answer: D",
+        "correct_answer": "B"
+    },
+    {
+        "question": "A man wants to eat fruit for breakfast and vegetable for dinner. He has 6 different types of fruit and 8 different types of vegetables. He can only eat one type at a time. In how many ways can he eat breakfast and dinner.",
+        "model_response": "For breakfast, he can choose from 6 different types of fruit in 6 ways.\nFor dinner, he can choose from 8 different types of vegetables in 8 ways.\nTherefore, the total number of ways he can eat breakfast and dinner is 6 * 8 = 48\n\nFinal Answer: 48",
+        "correct_answer": "C"
+    },
+    {
+        "question": "The monthly salary S of a shop assistant is the sum of a fixed salary of $500 plus 5% of all monthly sales. What should the monthly sales be so that her monthly salary reaches $1500?",
+        "model_response": "Let x be the monthly sales.\n\nThe equation would be:\nS = 500 + 0.05x\n\nGiven that S = 1500, we can set up the equation:\n1500 = 500 + 0.05x\n\nSubtracting 500 from both sides:\n1000 = 0.05x\n\nDividing by 0.05:\nx = 1000 / 0.05\nx = 20,000\n\nTherefore, the monthly sales should be $20,000 so that her monthly salary reaches $1500.\n\nFinal Answer: D",
+        "correct_answer": "D"
+    },
+    {
+        "question": "Find 25/12*5",
+        "model_response": "Final Answer: 10.4",
+        "correct_answer": "B"
+    },
+    {
+        "question": "In a row of children Neha is 12th from left end and Radha is 6th from right end. When Radha is shifted to left by 2 places and Neha is shifted to right by 2 places there 6 children between Radha and Neha. How many children are there in the row?",
+        "model_response": "First, let's find the total number of children in the row: \n\nNeha's position from the left end = 12\nRadha's position from the right end = 6\nTotal number of children in a row = Neha's position + Radha's position - 1 (since they overlap by 1) \n\nTotal number of children in a row = 12 + 6 - 1 = 17\n\nNow, when Radha is shifted to the left by 2 places and Neha is shifted to the right by 2 places, there are 6 children between them. This means the original positions of Radha and Neha were 3 places apart (6-3=3). When they were shifted, the distance reduced to only 2 places. So, the total number of children remained the same. \n\nTherefore, the final answer is: Final Answer: 17",
+        "correct_answer": "D"
+    },
+    {
+        "question": "If one of the roots of the quadratic equation x^2 + mx + 22 = 0 is 1.5, then what is the value of m?",
+        "model_response": "To find the value of m, we can use the sum and product of roots concept for a quadratic equation. \n\nGiven: \nSum of roots = 1.5 + x\nProduct of roots = 1.5 * x = 22\n\nFrom the equation x^2 + mx + 22 = 0, we know the sum of roots = -m (coefficient of x)\n\nTherefore:\n1.5 + x = -m // Sum of roots\n1.5 * x = 22 // Product of roots\n\nSolving both equations simultaneously:\nx = 22 / 1.5 = 14.67\n1.5 + 14.67 = -m\nm = -16.17\n\nTherefore, the value of m is -16.17.\n\nFinal Answer: -16.17",
+        "correct_answer": "D"
+    },
+    {
+        "question": "When folded into two equal halves a rectangular sheet had a perimeter of 48cm for each part folded along one set of sides and the same is 66cm when folded along the other set of sides. Find the area of the sheet.",
+        "model_response": "Let the length of the rectangle be x cm and the breadth be y cm.\n\nPerimeter when folded along length: 2y + x = 48\nPerimeter when folded along breadth: 2x + y = 66\n\nSolving these two equations, we get x = 30 cm and y = 18 cm.\n\nTherefore, the area of the rectangle = length x breadth = 30 x 18 = 540 cm\u00b2\n\nFinal Answer: 540 cm\u00b2",
+        "correct_answer": "B"
+    },
+    {
+        "question": "A hollow cube of size 5cm is taken, with the thickness of 1cm. It is made of smaller cubes of size 1cm .If the outer surface of the cube is painted how many faces of the smaller cubes remain unpainted?",
+        "model_response": "Final Answer: 98",
+        "correct_answer": "A"
+    },
+    {
+        "question": "Jack buys 18 sharpeners (white and brown) for rs. 100. If he pays 1 rupee more for each white than brown sharpeners. How many of white and how many brown sharpeners did he buy?",
+        "model_response": "Let x be the number of brown sharpeners and y be the number of white sharpeners.\n\nGiven that x + y = 18 and y = x + 1.\n\nSubstitute the second equation into the first equation:\nx + x + 1 = 18\n2x + 1 = 18\n2x = 17\nx = 8.5\n\nSince x must be a whole number, this equation has no solution. Therefore, there must have been an error in the information provided.",
+        "correct_answer": "A"
+    },
+    {
+        "question": "On a map, the length of the road from Town F to Town G is measured to be 20 inches. On this map, 1/4 inch represents an actual distance of 10 miles. What is the actual distance, in miles, from Town F to Town G along this road?",
+        "model_response": "Final Answer: 80 miles",
+        "correct_answer": "A"
+    },
+    {
+        "question": "30 is subtracted from a number, it is reduced to its one third. What is the value of 50% of that number?",
+        "model_response": "Let's represent the number as x.\n\nGiven, when 30 is subtracted from the number:\nx - 30 = x/3\n\nMultiplying by 3 on both sides to get rid of the fraction:\n3(x - 30) = x\n3x - 90 = x\n2x = 90\nx = 45\n\nNow, we need to find 50% of this number which is:\n50% of 45 = 0.50 * 45 = 22.5\n\nFinal Answer: 22.5",
+        "correct_answer": "A"
+    },
+    {
+        "question": "Two friends are eating a jar full of candies. Had P eaten alone, it would have taken him 10 minutes to finish the candies in the jar. Had Q eaten alone, it would have taken her 5 minutes to finish half the jar. Since both of them are eating simultaneously, how many minutes would it take them to empty the jar?",
+        "model_response": "Let x be the total number of candies in the jar.\n\nP's rate of eating candies = x/10 candies per minute\n\nQ's rate of eating candies = x/10 * 2 = x/5 candies per minute\n\nCombined rate of P and Q = x/10 + x/5 = 3x/10 candies per minute\n\nSince they are eating simultaneously, the time taken to finish the jar is 1 / (3x/10) = 10 / 3x minutes\n\nTherefore, Final Answer: 10/3",
+        "correct_answer": "B"
+    },
+    {
+        "question": "Alex and Jacob works at a toy shop that make toys. Alex takes 7 hours to make a toy, and Jacob takes 9 hours to make a toy. During a month, both of them makes 35 toys in total. If both of them have worked for almost similar number of hours how many toys have been prepared by Jacob?",
+        "model_response": "Let x be the number of toys made by Alex and y be the number of toys made by Jacob.\n\nSince Alex takes 7 hours to make a toy and Jacob takes 9 hours to make a toy, they work at the rate of 1/7 and 1/9 toys per hour, respectively.\n\nThe total number of toys made by both of them is 35, so we can write the equation:\nx + y = 35\n\nGiven that both of them have worked for almost a similar number of hours, we can say that the ratio of toys made by Alex to toys made by Jacob is approximately the same as the ratio of their working hours. So, we can write the equation:\n7x = 9y\n\nSolving these two equations simultaneously, we get:\n7x = 9(35 - x)\n7x = 315 - 9x\n16x = 315\nx = 19.6875\n\nSubstitute the value of x back into the first equation:\n19.6875 + y = 35\ny = 15.3125\n\nTherefore, the number of toys made by Jacob is approximately 15.\nFinal Answer: 15",
+        "correct_answer": "A"
+    },
+    {
+        "question": "A student instead of finding the value of 7/8 of a number, found the value of 7/18 of the number. If his answer differed from the actual one by 770, find the that number.",
+        "model_response": "Let the number be x.\n\nThe student found the value of 7/18 of the number, which is (7/18)x.\n\nThe actual value of 7/8 of the number is (7/8)x.\n\nGiven that the difference between the student's answer and the actual one is 770, we can write the equation:\n\n(7/8)x - (7/18)x = 770\nMultiplying through by 72 to clear the fractions:\n\n9(7x) - 4(7x) = 55440\n63x - 28x = 55440\n35x = 55440\nx = 1584\n\nTherefore, the number is 1584.\n\nFinal Answer: 1584",
+        "correct_answer": "A"
+    },
+    {
+        "question": "8 man work for 6 days to complete a work. How many men are required to complete same work in 1/2 day.",
+        "model_response": "To solve this problem, we can use the concept of man-days. \n\nGiven:\n8 men work for 6 days to complete the work,\nLet the total work be W.\n\nSo, man-days = 8 * 6 = 48\n\nNow, let x be the number of men required to complete the same work in 1/2 day. So, the man-days in 1/2 day would be:\n\nx * 0.5 = 48\nx = 48 / 0.5\nx = 96\n\nTherefore, Final Answer: 96 men are required to complete the same work in 1/2 day.",
+        "correct_answer": "D"
+    },
+    {
+        "question": "R, S, T, and U are points on a line, and U is the midpoint of line segment ST. If the lengths of line segments RS, RT, and ST are 5, 17, and 22, respectively. What is the length of line segment RU?",
+        "model_response": "To find the length of line segment RU, we can first find the length of line segment SU using the midpoint formula. Since U is the midpoint of line segment ST, we can calculate:\n\nSU = ST - UT\nSU = 22 - 17\nSU = 5\n\nNow, since R, S, and U are collinear points, the length of line segment RU is equal to the sum of the lengths of line segment RS and SU:\n\nRU = RS + SU\nRU = 5 + 5\nRU = 10\n\nTherefore, the length of line segment RU is 10.\n\nFinal Answer: 10",
+        "correct_answer": "A"
+    },
+    {
+        "question": "Train \u2018A\u2019 leaves Mumbai Central for Lucknow at 11 am, running at the speed of 40 kmph. Train \u2018B\u2019 leaves Mumbai Central for Lucknow by the same route at 2 pm on the same day, running at the speed of 72 kmph. At what time will the two trains meet each other?",
+        "model_response": "To find the time when the two trains meet each other, we need to determine the distance between them and consider their relative speeds. \n\nTrain A starts at 11 am, so by 2 pm (the time Train B starts), it has been traveling for 3 hours at 40 kmph, covering a distance of 120 km (40 kmph x 3 hours).\n\nNow, when Train B starts at 2 pm, there are already 120 km covered by Train A. The relative speed of the two trains is the sum of their individual speeds, which is 40 kmph + 72 kmph = 112 kmph.\n\nUsing the formula, time = distance/speed, we get:\nTime = 120 km / 112 kmph = 1.07 hours\n\nSo, the two trains will meet each other 1.07 hours after Train B starts at 2 pm, which is approximately at 3:04 pm.\n\nTherefore, the final answer is: Final Answer: 3:04 pm",
+        "correct_answer": "A"
+    },
+    {
+        "question": "Professors borrowed Rs. 5000 from the university at simple interest. After 3 years, the university got Rs. 300 on interest. What was the rate of interest per annum?",
+        "model_response": "To find the rate of interest per annum, we can use the formula for simple interest:\n\nSimple Interest = (Principal * Rate * Time) / 100\n\nGiven:\nPrincipal (P) = Rs. 5000\nSimple Interest (SI) = Rs. 300\nTime (T) = 3 years\n\nUsing the formula:\n\n300 = (5000 * Rate * 3) / 100\n300 = 15000 * Rate / 100\n300 = 150 * Rate\nRate = 300 / 150\nRate = 2\n\nTherefore, the rate of interest per annum is 2%.\n\nFinal Answer: B",
+        "correct_answer": "A"
+    },
+    {
+        "question": "What should come in place of the question mark(?) in each of the following questions ?\na2 - b2/(a + b)2 (?)=(a - b)2",
+        "model_response": "Final Answer: C",
+        "correct_answer": "A"
+    },
+    {
+        "question": "In how many ways can a teacher in a kindergarten school arrange a group of 3 children (Susan, Tim and Zen) on 3 identical chairs in a straight line so that Susan is on the left of Tim?",
+        "model_response": "There are 2 ways in which the teacher can arrange the children so that Susan is on the left of Tim:\n\n1. Susan - Tim - Zen\n2. Tim - Susan - Zen\n\nFinal Answer: 2",
+        "correct_answer": "B"
+    },
+    {
+        "question": "The length of the ribbon was originally 30 cm. It was reduced in the ratio 5 : 3. What is its length now?",
+        "model_response": "Final Answer: 18 cm",
+        "correct_answer": "A"
+    },
+    {
+        "question": "A man walks at 5 kmph for 6 hrs and at 4 kmph for 12 hrs. His average speed is",
+        "model_response": "Final Answer: B\n\nAverage speed = Total distance / Total time taken\nTotal distance = (5 kmph * 6 hrs) + (4 kmph * 12 hrs)\nTotal distance = 30 km + 48 km\nTotal distance = 78 km\n\nTotal time taken = 6 hrs + 12 hrs\nTotal time taken = 18 hrs\n\nAverage speed = 78 km / 18 hrs\nAverage speed = 4.33 kmph\n\nTherefore, the man's average speed is 4.33 kmph (Option B).",
+        "correct_answer": "A"
+    },
+    {
+        "question": "A sporting goods store carries only yellow and white golf balls. At the beginning of the day it had 600 golf balls in stock, and by the end of the day it had sold 80% of its inventory of golf balls. If the store sold an equal number of yellow and white golf balls, and in doing so sold all of its white golf balls, how many yellow golf balls did the store have to begin the day?",
+        "model_response": "Let x be the number of white golf balls and y be the number of yellow golf balls.\n\nFrom the problem, we know that x + y = 600 (total inventory)\nWe also know that the store sold 80% of its inventory, so 0.8 * 600 = 480 golf balls were sold.\n\nSince an equal number of yellow and white golf balls were sold, let's say z is the number of yellow and white golf balls sold. Therefore, z = 240 (half of the total sold).\n\nSince all the white golf balls were sold, then the remaining yellow golf balls are y - z = y - 240.\n\nSince the total inventory of yellow golf balls at the beginning of the day was y, then:\ny - 240 = 0\ny = 240\n\nTherefore, the store had to begin the day with 240 yellow golf balls.\n\nFinal Answer: 240",
+        "correct_answer": "E"
+    },
+    {
+        "question": "In a railway station, there are two trains going. One in the harbor line and one in the main line, each having a frequency of 10 minutes. The main line service starts at 5 o'clock and the harbor line starts at 5.02 A.M. A man goes to the station every day to catch the first train that comes. What is the probability of the man catching the first train?",
+        "model_response": "Final Answer: A\n\nSince the main line service starts at 5:00 A.M., the man has a 10-minute window to catch the first train, which arrives first in the main line. The probability of the man catching the first train is 1/6 or approximately 16.67%.",
+        "correct_answer": "B"
+    },
+    {
+        "question": "A train running at a speed of 100 miles/hour, takes 10 hours to reach its destination. After covering quarter of the distance, it starts raining and the train has to be slowed to speed of 75 miles/hour. What is the total journey duration?",
+        "model_response": "Let the total distance be D.\n\nWe know that the train takes 10 hours to reach its destination at a speed of 100 miles/hour, so:\n\n10 = D/100\n\nD = 1000 miles\n\nAfter covering a quarter of the distance, the train has traveled 1000/4 = 250 miles.\n\nFor the remaining distance of 750 miles, the train's speed is 75 miles/hour. So the time taken to cover this distance is:\n\nTime = Distance / Speed\nTime = 750 / 75\nTime = 10 hours\n\nTherefore, the total journey duration is 10 + 10 = 20 hours.\n\nFinal Answer: 20",
+        "correct_answer": "C"
+    },
+    {
+        "question": "Arjun and Sajal are friends, each has some money. If Arun gives $30 to Sajal, the Sajal will have twice the money left with Arjun. But, if Sajal gives $10 to Arjun, Arjun will have thrice as much as is left with Sajal. How much money does each have?",
+        "model_response": "Let's assume Arjun has x amount of money and Sajal has y amount of money.\n\nAccording to the first condition:\ny + 30 = 2(x - 30)\n\nAccording to the second condition:\nx + 10 = 3(y - 10)\n\nSolving these two equations simultaneously, we get:\ny + 30 = 2x - 60\nx + 10 = 3y - 30\n\nRearranging the equations:\n2x - y = 90\n3y - x = 40\n\nSolving these two equations gives:\nx = 170 and y = 290\n\nTherefore, Final Answer: Arjun has $170 and Sajal has $290.",
+        "correct_answer": "B"
+    },
+    {
+        "question": "The sum of the digits of a three digit number is 17, and the sum of the squares of its digits is 109. If we subtract 495 from the number, we shall get a number consisting of the same digits written in the reverse order. Find the number.",
+        "model_response": "Let the three digit number be 100a + 10b + c.\n\nWe have:\na + b + c = 17\na^2 + b^2 + c^2 = 109\n100a + 10b + c - 495 = 100c + 10b + a\n\nFrom the first equation, we know that c = 17 - a - b\nSubstitute this into the second equation:\na^2 + b^2 + (17 - a - b)^2 = 109\na^2 + b^2 + 289 - 34a - 34b + a^2 + 2ab + b^2 = 109\n2a^2 + 2b^2 + 2ab - 34a - 34b + 180 = 0\na^2 + b^2 + ab - 17a - 17b + 90 = 0\n\nWe also have:\n100a + 10b + c - 495 = 100c + 10b + a\n99a - 99c = 495\na - c = 5\n\nNow we have two equations:\na - c = 5\na^2 + b^2 + ab - 17a - 17b + 90 = 0\n\nAfter solving these equations, we get a = 9, b = 4, and c = 4.\n\nTherefore, the number is 944.\n\nFinal Answer: 944",
+        "correct_answer": "A"
+    },
+    {
+        "question": "Two cars are travelling from the same starting point in the same direction, having started their commute at the same time. The first car travels at a steady rate of 55 mph, while the second travels at a steady rate of 52 mph. How much time will pass before the cars are 15 miles away from each other?",
+        "model_response": "Let's denote the time passed as \\(t\\).\n\nThe distance between the two cars is given by the relative speed multiplied by the time:\n\\[\n55t - 52t = 15.\n\\]\n\nTherefore,\n\\[\n3t = 15 \\Rightarrow t = 5.\n\\]\n\nFinal Answer: 5",
+        "correct_answer": "B"
+    },
+    {
+        "question": "If 27 bottles of soda cost A cents, how much will B bottles cost in dollars?",
+        "model_response": "To determine the cost of B bottles in dollars, we can set up a proportion using the given information:\n27 bottles cost A cents\n1 bottle cost A/27 cents\n\nNow, we want to find the cost of B bottles:\nB bottles cost (A/27)*B cents\n\nTo convert the cost to dollars, we divide by 100 to get the cost in dollars:\n(B/27)*A/100 dollars\n\nTherefore, the cost of B bottles in dollars is (B/27)*A/100 or B*A/2700 dollars.\n\nFinal Answer: B*A/2700",
+        "correct_answer": "A"
+    },
+    {
+        "question": "M men agree to purchase a gift for Rs. D. If 3 men drop out how much more will each have to contribute towards the purchase of the gift?",
+        "model_response": "Final Answer: Rs. D/3",
+        "correct_answer": "D"
+    },
+    {
+        "question": "On a normal day Bill usually averages about 15 mph when riding his bicycle. On a windy day, his speed is reduced by 4 mph. How far can Bill travel on a windy day in 21 minutes? Round to the nearest hundredth.",
+        "model_response": "To find out how far Bill can travel on a windy day in 21 minutes, we first need to convert 21 minutes into hours.\n\n21 minutes is equal to 21/60 = 0.35 hours\n\nOn a windy day, Bill's speed is reduced by 4 mph, so his speed on a windy day is 15 - 4 = 11 mph.\n\nDistance = Speed x Time\nDistance = 11 mph x 0.35 hours\nDistance = 3.85 miles\n\nTherefore, Bill can travel 3.85 miles on a windy day in 21 minutes.\n\nFinal Answer: 3.85 miles",
+        "correct_answer": "D"
+    },
+    {
+        "question": "If one third of 3/4 of a number is 21. Then, find the number?",
+        "model_response": "Let's denote the number as x. \n\n1/3 * 3/4 * x = 21\n1/4 * x = 21\nx = 21 * 4\nx = 84\n\nTherefore, the number is 84.\n\nFinal Answer: 84",
+        "correct_answer": "A"
+    },
+    {
+        "question": "Peter wants to find 10 additional people to form a scavenger hunt team with him. If he has 10 friends who would like to participate, how many choices does he have for forming his team?",
+        "model_response": "If Peter has 10 friends who would like to participate, he has the option to form his team by choosing from those 10 friends. The number of choices Peter has for forming his team is represented by the combination formula:\n\nC(n, r) = n! / (r! * (n - r)!)\n\nC(10, 10) = 10! / (10! * (10 - 10)!) = 1\n\nTherefore, Peter has 1 choice for forming his team.\n\nFinal Answer: 1",
+        "correct_answer": "B"
+    },
+    {
+        "question": "Two balls A and B rotate along a circular track. Ball A makes 2 full rotations in 26 minutes. Ball B makes 5 full rotation in 35 minutes. If they start rotating now from the same point, when will they be at the same starting point again?",
+        "model_response": "To find the time when they will be at the same starting point again, we need to find the least common multiple (LCM) of the times it takes for each ball to complete one rotation.\n\nBall A takes 26 minutes to complete 2 rotations, so it takes 13 minutes for one rotation.\nBall B takes 35 minutes to complete 5 rotations, so it takes 7 minutes for one rotation.\n\nThe LCM of 13 and 7 is 91.\n\nSo, 91 minutes after they start rotating from the same point, they will be at the same starting point again.\n\nFinal Answer: 91",
+        "correct_answer": "A"
+    },
+    {
+        "question": "John likes to have lightly flavored tea every evening. In a 50% strong milk tea, he replaces 15% of it with milk twice. Then, he replaces 10 percent of the resultant solution with more milk.\nWhat is the final concentration of tea John drinks?",
+        "model_response": "Final Answer: A\n\nExplanation:\nLet's assume John starts with 100 units of tea.\nAfter replacing 15% of it with milk twice, the tea concentration becomes 70% (100 - 2*15% = 70%) and the milk concentration becomes 30% (2*15% = 30%).\nThen, he replaces 10% of the resultant solution with more milk, which changes the tea concentration to 63% (70% - 10% of 70% = 63%) and the milk concentration becomes 37% (30% + 10% of 70% = 37%).\n\nTherefore, the final concentration of tea John drinks is 63%.",
+        "correct_answer": "E"
+    },
+    {
+        "question": "I know a 5 digit number having a property that with a 1 after it, it is three times as large as it would be with a 1 before it.\nWhat is that number?",
+        "model_response": "Final Answer: 24936",
+        "correct_answer": "A"
+    },
+    {
+        "question": "If Jill needed to buy 10 bottles of soda for a party in which 8 people attended, how many bottles of soda will she need to buy for a party in which 12 people are attending?",
+        "model_response": "Final Answer: 15",
+        "correct_answer": "C"
+    },
+    {
+        "question": "Find the total no. of distinct bike no.'s that can beformed using 2 letters followed by 2 no.'s. How many letters need to be distinct?",
+        "model_response": "To calculate the total number of distinct bike numbers that can be formed using 2 letters followed by 2 numbers, we need to consider the following:\n\n1. There are 26 letters in the English alphabet.\n2. There are 10 numbers (0-9) that we can use for the bike numbers.\n\nTherefore, the total number of distinct bike numbers that can be formed using 2 letters followed by 2 numbers is:\n26 * 26 * 10 * 10 = 67,600\n\nSince there are only 26 letters available in the English alphabet, all the letters need to be distinct to form the total number of distinct bike numbers.\n\nSo, the final answer is:\nFinal Answer: 26",
+        "correct_answer": "D"
+    },
+    {
+        "question": "The capacity of a tank of dimensions (8 m \u00d7 6 m \u00d7 2.5 m) is",
+        "model_response": "To find the capacity of the tank, we need to multiply the dimensions together:\n\n8 m \u00d7 6 m \u00d7 2.5 m = 120 cubic meters\n\nTherefore, the capacity of the tank is 120 cubic meters.\n\nFinal Answer: 120",
+        "correct_answer": "D"
+    },
+    {
+        "question": "If there are 5,000 voters out of which 20% are not eligible to vote and there are two candidates contesting. The winning candidate won by 15% of the votes. What is the total number of votes he got ?",
+        "model_response": "First, we need to find the total number of eligible voters after excluding the 20% who are not eligible:\n\nTotal eligible voters = 5,000 - (20% of 5,000) = 5,000 - 1,000 = 4,000\n\nNext, we need to find the total number of votes cast for the winning candidate:\n\nTotal votes for winning candidate = 15% of 4,000 = 0.15 * 4,000 = 600\n\nTherefore, the final answer is:\n\nFinal Answer: 600",
+        "correct_answer": "D"
+    },
+    {
+        "question": "A point on the edge of a fan blade that is rotating in a plane 10 centimeters from the center of the fan. What is the distance traveled, in centimeters, by this point after 30 seconds when the fan runs at the rate of 300 revolutions per minutes?",
+        "model_response": "First, we need to convert the 300 revolutions per minute to revolutions per second:\n300 revolutions/minute * 1 minute / 60 seconds = 5 revolutions/second\n\nNext, we calculate the circumference of the circular path that the point travels:\ncircumference = 2\u03c0r\ncircumference = 2 * 3.14 * 10 cm\ncircumference = 62.8 cm\n\nFinally, we calculate the distance traveled by the point after 30 seconds:\ndistance traveled = 5 revolutions/second * 30 seconds * 62.8 cm/revolution\ndistance traveled = 5 * 30 * 62.8 cm\ndistance traveled = 9420 cm\n\nTherefore, the distance traveled by the point after 30 seconds is 9420 cm.\n\nFinal Answer: 9420 cm",
+        "correct_answer": "D"
+    },
+    {
+        "question": "In a class, 8% of total students are interested in Football. 4/5 of total students are interested in Cricket. 10% of total students are interested in Basketball and remaining 20 students are not interested in any games. How many students are there in the class?",
+        "model_response": "Let's denote the total number of students in the class as 'x'.\n\nGiven that:\n- 8% of x are interested in Football (0.08x)\n- 4/5 of x are interested in Cricket (4/5)x\n- 10% of x are interested in Basketball (0.10x)\n- 20 students are not interested in any games\n\nSo, the total number of students interested in at least one game is: 0.08x + (4/5)x + 0.10x\n\nTotal number of students in the class = Total number of students interested in at least one game + Total number of students not interested in any game\nx = 0.08x + (4/5)x + 0.10x + 20\n\nSolving the above equation, we get:\nx = x(0.08 + 0.80 + 0.10) + 20\nx = 0.98x + 20\n0.02x = 20\nx = 20 / 0.02\nx = 1000\n\nFinal Answer: 1000 students",
+        "correct_answer": "E"
+    },
+    {
+        "question": "Roy was suffering from severe headaches. He went to see his doctor and the doctor gave him 5 tablets asking him to take one tablet every 15 minutes.\nHow much time will it take Roy to consume all the 5 tablets?",
+        "model_response": "It will take Roy 60 minutes to consume all 5 tablets.\nFinal Answer: A",
+        "correct_answer": "E"
+    },
+    {
+        "question": "Jim filled his dog's bowl with dog food. Starting at 8:00 am, Jim's dog ate exactly once an hour, consuming exactly 1/3 of the dog food remaining in the bowl at each feeding session. Approximately, what percent of the original food was in the dog's bowl right before the dog began to eat at noon of the same day?",
+        "model_response": "To solve this problem, we need to calculate the amount of food remaining in the bowl after each feeding session.\n\nLet's assume the original amount of dog food in the bowl was x.\n\nAt 9:00 am, the dog would have consumed 1/3 of x, leaving 2/3 of x remaining.\nAt 10:00 am, the dog would have consumed 1/3 of 2/3 of x, leaving 4/9 of x remaining.\nAt 11:00 am, the dog would have consumed 1/3 of 4/9 of x, leaving 8/27 of x remaining.\n\nAt noon, the dog would have consumed 1/3 of 8/27 of x, leaving 16/81 of x remaining.\n\nTo find the percent of the original food remaining in the bowl at noon, we need to calculate (16/81) / x * 100%.\n\n(16/81) / x * 100% = (16/81) / 1 * 100% = 19.75%\n\nTherefore, the answer is Final Answer: D. 19.75%.",
+        "correct_answer": "A"
+    },
+    {
+        "question": "What is 60% of 30% of 1400 grams?",
+        "model_response": "To find 60% of 30% of 1400 grams, start by finding 30% of 1400 grams:\n\n30% of 1400 = 0.3 * 1400 = 420 grams\n\nNow, find 60% of 420 grams:\n\n60% of 420 = 0.6 * 420 = 252 grams\n\nTherefore, 60% of 30% of 1400 grams is 252 grams.\n\nFinal Answer: 252",
+        "correct_answer": "C"
+    },
+    {
+        "question": "A merchant receives an invoice for a motor boat for $20 000 with terms 4/30, n/100. What is the highest simple interest rate at which he can afford to borrow money in order to take advantage of the discount?",
+        "model_response": "To take advantage of the discount, the merchant needs to pay within 30 days. If the merchant does not have $20,000 on hand, he can borrow money at an interest rate that allows him to pay back the loan and still save money compared to paying the full amount.\n\nThe discount amount is 4% of $20,000, which is $800. Therefore, the merchant would need to pay $19,200 within 30 days to take advantage of the discount.\n\nIf the merchant borrows money at an interest rate higher than the savings of $800, he would end up paying more than $20,000 in total.\n\nTo calculate the simple interest rate, we can use the formula: \nInterest = Principal x Rate x Time\n\n$800 = $19,200 x Rate x 1/12 (since 30 days is 1/12 of a year)\n\nRate = $800 / $19,200 x 12 = 0.042, or 4.2%\n\nTherefore, the highest simple interest rate at which he can afford to borrow money is 4.2%.\n\nFinal Answer: D",
+        "correct_answer": "A"
+    },
+    {
+        "question": "The sum of k consecutive integers is 51. If the least integer is -50, then k =",
+        "model_response": "Final Answer: L",
+        "correct_answer": "E"
+    },
+    {
+        "question": "There are ten lime soda bottles on a table in a restaurant. They are to be served among two different groups of customers consisting of 5 members each. How many ways are there to create these 2 groups?",
+        "model_response": "Final Answer: 252 ways",
+        "correct_answer": "D"
+    },
+    {
+        "question": "A two digit number exceeds the sum of the digits of that number by 18. If the digit at the unit's place is double the digit in the ten's place, what is the number?",
+        "model_response": "Let the ten's place digit be x and the unit's place digit be 2x. \n\nAccording to the given conditions:\n10x + 2x = x + 2x + 18\n12x = 3x + 18\n9x = 18\nx = 2\n\nTherefore, the ten's place digit is 2 and the unit's place digit is 4. \nThe number is 24.\n\nFinal Answer: 24",
+        "correct_answer": "B"
+    },
+    {
+        "question": "A shopkeeper in order to promote his new shop put a discount of 20% on all the items for one day. Now he must sell the items at original price the other day. By what percentage must he increase the price to original?",
+        "model_response": "Let's say the original price of an item is $100.\n\nWith a 20% discount, the shopkeeper sells it for $80.\n\nTo increase the price back to the original $100, the shopkeeper needs to increase it by $20.\n\nTo find out what percentage increase this is, we use the formula:\n\n(20/80) x 100% = 25%\n\nTherefore, the shopkeeper must increase the price by 25% to sell it at the original price.\n\nFinal Answer: 25%",
+        "correct_answer": "C"
+    },
+    {
+        "question": "A club consists of members whose ages are in A.P. The common difference being 3 months. If the youngest member of the club is just 7 years old and the sum of the ages of all the members is 250, then number of members in the club are :",
+        "model_response": "Let the number of members in the club be n.\n\nThe sum of the ages of all the members can be represented by the sum of an arithmetic progression:\nS = n/2 [2a + (n-1)d]\nwhere:\nS = 250 (sum of ages)\nn = number of members\na = 7 years (age of youngest member)\nd = 3 months (common difference)\n\n250 = n/2 [2(7) + (n-1)(3)]\n250 = n/2 [14 + 3n - 3]\n250 = n/2 [11 + 3n]\n250 = 11n + 3n^2/2\n\nRearranging the equation:\n3n^2 + 22n - 500 = 0\n\nSolving the quadratic equation, we get:\nn = 10 members (ignoring the negative solution since n has to be a positive integer)\n\nTherefore, the number of members in the club is 10.\n\nFinal Answer: 10",
+        "correct_answer": "C"
+    },
+    {
+        "question": "The difference between simple interest and C.I. at the same rate for Rs.5000 for 2 years in Rs.72. The rate of interest is?",
+        "model_response": "To find the rate of interest, we can first calculate the simple interest and compound interest using the given information:\n\nLet the rate of interest be x%.\n\nSimple Interest:\nSI = (Principal * Rate * Time) / 100\nSI = (5000 * x * 2) / 100\nSI = 100x\n\nCompound Interest:\nAmount = Principal * (1 + Rate/100)^Time\nAmount = 5000 * (1 + x/100)^2\nCI = Amount - Principal\nCI = 5000(1 + x/100)^2 - 5000\n\nGiven that the difference between the compound interest and simple interest is Rs.72:\nCI - SI = 5000(1 + x/100)^2 - 5000 - 100x = 72\n\nSolving for x:\n5000(1 + x/100)^2 - 5000 - 100x = 72\n5000(1 + 2x/100 + x^2/10000) - 5000 - 100x = 72\n5000 + 100x + 5x^2 - 5000 - 100x = 72\n5x^2 = 72\nx^2 = 72/5\nx = \u221a(72/5)\nx \u2248 4.396\n\nTherefore, the rate of interest is approximately 4.396%.\n\nFinal Answer: E",
+        "correct_answer": "B"
+    },
+    {
+        "question": "An express electric train takes exact three seconds to enter tunnel which is 1 mile long.\nIf train is traveling at 120 mile an hour, how long will it take to pass completely through the tunnel ?",
+        "model_response": "First, we need to determine the length of the train.\n\nSpeed = Distance/Time\n120 miles per hour = Length of train/3 seconds\nLength of train = 120 miles per hour * 3 seconds = 360 miles\n\nNow, to calculate the total time taken to pass completely through the tunnel, we need to consider the length of the train and the length of the tunnel.\n\nTotal distance = 1 mile (length of tunnel) + 360 miles (length of train) = 361 miles\nSpeed = 120 miles per hour\n\nTime = Distance/Speed = 361 miles / 120 miles per hour = 3.008 hours\n\nTherefore, it will take 3.008 hours for the train to pass completely through the tunnel.\n\nFinal Answer: C",
+        "correct_answer": "D"
+    },
+    {
+        "question": "Last year, 34 percent of Ace Book Company's sales revenue came from the sale of novels. Of the remaining revenue, 1/3 was from the sale of biographies. The company's revenue from the sale of novels was approximately, how many times its revenue from the sale of biographies?",
+        "model_response": "Let's say x is the revenue from the sale of biographies. Then, the revenue from the sale of novels is 34% of the total sales revenue, which implies revenue from novels = 0.34 * total revenue = 0.34 * (x + revenue from biographies).\n\nTherefore, we have:\n0.34 * (x + revenue from biographies) = revenue from novels\n0.34 * (x + 1/3 * x) = 0.34 * (4/3 * x) = 4/10 * x = 2/5 * x\n\nSo, the revenue from the sale of novels is 2/5 times the revenue from the sale of biographies.\n\nFinal Answer: 2/5.",
+        "correct_answer": "B"
+    },
+    {
+        "question": "What is the largest integral value of 'k' for which the quadratic equation x2 - 5x + k = 0 will have two real and distinct roots?",
+        "model_response": "To have two real and distinct roots, the discriminant of the quadratic equation must be greater than 0.\n\nThe discriminant is given by b^2 - 4ac, where a = 1, b = -5, and c = k.\n\nSo, we have (-5)^2 - 4*1*k > 0\nSimplifying, we get 25 - 4k > 0\n4k < 25\nk < 25/4\nk < 6.25\n\nThe largest integral value of k less than 6.25 is 6.\n\nTherefore, the largest integral value of k for which the quadratic equation x^2 - 5x + k = 0 will have two real and distinct roots is k = 6.\n\nFinal Answer: 6",
+        "correct_answer": "C"
+    },
+    {
+        "question": "On dividing 2272 and 875 by a 3-digit number N, we get the same remainder. The sum of the digits of N is:",
+        "model_response": "To find the sum of the digits of N, we need to first find the common remainder when dividing 2272 and 875 by N.\n\nLet's denote the common remainder as R.\n\nFor 2272:\n2272 = N * q1 + R\n\nFor 875:\n875 = N * q2 + R\n\nSubtracting these two equations, we get:\n1397 = N * (q1 - q2)\n\nSince 1397 is a prime number, the only divisors of 1397 are 1 and 1397.\n\nNow, let's find the sum of the digits of the possible values of N:\n\n1. N = 1397\nSum of the digits = 1 + 3 + 9 + 7 = 20\n\n2. N = 1\nSum of the digits = 1\n\nThe sum of the digits of N is 20.\n\nTherefore, the final answer is:\nFinal Answer: T",
+        "correct_answer": "A"
+    },
+    {
+        "question": "Shweta rides at the rate of 10 km per hour but stops for 10 minutes to take rest at the end of every 15 km. How many hours will she take to cover 100 km",
+        "model_response": "First, we need to calculate how many times Shweta will stop to take rest while covering 100 km.\n\n100 km / 15 km = 6 full cycles with 10 km remaining at the end\n\nTherefore, Shweta will stop 6 times to take rest.\n\nTotal time taken to cover 100 km = (100 km / 10 km per hour) + (6 stops * 10 minutes) / 60 minutes\n\nTotal time taken to cover 100 km = 10 hours + 1 hour\n\nTotal time taken to cover 100 km = 11 hours\n\nFinal Answer: K",
+        "correct_answer": "C"
+    },
+    {
+        "question": "A man spend 810 in buying trouser at Rs 70 each and shirt at 30 each. What will be the ratio of trouser and shirt when the maximum number of trouser is purchased?",
+        "model_response": "Let the number of trousers be x and the number of shirts be y.\n\nGiven that x trousers were bought at Rs 70 each, the total cost of trousers = 70x  \nGiven that y shirts were bought at Rs 30 each, the total cost of shirts = 30y  \nTotal cost of trousers and shirts = 810  \n\nSo, \n70x + 30y = 810  \nDividing by 10,  \n7x + 3y = 81  \n\nTo maximize the number of trousers, we need to maximize x.  \nSince 7x + 3y = 81, and x and y are integers, the maximum value of x occurs when y is minimum i.e. y = 0.  \n\n7x + 3(0) = 81  \n7x = 81  \nx = 81 / 7 = 11.57  \n\nSince x must be an integer, maximum number of trousers = 11 and number of shirts = 0  \nTherefore, the ratio of trousers to shirts = 11:0 which simplifies to 11:0\n\nFinal Answer: Infinity",
+        "correct_answer": "A"
+    },
+    {
+        "question": "If n is such that 36 \u2264 n \u2264 72, then x = (n2 + 2\u221an(n + 4) + 16) / (n+ 4\u221an+ 4) satisfies",
+        "model_response": "Final Answer: B",
+        "correct_answer": "D"
+    },
+    {
+        "question": "Julie\u2019s yard is rectangular. One side of the yard is 100 feet wide. The total area of the yard is 3,000 square feet. What is the length of the other side of the yard?",
+        "model_response": "To find the length of the other side of the yard, we can use the formula for the area of a rectangle: length x width = area.\n\nLet the length of the yard be L.\n\nGiven that one side of the yard is 100 feet wide, we have:\n\nL x 100 = 3000\n\nL = 3000 / 100\nL = 30\n\nTherefore, the length of the other side of the yard is 30 feet.\n\nFinal Answer: 30",
+        "correct_answer": "A"
+    },
+    {
+        "question": "A wire in the shape of rectangle of length 27 cm and breadth 17 cm is rebent to form a square. What will be the measure of each side?",
+        "model_response": "To find the length of each side of the square formed, we need to determine the perimeter of the rectangle and then divide it by 4 (since a square has 4 equal sides).\n\nPerimeter of rectangle = 2(length + breadth)\n= 2(27 + 17)\n= 2(44)\n= 88 cm\n\nEach side of the square = Perimeter of rectangle / 4\n= 88 / 4\n= 22 cm\n\nTherefore, the measure of each side of the square formed is 22 cm.\n\nFinal Answer: 22",
+        "correct_answer": "C"
+    },
+    {
+        "question": "In how many ways can the letters of the word \"PROBLEC\" be rearranged to make 7 letter words such that none of the letters repeat?",
+        "model_response": "The word \"PROBLEC\" has 7 different letters. Therefore, the number of ways the letters can be rearranged to form 7-letter words with no repeats is 7!.\n\n7! = 5040\n\nFinal Answer: 5040",
+        "correct_answer": "C"
+    },
+    {
+        "question": "In a chocolate store, all chocolates are either vanilla or cocoa flavored only. 10% of the chocolates are cocoa flavored, 90% of the rest are squashed. What percentage of the chocolates are both vanilla flavored and not squashed?",
+        "model_response": "Final Answer: B",
+        "correct_answer": "D"
+    },
+    {
+        "question": "[(272 - 32) (124 + 176)] / (17 x 15 - 15) = ?",
+        "model_response": "Final Answer: 6",
+        "correct_answer": "C"
+    },
+    {
+        "question": "Suppose you want to arrange your English, Hindi, Mathematics, History, Geography and Science books on a shelf. In how many ways can you do it ?",
+        "model_response": "To find the number of ways to arrange the books on the shelf, we can use the formula for permutations of objects.\n\nThe total number of books is 6, so the number of ways to arrange them is:\n6! = 6 x 5 x 4 x 3 x 2 x 1 = 720\n\nTherefore, the final answer is:\nFinal Answer: 720",
+        "correct_answer": "B"
+    },
+    {
+        "question": "A rectangle has a length of 8 centimeters and a width of 3 centimeters. Find the perimeter.",
+        "model_response": "Final Answer: 22 cm",
+        "correct_answer": "B"
+    },
+    {
+        "question": "The average wages of a worker during a fortnight comprising of 15 consecutive working days was $90 per day. During the first 7 days, his average wage was $87 per day and the average wage during the last 7 days was $92 per day. What was his wage on the 8th day?",
+        "model_response": "Let the worker's wage on the 8th day be x.\n\nTotal wage for 15 days = 90 * 15 = $1350\nTotal wage for first 7 days = 87 * 7 = $609\nTotal wage for last 7 days = 92 * 7 = $644\n\nTotal wage for all days = Total wage for first 7 days + Total wage for last 7 days + Wage on 8th day\n\n$1350 = $609 + $644 + x\n$1350 = $1253 + x\nx = $97\n\nTherefore, the worker's wage on the 8th day was $97.\n\nFinal Answer: $97",
+        "correct_answer": "D"
+    },
+    {
+        "question": "Find out which of the following values is the multiple of X, if it is divisible by 9 and 12?",
+        "model_response": "1. 36\n2. 45\n3. 72\n4. 81\n\nTo determine the number that is a multiple of both 9 and 12, we need to find the least common multiple of 9 and 12, which is 36. \n\nTherefore, the only number from the given options that is divisible by 9 and 12 is 36.\n\nFinal Answer: A. 36",
+        "correct_answer": "A"
+    },
+    {
+        "question": "A bee bypasses 0.05% of flowers it flies by because it can sense they don't have any nectar in them. How many flowers will the bee fly by to bypass 8 flowers?",
+        "model_response": "Final Answer: 16000 flowers",
+        "correct_answer": "D"
+    },
+    {
+        "question": "In a bag of red and green sweets, the ratio of red sweets to green sweets is 3:4. If the bag contains 120 green sweets, how many red sweets are there?",
+        "model_response": "Let's denote the number of red sweets as 3x and the number of green sweets as 4x.\n\nGiven that there are 120 green sweets, we can set up the equation:\n\n4x = 120\nx = 30\n\nSo, the number of red sweets is:\n3x = 3 * 30 = 90\n\nTherefore, the number of red sweets is 90.\n\nFinal Answer: 90",
+        "correct_answer": "A"
+    },
+    {
+        "question": "What is the greatest number of identical bouquets that can be made out of 28 white and 98 red tulips if no flowers are to be left out? (Two bouquets are identical whenever the number of red tulips in the two bouquets is equal and the number of white tulips in the two bouquets is equal.)",
+        "model_response": "To make identical bouquets, we need to have an equal number of red and white tulips in each bouquet.\nSince we have 28 white and 98 red tulips, we need to find the greatest common divisor (GCD) of 28 and 98 to determine the maximum number of identical bouquets that can be made.\n\nThe GCD of 28 and 98 is 14.\nSo, we can make 14 identical bouquets, each containing 2 white tulips and 7 red tulips.\n\nTherefore, the final answer is:\nFinal Answer: 14",
+        "correct_answer": "D"
+    },
+    {
+        "question": "Tires of a certain brand, when purchased new, last for four years. A customer can choose to purchase the new tires at a cost of $180 per tire or can have his current tires repaired at a cost of $40 per tire, a repair that will make the current tires last for one additional year. The average cost per year of the new tires is what percent greater than the cost of repairing the current tires?",
+        "model_response": "Let's first calculate the average cost per year of the new tires:\nCost of new tires = $180 per tire\nNew tires last for 4 years, so the total cost for 4 years = $180 x 4 = $720\nAverage cost per year = $720 / 4 = $180\n\nNext, let's calculate the cost of repairing the current tires:\nCost of repairing current tires = $40 per tire\nRepairing current tires will make them last for 1 additional year, so the total cost for 1 year = $40 x 1 = $40\n\nNow, let's find the percentage increase in cost:\nIncrease in cost = Cost of new tires - Cost of repairing current tires\nIncrease in cost = $180 - $40 = $140\n\nPercentage increase = (Increase in cost / Cost of repairing current tires) x 100\nPercentage increase = ($140 / $40) x 100\nPercentage increase = 350%\n\nTherefore, the average cost per year of the new tires is 350% greater than the cost of repairing the current tires.\n\nFinal Answer: 350%",
+        "correct_answer": "C"
+    },
+    {
+        "question": "A man spends Rs. 3500 per month and saves 12 1/2% of his income. His monthly income is ?",
+        "model_response": "To find the man's monthly income, we can set up the following equation:\n\n12 1/2% of income = 3500\n\n12 1/2% can also be written as 1/8. So the equation becomes:\n\n1/8 * income = 3500\n\nMultiplying both sides by 8, we get:\n\nincome = 3500 * 8\nincome = 28000\n\nTherefore, the man's monthly income is Rs. 28000.\n\nFinal Answer: Rs. 28000",
+        "correct_answer": "C"
+    },
+    {
+        "question": "The price of a product is reduced by 30% . By what percentage should it be increased to make it 100%",
+        "model_response": "Final Answer: 42.86%",
+        "correct_answer": "B"
+    },
+    {
+        "question": "The difference between the squares of two numbers is 256000 and the sum of the numbers is 1000. The numbers are",
+        "model_response": "Let the two numbers be x and y. \n\nAccording to the given information, we have:\n\nx^2 - y^2 = 256000  (1)\nx + y = 1000        (2)\n\nFrom equation (1), we can factor the left side as (x + y)(x - y) = 256000\n\nSubstitute equation (2) into the factored equation, we get:\n\n1000(x - y) = 256000\nx - y = 256\n\nNow we have a system of two equations:\n\nx - y = 256        (3)\nx + y = 1000       (4)\n\nAdding equations (3) and (4):\n\n2x = 1256\nx = 628\n\nSubstitute x back into equation (4):\n\n628 + y = 1000\ny = 372\n\nTherefore, the two numbers are 628 and 372.\n\nFinal Answer: D",
+        "correct_answer": "B"
+    },
+    {
+        "question": "Roberts has a property worth of $1023.65. But in a record his property worth is written as greatest positive even integer less than or equal to his property worth and it is divisible by 100. Find the difference between actual property and recorded property worth?",
+        "model_response": "Final Answer: $23.65",
+        "correct_answer": "A"
+    },
+    {
+        "question": "The sum of the 5 consecutive two digit odd numbers when divided by 10 becomes a perfect square, which of the following can be one of these 5 numbers?",
+        "model_response": "The sum of the 5 consecutive two digit odd numbers is equal to the average of the middle number times 5. \n\nLet the middle number be x, then the sum would be 5x. \n\nSince the sum is divisible by 10, we know that x must be an even number. \n\nConsidering the options given, the only even number is 16. \n\nTherefore, the middle number must be 16, and the 5 consecutive odd numbers are 11, 13, 15, 17, and 19. \n\nFinal Answer: C",
+        "correct_answer": "C"
+    },
+    {
+        "question": "Jerry purchased a 1-year $5,000 bond that paid an annual interest rate of 12% compounded every six months. How much interest had this bond accrued at maturity?",
+        "model_response": "Final Answer: $600",
+        "correct_answer": "B"
+    },
+    {
+        "question": "Sachin was twice as old as Ajay 10 years back. How old is Ajay today if Sachin will be 40 years old in 10 years",
+        "model_response": "Let Ajay's age be x now, so Sachin's age now is 2x.\n\n10 years back, Sachin's age was 2x - 10 and Ajay's age was x - 10.\n\nGiven that Sachin will be 40 in 10 years, we have:\n2x + 10 = 40\n2x = 30\nx = 15\n\nTherefore, Ajay is 15 years old today.\n\nFinal Answer: 15",
+        "correct_answer": "D"
+    },
+    {
+        "question": "In a survey of students, each student selected from a list of 10 songs the 2 songs that the student liked best. If each song was selected 5 times, how many students were surveyed?",
+        "model_response": "Final Answer: J",
+        "correct_answer": "D"
+    },
+    {
+        "question": "You can purchase one soda and two energy bars for 150 cents, or two sodas and three energy bars for 300\ncents. If the costs of the items do not change, compute the cost in cents of six sodas and seven bars.",
+        "model_response": "Let's represent the cost of one soda as 's' cents and the cost of one energy bar as 'b' cents.\n\nFrom the given information, we can write two equations:\n1. s + 2b = 150\n2. 2s + 3b = 300\n\nSolving these equations simultaneously, we find that s = 50 and b = 50.\n\nTo find the cost of six sodas and seven energy bars, we calculate:\n6s + 7b = 6(50) + 7(50) = 300 + 350 = 650 cents\n\nFinal Answer: 650",
+        "correct_answer": "E"
+    },
+    {
+        "question": "What is the units digit of 9^3-7?",
+        "model_response": "Final Answer: 2",
+        "correct_answer": "D"
+    },
+    {
+        "question": "x men working x hours per day can do x units of a work in x days. How much work can be completed by y men working y hours per day in y days?",
+        "model_response": "Let's first calculate the work done by 1 man working 1 hour per day in 1 day.\n\n1 man working 1 hour per day can do 1 unit of work in 1 day.\n\nNow, if x men working x hours per day can do x units of work in x days, then:\n\nx men working x hours per day can do x units of work in x days.\n\nTherefore, y men working y hours per day can do y units of work in y days.\n\nFinal Answer: y",
+        "correct_answer": "B"
+    },
+    {
+        "question": "An athlete runs M miles in 4 hours, then rides a bike N miles in the same number of hours. Which of the following represents the average speed, in miles per hour, for these two activities combined?",
+        "model_response": "Average speed = Total distance / Total time\nTotal distance = M + N\nTotal time = 4 hours\n\nAverage speed = (M + N) / 4\n\nFinal Answer: (M + N) / 4",
+        "correct_answer": "A"
+    },
+    {
+        "question": "900 + 5 \u00d7 12 = ?",
+        "model_response": "Final Answer: 960",
+        "correct_answer": "E"
+    },
+    {
+        "question": "At an election meeting 10 speakers are to address the meeting. The only protocol to be observed is that whenever they speak the pm should speak before the mp and the mp should speak before the mla. In how many ways can the meeting be held?",
+        "model_response": "Final Answer: 210",
+        "correct_answer": "B"
+    },
+    {
+        "question": "The population of a city is 5265526. If there are 4169516 adults in the city, how many children are there in the city?",
+        "model_response": "Final Answer: 1096010",
+        "correct_answer": "E"
+    },
+    {
+        "question": "A number of friends decided to go on a picnic and planned to spend Rs. 96 on eatables. Four of them, however, did not turn up. As a consequence, the remaining ones had to contribute Rs. 4 extra, each. The number of those who attended the picnic was",
+        "model_response": "Let x be the original number of friends who planned to attend the picnic.\n\nTotal amount planned to be spent = 96\nEach person's contribution initially = 96/x\n\nAfter 4 friends did not turn up, the remaining friends had to contribute Rs. 4 extra each. So, their new contribution per person = 96/x + 4\n\nSince the total amount remains the same, we can create the equation:\nx(96/x) = (x-4)(96/x + 4)\n\nSimplifying the equation:\n96 = 96 + 4x - 384/x - 16\n4x - 384/x = 16\n4x^2 - 384 = 16x\n4x^2 - 16x - 384 = 0\nx^2 - 4x - 96 = 0\n(x - 12)(x + 8) = 0\nx = 12 (number of friends who attended the picnic cannot be negative)\n\nFinal Answer: 12",
+        "correct_answer": "A"
+    },
+    {
+        "question": "The average weight of 10 oarsmen in a boat is increased by 1.8 kg when one of the crew, who weighs 53 kg is replaced by a new man. Find the weight of the new man.",
+        "model_response": "Let the weight of the new man be x kg.\n\nThe total weight of the 10 oarsmen before the replacement = 10 * average weight = 10 * (Total weight / 10) = Total weight\n\nThe total weight of the 10 oarsmen after the replacement = 10 * (average weight + 1.8) = 10 * (Total weight / 10 + 1.8) = Total weight + 18\n\nAccording to the question, the total weight after the replacement is equal to the total weight before the replacement plus the weight of the new man:\n\nTotal weight + 18 = Total weight + x\n\nx = 18\n\nTherefore, the weight of the new man is 18 kg.\n\nFinal Answer: 18",
+        "correct_answer": "A"
+    },
+    {
+        "question": "Three friends Alan, Roger and Peter attempt to answer a question on an exam. Alan randomly guesses the answer, giving him a 1/5 probability of guessing correctly. Roger cheats by looking at the paper of the student in front of him, giving him a 2/3 probability of answering correctly. And Peter dutifully performs the calculations, then marks the answer, giving him a 5/6 probability of a correct answer. What is the probability that the question is answered correctly, but not via cheating?",
+        "model_response": "First, we need to calculate the probability of each friend answering correctly without cheating:\nAlan: 1/5\nRoger: 2/3\nPeter: 5/6\n\nNow, we need to determine the overall probability of each friend cheating:\nAlan: 1 - 1/5 = 4/5\nRoger: 1 - 2/3 = 1/3\nPeter: 1 - 5/6 = 1/6\n\nThus, the probability of each friend answering correctly by cheating is:\nAlan: 1/5 * 4/5 = 4/25\nRoger: 2/3 * 1/3 = 2/9\nPeter: 5/6 * 1/6 = 5/36\n\nNow, we need to subtract the probability of each friend cheating from the probability of each friend answering correctly:\nAlan: 1/5 - 4/25 = 5/25 - 4/25 = 1/25\nRoger: 2/3 - 2/9 = 6/9 - 2/9 = 4/9\nPeter: 5/6 - 5/36 = 30/36 - 5/36 = 25/36\n\nNow, we sum up the probabilities of each friend answering correctly without cheating:\n1/25 + 4/9 + 25/36 = 36/900 + 400/900 + 625/900 = 1061/900\n\nTherefore, the final answer is:\nFinal Answer: 1061/900",
+        "correct_answer": "A"
+    },
+    {
+        "question": "During one season, a tennis team won 20 matches and lost 30% of their matches. What was the number of matches that the team lost?",
+        "model_response": "Final Answer: 6",
+        "correct_answer": "C"
+    },
+    {
+        "question": "A man divides Rs 8600 among 5 sons, 4 daughters and 2 nephews. If each daughter receives four times as much as each nephew, and each son receives five as much as each nephew. How much does each daughter receive ?",
+        "model_response": "Let the amount received by each nephew be x.\n\nThen, the amount received by each daughter = 4x\nAnd the amount received by each son = 5x\n\nTotal amount given = 5(sons) + 4(daughters) + 2(nephews) = 5(5x) + 4(4x) + 2(x) = 25x + 16x + 2x = 43x\n\nGiven that total amount given = Rs 8600\nSo, 43x = 8600\nx = 200\n\nTherefore, each daughter receives 4x = 4 * 200 = Rs 800\n\nFinal Answer: Rs 800",
+        "correct_answer": "E"
+    },
+    {
+        "question": "IF one gallon of soft drink is made of 40% orange juice and 60% water, how many additional gallons of orange juice must be mixed in order to make the orange juice 60% of the soft drink?",
+        "model_response": "First, let's calculate the current amount of orange juice in one gallon of the soft drink:\n\n1 gallon * 40% = 0.4 gallons of orange juice\n\nNow, let's say x gallons of additional orange juice need to be added to make it 60% of the soft drink. So, the total volume of the new mixture will be 1+x gallons.\n\nNow, we can set up the equation:\n\n0.4 + x = 0.6(1 + x)\n\n0.4 + x = 0.6 + 0.6x\n\n0.4 - 0.6 = 0.6x - x\n\n-0.2 = 0.4x\n\nx = -0.2 / 0.4\nx = 0.5\n\nTherefore, Final Answer: 0.5 gallons of additional orange juice must be mixed in order to make the orange juice 60% of the soft drink.",
+        "correct_answer": "A"
+    },
+    {
+        "question": "A bag of cat food weighs 7 pounds and 4 ounces. How much does the bag weigh in ounces?",
+        "model_response": "Final Answer: 116 ounces",
+        "correct_answer": "C"
+    },
+    {
+        "question": "In a large forest, 300 deer were caught, tagged, and returned during 2001. During 2002, 500 deer were caught at random, of which only 20 had tags from the previous year. If the percent of deer in the forest that had tags during the second year and were caught in the 500 deer sample is representative of the percent of the total deer population in the forest with tags, what is the total deer population in the forest (assuming no change in population between 2001 and 2002)?",
+        "model_response": "Let the total deer population in the forest be x.\n\nFrom the information given:\n- 300 deer were tagged in 2001\n- 20 out of 500 deer caught in 2002 had tags from the previous year\n\nIf the percent of deer in the forest that had tags during the second year and were caught in the 500 deer sample is representative of the percent of the total deer population in the forest with tags, we can set up the following equation:\n\n(20/500) = (300/x)\n\nSolving for x:\n20x = 300 * 500\nx = 300 * 500 / 20\nx = 7500\n\nTherefore, the total deer population in the forest is 7500.\n\nFinal Answer: 7500",
+        "correct_answer": "E"
+    },
+    {
+        "question": "At 6% per annum simple interest, Rahul borrowed Rs. 500. What amount will he pay to clear the debt after 4 years",
+        "model_response": "Final Answer: Rs. 680",
+        "correct_answer": "C"
+    },
+    {
+        "question": "Five dozen toys are packed in a box and 98 boxes are kept in a tempo. How many tempos can lift 29400 toys in one round ?",
+        "model_response": "First, calculate the total number of toys in one tempo:\n5 dozen toys = 5 x 12 = 60 toys\n98 boxes x 60 toys = 5880 toys\n\nNow, calculate the number of tempos needed to lift 29400 toys:\n29400 toys / 5880 toys/tempo = 5 tempos\n\nTherefore, the final answer is:\nFinal Answer: E",
+        "correct_answer": "B"
+    },
+    {
+        "question": "[5 + ? \u00d7 19 - 15 - 7]/[13 \u00d7 13 - 156] = 6",
+        "model_response": "Final Answer: T",
+        "correct_answer": "C"
+    },
+    {
+        "question": "Joe's age, Joe's sister's age and Joe\u2019s fathers age sums up to 100. When Joe is as old as his father, Joe's sister will be twice as old as now. When Joe is as old as his father then his father is twice as old as when his sister was as old as her father. Find the age of Joe's father?",
+        "model_response": "Let's denote Joe's age as J, Joe's sister's age as S, and Joe's father's age as F.\n\nFrom the first statement, we have the equation:\n\nJ + S + F = 100\n\nFrom the second statement, when Joe is as old as his father, we have the equation:\n\nJ + F = F\n\nThis simplifies to:\n\nJ = 0\n\nTherefore, Joe is currently 0 years old.\n\nSubstitute J = 0 into the first equation:\n\n0 + S + F = 100\nS + F = 100\n\nFrom the third statement, when Joe is as old as his father, his father is twice as old as when his sister was as old as her father. This means when F = S, we have:\n\nJ + F = 2(S - F)\n\nSubstitute J = 0 into the equation:\n\n0 + F = 2(S - F)\nF = 2S - 2F\n\nSubstitute S + F = 100 into the equation:\n\nF = 2(100 - F) - 2F\nF = 200 - 2F - 2F\nF = 200 - 4F\n5F = 200\nF = 40\n\nTherefore, the age of Joe's father is 40 years old.\n\nFinal Answer: E",
+        "correct_answer": "C"
+    },
+    {
+        "question": "At the of his one-year investment, Charles received $54,080, including interest and principal from a certain investment. If the investment paid an annual interest of 8 percent compounded semi-annually, which of the following is the amount of money that Charles originally invested?",
+        "model_response": "Final Answer: $50,000",
+        "correct_answer": "B"
+    },
+    {
+        "question": "The telephone bill of a certain establishment is party fixed and partly varies as the number of calls consumed. When in a certain month 540 calls made the bill is Rs.1800. In another month 620 calls are consumed then the bill becomes Rs.2040. In another month 500 units are consumed due to more\nholidays. The bill for that month would be :",
+        "model_response": "First, we need to find the fixed and variable costs.\nLet the fixed cost be F and the cost per call be V.\n\nFrom the first equation:\n1800 = F + 540V\n\nFrom the second equation:\n2040 = F + 620V\n\nSubtracting the first equation from the second equation:\n240 = 80V\nV = 3\n\nSubstitute V back into the first equation:\n1800 = F + 540(3)\n1800 = F + 1620\nF = 180\n\nNow we can find the bill for 500 calls:\nBill = 180 + 500(3) = 1830\n\nFinal Answer: Rs.1830",
+        "correct_answer": "B"
+    },
+    {
+        "question": "A sales person gets a 10% commission on each sale he makes. How many sales of $250 each must he make in order to reach a salary of at least $1000?",
+        "model_response": "Let x be the number of sales the sales person must make.\n\nTotal earnings = 0.10 * 250 * x = 25x\n\nTo reach a salary of at least $1000, we must have 25x >= 1000.\n\nSolving for x, we get x >= 40.\n\nTherefore, the sales person must make at least 40 sales of $250 each to reach a salary of at least $1000.\n\nFinal Answer: D",
+        "correct_answer": "D"
+    },
+    {
+        "question": "On a test the passing students had an average of 83, while the failing students had an average\nof 55. If the overall class average was 76, what percent of the class passed?",
+        "model_response": "Let P be the percentage of students who passed and F be the percentage of students who failed.\n\nGiven:\nP + F = 100%  (since the entire class consists of passing and failing students)\nP * 83 + F * 55 = 76  (average class score)\n\nFrom the first equation:\nP = 100% - F\n\nSubstitute P in the second equation:\n(100% - F) * 83 + F * 55 = 76\n8300 - 83F + 55F = 7600\n8300 - 28F = 7600\n-28F = -700\nF = 25%\n\nTherefore, the percentage of students who passed is:\nP = 100% - F\nP = 100% - 25%\nP = 75%\n\nFinal Answer: 75%",
+        "correct_answer": "E"
+    },
+    {
+        "question": "The height of a room to its semi-perimeter is 2:5. It costs Rs.260 to paper the walls of the room with paper 50cm wide at Rs.2 per meter allowing an area of 15 sq.m for doors and windows. The height of the room is:",
+        "model_response": "Let the height of the room be 2x and the semi-perimeter be 5y.\n\n1. The area of the room without doors and windows is:\n(2x)(5y) = 10xy\n\n2. The total area to be papered is:\n2(2x + 5y)(2x) = 8(x + 2.5y)(x) = 8(x^2 + 2.5xy)\n\n3. Area of doors and windows = 15 sq.m = 15000 sq.cm\n\n4. Total area to paper - Area of doors and windows = 10xy = 8(x^2 + 2.5xy) - 15000\n10xy = 8x^2 + 20xy - 15000\n8x^2 + 10xy - 15000 = 0\n8x^2 + 10xy - 15000 = 0\n4x^2 + 5xy - 7500 = 0\nx = (sqrt(25y^2 + 120000) - 5y)/4\n\n5. Given that 26000 sq.cm of paper costs Rs. 260\nCost of 1 sq.cm of paper = Rs. 10\nCost of papering the walls of the room (excluding the doors and windows) = 10xy * 10 = 100xy\n\n6. Substituting x = (sqrt(25y^2 + 120000) - 5y)/4 in the expression for cost of papering, and solving for y:\n100((sqrt(25y^2 + 120000) - 5y)/4)y = 260\n\nAfter solving the equation, we get y = 20 cm, which implies that the height of the room is 40 cm.\n\nTherefore, the final answer is:\nFinal Answer: B",
+        "correct_answer": "C"
+    },
+    {
+        "question": "If the population of a city increases by 5 % annually, what will be the population of the city in 2 years time if its current population is 78000?",
+        "model_response": "First, we need to calculate the population of the city in 1 year:\n78000 * 1.05 = 81900\n\nNow, we need to calculate the population of the city in 2 years:\n81900 * 1.05 = 86095\n\nTherefore, the population of the city in 2 years time will be 86095.\n\nFinal Answer: 86095",
+        "correct_answer": "B"
+    },
+    {
+        "question": "An organization decided to raise Rs. 6 lakh by collecting equal contribution from each of its employees. If each of them had contributed Rs. 60 extra, the contribution would have been Rs. 6.24 lakh. How many employees are there in that organization?",
+        "model_response": "Let x be the number of employees in the organization.\n\nGiven:\nx * 60 = 6,00,000\n(x * 60) + (x * 60 + 60) = 6,24,000\n\nSolving the above equations, we get:\nx = 100\n\nTherefore, there are 100 employees in the organization.\n\nFinal Answer: 100",
+        "correct_answer": "C"
+    },
+    {
+        "question": "In the coordinate plane, a triangle has vertices at (a,0), (b,0), and (x,y). If a>x>b>0>y, which of the following represents the area of that triangle?",
+        "model_response": "Final Answer: (a-b)y/2",
+        "correct_answer": "C"
+    },
+    {
+        "question": "A rope 20 meters long is cut into two pieces. If the length of one piece of rope is 3 meters shorter than the length of the other, what is the length, in meters, of the longer piece of rope?",
+        "model_response": "Let the length of the longer piece of rope be x meters. Then the length of the shorter piece of rope is x - 3 meters. \n\nSince the total length of the rope is 20 meters, we have:\n\nx + (x - 3) = 20\n2x - 3 = 20\n2x = 23\nx = 11.5\n\nSo, the longer piece of rope is 11.5 meters long.\n\nFinal Answer: 11.5",
+        "correct_answer": "D"
+    },
+    {
+        "question": "By himself, Jack can clean a yacht in 12 hours. On a particular day, he happens to finish two-thirds of the work. The remaining portion of the work is done by Jill, whose rate of cleaning is just 5% of what Jack can do. How long does it take Jill to finish the remaining work?",
+        "model_response": "First, let's find out how much work Jack did on that day:\n\nJack's rate = 1 yacht / 12 hours = 1/12 yacht per hour\nWork done by Jack = 2/3\n\nWork done by Jack = Rate * Time\n2/3 = (1/12) * Time\nTime = (2/3) / (1/12) = 8 hours\n\nSo, Jack completed 8 hours worth of work, leaving 4 hours of work remaining for Jill.\n\nNow, Jill's rate = 5% of Jack's rate = 5/100 * (1/12) = 1/60 yacht per hour\n\nLet Jill take x hours to finish the remaining work:\nJob done by Jill = Rate * Time\n1 = (1/60) * x\nx = 60 hours\n\nTherefore, Jill will take 60 hours to finish the remaining work.\nFinal Answer: 60 hours",
+        "correct_answer": "E"
+    },
+    {
+        "question": "A man borrows Rs.360 If he pays it back in 12 monthly installments of Rs.31.50, what is his interest rate?",
+        "model_response": "To calculate the interest rate, we first need to determine the total amount repaid by the man.\n\nTotal amount repaid = 12 monthly installments * Rs.31.50 = Rs.378\n\nInterest paid = Total amount repaid - Borrowed amount = Rs.378 - Rs.360 = Rs.18\n\nInterest rate = (Interest paid / Borrowed amount) * 100\nInterest rate = (18 / 360) * 100\nInterest rate = 5%\n\nTherefore, the interest rate is 5%.\n\nFinal Answer: E.",
+        "correct_answer": "D"
+    },
+    {
+        "question": "At its maximum speed, a space shuttle can travel 700m high in 40 seconds. It will also take 5 seconds to pass a point. What then is the length of the space shuttle?",
+        "model_response": "To find the length of the space shuttle, we need to calculate the speed at which it is traveling. We can do this by dividing the distance it travels in 40 seconds by the time it takes to pass a point.\n\nSpeed = Distance / Time\nSpeed = 700m / 40s\nSpeed = 17.5 m/s\n\nNow we can calculate the length of the space shuttle by multiplying its speed by the time it takes to pass a point.\n\nLength = Speed x Time\nLength = 17.5 m/s x 5s\nLength = 87.5 meters\n\nTherefore, the length of the space shuttle is 87.5 meters.\n\nFinal Answer: 87.5 meters",
+        "correct_answer": "C"
+    },
+    {
+        "question": "If m > 0, y > 0, and x is m percent of 4y, then, in terms of y, m is what percentage of x?",
+        "model_response": "First, we need to find the value of x in terms of y using the given information:\n\nx = m(4y)/100\nx = 4my/100\nx = my/25\n\nNext, we need to find m as a percentage of x:\n\nm = (m/ (my/25)) * 100\nm = (25/ y) * 100\nm = 2500/y\n\nTherefore, m is 2500/y percent of x.\n\nFinal Answer: D",
+        "correct_answer": "D"
+    },
+    {
+        "question": "A coin made of alloy of aluminum and silver measures 2 x 15 mm (it is 2 mm thick and its diameter is 15 mm). If the weight of the coin is 30 grams and the volume of aluminum in the alloy equals that of silver, what will be the weight of a coin measuring 1 x 30 mm made of pure aluminum if silver is twice as heavy as aluminum?",
+        "model_response": "First, let's find the volume of the coin made of aluminum and silver:\n\nVolume of coin = \u03c0r^2h\nwhere r = diameter/2 = 15/2 = 7.5 mm\nand h = thickness = 2 mm\n\nVolume of coin = \u03c0(7.5)^2 * 2\nVolume of coin = \u03c0 * 56.25 * 2\nVolume of coin = \u03c0 * 112.5 mm^3\n\nSince the volume of aluminum equals that of silver, the volume of aluminum in the coin would be half of the total volume, which is:\n\nVolume of aluminum = \u03c0 * 112.5 / 2\nVolume of aluminum = \u03c0 * 56.25 mm^3\n\nNow, let's find the weight of the coin made purely of aluminum. We know that silver is twice as heavy as aluminum. Let the weight of aluminum be x grams, then the weight of silver would be 2x grams.\n\nWeight of the coin made of aluminum and silver:\nWeight = weight of aluminum + weight of silver\n30 grams = x + 2x\n30 grams = 3x\nx = 30 / 3\nx = 10 grams\n\nTherefore, the weight of the coin made purely of aluminum, which measures 1 x 30 mm, would be 10 grams.\n\nFinal Answer: 10",
+        "correct_answer": "B"
+    },
+    {
+        "question": "What will be the cost of gardening 1-metre \u2013 broad boundary around a rectangular plot having perimeter of 340 metres at the rate of 10 per square metre?",
+        "model_response": "To find the cost of gardening the 1-meter broad boundary around the rectangular plot, we first need to calculate the area of the rectangular plot and then the area of the larger rectangle formed by adding the 1-meter broad boundary.\n\nLet the length of the rectangular plot be L meters and the breadth be B meters.\n\nGiven that the perimeter of the rectangular plot is 340 meters:\n2(L + B) = 340\nL + B = 170\nB = 170 - L\n\nThe area of the rectangular plot = L * B\n\nArea of the larger rectangle = (L + 2) * (B + 2)\n= (L + 2) * (170 - L + 2)\n= L * (170 - L) + 2(170 - L) + 2L + 4\n= 170L - L^2 + 340 - 2L + 2L + 4\n= -L^2 + 170L + 344\n\nNow, the cost of gardening at the rate of 10 per square meter:\nCost = 10 * Area of the larger rectangle\n= 10 * (-L^2 + 170L + 344)\n= -10L^2 + 1700L + 3440\n\nTo find the maximum or minimum value of the cost function, we can differentiate it with respect to L and equate it to zero:\nd(Cost)/dL = -20L + 1700\n-20L + 1700 = 0\nL = 85\n\nTherefore, the length of the rectangular plot is 85 meters. \nThe breadth B = 170 - 85 = 85 meters.\n\nCost = -10*85^2 + 1700*85 + 3440\nCost = -10*7225 + 144500 + 3440\nCost = -72250 + 144500 + 3440\nCost = 72250\n\nFinal Answer: $72250",
+        "correct_answer": "C"
+    },
+    {
+        "question": "there are more than 501 students in a school such that 20% of them exactly took physics and 28% of them exactly took math. What could be the least possible no of students in the school?",
+        "model_response": "Let x be the total number of students in the school.\nGiven that 20% of students took physics and 28% of students took math, we can write the following equations:\n\n0.2x = number of students who took physics\n0.28x = number of students who took math\n\nSince the total number of students is greater than 501, we have:\n\nx > 501\n\nTo find the least possible number of students, we need to minimize x.\n\nLet's assume the number of students who took physics and math is equal, i.e.,\n\n0.2x = 0.28x\n\nSolving for x, we get:\n\n0.2x = 0.28x\n0.08x = 0\nx = 0\n\nHowever, the minimum number of students in a school must be a positive integer. Therefore, we consider the next possible value for x:\n\nLet x = 501\n\nSubstitute x = 501 in the equations:\n\n0.2(501) = 100.2\n0.28(501) = 140.28\n\nThus, the minimum possible number of students in the school could be 501.\n\nFinal Answer: 501",
+        "correct_answer": "E"
+    },
+    {
+        "question": "Allen starts from X, goes to Y. At the same time Bob starts from Y and goes towards X. Once Allen reaches Y he changes his direction and returns to X. Once Bob reaches X, he changes his direction and returns to Y. Throughout Allen travels at 54 kmph and Bob travels at 78kmph. By the time they meet for the second time, Bob covers 48 km more than Allen. Find the distance between X and Y.",
+        "model_response": "Let the distance between X and Y be D km.\n\nWhen Allen and Bob meet for the second time, Allen would have covered D km and Bob would have covered D + 48 km.\n\nTime taken by Allen to meet Bob = D / 54 hours\nTime taken by Bob to meet Allen = (D + 48) / 78 hours\n\nSince they traveled for the same amount of time,\nD / 54 = (D + 48) / 78\n78D = 54(D + 48)\n78D = 54D + 2592\n24D = 2592\nD = 108\n\nSo, the distance between X and Y is 108 km.\n\nTherefore, Final Answer: 108",
+        "correct_answer": "E"
+    },
+    {
+        "question": "Last year, a Home Appliance Store sold an average(arithmetic mean) of 42 microwave ovens per month. In the first 10 months of this year,the store has sold an average(arithmetic mean) of only 20 microwave ovens per month. What was the average number of microwave ovens sold per month during the entire 22 months period ?",
+        "model_response": "To find the average number of microwave ovens sold per month during the entire 22 months period, we need to calculate the total number of microwave ovens sold in the 10 months of last year and the 10 months of this year, and then divide by 22.\n\nTotal number of microwave ovens sold last year = 42 microwaves/month * 10 months = 420 microwaves\nTotal number of microwave ovens sold in the first 10 months of this year = 20 microwaves/month * 10 months = 200 microwaves\nTotal number of microwave ovens sold in the entire 22 months period = 420 microwaves + 200 microwaves = 620 microwaves\n\nAverage number of microwave ovens sold per month during the entire 22 months period = 620 microwaves / 22 months = 28.18 microwaves/month\n\nTherefore, the average number of microwave ovens sold per month during the entire 22 months period is 28.18.\n\nFinal Answer: B",
+        "correct_answer": "D"
+    },
+    {
+        "question": "Calculate the maximum distance you can travel with $8.50 on a cab which charges $3.50 for the first quarter-mile and 10 cents for each additional quarter mile.",
+        "model_response": "To maximize the distance traveled, we should minimize the number of additional quarter miles by traveling as close to the 3.50-mark as possible. \n\nFirst, we subtract the initial charge of $3.50 from the total budget of $8.50:\n$8.50 - $3.50 = $5.00\n\nNext, we divide the remaining budget by the cost per additional quarter mile:\n$5.00 / $0.10 = 50 additional quarter miles\n\nSince the cab charges 10 cents for each additional quarter mile, this means we can travel an additional 50 quarter miles with the remaining budget.\n\nAdding this to the initial quarter mile, we get a total distance of:\n1 quarter mile + 50 additional quarter miles = 51 quarter miles\n\nTherefore, the maximum distance that can be traveled with $8.50 is 51 quarter miles.\n\nFinal Answer: C",
+        "correct_answer": "B"
+    },
+    {
+        "question": "If a man rows at the rate of 4 kmph in still water and his rate against the current is 2 kmph, then the man's rate along the current is:",
+        "model_response": "The man's rate along the current can be found by adding the rate in still water and the rate against the current, then dividing by 2.\n\n(4 kmph + 2 kmph) / 2 = 6 kmph / 2 = 3 kmph\n\nTherefore, the man's rate along the current is 3 kmph.\n\nFinal Answer: 3",
+        "correct_answer": "E"
+    },
+    {
+        "question": "10kg of a mixture contains 30% sand and 70% clay. In order to make the mixture contain equal quantities of clay and sand how much of the mixture is to be removed and replaced with pure sand?",
+        "model_response": "Let x be the amount of the mixture to be removed and replaced with pure sand.\n\nInitially, the amount of sand in the mixture = 0.3 * 10kg = 3kg\nInitially, the amount of clay in the mixture = 0.7 * 10kg = 7kg\n\nAfter removing x kg of the mixture:\nAmount of sand left = 3kg - 0.3x\nAmount of clay left = 7kg - 0.7x\n\nSince we want equal quantities of sand and clay in the mixture:\n3 - 0.3x = 7 - 0.7x\n0.4x = 4\nx = 10kg\n\nTherefore, Final Answer: 10kg",
+        "correct_answer": "B"
+    },
+    {
+        "question": "A father wants to divide Rs. 5100 between his two sons, Mohan and Sohan who are 23 and 24 at present. He divides the amount in such a way that if their shares are invested at compound interest at 4% p.a. they will receive equal amount on attaining the age of 26 years. Find Mohan's share.",
+        "model_response": "Let Mohan's share be x. So, Sohan's share will be 5100 - x.\n\nThe amount each son will receive at the age of 26 can be calculated using the formula for compound interest:\n\nFor Mohan: x(1 + 0.04)^3 = x(1.04)^3\nFor Sohan: (5100 - x)(1 + 0.04)^2 = (5100 - x)(1.04)^2\n\nSince the father wants the sons to receive equal amounts at the age of 26, we have:\n\nx(1.04)^3 = (5100 - x)(1.04)^2\nx(1.04) = 5100 - x\n1.04x = 5100 - x\n2.04x = 5100\nx = 2500\n\nTherefore, Mohan's share is Rs. 2500.\n\nFinal Answer: Rs. 2500",
+        "correct_answer": "B"
+    },
+    {
+        "question": "Q is as much younger than R as he is older than T. If the sum of the ages of R and T is 50 years. What is definitely the difference between R and Q's age?",
+        "model_response": "Let's denote the age of Q as x, the age of R as y, and the age of T as z.\n\nAccording to the given information, we have:\n1. x = y - z\n2. y + z = 50\n\nSubstitute the value of z in terms of y from equation 1 into equation 2:\ny + (y - x) = 50\n2y - x = 50\nx = 2y - 50\n\nSince R is as much younger than Q as he is older than T:\ny = x + z\ny = x + (y - x)\ny = y\n\nThis means that y = y, which is always true.\n\nTherefore, the difference between R and Q's age is 0.\n\nFinal Answer: 0",
+        "correct_answer": "D"
+    },
+    {
+        "question": "An astronaut weighing 211 pounds on Earth would weigh 182 pounds on Venus. The weight of the astronaut on Venus would be approximately what percent of the astronaut\u2019s weight on Earth?",
+        "model_response": "Final Answer: 86%",
+        "correct_answer": "D"
+    },
+    {
+        "question": "If 75 percent of the employees of a certain company take a winter vacation, 40 percent take a winter and a summer vacation, and 20 percent take neither a winter nor a summer vacation, what Q percent of the employees take a summer vacation but not a winter vacation?",
+        "model_response": "Let's denote the total number of employees as 100 for easier calculation.\n\nGiven:\n- 75 employees take a winter vacation\n- 40 employees take both winter and summer vacation\n- 20 employees take neither winter nor summer vacation\n\nWe can form the following Venn diagram:\n- Winter Vacation only: 75 - 40 = 35 employees\n- Both Winter and Summer Vacation: 40 employees\n- Summer Vacation only: Let's denote this as x\n\nFrom the information given, we know that:\nTotal employees = Winter only + Both + Summer only + Neither\n100 = 35 + 40 + x + 20\n100 = 95 + x\nx = 5\n\nTherefore, 5 employees take a summer vacation but not a winter vacation.\n\nFinal Answer: 5",
+        "correct_answer": "A"
+    },
+    {
+        "question": "Decipher the following multiplication table:\nM A D\nB E\n-------------\nM A D\nR A E\n-------------\nA M I D",
+        "model_response": "Final Answer: B",
+        "correct_answer": "D"
+    },
+    {
+        "question": "A special cereal mixture contains rice, wheat and corn in the ratio of 2:3:5. If a bag of the mixture contains 3 pounds of rice, how much corn does it contain?",
+        "model_response": "First, we need to determine the amount of corn in the mixture based on the given ratio.\n\nSince the ratio of rice:wheat:corn is 2:3:5, we can represent this as:\nRice = 2x\nWheat = 3x\nCorn = 5x\n\nGiven that the bag contains 3 pounds of rice, we can set up the equation:\n2x = 3\nx = 3/2\nx = 1.5\n\nNow, we can determine the amount of corn in the mixture:\nCorn = 5x\nCorn = 5(1.5)\nCorn = 7.5 pounds\n\nTherefore, the bag of the mixture contains 7.5 pounds of corn.\n\nFinal Answer: 7.5",
+        "correct_answer": "B"
+    },
+    {
+        "question": "A bag contains 11 candy bars: three cost 50 cents each, four cost $1 each and four cost $2\neach. How many ways can 3 candy bars be selected from the 11 candy bars so that the total cost is more than $4?",
+        "model_response": "To solve this problem, we can use a combination of cases and counting techniques.\n\nCase 1: Selecting one candy bar that costs $2 and two candy bars that cost $1 each.\nThis can be done in 4 ways (selecting one $2 candy bar and two $1 candy bars).\n\nCase 2: Selecting three candy bars that cost $2 each.\nThis can be done in 4 ways (selecting three $2 candy bars).\n\nThus, there are a total of 4 + 4 = 8 ways to select 3 candy bars in total where the total cost is more than $4.\n\nFinal Answer: 8",
+        "correct_answer": "C"
+    },
+    {
+        "question": "The number of water lilies on a certain lake doubles every two days. If there is exactly one water lily on the lake, it takes 60 days for the lake to be fully covered with water lilies. In how many days will the lake be fully covered with lilies, if initially there were 64 water lilies on it?",
+        "model_response": "To solve this problem, we can create an equation based on the given information. Let's denote the number of days it takes for the lake to be fully covered with water lilies as D.\n\nInitially, there were 64 water lilies on the lake. Since the number of water lilies doubles every two days, we can represent the number of lilies on the lake after D days as: 64 * 2^(D/2).\n\nWe also know that after 60 days, the lake is fully covered with water lilies, so we can set up the equation: 64 * 2^(60/2) = 64 * 2^30.\n\nNow, we need to find the value of D when there are initially 64 water lilies on the lake: 64 * 2^30 = 64 * 1073741824 = 68719476736.\n\nTherefore, it will take Final Answer: 60 + 30 = 90 days for the lake to be fully covered with water lilies when initially there are 64 water lilies on it.",
+        "correct_answer": "D"
+    },
+    {
+        "question": "Janice bikes at 10 miles per hour, while Jennie bikes at 20. How long until they have collectively biked 1 mile?",
+        "model_response": "Since Janice bikes at 10 miles per hour and Jennie bikes at 20 miles per hour, they collectively bike 30 miles per hour. To bike 1 mile at this rate, it would take them 1/30 hours or 2 minutes.\n\nFinal Answer: 2",
+        "correct_answer": "B"
+    },
+    {
+        "question": "Two numbers are said to be relatively prime if they share no common positive factors other than 1. Set S contains the set of integers from 1 to 1,000, inclusive. What is the probability that a number chosen from S is relatively prime to 1,000?",
+        "model_response": "To find the numbers that are relatively prime to 1,000, we first need to find the prime factorization of 1,000.\n\n1,000 = 2^3 * 5^3\n\nA number is relatively prime to 1,000 if it does not have 2 or 5 as a factor. \n\nThe total number of integers in set S is 1,000.\n\nThe numbers that are not relatively prime to 1,000 are those that are multiples of 2 or 5.\n\nNumbers divisible by 2: 500 numbers (since they are evenly spaced from 2 to 1,000)\n\nNumbers divisible by 5: 200 numbers (since they are evenly spaced from 5 to 1,000)\n\nNumbers that are divisible by both 2 and 5 (i.e., multiples of 10): 100 numbers (since they are evenly spaced)\n\nNumbers that are not relatively prime to 1,000 = 500 + 200 - 100 = 600\n\nSo, the number of numbers that are relatively prime to 1,000 = 1,000 - 600 = 400\n\nTherefore, the probability that a number chosen from S is relatively prime to 1,000 is:\n\nProbability = Number of numbers relatively prime to 1,000 / Total number of numbers\nProbability = 400 / 1,000\nProbability = 0.4\n\nTherefore, the final answer is:\n\nFinal Answer: 0.4",
+        "correct_answer": "D"
+    },
+    {
+        "question": "Anna has 4 books. If she decide to arrange the 4 books in every possible combination and moved just one book every minute, how long would it taken by her ?",
+        "model_response": "First, let's calculate the total number of possible combinations of the 4 books. This can be done using the formula for permutations of a set, which is n! (n factorial), where n is the number of elements in the set.\n\nIn this case, n = 4, so the total number of combinations is 4! = 4 x 3 x 2 x 1 = 24.\n\nSince Anna can only move 1 book every minute, she will need to spend 24 minutes to go through all the possible combinations.\n\nTherefore, the final answer is:\n\nFinal Answer: D",
+        "correct_answer": "D"
+    }
+]

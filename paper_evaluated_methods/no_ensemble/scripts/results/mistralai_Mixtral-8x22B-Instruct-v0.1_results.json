@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Christopher and Jonathan were having bets. They decide that a coin will be flipped twenty times and each time it turns heads, Christopher will give $2 to Jonathan and each time it turns out to be Tails, Jonathan will give 3$ to Christopher. After flipping for twenty times none of the both won or lost any amount.\nHow many times did the coin landed on Heads ?",
+        "options": [
+            "A)10",
+            "B)23",
+            "C)16",
+            "D)18",
+            "E)12"
+        ],
+        "model_response": " Let's denote the number of times the coin landed on Heads as H and the number of times it landed on Tails as T. We know that H + T = 20 (since the coin was flipped 20 times).\n\nFrom the problem, we also know that Christopher and Jonathan ended up with the same amount of money they started with, which means the total amount Christopher gave to Jonathan is equal to the total amount Jonathan gave to Christopher.\n\nThe amount Christopher gives to Jonathan each time the coin lands on Heads is $2, and the amount Jonathan gives to Christopher each time the coin lands on Tails is $3. Therefore, we can write the equation:\n\n2H = 3T\n\nNow we have a system of two equations:\n\n1) H + T = 20\n2) 2H = 3T\n\nWe can solve this system by expressing T in terms of H from the first equation and substituting it into the second equation:\n\nT = 20 - H\n\nNow substitute T in the second equation:\n\n2H = 3(20 - H)\n\nExpand the right side of the equation:\n\n2H = 60 - 3H\n\nNow, add 3H to both sides to get all the H terms on one side:\n\n2H + 3H = 60\n\nCombine like terms:\n\n5H = 60\n\nNow, divide both sides by 5 to solve for H:\n\nH = 60 / 5\n\nH = 12\n\nSo, the coin landed on Heads $12$  times.\n\nFinal Answer: E) 12",
+        "correct_answer": "E"
+    },
+    {
+        "question": "In how many ways can a teacher in a kindergarten school arrange a group of 3 children (Susan, Tim and Zen) on 3 identical chairs in a straight line so that Susan is on the left of Tim?",
+        "options": [
+            "A)7",
+            "B)3",
+            "C)2",
+            "D)1",
+            "E)6"
+        ],
+        "model_response": " The question states that Susan must be on the left of Tim. This means that Susan and Tim can only be arranged in one way relative to each other (Susan on the left and Tim on the right).\n\nNow, we have to place Zen in the arrangement. Since the chairs are identical and we already have Susan and Tim in a fixed position, Zen can only be placed in one of the three positions:\n\n1. To the left of Susan\n2. Between Susan and Tim\n3. To the right of Tim\n\nSo, there are 3 possible arrangements:\n\n1. Zen, Susan, Tim\n2. Susan, Zen, Tim\n3. Susan, Tim, Zen\n\nTherefore, the correct answer is B) 3.\n\nFinal Answer: B)",
+        "correct_answer": "B"
+    },
+    {
+        "question": "30 is subtracted from a number, it is reduced to its one third. What is the value of 50% of that number?",
+        "options": [
+            "A)22.5",
+            "B)84",
+            "C)21",
+            "D)24",
+            "E)25"
+        ],
+        "model_response": " Let's call the original number \"x\". According to the problem, when 30 is subtracted from x, the result is one third of x. We can write this as an equation:\n\nx - 30 = (1/3)x\n\nNow, let's solve for x:\n\nx - (1/3)x = 30\n(2/3)x = 30\nx = 30 * (3/2)\nx = 45\n\nNow that we have the value of x, we can find 50% of that number:\n\n50% of x = (1/2) * x\n50% of x = (1/2) * 45\n50% of x = 22.5\n\nTherefore, the value of 50% of that number is 22.5.\n\nFinal Answer: A) 22.5",
+        "correct_answer": "A"
+    },
+    {
+        "question": "The monthly salary S of a shop assistant is the sum of a fixed salary of $500 plus 5% of all monthly sales. What should the monthly sales be so that her monthly salary reaches $1500?",
+        "options": [
+            "A)$50000",
+            "B)$40000",
+            "C)$30000",
+            "D)$20000",
+            "E)None of these"
+        ],
+        "model_response": " Let's denote the monthly sales as \\( x \\). According to the problem, the monthly salary \\( S \\) is given by the formula:\n\n\\[ S = 500 + 0.05x \\]\n\nWe want to find the value of \\( x \\) such that the monthly salary \\( S \\) is $1500. So we set up the equation:\n\n\\[ 1500 = 500 + 0.05x \\]\n\nNow, we solve for \\( x \\):\n\n\\[ 1500 - 500 = 0.05x \\]\n\\[ 1000 = 0.05x \\]\n\\[ x = \\frac{1000}{0.05} \\]\n\\[ x = 20000 \\]\n\nTherefore, the monthly sales should be $\\$20000$  for her monthly salary to reach $1500.\n\nFinal Answer: D) $\\$20000$",
+        "correct_answer": "D"
+    },
+    {
+        "question": "A pen company produces very fine quality of writing pens. Company knows that on average 10% of the produced pens are always defective so are rejected before packing. Company promises to deliver 7200 pens to its wholesaler at Rs. 10 each. It estimates the overall profit on all the manufactured pens to be 25%. What is the manufactured cost of each pen?",
+        "options": [
+            "A)Rs. 6",
+            "B)Rs. 7.2",
+            "C)Rs. 5.6",
+            "D)Rs. 8",
+            "E)None of these"
+        ],
+        "model_response": " To solve this problem, we need to determine the total number of pens the company needs to manufacture to deliver 7200 non-defective pens and then calculate the manufacturing cost per pen based on the overall profit margin.\n\nFirst, let's find out how many pens the company needs to manufacture to have 7200 non-defective pens, given that 10% of the produced pens are defective.\n\nLet x be the total number of pens manufactured. Then, 10% of x will be defective, and 90% of x will be non-defective. We want 90% of x to equal 7200:\n\n0.90 * x = 7200\n\nNow, we solve for x:\n\nx = 7200 / 0.90\nx = 8000\n\nSo, the company needs to manufacture 8000 pens to have 7200 non-defective pens.\n\nNext, let's calculate the total revenue from selling 7200 pens at Rs. 10 each:\n\nTotal revenue = 7200 * Rs. 10\nTotal revenue = Rs. 72,000\n\nThe company estimates an overall profit of 25% on all manufactured pens. This means that the total manufacturing cost for 8000 pens is 75% of the total revenue (since 100% - 25% = 75%).\n\nLet y be the manufacturing cost per pen. Then, the total manufacturing cost for 8000 pens is 8000 * y.\n\nWe can set up the equation:\n\n0.75 * Total revenue = 8000 * y\n\nNow, we substitute the value of Total revenue:\n\n0.75 * Rs. 72,000 = 8000 * y\n\nSolving for y:\n\ny = (0.75 * Rs. 72,000) / 8000\ny = Rs. 54,000 / 8000\ny = Rs. 6.75\n\nHowever, this is not one of the given options. It seems there might be a mistake in the calculation or the options provided. Let's re-evaluate the calculation:\n\nTotal revenue = 7200 * Rs. 10 = Rs. 72,000\nTotal manufacturing cost = 0.75 * Rs. 72,000 = Rs. 54,000\n\nNow, let's find the manufacturing cost per pen:\n\nManufacturing cost per pen = Total manufacturing cost / Total number of pens manufactured\nManufacturing cost per pen = Rs. 54,000 / 8000\nManufacturing cost per pen = Rs. 6.75\n\nAgain, this is not one of the given options. It seems there might be an error in the problem statement or the options provided. Without additional information or clarification, we cannot provide a correct answer based on the given options.\n\nFinal Answer: E) None of these (as the calculated value does not match any of the given options).",
+        "correct_answer": "B"
+    }
+]
