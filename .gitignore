@@ -284,6 +284,19 @@ models/meta/large/meta-llama/Llama-2-70b-hf/tokenizer.json
 models/meta/large/meta-llama/Llama-2-70b-hf/tokenizer.model
 models/meta/large/meta-llama/Llama-2-70b-hf/USE_POLICY.md
 run.slurm
+<<<<<<< HEAD
+data/benchmarks/bigbench/.gitattributes
+data/benchmarks/bigbench/bigbench.py
+data/benchmarks/bigbench/README.md
+data/benchmarks/billsum/.gitattributes
+data/benchmarks/billsum/README.md
+data/benchmarks/billsum/data/test-00000-of-00001.parquet
+data/benchmarks/billsum/data/train-00000-of-00001.parquet
+data/benchmarks/truthful_qa/.gitattributes
+data/benchmarks/truthful_qa/README.md
+data/benchmarks/truthful_qa/generation/validation-00000-of-00001.parquet
+data/benchmarks/truthful_qa/multiple_choice/validation-00000-of-00001.parquet
+=======
 job_huggingface_gpu_job-3636711.err
 data/benchmarks/cnn_dailymail/1.0.0/test-00000-of-00001.parquet
 data/benchmarks/cnn_dailymail/README.md
@@ -301,3 +314,4 @@ data/benchmarks/cnn_dailymail/3.0.0/train-00000-of-00003.parquet
 data/benchmarks/cnn_dailymail/3.0.0/train-00001-of-00003.parquet
 data/benchmarks/cnn_dailymail/3.0.0/train-00002-of-00003.parquet
 data/benchmarks/cnn_dailymail/3.0.0/validation-00000-of-00001.parquet
+>>>>>>> origin/main
