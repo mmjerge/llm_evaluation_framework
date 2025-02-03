@@ -1,4 +1,4 @@
-# LLM Reliability Framework
+# LLM Evaluation Framework
 
 A framework for evaluating and comparing different LLM-based methods across multiple benchmarks. This framework enables researchers to test their methods against various language models and provides standardized evaluation metrics.
 
