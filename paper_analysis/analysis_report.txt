@@ -1,0 +1,1166 @@
+Model and Benchmark Analysis Report
+Generated on: 2025-01-12 19:27:22
+
+=== Models Statistics ===
+Total unique models: 6151
+
+Top 10 most referenced models:
+model_name
+GPT-4            1461
+GPT-3.5           521
+ChatGPT           268
+GPT-3             249
+GPT-4o            236
+GPT-3.5-turbo     208
+BERT              168
+Mistral-7B        132
+GPT-4V            119
+GPT-3.5-Turbo     118
+
+Model sizes distribution:
+model_size
+Not specified                                                                                           13459
+7B                                                                                                        205
+175B                                                                                                      205
+13B                                                                                                        86
+11B                                                                                                        63
+text-davinci-003                                                                                           62
+gpt-3.5-turbo                                                                                              55
+6B                                                                                                         52
+3B                                                                                                         48
+70B                                                                                                        48
+540B                                                                                                       42
+size not specified                                                                                         34
+20B                                                                                                        32
+770M                                                                                                       31
+1.5B                                                                                                       30
+8B                                                                                                         29
+6.7B                                                                                                       29
+220M                                                                                                       27
+GPT-3.5                                                                                                    26
+110M                                                                                                       25
+1.3B                                                                                                       25
+2.7B                                                                                                       24
+code-davinci-002                                                                                           23
+text-davinci-002                                                                                           22
+various sizes                                                                                              20
+7B, 13B, 70B                                                                                               17
+175 billion parameters                                                                                     17
+based on LLaMA                                                                                             16
+15B                                                                                                        14
+various versions                                                                                           13
+176B                                                                                                       13
+7.0B                                                                                                       13
+16B                                                                                                        13
+gpt-3.5-turbo-0613                                                                                         13
+60M                                                                                                        12
+7B, 13B                                                                                                    12
+gpt-3.5-turbo-0301                                                                                         12
+12B                                                                                                        12
+7B and 13B                                                                                                 11
+34B                                                                                                        11
+250M                                                                                                       11
+14B                                                                                                        11
+350M                                                                                                       11
+GPT-3.5-turbo                                                                                              11
+3.8B                                                                                                       11
+size unspecified                                                                                           10
+7 billion parameters                                                                                       10
+774M                                                                                                       10
+340M                                                                                                       10
+175B parameters                                                                                            10
+9B                                                                                                         10
+ViT-B/16                                                                                                    9
+GPT-4                                                                                                       9
+ision                                                                                                       9
+15.5B                                                                                                       9
+ViT-B/32                                                                                                    9
+7B parameters                                                                                               9
+gpt-3.5-turbo-1106                                                                                          9
+117M                                                                                                        8
+base                                                                                                        8
+1.1B                                                                                                        8
+2B                                                                                                          8
+780M                                                                                                        8
+345M                                                                                                        8
+unknown size                                                                                                8
+SAM                                                                                                         8
+355M                                                                                                        8
+based on GPT-3.5                                                                                            8
+400M                                                                                                        7
+30B                                                                                                         7
+70b                                                                                                         6
+ViT-L/14                                                                                                    6
+125M                                                                                                        6
+7B, 13B, 34B                                                                                                6
+parameter size not specified                                                                                6
+gpt-4-0613                                                                                                  6
+223M                                                                                                        6
+>100B                                                                                                       6
+13 billion                                                                                                  6
+10B                                                                                                         6
+7.1B                                                                                                        6
+1B                                                                                                          6
+based on BERT                                                                                               5
+65B                                                                                                         5
+406M                                                                                                        5
+1.6B                                                                                                        5
+72B                                                                                                         5
+40B                                                                                                         5
+ViT                                                                                                         5
+LLaMA 13B                                                                                                   5
+text-davinci-001                                                                                            5
+davinci                                                                                                     5
+ChatGPT                                                                                                     5
+175 billion                                                                                                 5
+3.0B                                                                                                        5
+540B parameters                                                                                             5
+no specific size mentioned                                                                                  5
+130B                                                                                                        5
+3 billion parameters                                                                                        5
+140M                                                                                                        5
+4B                                                                                                          5
+OpenAI                                                                                                      5
+783M                                                                                                        5
+8b                                                                                                          4
+7B/13B                                                                                                      4
+7B, 13B, 33B, 65B                                                                                           4
+LLM                                                                                                         4
+UNK                                                                                                         4
+7.5B                                                                                                        4
+154B                                                                                                        4
+LLMs                                                                                                        4
+undisclosed size                                                                                            4
+1.5B parameters                                                                                             4
+770M parameters                                                                                             4
+base and large                                                                                              4
+7 billion                                                                                                   4
+0613                                                                                                        4
+ResNet-50                                                                                                   4
+Davinci                                                                                                     4
+large                                                                                                       4
+13B parameters                                                                                              4
+137B                                                                                                        4
+gpt-4-1106-preview                                                                                          4
+8B, 70B                                                                                                     4
+80M                                                                                                         4
+based on T5                                                                                                 3
+Touvron et al., 2023                                                                                        3
+16.1B                                                                                                       3
+738M                                                                                                        3
+2024-05-13                                                                                                  3
+Vicuna-13B                                                                                                  3
+2.6B                                                                                                        3
+Vicuna-7B                                                                                                   3
+1106-preview                                                                                                3
+760M                                                                                                        3
+6 billion                                                                                                   3
+Mistral-7B                                                                                                  3
+0.8B                                                                                                        3
+33B                                                                                                         3
+8x7B                                                                                                        3
+775M parameters                                                                                             3
+1.6B parameters                                                                                             3
+1.2B                                                                                                        3
+8B and 70B                                                                                                  3
+7B, 13B, 34B, 70B                                                                                           3
+11.0B                                                                                                       3
+220M params                                                                                                 3
+800M                                                                                                        3
+178B                                                                                                        3
+17B                                                                                                         3
+~250M                                                                                                       3
+gpt-3.5-turbo-16k                                                                                           3
+124M                                                                                                        3
+46.7B                                                                                                       3
+ViT-L/14@336px                                                                                              3
+Vicuna 7B                                                                                                   3
+LLaMA 7B                                                                                                    3
+2.8B                                                                                                        3
+8B, 62B, 540B                                                                                               3
+650M                                                                                                        3
+50B                                                                                                         3
+405B                                                                                                        3
+davinci-002                                                                                                 3
+based on LLaMA 7B                                                                                           3
+Brown et al., 2020                                                                                          3
+7B, 72B                                                                                                     3
+200M                                                                                                        3
+3B parameters                                                                                               3
+62B                                                                                                         3
+13 billion parameters                                                                                       3
+1.5T                                                                                                        3
+Bison                                                                                                       3
+35B                                                                                                         3
+~175B                                                                                                       2
+104B                                                                                                        2
+text-bison-001                                                                                              2
+text-curie-001                                                                                              2
+1.7 trillion parameters                                                                                     2
+Large: 10 layers, 1024 dimensions, 16 attention heads                                                       2
+5B and 55B                                                                                                  2
+based on LLAMA-13B                                                                                          2
+0125                                                                                                        2
+Base: 6 layers, 512 dimensions, 8 attention heads                                                           2
+120B                                                                                                        2
+unspecified size                                                                                            2
+12-layer                                                                                                    2
+gpt-3.5-turbo-instruct                                                                                      2
+based on LLaMA2-7B                                                                                          2
+350M/2B/6B/16B                                                                                              2
+16k                                                                                                         2
+1106                                                                                                        2
+347M                                                                                                        2
+1B parameters                                                                                               2
+medium                                                                                                      2
+fine-tuned                                                                                                  2
+LLaMA-based                                                                                                 2
+4.2B                                                                                                        2
+1B to 16B                                                                                                   2
+22B                                                                                                         2
+based on LLaMA-7B                                                                                           2
+3B, 11B                                                                                                     2
+385M                                                                                                        2
+7b                                                                                                          2
+v2                                                                                                          2
+GPT-3.5-Turbo                                                                                               2
+Text-Davinci-003                                                                                            2
+7B to 65B                                                                                                   2
+0.4B                                                                                                        2
+ViT base/large                                                                                              2
+250M, 780M, 3B                                                                                              2
+GPT-3.5 Turbo                                                                                               2
+1.8T                                                                                                        2
+pretrained, SQuAD2.0 finetuned                                                                              2
+Text-Davinci-002                                                                                            2
+750M                                                                                                        2
+0.77B                                                                                                       2
+MiniLM                                                                                                      2
+33 billion                                                                                                  2
+GPT-3.5-Turbo-0301                                                                                          2
+66B                                                                                                         2
+4-bit quantized                                                                                             2
+110 million parameters                                                                                      2
+110M parameters                                                                                             2
+ViT-B                                                                                                       2
+7B/13B/70B                                                                                                  2
+based on InstructGPT                                                                                        2
+6-7B                                                                                                        2
+175B+                                                                                                       2
+269B                                                                                                        2
+32k                                                                                                         2
+ada, babbage, curie, davinci                                                                                2
+66M                                                                                                         2
+hidden size varies                                                                                          2
+11 billion parameters                                                                                       2
+70 billion parameters                                                                                       2
+ViT-H                                                                                                       2
+55B                                                                                                         2
+5B                                                                                                          2
+gpt-4-0314                                                                                                  2
+37B                                                                                                         2
+137 billion parameters                                                                                      2
+7B, 13B, 33B                                                                                                2
+123M                                                                                                        2
+125M to 30B                                                                                                 2
+236B                                                                                                        2
+2024-09-12 release                                                                                          2
+Llama2-7B                                                                                                   2
+GPT-3.5, 175B                                                                                               2
+Sonnet                                                                                                      2
+Generative Pretrained Transformer                                                                           2
+davinci-003                                                                                                 2
+7B, 40B                                                                                                     2
+Thoppilan et al., 2022                                                                                      2
+vicuna-13b-v0                                                                                               2
+GPT-3.5 variant                                                                                             2
+based on GPT                                                                                                2
+PaLM 2                                                                                                      2
+~175B parameters                                                                                            2
+77M                                                                                                         2
+quantized                                                                                                   2
+150M parameters                                                                                             2
+7B to 70B                                                                                                   2
+6.0B                                                                                                        2
+small, base, large                                                                                          2
+gpt3.5-turbo                                                                                                2
+6 billion parameters                                                                                        2
+June 2023 version                                                                                           2
+7.24B                                                                                                       2
+text-davinci-003 variant                                                                                    2
+8x22B                                                                                                       2
+Large                                                                                                       2
+8 billion parameters                                                                                        2
+32B                                                                                                         2
+45B                                                                                                         2
+0.7B                                                                                                        2
+1.8B                                                                                                        2
+0.3B                                                                                                        2
+280B                                                                                                        2
+Vision                                                                                                      2
+ViT-G/14                                                                                                    2
+Bai et al., 2022                                                                                            2
+540 billion parameters                                                                                      2
+DT                                                                                                          2
+139M                                                                                                        2
+DaVinci-002                                                                                                 2
+gpt-4-0125-preview                                                                                          2
+VLM                                                                                                         2
+1.5 billion parameters                                                                                      2
+based on BART                                                                                               2
+174B                                                                                                        2
+1.3B parameters                                                                                             2
+8B, 70B, 405B                                                                                               2
+124M parameters                                                                                             2
+11.3B                                                                                                       2
+80M, 250M, 780M, 3B, 11B                                                                                    2
+with RoBERTa's pre-trained embedding                                                                        2
+235M                                                                                                        2
+base, large, 3B                                                                                             2
+12 layers                                                                                                   2
+440M                                                                                                        1
+12B active/52B total parameters                                                                             1
+7B and 34B                                                                                                  1
+124mn                                                                                                       1
+176B parameters                                                                                             1
+0513                                                                                                        1
+16M                                                                                                         1
+SSM-only                                                                                                    1
+0801                                                                                                        1
+up to 176B parameters                                                                                       1
+Transformer base                                                                                            1
+56B                                                                                                         1
+Qwen1.5-MoE-A2.7B                                                                                           1
+based on LLaMA 2 7B                                                                                         1
+chatglm3-6b                                                                                                 1
+internlm2-123b                                                                                              1
+parameter size not disclosed                                                                                1
+200M parameters                                                                                             1
+Song et al. architecture                                                                                    1
+Dhariwal and Nichol architecture                                                                            1
+80M to 11B                                                                                                  1
+Meta-Llama-3-8B                                                                                             1
+PaLM 2-E                                                                                                    1
+based on CodeLlama                                                                                          1
+used as a base for tokenization                                                                             1
+700M                                                                                                        1
+43.6M parameters                                                                                            1
+13M–52B                                                                                                     1
+GPT-3.5 series                                                                                              1
+12 layers, 8 heads, Dhid=256                                                                                1
+~270M                                                                                                       1
+~220M                                                                                                       1
+~80M                                                                                                        1
+~3B                                                                                                         1
+135B                                                                                                        1
+~11B                                                                                                        1
+base-uncased                                                                                                1
+355mn                                                                                                       1
+large version                                                                                               1
+text-bison                                                                                                  1
+3B-30B                                                                                                      1
+0.8B and 1.5B                                                                                               1
+002                                                                                                         1
+depth unspecified                                                                                           1
+without position embeddings                                                                                 1
+GPT-3                                                                                                       1
+64B/64E                                                                                                     1
+530B                                                                                                        1
+1.5-pro                                                                                                     1
+480B                                                                                                        1
+774mn                                                                                                       1
+200K                                                                                                        1
+1.5bn                                                                                                       1
+vicuna-7b-v1.5-16k                                                                                          1
+236B MoE model                                                                                              1
+1.35B                                                                                                       1
+6.91B                                                                                                       1
+141B                                                                                                        1
+13.0B                                                                                                       1
+ResNet-50-based                                                                                             1
+gpt-3.5-turbo-16k-0613                                                                                      1
+5.0B                                                                                                        1
+335M parameters                                                                                             1
+314B                                                                                                        1
+based on Instruct-GPT models                                                                                1
+based on multilingual embedding model                                                                       1
+Google et al., 2023                                                                                         1
+31M                                                                                                         1
+8B parameters                                                                                               1
+RoBERTa                                                                                                     1
+CLIP-ViT-L-336px to Mistral LLM                                                                             1
+27B                                                                                                         1
+1B to 280B                                                                                                  1
+762M                                                                                                        1
+Qwen 1.5 72B Chat                                                                                           1
+Nous Hermes 2 Yi 34B                                                                                        1
+Vicuna v1.5 13B                                                                                             1
+ViT-B/16-1K                                                                                                 1
+Vicuna v1.5 7B                                                                                              1
+Zephyr 7B β                                                                                                 1
+175 billion weights                                                                                         1
+small version                                                                                               1
+~1.7T parameters                                                                                            1
+8K tokens                                                                                                   1
+OpenAI, unspecified size                                                                                    1
+ViT-g FlanT5XL 3B                                                                                           1
+ViT-g FlanT5XXL 11B                                                                                         1
+7B/13B/30B/65B                                                                                              1
+v1.3                                                                                                        1
+76M                                                                                                         1
+used in Gorilla model                                                                                       1
+ViT-22B                                                                                                     1
+300M/1B/3B/9B/41B                                                                                           1
+architecture used for autoregressive model                                                                  1
+12 layers, hidden dimension 768                                                                             1
+347M and 1.5B                                                                                               1
+GPT-4 with 1.76 trillion parameters                                                                         1
+based on GPT-3                                                                                              1
+based on GPT-4                                                                                              1
+1.3-7B, 1.5-7B, 1.3-13B, 1.5-13B                                                                            1
+317M/2.6B                                                                                                   1
+1.3B/6.7B                                                                                                   1
+humanml-encoder-512                                                                                         1
+350M/2.7B/6.1B/16.1B                                                                                        1
+300M/2.5B/12B                                                                                               1
+SD V1.5, Motion Adapter V3                                                                                  1
+336M                                                                                                        1
+7.11B                                                                                                       1
+TEXT-DAVINCI-003 variant                                                                                    1
+137 billion weights                                                                                         1
+407M                                                                                                        1
+7B/40B                                                                                                      1
+6B to 66B                                                                                                   1
+gpt-turbo-3.5                                                                                               1
+222M                                                                                                        1
+3B and 11B                                                                                                  1
+7B, 20B                                                                                                     1
+1.7T parameters est.                                                                                        1
+2T parameters est.                                                                                          1
+based on Mistral 7B                                                                                         1
+62M                                                                                                         1
+1.3B, 2.7B, 6.7B, 66B                                                                                       1
+Azure OpenAI's GPT-4 O                                                                                      1
+184M                                                                                                        1
+32 bit                                                                                                      1
+e.g., GPT-3.5-turbo-0125, GPT-4                                                                             1
+7B parameters or larger                                                                                     1
+3 layers, 1 head per layer                                                                                  1
+170 trillion                                                                                                1
+Anthropic                                                                                                   1
+20 billion and more                                                                                         1
+OpenAI API as of March 14, 2023                                                                             1
+adapted for spreadsheets                                                                                    1
+BERT-based                                                                                                  1
+272K parameters                                                                                             1
+536K parameters                                                                                             1
+ViT-L                                                                                                       1
+10B/130B                                                                                                    1
+dense captioning model                                                                                      1
+moon-003-base, 16B                                                                                          1
+text-ada-001, text-babbage-001, text-curie-001, text-davinci-003, ChatGPT, GPT-4                            1
+vision-language model                                                                                       1
+1.3B, 30B                                                                                                   1
+Small, Base, Large, XL, XXL                                                                                 1
+2B, 9B, 27B                                                                                                 1
+claude-1, claude-instant-1                                                                                  1
+gpt-4-turbo-0613                                                                                            1
+160M to 12B                                                                                                 1
+243 million parameters                                                                                      1
+6 million parameters                                                                                        1
+text-davinci-003, gpt-3.5-turbo                                                                             1
+~6.7B parameters                                                                                            1
+text-ada-001, text-babbage-001, text-curie-001                                                              1
+RoBERTa-based                                                                                               1
+one-layer, ReLU, 128-dimensional embeddings, 4 attention heads, 512 hidden units in MLP                     1
+1.76 trillion parameters                                                                                    1
+pretraining distillation, SQuAD2.0 finetuned                                                                1
+560M, 1.1B, 1.7B, 3B, 7.1B                                                                                  1
+pre-trained on ImageNet-21k                                                                                 1
+6.7B to 66B                                                                                                 1
+13B to 30B                                                                                                  1
+33B and 65B                                                                                                 1
+9.6B                                                                                                        1
+350M, 1.3B, 6.7B, 175B                                                                                      1
+250M, 560M                                                                                                  1
+178M                                                                                                        1
+278M                                                                                                        1
+611M                                                                                                        1
+418M, 1.2B                                                                                                  1
+564M, 1.7B, 2.9B, 4.5B, 7.5B                                                                                1
+300M, 580M, 1.2B, 3.7B, 13B                                                                                 1
+two versions                                                                                                1
+GPT-3.5 turbo                                                                                               1
+e.g., CLIP, ALIGN, BLIP-2                                                                                   1
+e.g., GPT-4V, LLaVA, Gemini                                                                                 1
+110.0M                                                                                                      1
+125.0M                                                                                                      1
+11.0M                                                                                                       1
+742M                                                                                                        1
+3.5B parameters                                                                                             1
+OpenAI, 2023                                                                                                1
+125M-1.3B                                                                                                   1
+gpt-35-turbo-16k-0613                                                                                       1
+1.3B and 13B                                                                                                1
+GPT-3 family                                                                                                1
+130M parameters                                                                                             1
+0914                                                                                                        1
+0.5B                                                                                                        1
+124 million parameters                                                                                      1
+355 million parameters                                                                                      1
+774 million parameters                                                                                      1
+1558 million parameters                                                                                     1
+8*7B                                                                                                        1
+based on Flan-T5-3B                                                                                         1
+based on Llama series                                                                                       1
+bert-base-chinese                                                                                           1
+bert-base-multilingual-cased                                                                                1
+various sizes including base, large, xlarge, xxlarge                                                        1
+1.7T parameters                                                                                             1
+3.3B                                                                                                        1
+gpt3.5-turbo-0310                                                                                           1
+330M                                                                                                        1
+depth-2                                                                                                     1
+10-shot                                                                                                     1
+finetune                                                                                                    1
+various sizes including 8B and 70B                                                                          1
+Text-davinci-003                                                                                            1
+7B-Chat                                                                                                     1
+with 124M to 1.4B parameters                                                                                1
+with 286M parameters                                                                                        1
+with 307M parameters                                                                                        1
+implied as Baichuan2-7B and Baichuan2-13B                                                                   1
+87M-parameter ViT-B                                                                                         1
+da-vinci-002                                                                                                1
+base, uncased                                                                                               1
+based on PaLM 2                                                                                             1
+68B parameters                                                                                              1
+vicuna-13b-v1.5                                                                                             1
+220 million parameters                                                                                      1
+120M parameters                                                                                             1
+ResNet101                                                                                                   1
+version: claude-instant-v1                                                                                  1
+bert-base-cased                                                                                             1
+gpt-4o-2024-08-06                                                                                           1
+based on LLaMA architecture                                                                                 1
+1.74 trillion parameters                                                                                    1
+PaLM-2                                                                                                      1
+>170B                                                                                                       1
+175B parameters, text-davinci-002                                                                           1
+frozen backbone                                                                                             1
+340M parameters                                                                                             1
+280B parameters                                                                                             1
+1.3B, 2.7B, 6B                                                                                              1
+2024-07-18 release                                                                                          1
+2024-05-13 release                                                                                          1
+1B, 3B, 11B and 90B                                                                                         1
+130 billion                                                                                                 1
+DialogLED                                                                                                   1
+curie                                                                                                       1
+Base and Large                                                                                              1
+1B, 2B, and 8B parameters                                                                                   1
+based on LaMDA                                                                                              1
+based on Llama-2                                                                                            1
+GPT-3.5-turbo-0613                                                                                          1
+chat-bison-001                                                                                              1
+text-bison@001                                                                                              1
+based on Llama-7b                                                                                           1
+S-BERT                                                                                                      1
+opt-2.7b, opt-6.7b, flan-t5-xl, flan-t5-xxl                                                                 1
+9b, 80b                                                                                                     1
+vicuna-7b, vicuna-13b, flan-t5-xl, flan-t5-xxl                                                              1
+vicuna-7b, vicuna-13b, Instructblip-T5-xl, Instructblip-T5-xxl                                              1
+1.5-7b-hf, 1.5-13b-hf                                                                                       1
+text-ada-001                                                                                                1
+text-babbage-001                                                                                            1
+3B, 7B, 13B                                                                                                 1
+gpt4-11-06-preview                                                                                          1
+with OPT 2.7B and 6.7B, Flan T5 XL and XXL                                                                  1
+with Vicuna 13B                                                                                             1
+with ViT-L/14 visual encoder and Vicuna-7B language model                                                   1
+1.7B                                                                                                        1
+>1T                                                                                                         1
+Preview                                                                                                     1
+based on GPT-3 with 175 billion parameters                                                                  1
+7B/13B/33B/65B                                                                                              1
+7B/13B/34B/70B                                                                                              1
+6B/12B                                                                                                      1
+7B/13B/53B                                                                                                  1
+7B/14B                                                                                                      1
+7B/20B                                                                                                      1
+4 layers, 8 heads, dmodel = 512                                                                             1
+770M, 2B, 16B                                                                                               1
+30 billion parameters                                                                                       1
+turbo versions                                                                                              1
+8 bit quantization                                                                                          1
+CHATGPT                                                                                                     1
+8.1B                                                                                                        1
+claude-2.0                                                                                                  1
+GPT-based                                                                                                   1
+65B parameters                                                                                              1
+Dense Passage Retrieval                                                                                     1
+GNNs                                                                                                        1
+FlanT5-XXL                                                                                                  1
+700 million parameters                                                                                      1
+MAE                                                                                                         1
+7.7 billion parameters                                                                                      1
+15.8M parameters                                                                                            1
+8.0B, 73.2B                                                                                                 1
+8.5B                                                                                                        1
+26.0B                                                                                                       1
+constant size                                                                                               1
+4.2B, 8.1B, 25.5B, 40.1B                                                                                    1
+8.3B, 73.4B                                                                                                 1
+LLaMA-2-Chat                                                                                                1
+Vicuna                                                                                                      1
+Darknet-53 backbone                                                                                         1
+8k context size                                                                                             1
+407M-params                                                                                                 1
+4-bit quantized with GPTQ                                                                                   1
+8-bit                                                                                                       1
+125M, 355M, 1.3B, 2.7B, 6.7B, 13B                                                                           1
+8 layers                                                                                                    1
+Base                                                                                                        1
+gpt-4-32k                                                                                                   1
+1756B parameters                                                                                            1
+RNN                                                                                                         1
+47B                                                                                                         1
+finetuned                                                                                                   1
+ResNet-38                                                                                                   1
+via OpenAI API                                                                                              1
+Vision Transformer - ViT-H                                                                                  1
+12 layers, 768 hidden dimension, 12 attention heads, 155M parameters                                        1
+582M                                                                                                        1
+300M                                                                                                        1
+1.76T                                                                                                       1
+340B                                                                                                        1
+over 100B parameters                                                                                        1
+2.6B parameters                                                                                             1
+6B parameters                                                                                               1
+14B parameters                                                                                              1
+13B chat variant                                                                                            1
+3B & 11B                                                                                                    1
+gpt-35-turbo-16k                                                                                            1
+Code-Davinci-002                                                                                            1
+Code-Davinci-001                                                                                            1
+Codegen-16B-Multi                                                                                           1
+Codegen-16B-Mono                                                                                            1
+10.6 million parameters                                                                                     1
+based on ChatGLM-6B                                                                                         1
+based on ChatGLM                                                                                            1
+based on BLOOMZ                                                                                             1
+based on a decoder-only Transformer architecture                                                            1
+7B and 70B                                                                                                  1
+InernLM2-7B                                                                                                 1
+Phi-2.7B                                                                                                    1
+50 billion parameters                                                                                       1
+11 billion                                                                                                  1
+1.4B                                                                                                        1
+version of Alibaba’s Tongyi Qianwen model                                                                   1
+0.2B                                                                                                        1
+with varying sizes from 0.03B to 2.4B                                                                       1
+2M to 730M                                                                                                  1
+10M to 135M                                                                                                 1
+1.57B                                                                                                       1
+428M parameters                                                                                             1
+13B-chat                                                                                                    1
+7B-instruct v0.1                                                                                            1
+March 2023 version                                                                                          1
+code variant                                                                                                1
+LLaMA2-7B                                                                                                   1
+1558M                                                                                                       1
+SD-v1.4, 860M parameters                                                                                    1
+SD-v2, 860M parameters                                                                                      1
+SD-XL, 3.5B parameters                                                                                      1
+600M parameters                                                                                             1
+Flan-T5-XXL                                                                                                 1
+DDPM                                                                                                        1
+based on PaLM                                                                                               1
+~1.7T                                                                                                       1
+LDM-unclip v2-1                                                                                             1
+1750B                                                                                                       1
+StableLM-1.6B                                                                                               1
+context window of 16,385                                                                                    1
+context window of 8,192                                                                                     1
+context window of 128,000                                                                                   1
+424M                                                                                                        1
+T5 backbone                                                                                                 1
+Visual Language Model                                                                                       1
+various sizes including 6.7B and 66B                                                                        1
+Llama-2-7b-chat-hf                                                                                          1
+Llama-2-13b-chat-hf                                                                                         1
+mistral-7b-instruct-v0.2                                                                                    1
+family                                                                                                      1
+223M parameters                                                                                             1
+750M parameters                                                                                             1
+Mistral-based                                                                                               1
+LLaMA-3-based                                                                                               1
+LLaMA3-based                                                                                                1
+Google                                                                                                      1
+Facebook                                                                                                    1
+6.3M parameters                                                                                             1
+Swin-T backbone                                                                                             1
+335M                                                                                                        1
+160M to 2.8B                                                                                                1
+200B                                                                                                        1
+>52B                                                                                                        1
+derived from Llama2-70B                                                                                     1
+small 124M                                                                                                  1
+medium 355M                                                                                                 1
+large 774M                                                                                                  1
+170M                                                                                                        1
+variant of GPT-3                                                                                            1
+ViT-B/14                                                                                                    1
+GPT-3.5 architecture with 175 billion parameters                                                            1
+also known as Codex or GPT-3.5                                                                              1
+77M, 250M, 800M, 3B                                                                                         1
+GPT3, 175B                                                                                                  1
+GPT3.5, 175B                                                                                                1
+1.76T*                                                                                                      1
+VAE                                                                                                         1
+1.1B, 1.7B, 3B, 7.1B                                                                                        1
+1.3B, 2.7B, 20B                                                                                             1
+1.3B, 2.7B, 6.7B, 13B                                                                                       1
+text-ada-001, text-babbage-001, text-curie-001, davinci, text-davinci-001                                   1
+418M                                                                                                        1
+125M-175B                                                                                                   1
+383M                                                                                                        1
+LED large                                                                                                   1
+based on TapEx                                                                                              1
+3B and 11B parameters                                                                                       1
+125M, 1.3B, 2.7B, 6.7B, and 175B parameters                                                                 1
+86M parameters                                                                                              1
+307M parameters                                                                                             1
+ViT-B and ViT-L                                                                                             1
+77M, 248M, 783M, 2.85B, 11.3B, 20B                                                                          1
+70M, 160M, 410M, 1B, 1.4B, 2.8B                                                                             1
+6B and 32B                                                                                                  1
+based on Google's LaMDA                                                                                     1
+Dr. PJ                                                                                                      1
+2B, 8B                                                                                                      1
+with RoPE                                                                                                   1
+uses EV A-ViT-g/224 as vision encoder, Vicuna-7B as LLM                                                     1
+gpt-3.5-turbo-0125                                                                                          1
+Amazon Bedrock version                                                                                      1
+v3.5                                                                                                        1
+v8                                                                                                          1
+v1                                                                                                          1
+Standard                                                                                                    1
+Small                                                                                                       1
+Tiny                                                                                                        1
+150M                                                                                                        1
+100B+                                                                                                       1
+7B and 72B                                                                                                  1
+S3D                                                                                                         1
+220M parameters                                                                                             1
+fine-tuned as SLGPT                                                                                         1
+110M and 340M parameters                                                                                    1
+used for data augmentation                                                                                  1
+11.3B parameters                                                                                            1
+up to 3B                                                                                                    1
+300B tokens                                                                                                 1
+1.4T tokens                                                                                                 1
+2T tokens                                                                                                   1
+39M to 1.55B                                                                                                1
+3M                                                                                                          1
+7B-parameter transformer                                                                                    1
+GPT4-V                                                                                                      1
+Llama-2 Chat 7b                                                                                             1
+110M parameters, based on BERT                                                                              1
+RN50                                                                                                        1
+built upon LLaMA-2-13B-Chat                                                                                 1
+based on LLaMA2                                                                                             1
+BeT                                                                                                         1
+100M parameters                                                                                             1
+SD                                                                                                          1
+text-davinci-003, 175B                                                                                      1
+100 million parameters                                                                                      1
+300 million parameters                                                                                      1
+89.3M parameters                                                                                            1
+110B                                                                                                        1
+turbo                                                                                                       1
+06/13                                                                                                       1
+1B, 8B                                                                                                      1
+24/02                                                                                                       1
+xxl                                                                                                         1
+41.1B                                                                                                       1
+LongFormer-Encoder-Decoder                                                                                  1
+Causal Language Model                                                                                       1
+GPT-3.5-turbo, 175 billion parameters                                                                       1
+334M                                                                                                        1
+7.7B                                                                                                        1
+8B and 540B                                                                                                 1
+52B                                                                                                         1
+6.4B                                                                                                        1
+built upon Vicuna                                                                                           1
+j2-jumbo-instruct, j2-grande-instruct, j2-jumbo, j2-grande, j2-large                                        1
+text-davinci-002, text-davinci-003                                                                          1
+small, base, large, xl, xxl                                                                                 1
+13B, 175B                                                                                                   1
+1.1B parameters                                                                                             1
+small, unspecified size                                                                                     1
+Qwen-7B                                                                                                     1
+435M parameters                                                                                             1
+66B, 175B                                                                                                   1
+94M                                                                                                         1
+248M                                                                                                        1
+LLaMA 7B and CLIP ViT/L-14                                                                                  1
+Vicuna based on LLaMA-13B and BLIP-2                                                                        1
+7B, 13B, 30B                                                                                                1
+770M to 540B                                                                                                1
+~7B parameters                                                                                              1
+11B parameters                                                                                              1
+12 billion parameters                                                                                       1
+instruct                                                                                                    1
+350M, 2.7B, 6.1B, 16.1B                                                                                     1
+350M, 2.7B                                                                                                  1
+300M, 2.5B, 12B                                                                                             1
+ViT-L/14 & LLaMA-2-7B                                                                                       1
+ViT-L/14 & INCITE-3B                                                                                        1
+ResNet-101                                                                                                  1
+Base and Large variants                                                                                     1
+52B parameters                                                                                              1
+turbo-3.5                                                                                                   1
+5.6B                                                                                                        1
+fine-tuned on Llama 2                                                                                       1
+based on Qwen-7B                                                                                            1
+0.5b, 1.8b, 4b, 7b, 14b, 32b, 72b, 110b                                                                     1
+7b, 13b, 70b                                                                                                1
+6b, 9b, 34b                                                                                                 1
+gpt-35-turbo                                                                                                1
+based on Vicuna-13B                                                                                         1
+M                                                                                                           1
+L                                                                                                           1
+Gecko                                                                                                       1
+Otter                                                                                                       1
+code-davinci-001                                                                                            1
+Brown et al., 2020b                                                                                         1
+Multilingual-BERT                                                                                           1
+Zhang et al., 2022                                                                                          1
+Chiang et al., 2023                                                                                         1
+Touvron et al., 2023a                                                                                       1
+Penedo et al., 2023                                                                                         1
+text-davinci-003 and gpt-3.5-turbo                                                                          1
+BB3-30B                                                                                                     1
+BB3-175B                                                                                                    1
+1 layer                                                                                                     1
+text-ada-001, 350M                                                                                          1
+text-babbage-001, 1.3B                                                                                      1
+text-curie-001, 6.7B                                                                                        1
+based on Qwen-0.5B                                                                                          1
+>20B                                                                                                        1
+7B, 7B-Instruct                                                                                             1
+7B, 7B-Instruct, 40B, 40B-Instruct                                                                          1
+134M                                                                                                        1
+3.9B                                                                                                        1
+with FLAN-T5 11B and ViT-G/14                                                                               1
+Masked Diffusion Language Model                                                                             1
+4-bit quantization                                                                                          1
+46.7 billion                                                                                                1
+2.7 billion                                                                                                 1
+ChatGPT-enhanced                                                                                            1
+LSTM-based                                                                                                  1
+13b                                                                                                         1
+GPT-3.5 and 4                                                                                               1
+139M params                                                                                                 1
+406M params                                                                                                 1
+770M params                                                                                                 1
+GPT-3.5/GPT-4                                                                                               1
+100K token context window                                                                                   1
+code-bison                                                                                                  1
+230B, 21B active                                                                                            1
+47B, 13B active                                                                                             1
+160M parameters                                                                                             1
+840M parameters                                                                                             1
+70M, 160M, 410M, 1B, 1.4B, 2.8B, 6.9B, 12B                                                                  1
+7B, 7B-Instruct, 30B, 30B-Instruct                                                                          1
+text-davinci-001, 175B                                                                                      1
+60M, 222M, 737M, 3B, 11B                                                                                    1
+124M, 355M, 774M                                                                                            1
+1B, 7B                                                                                                      1
+base for Gemma models                                                                                       1
+780M, 3B, 11B                                                                                               1
+CSKG                                                                                                        1
+Brown et al., 2020; Ouyang et al., 2022                                                                     1
+Chowdhery et al., 2023                                                                                      1
+Jiang et al., 2023                                                                                          1
+14b-chat                                                                                                    1
+8b-instruct                                                                                                 1
+GPT model                                                                                                   1
+128,000 tokens context size                                                                                 1
+estimated 100T                                                                                              1
+300M, 700M, 1.1B                                                                                            1
+gpt-4o version                                                                                              1
+swinb cogcoor                                                                                               1
+plus swin large                                                                                             1
+Qwen2-7B                                                                                                    1
+768 model dimensions, 12 attention heads, 3 layers                                                          1
+family of models                                                                                            1
+16 transformer layers, hidden size 512, 32 attention heads                                                  1
+based on GPT-2                                                                                              1
+formerly PubMedGPT                                                                                          1
+FlanT5 XL                                                                                                   1
+32k version                                                                                                 1
+2B, 7B                                                                                                      1
+1B, 1.4B, 2.8B, 6.9B, 12B                                                                                   1
+up to 8.7B parameters                                                                                       1
+5B parameters                                                                                               1
+LLaMA-2-Chinese                                                                                             1
+13B, 65B                                                                                                    1
+6.7B, 13B, 32.5B, 65.2B                                                                                     1
+6.7B, 13B                                                                                                   1
+6.9B                                                                                                        1
+123B                                                                                                        1
+18B                                                                                                         1
+GPT-3.5 and GPT-4                                                                                           1
+v0.2                                                                                                        1
+12 layers, 602M parameters                                                                                  1
+30M                                                                                                         1
+v2.1                                                                                                        1
+560M to 7.1B                                                                                                1
+70M to 12B                                                                                                  1
+9-January-2023 version                                                                                      1
+30-January-2023 version                                                                                     1
+based on OpenAI's GPT-3, GPT-3.5, and GPT-4                                                                 1
+T5-Large                                                                                                    1
+uses Transformer                                                                                            1
+244m, 422m, 1b, 64b, 128b                                                                                   1
+Gilmer et al., 2017                                                                                         1
+Veličković et al., 2020a                                                                                    1
+Veličković et al., 2018                                                                                     1
+3.5B                                                                                                        1
+810M                                                                                                        1
+0.8B, 3B, 11B                                                                                               1
+350M to 16.1B parameters                                                                                    1
+base-110M                                                                                                   1
+based on ELECTRA                                                                                            1
+based on BLOOM                                                                                              1
+based on open-source LLMs                                                                                   1
+8 layers, 768 hidden dimensions, 12 attention heads                                                         1
+6.7B, 33B, 65B                                                                                              1
+7.1B, 176B                                                                                                  1
+gpt-3.5-turbo-0603                                                                                          1
+LLaMA-2 7B                                                                                                  1
+family models                                                                                               1
+code-davinci-001 variant                                                                                    1
+317M and 2.6B parameters                                                                                    1
+300M parameters                                                                                             1
+12M to 12B parameters                                                                                       1
+768 hidden size                                                                                             1
+1B to 34B                                                                                                   1
+12B, 7B, 3B based on Pythia                                                                                 1
+65B, 30B, 13B, 7B                                                                                           1
+13B, 7B based on LLaMA                                                                                      1
+33B based on LLaMA                                                                                          1
+LaMDA and PaLM 2                                                                                            1
+Cushman                                                                                                     1
+Unicorn                                                                                                     1
+6.7 billion parameters                                                                                      1
+estimated 1.7T                                                                                              1
+355M parameters                                                                                             1
+127M, 355M                                                                                                  1
+260M                                                                                                        1
+126M                                                                                                        1
+71B                                                                                                         1
+XXL                                                                                                         1
+354M                                                                                                        1
+based on RoBERTa                                                                                            1
+2024-04-09                                                                                                  1
+0314                                                                                                        1
+244M parameters                                                                                             1
+86M                                                                                                         1
+304M                                                                                                        1
+9.7B                                                                                                        1
+Segment Anything Model                                                                                      1
+text-ada-001, text-babbage-001, text-curie-001, text-davinci-001, text-davinci-002, text-davinci-003        1
+125M, 350M, 1.3B, 2.7B, 6.7B, 13B, 30B                                                                      1
+fine-tuned on medical documents                                                                             1
+Large variant                                                                                               1
+6.2B                                                                                                        1
+1700B                                                                                                       1
+large-cased                                                                                                 1
+3.6 million parameters                                                                                      1
+≥1T                                                                                                         1
+davinci, text-davinci-002                                                                                   1
+Large, Medium                                                                                               1
+ERNIE-Bot 4.0                                                                                               1
+Qwen-Max                                                                                                    1
+rumored 1.76 trillion parameters                                                                            1
+ViT-B32                                                                                                     1
+8.03B                                                                                                       1
+8.54B                                                                                                       1
+3.82B                                                                                                       1
+15M                                                                                                         1
+95M                                                                                                         1
+DGCN                                                                                                        1
+DGAT                                                                                                        1
+306M                                                                                                        1
+Curie                                                                                                       1
+pre-trained                                                                                                 1
+IR-based                                                                                                    1
+T5 pre-trained                                                                                              1
+~3 billion parameters                                                                                       1
+larger server-based model                                                                                   1
+500M                                                                                                        1
+based on LLaMA 13B                                                                                          1
+Code-davinci-002                                                                                            1
+version 1106                                                                                                1
+based on GPT-3.5-175B                                                                                       1
+82B                                                                                                         1
+up to 175B                                                                                                  1
+13.5B                                                                                                       1
+up to 540B                                                                                                  1
+BASE                                                                                                        1
+0.58B                                                                                                       1
+2.7 billion parameters                                                                                      1
+0.73B                                                                                                       1
+Codex variant                                                                                               1
+130B parameters                                                                                             1
+211M                                                                                                        1
+214M                                                                                                        1
+435M                                                                                                        1
+310M parameters                                                                                             1
+speculated to have 1 trillion parameters                                                                    1
+GAN                                                                                                         1
+ViT-B-32                                                                                                    1
+ViT-S/14 distilled                                                                                          1
+ViT-B/14 distilled                                                                                          1
+ViT-L/14 distilled                                                                                          1
+ViT-g/14                                                                                                    1
+350M to 175B                                                                                                1
+NeSy                                                                                                        1
+ViT-L-336px                                                                                                 1
+base, unspecified size                                                                                      1
+CLIP and Llama-2                                                                                            1
+State-Space Model                                                                                           1
+gpt-4o-2024-05-13                                                                                           1
+0.14B                                                                                                       1
+0.06B                                                                                                       1
+0.22B                                                                                                       1
+MPT-1B                                                                                                      1
+1.3b                                                                                                        1
+2.7B, 6.7B, 13B                                                                                             1
+7B–70B                                                                                                      1
+various sizes including instruct-tuned variants                                                             1
+2.7B and 170B                                                                                               1
+10M parameters                                                                                              1
+with weight initialization from LLaV A-1.5                                                                  1
+128 embedding size                                                                                          1
+151M                                                                                                        1
+241M                                                                                                        1
+186M                                                                                                        1
+153M                                                                                                        1
+196M                                                                                                        1
+560m, 1.7b, 3b, 7.1b                                                                                        1
+1.3 billion parameters                                                                                      1
+FlanT5 XXL-11B                                                                                              1
+Vicuna 13B                                                                                                  1
+Human Motion Diffusion Model                                                                                1
+Davinci-code-002                                                                                            1
+LED                                                                                                         1
+6B to 16B                                                                                                   1
+7B to 12B                                                                                                   1
+BC                                                                                                          1
+2-layer Transformer                                                                                         1
+3B and 9B parameters                                                                                        1
+UnifiedQA                                                                                                   1
+BERT-base with 110M parameters                                                                              1
+Chat 70B                                                                                                    1
+350M, 1.3B-IML                                                                                              1
+250M, 760M, 3B, 11B                                                                                         1
+14M, 21M, 42M, 85M parameters                                                                               1
+6.7B, 175B                                                                                                  1
+929M                                                                                                        1
+628M                                                                                                        1
+696M                                                                                                        1
+vision transformer                                                                                          1
+language model                                                                                              1
+160M                                                                                                        1
+560M                                                                                                        1
+42M parameters                                                                                              1
+with probably more than 175 billion parameters                                                              1
+562B                                                                                                        1
+41B                                                                                                         1
+version 1.4 and 2.1                                                                                         1
+ViT large encoder                                                                                           1
+ViT-H/14                                                                                                    1
+based on PaLM-2                                                                                             1
+175-billion parameters                                                                                      1
+based on GPT-3.5-turbo-0301                                                                                 1
+base version                                                                                                1
+1.5M parameters                                                                                             1
+15M parameters                                                                                              1
+3B and 11B based on FLAN-T5                                                                                 1
+80M, 250M, 780M, 3B, 7B, 11B                                                                                1
+BERT-large with 340M parameters                                                                             1
+mistralai/Mixtral-8x7b-Instruct-v0.1                                                                        1
+6M, 85M, 303M                                                                                               1
+Bidirectional Encoder Representations from Transformers                                                     1
+claude-instantv1.0                                                                                          1
+350M and 1B                                                                                                 1
+llama-2-7b-chat                                                                                             1
+BART-Large                                                                                                  1
+7B to 34B                                                                                                   1
+from MoMu                                                                                                   1
+XXS, XS, S, L                                                                                               1
+Chowdhery et al., 2022                                                                                      1
+Hoffmann et al., 2022                                                                                       1
+Zhang et al., 2022a                                                                                         1
+Scao et al., 2022                                                                                           1
+Small, Base 250M, Large 780M, XL 3B, XXL 11B                                                                1
+Small, T0pp 11B                                                                                             1
+Small LLaMA 7B, Big 13B                                                                                     1
+Falcon 7B                                                                                                   1
+MPT 7B                                                                                                      1
+StarCoder Plus 15B                                                                                          1
+smallest model, 2019                                                                                        1
+largest model, 2019                                                                                         1
+largest model, current                                                                                      1
+1.8B/7B/14B/72B                                                                                             1
+3B/11B                                                                                                      1
+Opus                                                                                                        1
+claude-v1.3                                                                                                 1
+Generative pre-trained Transformer                                                                          1
+56b                                                                                                         1
+Qwen-7B with ViT-bigG                                                                                       1
+34b                                                                                                         1
+72b                                                                                                         1
+OpenAI et al., 2024                                                                                         1
+Dubey et al., 2024                                                                                          1
+instruction fine-tuned Llama2-70b                                                                           1
+based on LLaMA-9B                                                                                           1
+based on InternLM-7B                                                                                        1
+based on LLaVA v1.5-7B                                                                                      1
+10 layers, 8 attention heads, 512-dimensional embeddings                                                    1
+gpt-4-1106-vision-preview                                                                                   1
+model name not specified                                                                                    1
+gemini-pro-vision                                                                                           1
+llava-v1.6-mistral-7b-hf, 7B                                                                                1
+custom model                                                                                                1
+1.6                                                                                                         1
+based on LLaMa                                                                                              1
+based on LLaMA-2                                                                                            1
+7B, 13B, 34B, 72B                                                                                           1
+8B, 26B, 40B, 76B                                                                                           1
+11B, 90B                                                                                                    1
+variant of GPT                                                                                              1
+large multimodal model                                                                                      1
+based on T5-large                                                                                           1
+in CLIP                                                                                                     1
+
+
+=== Benchmarks Statistics ===
+Total unique benchmarks: 8162
+
+Top 10 most referenced benchmarks:
+benchmark_name
+GSM8K            372
+MMLU             170
+MATH             169
+SVAMP            138
+StrategyQA       124
+HumanEval        118
+HotpotQA          98
+TruthfulQA        81
+CommonsenseQA     69
+MBPP              64

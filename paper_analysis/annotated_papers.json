@@ -1,0 +1,1543 @@
+{
+  "ReAct: Synergizing Reasoning and Acting in Language Models": {
+    "filename": "ReAct: Synergizing Reasoning and Acting in Language Models.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3",
+        "PaLM-540B",
+        "BUTLER"
+      ],
+      "benchmarks": [
+        "HotPotQA",
+        "FEVER",
+        "ALFWorld",
+        "WebShop"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Retrieval Augmented Prompt Optimization": {
+    "filename": "Retrieval Augmented Prompt Optimization.pdf",
+    "analysis": {
+      "models": [
+        "PaLM Embedding API",
+        "PaLM 2-L",
+        "PaLM 2-S"
+      ],
+      "benchmarks": [
+        "Mandaerin Hate Speech Classification",
+        "Self-harm Classification",
+        "Harassment Classification",
+        "Sarcasm"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Polyjuice: Generating Counterfactuals for Explaining, Evaluating, and Improving Models": {
+    "filename": "Polyjuice: Generating Counterfactuals for Explaining, Evaluating, and Improving Models.pdf",
+    "analysis": {
+      "models": [
+        "GPT-2"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Tree of Thoughts: Deliberate Problem Solving with Large Language Models": {
+    "filename": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models.pdf",
+    "analysis": {
+      "models": [
+        "GPT-4"
+      ],
+      "benchmarks": [
+        "Game of 24",
+        "Creative Writing",
+        "5x5 Crosswords"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Boosted Prompt Ensembles for Large Language Models": {
+    "filename": "Boosted Prompt Ensembles for Large Language Models.pdf",
+    "analysis": {
+      "models": [
+        "code-davinci-002",
+        "text-curie-001",
+        "text-davinci-003",
+        "GPT-3.5-turbo"
+      ],
+      "benchmarks": [
+        "AQUA",
+        "GSM8K",
+        "MMLU",
+        "MATH",
+        "SVAMP"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "What if...?: Counterfactual Inception to Mitigate Hallucination Effects in Large Multimodal Models": {
+    "filename": "What if...?: Counterfactual Inception to Mitigate Hallucination Effects in Large Multimodal Models.pdf",
+    "analysis": {
+      "models": [
+        "GPT-4V",
+        "Gemini 1.5 Pro",
+        "LLaVA-1.5",
+        "IXC2-VL",
+        "LLaVA-NeXT",
+        "Intern VL 1.5"
+      ],
+      "benchmarks": [
+        "POPE",
+        "MMVP",
+        "CHAIR",
+        "MMHal-Bench"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Decomposing Uncertainty for Large Language Models through Input Clarification Ensembling": {
+    "filename": "Decomposing Uncertainty for Large Language Models through Input Clarification Ensembling.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5-turbo",
+        "GPT-4"
+      ],
+      "benchmarks": [
+        "GSM8K",
+        "Natural Question",
+        "AmbigQA"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Ask Me Anything: A simple strategy for prompting language models": {
+    "filename": "Ask Me Anything: A simple strategy for prompting language models.pdf",
+    "analysis": {
+      "models": [
+        "GPT-J",
+        "GPT-3"
+      ],
+      "benchmarks": [
+        "GLUE",
+        "COPA",
+        "CB",
+        "MultiRC",
+        "BoolQ"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Diversity of Thought Improves Reasoning Abilities of LLMs": {
+    "filename": "Diversity of Thought Improves Reasoning Abilities of LLMs.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5-turbo",
+        "GPT-4",
+        "LLaMA-2 70B"
+      ],
+      "benchmarks": [
+        "AQUA",
+        "GSM8K",
+        "MATH",
+        "Blocksworld",
+        "CommonsenseQA",
+        "Graph Coloring"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models": {
+    "filename": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models.pdf",
+    "analysis": {
+      "models": [
+        "code-davinci-002",
+        "text-curie-001",
+        "text-davinci-003",
+        "text-ada-001",
+        "text-babbage-001",
+        "PaLM-540B",
+        "UL2",
+        "LaMDA"
+      ],
+      "benchmarks": [
+        "AQUA",
+        "GSM8K",
+        "MAWPS",
+        "ASDiv",
+        "SVAMP",
+        "CommonsenseQA",
+        "StrategyQA",
+        "SayCan",
+        "Sports",
+        "Date Understanding"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Graph of Thoughts: Solving Elaborate Problems with Large Language Models": {
+    "filename": "Graph of Thoughts: Solving Elaborate Problems with Large Language Models.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5",
+        "LLaMA-2 70B"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "LLM-Blender: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion": {
+    "filename": "LLM-Blender: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion.pdf",
+    "analysis": {
+      "models": [
+        "T5",
+        "Open Assistant",
+        "Baize",
+        "MOSS",
+        "ChatGLM",
+        "Dolly V2",
+        "StableLM",
+        "Mosaic MPT",
+        "Koala 13B",
+        "Vicuna 13B",
+        "Alpaca 13B"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Wisdom of the Silicon Crowd: LLM Ensemble Prediction Capabilities Rival Human Crowd Accuracy": {
+    "filename": "Wisdom of the Silicon Crowd: LLM Ensemble Prediction Capabilities Rival Human Crowd Accuracy.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5-turbo",
+        "GPT-4",
+        "GPT-4 Bing",
+        "LLaMA-2 70B",
+        "Bard (PaLM 2)",
+        "PaLM 2 (Chat-Bison-002)",
+        "Claude 2",
+        "Solar-0-70B",
+        "Mistral-7B-Instruct",
+        "Qwen-7B-Chat",
+        "Falcon 180B",
+        "Coral (Command)"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "More Agents Is All You Need": {
+    "filename": "More Agents Is All You Need.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5-turbo",
+        "GPT-4",
+        "LLaMA-2 13B",
+        "LLaMA-2 70B"
+      ],
+      "benchmarks": [
+        "GSM8K",
+        "MMLU",
+        "MATH",
+        "HumanEval"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "LLM-Ensemble: Optimal Large Language Model Ensemble Method for E-commerce Product Attribute Value Extraction": {
+    "filename": "LLM-Ensemble: Optimal Large Language Model Ensemble Method for E-commerce Product Attribute Value Extraction.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5",
+        "GPT-4",
+        "LLaMA-2 13B",
+        "LLaMA-2 70B",
+        "Bard (PaLM 2)"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Routing to the Expert: Efficient Reward-guided Ensemble of Large Language Models": {
+    "filename": "Routing to the Expert: Efficient Reward-guided Ensemble of Large Language Models.pdf",
+    "analysis": {
+      "models": [
+        "LLaMA-2 13B",
+        "Vicuna 13B",
+        "Open-Chat",
+        "WizardLM",
+        "WizardMath",
+        "WizardCoder"
+      ],
+      "benchmarks": [
+        "AlpacaEval",
+        "FLASK",
+        "MT-Bench"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "One LLM is not Enough: Harnessing the Power of Ensemble Learning for Medical Question Answering": {
+    "filename": "One LLM is not Enough: Harnessing the Power of Ensemble Learning for Medical Question Answering.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5-turbo",
+        "GPT-4",
+        "LLaMA-2 13B",
+        "Vicuna 13B",
+        "Medalpaca 13B",
+        "MedLLaMA",
+        "PMC-LLaMA"
+      ],
+      "benchmarks": [
+        "MedMCQA",
+        "PubMedQA",
+        "MedQA-USMLE"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "ReConcile: Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs": {
+    "filename": "ReConcile: Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3",
+        "GPT-4",
+        "Bard (PaLM 2)",
+        "Claude 2"
+      ],
+      "benchmarks": [
+        "AQUA",
+        "GSM8K",
+        "MATH",
+        "CommonsenseQA",
+        "StrategyQA",
+        "ANLI",
+        "Date Understanding"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Making Large Language Models Better Reasoners with Step-Aware Verifier": {
+    "filename": "Making Large Language Models Better Reasoners with Step-Aware Verifier.pdf",
+    "analysis": {
+      "models": [
+        "code-davinci-002",
+        "text-davinci-003",
+        "davinci"
+      ],
+      "benchmarks": [
+        "GSM8K",
+        "ASDiv",
+        "SVAMP",
+        "CommonsenseQA",
+        "StrategyQA",
+        "SingleEq",
+        "MultiArith"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Boosting of Thoughts: Trial-and-Error Problem Solving with Large Language Models": {
+    "filename": "Boosting of Thoughts: Trial-and-Error Problem Solving with Large Language Models.pdf",
+    "analysis": {
+      "models": [
+        "GPT-4",
+        "LLaMA-2 13B"
+      ],
+      "benchmarks": [
+        "Game of 24",
+        "AQUA",
+        "GSM8K",
+        "MMLU",
+        "MATH",
+        "SVAMP"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "GenQREnsemble: Zero-Shot LLM Ensemble Prompting for Generative Query Reformulation": {
+    "filename": "GenQREnsemble: Zero-Shot LLM Ensemble Prompting for Generative Query Reformulation.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5",
+        "T5"
+      ],
+      "benchmarks": [
+        "TP19",
+        "TR04",
+        "WT",
+        "DE"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Fill in the Blank: Exploring and Enhancing LLM Capabilities for Backward Reasoning in Math Word Problems": {
+    "filename": "Fill in the Blank: Exploring and Enhancing LLM Capabilities for Backward Reasoning in Math Word Problems.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5-turbo",
+        "GPT-4",
+        "LLaMA-2 70B",
+        "PaLM-540B"
+      ],
+      "benchmarks": [
+        "GSM8K",
+        "SVAMP",
+        "MultiArith"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Calibrating Language Models via Augmented Prompt Ensembles": {
+    "filename": "Calibrating Language Models via Augmented Prompt Ensembles.pdf",
+    "analysis": {
+      "models": [
+        "text-curie-001",
+        "text-davinci-003",
+        "davinci"
+      ],
+      "benchmarks": [
+        "MMLU"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Auditing LMs with Counterfactual Search: A Tool for Control and ELK": {
+    "filename": "Auditing LMs with Counterfactual Search: A Tool for Control and ELK.pdf",
+    "analysis": {
+      "models": [],
+      "benchmarks": [
+        "HellaSwag",
+        "WinoGrande",
+        "TruthfulQA"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "RoCo: Dialectic Multi-Robot Collaboration with Large Language Models": {
+    "filename": "RoCo: Dialectic Multi-Robot Collaboration with Large Language Models.pdf",
+    "analysis": {
+      "models": [
+        "GPT-4"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Beyond prompt brittleness: Evaluating the reliability and consistency of political worldviews in LLMs": {
+    "filename": "Beyond prompt brittleness: Evaluating the reliability and consistency of political worldviews in LLMs.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5",
+        "LLaMA-2 8B",
+        "LLaMA-2 13B",
+        "LLaMA-2 70B",
+        "T5",
+        "Mistral-7B-Instruct"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "InferFix: End-to-End Program Repair with LLMs": {
+    "filename": "InferFix: End-to-End Program Repair with LLMs.pdf",
+    "analysis": {
+      "models": [
+        "Codex"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Retrieving Supporting Evidence for Generative Question Answering": {
+    "filename": "Retrieving Supporting Evidence for Generative Question Answering.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5-turbo"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Revisit Input Perturbation Problems for LLMs: A Unified Robustness Evaluation Framework for Noisy Slot Filling Task": {
+    "filename": "Revisit Input Perturbation Problems for LLMs: A Unified Robustness Evaluation Framework for Noisy Slot Filling Task.pdf",
+    "analysis": {
+      "models": [
+        "text-davinci-003"
+      ],
+      "benchmarks": [
+        "RADDLE",
+        "SNIPS"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Enhancing Static Analysis for Practical Bug Detection: An LLM-Integrated Approach": {
+    "filename": "Enhancing Static Analysis for Practical Bug Detection: An LLM-Integrated Approach.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5-turbo",
+        "GPT-4",
+        "Bard (PaLM 2)",
+        "Claude 2"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "FreshLLMs: Refreshing Large Language Models with Search Engine Augmentation": {
+    "filename": "FreshLLMs: Refreshing Large Language Models with Search Engine Augmentation.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5",
+        "GPT-4"
+      ],
+      "benchmarks": [
+        "FreshQA"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "DiversiGATE: A Comprehensive Framework for Reliable Large Language Models": {
+    "filename": "DiversiGATE: A Comprehensive Framework for Reliable Large Language Models.pdf",
+    "analysis": {
+      "models": [
+        "text-davinci-003"
+      ],
+      "benchmarks": [
+        "GSM8K"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Large Language Models are Zero-Shot Reasoners": {
+    "filename": "Large Language Models are Zero-Shot Reasoners.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3",
+        "GPT-3.5-turbo",
+        "PaLM-62B",
+        "PaLM-540B"
+      ],
+      "benchmarks": [
+        "AQUA",
+        "GSM8K",
+        "SVAMP",
+        "Date Understanding"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "ART: Automatic multi-step reasoning and tool-use for large language models": {
+    "filename": "ART: Automatic multi-step reasoning and tool-use for large language models.pdf",
+    "analysis": {
+      "models": [
+        "text-davinci-003"
+      ],
+      "benchmarks": [
+        "MMLU"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "MathPrompter: Mathematical Reasoning using Large Language Models": {
+    "filename": "MathPrompter: Mathematical Reasoning using Large Language Models.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3"
+      ],
+      "benchmarks": [
+        "MultiArith"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "LEVER: Learning to Verify Language-to-Code Generation with Execution": {
+    "filename": "LEVER: Learning to Verify Language-to-Code Generation with Execution.pdf",
+    "analysis": {
+      "models": [
+        "Codex"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Semantic Consistency for Assuring Reliability of Large Language Models": {
+    "filename": "Semantic Consistency for Assuring Reliability of Large Language Models.pdf",
+    "analysis": {
+      "models": [
+        "text-davinci-003",
+        "LLaMA-2 13B",
+        "T5",
+        "Vicuna 13B"
+      ],
+      "benchmarks": [
+        "TruthfulQA"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Let's Sample Step by Step: Adaptive-Consistency for Efficient Reasoning and Coding with LLMs": {
+    "filename": "Let's Sample Step by Step: Adaptive-Consistency for Efficient Reasoning and Coding with LLMs.pdf",
+    "analysis": {
+      "models": [
+        "code-davinci-002",
+        "GPT-3.5-turbo",
+        "Vicuna 13B"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Enhancing Self-Consistency and Performance of Pre-Trained Language Models through Natural Language Inference": {
+    "filename": "Enhancing Self-Consistency and Performance of Pre-Trained Language Models through Natural Language Inference.pdf",
+    "analysis": {
+      "models": [
+        "T5",
+        "Macaw"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Measuring Reliability of Large Language Models through Semantic Consistency": {
+    "filename": "Measuring Reliability of Large Language Models through Semantic Consistency.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3"
+      ],
+      "benchmarks": [
+        "TruthfulQA"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Prompting GPT-3 To Be Reliable": {
+    "filename": "Prompting GPT-3 To Be Reliable.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Beyond Self-Consistency: Ensemble Reasoning Boosts Consistency and Accuracy of LLMs in Cancer Staging": {
+    "filename": "Beyond Self-Consistency: Ensemble Reasoning Boosts Consistency and Accuracy of LLMs in Cancer Staging.pdf",
+    "analysis": {
+      "models": [
+        "Med42-70B"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Chain-of-Verification Reduces Hallucination in Large Language Models": {
+    "filename": "Chain-of-Verification Reduces Hallucination in Large Language Models.pdf",
+    "analysis": {
+      "models": [
+        "LLaMA 65B",
+        "LLaMA-2 70B"
+      ],
+      "benchmarks": [
+        "MultiSpanQA"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "LM vs LM: Detecting Factual Errors via Cross Examination": {
+    "filename": "LM vs LM: Detecting Factual Errors via Cross Examination.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3",
+        "GPT-3.5-turbo",
+        "LLaMA 7B"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Check Your Facts and Try Again: Improving Large Language Models with External Knowledge and Automated Feedback": {
+    "filename": "Check Your Facts and Try Again: Improving Large Language Models with External Knowledge and Automated Feedback.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5",
+        "GPT-3.5-turbo"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "REFINER: Reasoning Feedback on Intermediate Representations": {
+    "filename": "REFINER: Reasoning Feedback on Intermediate Representations.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5",
+        "GPT-3.5-turbo"
+      ],
+      "benchmarks": [
+        "GSM8K",
+        "SVAMP"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Reliable Natural Language Understanding with Large Language Models and Answer Set Programming": {
+    "filename": "Reliable Natural Language Understanding with Large Language Models and Answer Set Programming.pdf",
+    "analysis": {
+      "models": [
+        "text-curie-001",
+        "text-davinci-003"
+      ],
+      "benchmarks": [
+        "QuaRel"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Complexity-based Prompting for Multi-step Reasoning": {
+    "filename": "Complexity-based Prompting for Multi-step Reasoning.pdf",
+    "analysis": {
+      "models": [
+        "code-davinci-002",
+        "text-davinci-003"
+      ],
+      "benchmarks": [
+        "GSM8K",
+        "MATH",
+        "StrategyQA",
+        "Date Understanding"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Reprompting: Automated Chain-of-Thought Prompt Inference Through Gibbs Sampling": {
+    "filename": "Reprompting: Automated Chain-of-Thought Prompt Inference Through Gibbs Sampling.pdf",
+    "analysis": {
+      "models": [
+        "text-davinci-003",
+        "GPT-3.5-turbo"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions": {
+    "filename": "Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions.pdf",
+    "analysis": {
+      "models": [
+        "code-davinci-002",
+        "T5"
+      ],
+      "benchmarks": [
+        "HotPotQA",
+        "2WikiMultihopQA",
+        "MuSiQue",
+        "IIRC"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Rationale-Augmented Ensembles in Language Models": {
+    "filename": "Rationale-Augmented Ensembles in Language Models.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3",
+        "PaLM-540B"
+      ],
+      "benchmarks": [
+        "HotPotQA",
+        "BoolQ",
+        "OpenBookQA",
+        "ANLI"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Automatic Chain of Thought Prompting in Large Language Models": {
+    "filename": "Automatic Chain of Thought Prompting in Large Language Models.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3",
+        "Codex"
+      ],
+      "benchmarks": [
+        "CSQA",
+        "AQUA",
+        "GSM8K",
+        "AddSub",
+        "StrategyQA",
+        "MultiArith"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Automatic Prompt Augmentation and Selection with Chain-of-Thought from Labeled Data": {
+    "filename": "Automatic Prompt Augmentation and Selection with Chain-of-Thought from Labeled Data.pdf",
+    "analysis": {
+      "models": [
+        "code-davinci-002",
+        "GPT-3"
+      ],
+      "benchmarks": [
+        "AQUA",
+        "GSM8K",
+        "ASDiv",
+        "SVAMP",
+        "CommonsenseQA",
+        "StrategyQA"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Fantastically Ordered Prompts and Where to Find Them: Overcoming Few-Shot Prompt Order Sensitivity": {
+    "filename": "Fantastically Ordered Prompts and Where to Find Them: Overcoming Few-Shot Prompt Order Sensitivity.pdf",
+    "analysis": {
+      "models": [
+        "GPT-2",
+        "GPT-3"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Learning To Retrieve Prompts for In-Context Learning": {
+    "filename": "Learning To Retrieve Prompts for In-Context Learning.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3",
+        "Codex"
+      ],
+      "benchmarks": [
+        "BREAK",
+        "MTOP",
+        "SMCALFLOW"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Model ensemble instead of prompt fusion: a sample-specific knowledge transfer method for few-shot prompt tuning": {
+    "filename": "Model ensemble instead of prompt fusion: a sample-specific knowledge transfer method for few-shot prompt tuning.pdf",
+    "analysis": {
+      "models": [
+        "T5"
+      ],
+      "benchmarks": [
+        "WiC",
+        "WSC",
+        "CB",
+        "WNLI",
+        "MRPC",
+        "RTE",
+        "MultiRC",
+        "BoolQ"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Inference-Time Intervention: Eliciting Truthful Answers from a Language Model": {
+    "filename": "Inference-Time Intervention: Eliciting Truthful Answers from a Language Model.pdf",
+    "analysis": {
+      "models": [
+        "LLaMA 7B",
+        "Vicuna 13B",
+        "Alpaca 13B"
+      ],
+      "benchmarks": [
+        "TruthfulQA"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Large Language Models Can Self-Improve": {
+    "filename": "Large Language Models Can Self-Improve.pdf",
+    "analysis": {
+      "models": [
+        "PaLM-540B"
+      ],
+      "benchmarks": [
+        "DROP",
+        "OpenBookQA",
+        "GSM8K",
+        "ANLI"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Self-Refine: Iterative Refinement with Self-Feedback": {
+    "filename": "Self-Refine: Iterative Refinement with Self-Feedback.pdf",
+    "analysis": {
+      "models": [
+        "text-davinci-003",
+        "GPT-3.5-turbo",
+        "GPT-4",
+        "Codex"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Reflexion: Language Agents with Verbal Reinforcement Learning": {
+    "filename": "Reflexion: Language Agents with Verbal Reinforcement Learning.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3"
+      ],
+      "benchmarks": [
+        "HotPotQA",
+        "ALFWorld",
+        "HumanEval"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "PREFER: Prompt Ensemble Learning via Feedback-Reflect-Refine": {
+    "filename": "PREFER: Prompt Ensemble Learning via Feedback-Reflect-Refine.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5-turbo",
+        "GPT-4"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "N-CRITICS: Self-Refinement of Large Language Models with Ensemble of Critics": {
+    "filename": "N-CRITICS: Self-Refinement of Large Language Models with Ensemble of Critics.pdf",
+    "analysis": {
+      "models": [
+        "LLaMA-2 70B",
+        "Koala 13B",
+        "Vicuna 13B",
+        "WizardLM"
+      ],
+      "benchmarks": [
+        "TriviaQA",
+        "AmbigQ",
+        "HotPotQA"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Improving Factuality and Reasoning in Language Models through Multiagent Debate": {
+    "filename": "Improving Factuality and Reasoning in Language Models through Multiagent Debate.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5-turbo",
+        "Bard (PaLM 2)"
+      ],
+      "benchmarks": [
+        "Chess Move",
+        "GSM8K",
+        "MMLU"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "ReST meets ReAct: Self-Improvement for Multi-Step Reasoning LLM Agent": {
+    "filename": "ReST meets ReAct: Self-Improvement for Multi-Step Reasoning LLM Agent.pdf",
+    "analysis": {
+      "models": [
+        "PaLM 2-L"
+      ],
+      "benchmarks": [
+        "Eli5",
+        "HotPotQA"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Self-Consistency Improves Chain of Thought Reasoning in Language Models": {
+    "filename": "Self-Consistency Improves Chain of Thought Reasoning in Language Models.pdf",
+    "analysis": {
+      "models": [
+        "code-davinci-002",
+        "GPT-3.5-turbo",
+        "PaLM-540B"
+      ],
+      "benchmarks": [
+        "ARC-c",
+        "CSQA",
+        "AQUA",
+        "GSM8K",
+        "SVAMP",
+        "MultiArith"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Universal Self-Consistency for Large Language Model Generation": {
+    "filename": "Universal Self-Consistency for Large Language Model Generation.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5-turbo",
+        "PaLM 2-L"
+      ],
+      "benchmarks": [
+        "GSM8K",
+        "MATH",
+        "TruthfulQA"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Found in the Middle: Permutation Self-Consistency Improves Listwise Ranking in Large Language Models": {
+    "filename": "Found in the Middle: Permutation Self-Consistency Improves Listwise Ranking in Large Language Models.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5-turbo",
+        "GPT-4",
+        "LLaMA-2 8B",
+        "LLaMA-2 13B",
+        "LLaMA-2 70B",
+        "Mistral-7B-Instruct",
+        "Zephyr-7B"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Ranking LLM-Generated Loop Invariants for Program Verification": {
+    "filename": "Ranking LLM-Generated Loop Invariants for Program Verification.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5-turbo",
+        "GPT-4"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Assessing the Reliability of Large Language Model Knowledge": {
+    "filename": "Assessing the Reliability of Large Language Model Knowledge.pdf",
+    "analysis": {
+      "models": [
+        "LLaMA 30B-instruct",
+        "T5",
+        "UL2",
+        "Vicuna 13B",
+        "WizardLM"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Creative Beam Search: LLM-as-a-Judge For Improving Response Generation": {
+    "filename": "Creative Beam Search: LLM-as-a-Judge For Improving Response Generation.pdf",
+    "analysis": {
+      "models": [
+        "LLaMA 7B"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Replacing Judges with Juries: Evaluating LLM Generations with a Panel of Diverse Models": {
+    "filename": "Replacing Judges with Juries: Evaluating LLM Generations with a Panel of Diverse Models.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5-turbo",
+        "GPT-4",
+        "Claude 3 Haiku",
+        "Claude 3 Sonnet",
+        "Claude 3 Opus",
+        "Command R+",
+        "Mistral-7B-Instruct"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "MLLM-as-a-Judge: Assessing Multimodal LLM-as-a-Judge with Vision-Language Benchmark": {
+    "filename": "MLLM-as-a-Judge: Assessing Multimodal LLM-as-a-Judge with Vision-Language Benchmark.pdf",
+    "analysis": {
+      "models": [
+        "GPT-4V",
+        "Gemini 1.5 Pro",
+        "LLaVA-1.5"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "The ART of LLM Refinement: Ask, Refine, and Trust": {
+    "filename": "The ART of LLM Refinement: Ask, Refine, and Trust.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5-turbo",
+        "GPT-4",
+        "LLaMA-2 70B"
+      ],
+      "benchmarks": [
+        "GSM8K",
+        "StrategyQA"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate": {
+    "filename": "Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5-turbo",
+        "GPT-4",
+        "Vicuna 7B",
+        "Vicuna 13B"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "cTBLS: Augmenting Large Language Models with Conversational Tables": {
+    "filename": "cTBLS: Augmenting Large Language Models with Conversational Tables.pdf",
+    "analysis": {
+      "models": [],
+      "benchmarks": [
+        "HybriDialogue"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Harnessing the Power of LLM to Support Binary Taint Analysis": {
+    "filename": "Harnessing the Power of LLM to Support Binary Taint Analysis.pdf",
+    "analysis": {
+      "models": [
+        "GPT-4"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "CAPE: Corrective Actions from Precondition Errors using Large Language Models": {
+    "filename": "CAPE: Corrective Actions from Precondition Errors using Large Language Models.pdf",
+    "analysis": {
+      "models": [
+        "code-davinci-002",
+        "text-davinci-003",
+        "davinci"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Strength in Numbers: Estimating Confidence of Large Language Models by Prompt Agreement": {
+    "filename": "Strength in Numbers: Estimating Confidence of Large Language Models by Prompt Agreement.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3",
+        "T5"
+      ],
+      "benchmarks": [
+        "CoS-E",
+        "Cosmos QA",
+        "DREAM",
+        "QASC",
+        "Quail",
+        "Quartz",
+        "SciQ",
+        "QuaRel"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Boosting Language Models Reasoning with Chain-of-Knowledge Prompting": {
+    "filename": "Boosting Language Models Reasoning with Chain-of-Knowledge Prompting.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5-turbo"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Chain-of-Note: Enhancing Robustness in Retrieval-Augmented Language Models": {
+    "filename": "Chain-of-Note: Enhancing Robustness in Retrieval-Augmented Language Models.pdf",
+    "analysis": {
+      "models": [
+        "LLaMA 7B"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Active Prompting with Chain-of-Thought for Large Language Models": {
+    "filename": "Active Prompting with Chain-of-Thought for Large Language Models.pdf",
+    "analysis": {
+      "models": [
+        "text-davinci-003",
+        "GPT-3.5-turbo",
+        "Codex"
+      ],
+      "benchmarks": [
+        "CSQA",
+        "AQUA",
+        "GSM8K",
+        "ASDiv",
+        "SVAMP",
+        "StrategyQA",
+        "SingleEq"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Contrastive Chain-of-Thought Prompting": {
+    "filename": "Contrastive Chain-of-Thought Prompting.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5-turbo"
+      ],
+      "benchmarks": [
+        "Bamboogle",
+        "GSM8K"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Rephrase and Respond: Let Large Language Models Ask Better Questions for Themselves": {
+    "filename": "Rephrase and Respond: Let Large Language Models Ask Better Questions for Themselves.pdf",
+    "analysis": {
+      "models": [
+        "GPT-4"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Take a Step Back: Evoking Reasoning via Abstraction in Large Language Models": {
+    "filename": "Take a Step Back: Evoking Reasoning via Abstraction in Large Language Models.pdf",
+    "analysis": {
+      "models": [
+        "PaLM 2-L"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "System 2 Attention (is something you might need too)": {
+    "filename": "System 2 Attention (is something you might need too).pdf",
+    "analysis": {
+      "models": [
+        "text-davinci-003",
+        "GPT-3.5-turbo",
+        "LLaMA-2 70B"
+      ],
+      "benchmarks": [
+        "TriviaQA"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Making Reasoning Matter: Measuring and Improving Faithfulness of Chain-of-Thought Reasoning": {
+    "filename": "Making Reasoning Matter: Measuring and Improving Faithfulness of Chain-of-Thought Reasoning.pdf",
+    "analysis": {
+      "models": [
+        "text-davinci-003",
+        "GPT-4"
+      ],
+      "benchmarks": [
+        "Causal Understanding",
+        "GSM8K",
+        "StrategyQA"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Hallucination Augmented Recitations for Language Models": {
+    "filename": "Hallucination Augmented Recitations for Language Models.pdf",
+    "analysis": {
+      "models": [
+        "T5"
+      ],
+      "benchmarks": [
+        "TriviaQA"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Synthetic Prompting: Generating Chain-of-Thought Demonstrations for Large Language Models": {
+    "filename": "Synthetic Prompting: Generating Chain-of-Thought Demonstrations for Large Language Models.pdf",
+    "analysis": {
+      "models": [
+        "text-davinci-003"
+      ],
+      "benchmarks": [
+        "GSM8K",
+        "GSM-Hard",
+        "ASDiv",
+        "SVAMP",
+        "SingleEq"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "KG-Rank: Enhancing Large Language Models for Medical QA with Knowledge Graphs and Ranking Techniques": {
+    "filename": "KG-Rank: Enhancing Large Language Models for Medical QA with Knowledge Graphs and Ranking Techniques.pdf",
+    "analysis": {
+      "models": [
+        "GPT-4",
+        "LLaMA-2 13B"
+      ],
+      "benchmarks": [
+        "LiveQA",
+        "ExpertQA-Bio",
+        "ExpertQA-Med",
+        "MedicationQA"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Reframing Instructional Prompts to GPTk's Language": {
+    "filename": "Reframing Instructional Prompts to GPTk's Language.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3"
+      ],
+      "benchmarks": [
+        "Natural Instructions"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Automatic Semantic Augmentation of Language Model Prompts (for Code Summarization)": {
+    "filename": "Automatic Semantic Augmentation of Language Model Prompts (for Code Summarization).pdf",
+    "analysis": {
+      "models": [
+        "code-davinci-002"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Monotonic Paraphrasing Improves Generalization of Language Model Prompting": {
+    "filename": "Monotonic Paraphrasing Improves Generalization of Language Model Prompting.pdf",
+    "analysis": {
+      "models": [
+        "Mistral-7B-Instruct",
+        "Starling 7B"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Towards Expert-Level Medical Question Answering with Large Language Models": {
+    "filename": "Towards Expert-Level Medical Question Answering with Large Language Models.pdf",
+    "analysis": {
+      "models": [
+        "PaLM-540B",
+        "Bard (PaLM 2)"
+      ],
+      "benchmarks": [
+        "MultiMedQA"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Unleashing the Emergent Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration": {
+    "filename": "Unleashing the Emergent Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5-turbo",
+        "GPT-4",
+        "LLaMA-2 13B"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Certifiably Robust RAG against Retrieval Corruption": {
+    "filename": "Certifiably Robust RAG against Retrieval Corruption.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5-turbo",
+        "LLaMA 7B",
+        "Mistral-7B-Instruct"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Do Models Explain Themselves? Counterfactual Simulatability of Natural Language Explanations": {
+    "filename": "Do Models Explain Themselves? Counterfactual Simulatability of Natural Language Explanations.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5-turbo",
+        "GPT-4"
+      ],
+      "benchmarks": [
+        "Stanford Human Preference",
+        "StrategyQA"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Embodied LLM Agents Learn to Cooperate in Organized Teams": {
+    "filename": "Embodied LLM Agents Learn to Cooperate in Organized Teams.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5-turbo",
+        "GPT-4",
+        "LLaMA-2 70B"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Exploring Collaboration Mechanisms for LLM Agents: A Social Psychology View": {
+    "filename": "Exploring Collaboration Mechanisms for LLM Agents: A Social Psychology View.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5-turbo"
+      ],
+      "benchmarks": [
+        "Chess Move",
+        "MMLU",
+        "MATH"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "LUQ: Long-text Uncertainty Quantification for LLMs": {
+    "filename": "LUQ: Long-text Uncertainty Quantification for LLMs.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5",
+        "GPT-4",
+        "Gemini 1.5 Pro",
+        "Vicuna-33B",
+        "Yi-34B-Chat",
+        "Tulu-2-70B"
+      ],
+      "benchmarks": [
+        "FactScore"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Kernel Language Entropy: Fine-grained Uncertainty Quantification for LLMs from Semantic Similarities": {
+    "filename": "Kernel Language Entropy: Fine-grained Uncertainty Quantification for LLMs from Semantic Similarities.pdf",
+    "analysis": {
+      "models": [
+        "LLaMA-2 70B",
+        "Falcon 40B"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Don't Hallucinate, Abstain: Identifying LLM Knowledge Gaps via Multi-LLM Collaboration": {
+    "filename": "Don't Hallucinate, Abstain: Identifying LLM Knowledge Gaps via Multi-LLM Collaboration.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5-turbo",
+        "LLaMA-2 70B",
+        "Mistral-7B-Instruct"
+      ],
+      "benchmarks": [
+        "Knowledge Crosswords",
+        "Propaganda",
+        "MMLU",
+        "HellaSwag"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "The Consensus Game: Language Model Generation via Equilibrium Search": {
+    "filename": "The Consensus Game: Language Model Generation via Equilibrium Search.pdf",
+    "analysis": {
+      "models": [
+        "LLaMA 7B",
+        "LLaMA-2 13B"
+      ],
+      "benchmarks": [
+        "RACE",
+        "HHH",
+        "ARC-c",
+        "MMLU",
+        "TruthfulQA"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "RELIC: Investigating Large Language Model Responses using Self-Consistency": {
+    "filename": "RELIC: Investigating Large Language Model Responses using Self-Consistency.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3.5",
+        "GPT-3.5-turbo"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Synchromesh: Reliable Code Generation from Pre-Trained Language Models": {
+    "filename": "Synchromesh: Reliable Code Generation from Pre-Trained Language Models.pdf",
+    "analysis": {
+      "models": [
+        "GPT-3"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Exploring Demonstration Ensembling for In-Context Learning": {
+    "filename": "Exploring Demonstration Ensembling for In-Context Learning.pdf",
+    "analysis": {
+      "models": [
+        "GPT-J"
+      ],
+      "benchmarks": [
+        "GLUE",
+        "ARC-c",
+        "OpenBookQA",
+        "QuaRel"
+      ],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Getting MoRE out of Mixture of Language Model Reasoning Experts": {
+    "filename": "Getting MoRE out of Mixture of Language Model Reasoning Experts.pdf",
+    "analysis": {
+      "models": [
+        "Codex"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "An Information-theoretic Approach to Prompt Engineering Without Ground Truth Labels": {
+    "filename": "An Information-theoretic Approach to Prompt Engineering Without Ground Truth Labels.pdf",
+    "analysis": {
+      "models": [
+        "GPT-J",
+        "GPT-2",
+        "GPT-3"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Better Zero-Shot Reasoning with Self-Adaptive Prompting": {
+    "filename": "Better Zero-Shot Reasoning with Self-Adaptive Prompting.pdf",
+    "analysis": {
+      "models": [
+        "PaLM-62B",
+        "PaLM-540B"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  },
+  "Universal Self-Adaptive Prompting": {
+    "filename": "Universal Self-Adaptive Prompting.pdf",
+    "analysis": {
+      "models": [
+        "PaLM-62B",
+        "PaLM-540B"
+      ],
+      "benchmarks": [],
+      "note": "Analysis based on human review."
+    }
+  }
+}
