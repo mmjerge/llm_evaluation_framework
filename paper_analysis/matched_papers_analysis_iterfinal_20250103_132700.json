@@ -1,0 +1,908 @@
+{
+    "ReAct Synergizing Reasoning and Acting in Language Models": {
+        "filename": "ReAct Synergizing Reasoning and Acting in Language Models.pdf",
+        "analysis": {
+            "benchmarks": [
+                "HotpotQA",
+                "Fever",
+                "ALFWorld",
+                "WebShop"
+            ],
+            "base_models": [
+                "PaLM-540B",
+                "GPT-3"
+            ],
+            "note": "Analysis based on truncated paper text"
+        }
+    },
+    "Tree of Thoughts Deliberate Problem Solving with Large Language Models": {
+        "filename": "Tree of Thoughts Deliberate Problem Solving with Large Language Models.pdf",
+        "analysis": {
+            "benchmarks": [
+                "Game of 24",
+                "Creative Writing",
+                "Mini Crosswords"
+            ],
+            "base_models": [
+                "GPT-4"
+            ],
+            "note": "Analysis based on truncated paper text. Mini Crosswords is analogous to 5x5 Crosswords."
+        }
+    },
+    "Boosted Prompt Ensembles for Large Language Models": {
+        "filename": "Boosted Prompt Ensembles for Large Language Models.pdf",
+        "analysis": {
+            "benchmarks": [
+                "GSM8K",
+                "AQUA",
+                "MMLU570",
+                "CMATH420",
+                "SVAMP"
+            ],
+            "base_models": [
+                "code-davinci-002",
+                "text-davinci-003",
+                "gpt-3.5-turbo"
+            ],
+            "note": "Analysis based on truncated paper text. Missing text-curied-001."
+        }
+    },
+    "Ask Me Anything A simple strategy for prompting language models": {
+        "filename": "Ask Me Anything A simple strategy for prompting language models.pdf",
+        "analysis": {
+            "benchmarks": [
+                "SuperGLUE (CB, RTE, WSC)",
+                "DBPedia",
+                "AGNews",
+                "SST",
+                "DROP",
+                "NQ",
+                "RealTimeQA",
+                "WebQs",
+                "BoolQ",
+                "COPA",
+                "MultiRC",
+                "ReCoRD",
+                "WiC",
+                "ANLI R1",
+                "ANLI R2",
+                "ANLI R3",
+                "StoryCloze",
+                "Amazon"
+            ],
+            "base_models": [
+                "GPT-J-6B",
+                "GPT-3 (175B)",
+                "EleutherAI models (125M-175B)",
+                "BLOOM",
+                "OPT",
+                "T0"
+            ],
+            "note": "Analysis based on truncated paper text. Benchmarks missing a few items. Models missing a few items."
+        }
+    },
+    "Graph of Thoughts Solving Elaborate Problems with Large Language Models": {
+        "filename": "Graph of Thoughts Solving Elaborate Problems with Large Language Models.pdf",
+        "analysis": {
+            "benchmarks": [
+                "sorting",
+                "keyword counting",
+                "set operations",
+                "document merging"
+            ],
+            "base_models": [
+                "GPT-3.5",
+                "GPT-4",
+                "Llama-2"
+            ],
+            "note": "Analysis based on truncated paper text. Original paper mentions GPT-4, but they do not test it."
+        }
+    },
+    "More Agents Is All You Need": {
+        "filename": "More Agents Is All You Need.pdf",
+        "analysis": {
+            "benchmarks": [
+                "GSM8K",
+                "MATH",
+                "MMLU",
+                "Chess",
+                "HumanEval"
+            ],
+            "base_models": [
+                "Llama2-13B",
+                "Llama2-70B",
+                "GPT-3.5-Turbo",
+                "GPT-4"
+            ],
+            "note": "Analysis based on truncated paper text"
+        }
+    },
+    "ReConcile Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs": {
+        "filename": "ReConcile Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs.pdf",
+        "analysis": {
+            "benchmarks": [
+                "StrategyQA",
+                "CommonsenseQA",
+                "GSM8K",
+                "AQuA",
+                "MATH",
+                "Date Understanding",
+                "ANLI"
+            ],
+            "base_models": [
+                "ChatGPT",
+                "Bard",
+                "Claude2",
+                "GPT-4",
+                "LLaMA-2-70B",
+                "DeepSeekMath"
+            ],
+            "note": "Analysis based on truncated paper text"
+        }
+    },
+    "Boosting of Thoughts Trial-and-Error Problem Solving with Large Language Models": {
+        "filename": "Boosting of Thoughts Trial-and-Error Problem Solving with Large Language Models.pdf",
+        "analysis": {
+            "benchmarks": [
+                "GSM8K",
+                "AQuA",
+                "Game of 24"
+            ],
+            "base_models": [
+                "GPT-4",
+                "Llama2"
+            ],
+            "note": "Analysis based on truncated paper text. Benchmarks missing MMLU, SVAMP, and MATH."
+        }
+    },
+    "Fill in the Blank Exploring and Enhancing LLM Capabilities for Backward Reasoning in Math Word Problems": {
+        "filename": "Fill in the Blank Exploring and Enhancing LLM Capabilities for Backward Reasoning in Math Word Problems.pdf",
+        "analysis": {
+            "benchmarks": [
+                "GSM8k",
+                "SVAMP",
+                "MultiArith"
+            ],
+            "base_models": [
+                "GPT-4",
+                "GPT-3.5-turbo",
+                "PaLM-2",
+                "LLaMa-2-70B"
+            ],
+            "note": "Analysis based on truncated paper text"
+        }
+    },
+    "InferFix End-to-End Program Repair with LLMs": {
+        "filename": "InferFix End-to-End Program Repair with LLMs.pdf",
+        "analysis": {
+            "benchmarks": [
+                "InferredBugs"
+            ],
+            "base_models": [
+                "Codex Cushman (12 billion parameters)"
+            ],
+            "note": "Analysis based on truncated paper text"
+        }
+    },
+    "Revisit Input Perturbation Problems for LLMs A Unified Robustness Evaluation Framework for Noisy Slot Filling Task": {
+        "filename": "Revisit Input Perturbation Problems for LLMs A Unified Robustness Evaluation Framework for Noisy Slot Filling Task.pdf",
+        "analysis": {
+            "benchmarks": [
+                "Noise-LLM",
+                "RADDLE",
+                "SNIPS"
+            ],
+            "base_models": [
+                "GPT-3.5 (Text-davinci-003)",
+                "ChatGPT",
+                "GPT-4"
+            ]
+        }
+    },
+    "FreshLLMs Refreshing Large Language Models with Search Engine Augmentation": {
+        "filename": "FreshLLMs Refreshing Large Language Models with Search Engine Augmentation.pdf",
+        "analysis": {
+            "benchmarks": [
+                "FRESH QA"
+            ],
+            "base_models": [
+                "GPT-4",
+                "GPT-3.5",
+                "T5 (770M to 540B)",
+                "PaLM",
+                "FLAN-T5",
+                "FLAN-PaLM",
+                "Codex"
+            ],
+            "note": "Analysis based on truncated paper text"
+        }
+    },
+    "DiversiGATE A Comprehensive Framework for Reliable Large Language Models": {
+        "filename": "DiversiGATE A Comprehensive Framework for Reliable Large Language Models.pdf",
+        "analysis": {
+            "benchmarks": [
+                "GSM8K"
+            ],
+            "base_models": [
+                "GPT-3 Davinci-text-003"
+            ]
+        }
+    },
+    "Large Language Models are Zero-Shot Reasoners": {
+        "filename": "Large Language Models are Zero-Shot Reasoners.pdf",
+        "analysis": {
+            "benchmarks": [
+                "MultiArith",
+                "GSM8K",
+                "AQUA-RAT",
+                "SVAMP",
+                "Last Letter",
+                "Coin Flip",
+                "Date Understanding",
+                "Tracking Shuffled Objects",
+                "CommonsenseQA",
+                "StrategyQA"
+            ],
+            "base_models": [
+                "InstructGPT (text-davinci-002)",
+                "PaLM-540B",
+                "GPT-3 (ada, babbage, curie, davinci)",
+                "GPT-2",
+                "GPT-Neo",
+                "GPT-J",
+                "T0",
+                "OPT"
+            ],
+            "note": "Analysis based on truncated paper text. Missing two benchmarks and several models."
+        }
+    },
+    "ART Automatic multi-step reasoning and tool-use for large language models": {
+        "filename": "ART Automatic multi-step reasoning and tool-use for large language models.pdf",
+        "analysis": {
+            "benchmarks": [
+                "BigBench",
+                "MMLU",
+                "SQuAD",
+                "TriviaQA",
+                "SVAMP",
+                "MAWPS"
+            ],
+            "base_models": [
+                "InstructGPT (text-davinci-002)",
+                "Codex"
+            ],
+            "note": "Analysis based on truncated paper text"
+        }
+    },
+    "MathPrompter Mathematical Reasoning using Large Language Models": {
+        "filename": "MathPrompter Mathematical Reasoning using Large Language Models.pdf",
+        "analysis": {
+            "benchmarks": [
+                "MultiArith"
+            ],
+            "base_models": [
+                "GPT-3 DaVinci (175B)",
+                "PaLM (540B)"
+            ]
+        }
+    },
+    "Prompting GPT-3 To Be Reliable": {
+        "filename": "Prompting GPT-3 To Be Reliable.pdf",
+        "analysis": {
+            "benchmarks": [
+                "MRQA",
+                "AdvGLUE",
+                "Contrast Sets",
+                "HANS",
+                "PAWS",
+                "WinoBias",
+                "BBQ",
+                "NQ",
+                "TriviaQA",
+                "HotpotQA",
+                "SQuAD"
+            ],
+            "base_models": [
+                "GPT-3 (175B)",
+                "Code-Davinci-002 (also known as Codex or GPT-3.5)",
+                "Text-Davinci-001 (175B)",
+                "Text-Curie-001 (6.7B)"
+            ],
+            "note": "Analysis based on truncated paper text"
+        }
+    },
+    "Beyond Self-Consistency Ensemble Reasoning Boosts Consistency and Accuracy of LLMs in Cancer Staging": {
+        "filename": "Beyond Self-Consistency Ensemble Reasoning Boosts Consistency and Accuracy of LLMs in Cancer Staging.pdf",
+        "analysis": {
+            "benchmarks": [
+                "Cancer Genomic Atlas (TCGA) pathology reports"
+            ],
+            "base_models": [
+                "Med42-70B (derived from Llama2-70B)"
+            ]
+        }
+    },
+    "Chain-of-Verification Reduces Hallucination in Large Language Models": {
+        "filename": "Chain-of-Verification Reduces Hallucination in Large Language Models.pdf",
+        "analysis": {
+            "benchmarks": [
+                "Wikidata",
+                "Wiki-Category List",
+                "MultiSpanQA",
+                "Longform Generation of Biographies"
+            ],
+            "base_models": [
+                "Llama 65B",
+                "Llama 2 70B Chat"
+            ]
+        }
+    },
+    "LM vs LM Detecting Factual Errors via Cross Examination": {
+        "filename": "LM vs LM Detecting Factual Errors via Cross Examination.pdf",
+        "analysis": {
+            "benchmarks": [
+                "LAMA",
+                "TriviaQA",
+                "Natural Questions (NQ)",
+                "PopQA"
+            ],
+            "base_models": [
+                "ChatGPT (gpt-3.5-turbo)",
+                "GPT-3 (text-davinci-003)",
+                "LLAMA-7B"
+            ],
+            "note": "Analysis based on truncated paper text"
+        }
+    },
+    "REFINER Reasoning Feedback on Intermediate Representations": {
+        "filename": "REFINER Reasoning Feedback on Intermediate Representations.pdf",
+        "analysis": {
+            "benchmarks": [
+                "SVAMP",
+                "GSM8K",
+                "Synthetic Natural Language Reasoning (sNLR)",
+                "Moral Stories (MS)"
+            ],
+            "base_models": [
+                "GPT-3.5",
+                "ChatGPT",
+                "UnifiedQA-T5-base (220M)",
+                "UnifiedQA-T5-large (770M)"
+            ],
+            "note": "Analysis based on truncated paper text"
+        }
+    },
+    "Reliable Natural Language Understanding with Large Language Models and Answer Set Programming": {
+        "filename": "Reliable Natural Language Understanding with Large Language Models and Answer Set Programming.pdf",
+        "analysis": {
+            "benchmarks": [
+                "QuaRel"
+            ],
+            "base_models": [
+                "GPT-3 Davinci (~175B parameters)",
+                "GPT-3 Curie (~6.7B parameters)"
+            ]
+        }
+    },
+    "Complexity-Based Prompting for Multi-Step Reasoning": {
+        "filename": "Complexity-Based Prompting for Multi-Step Reasoning.pdf",
+        "analysis": {
+            "benchmarks": [
+                "GSM8K",
+                "MultiArith",
+                "MathQA",
+                "Date Understanding",
+                "Penguins"
+            ],
+            "base_models": [
+                "GPT-3 175B",
+                "Codex 175B"
+            ]
+        }
+    },
+    "Reprompting Automated Chain-of-Thought Prompt Inference Through Gibbs Sampling": {
+        "filename": "Reprompting Automated Chain-of-Thought Prompt Inference Through Gibbs Sampling.pdf",
+        "analysis": {
+            "benchmarks": [
+                "Big-Bench Hard (BBH)",
+                "GSM8K",
+                "MATH"
+            ],
+            "base_models": [
+                "ChatGPT (gpt-3.5-turbo)",
+                "InstructGPT (text-davinci-003)"
+            ],
+            "note": "Analysis based on truncated paper text. Might be missing some benchmarks, but unsure (see pg. 3 of paper)."
+        }
+    },
+    "Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions": {
+        "filename": "Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions.pdf",
+        "analysis": {
+            "benchmarks": [
+                "HotpotQA",
+                "2WikiMultihopQA",
+                "MuSiQue",
+                "IIRC"
+            ],
+            "base_models": [
+                "GPT-3 (code-davinci-002)",
+                "Flan-T5-large",
+                "Flan-T5-XL (3B)",
+                "Flan-T5-XXL (11B)"
+            ],
+            "note": "Analysis based on truncated paper text"
+        }
+    },
+    "Rationale-Augmented Ensembles in Language Models": {
+        "filename": "Rationale-Augmented Ensembles in Language Models.pdf",
+        "analysis": {
+            "benchmarks": [
+                "BoolQ",
+                "WiC",
+                "SST-2",
+                "QQP",
+                "e-SNLI",
+                "HotpotQA",
+                "OpenBookQA",
+                "ANLI",
+                "MNLI",
+                "RTE",
+                "ARC",
+                "GSM8K"
+            ],
+            "base_models": [
+                "PaLM-540B",
+                "GPT-3 (175B)"
+            ],
+            "note": "Analysis based on truncated paper text"
+        }
+    },
+    "Automatic Chain of Thought Prompting in Large Language Models": {
+        "filename": "Automatic Chain of Thought Prompting in Large Language Models.pdf",
+        "analysis": {
+            "benchmarks": [
+                "MultiArith",
+                "GSM8K",
+                "AQUA-RAT",
+                "SVAMP",
+                "CSQA",
+                "StrategyQA",
+                "Last Letter Concatenation",
+                "Coin Flip",
+                "AddSub",
+                "SingleEq"
+            ],
+            "base_models": [
+                "GPT-3 (175B parameters, text-davinci-002)",
+                "Codex (code-davinci-002)"
+            ],
+            "note": "Analysis based on truncated paper text."
+        }
+    },
+    "Inference-Time Intervention Eliciting Truthful Answers from a Language Model": {
+        "filename": "Inference-Time Intervention Eliciting Truthful Answers from a Language Model.pdf",
+        "analysis": {
+            "benchmarks": [
+                "TruthfulQA"
+            ],
+            "base_models": [
+                "LLaMA-7B",
+                "Alpaca (based on LLaMA)",
+                "Vicuna (based on LLaMA)"
+            ],
+            "note": "Analysis based on truncated paper text"
+        }
+    },
+    "Large Language Models Can Self-Improve": {
+        "filename": "Large Language Models Can Self-Improve.pdf",
+        "analysis": {
+            "benchmarks": [
+                "GSM8K",
+                "DROP",
+                "OpenBookQA",
+                "ANLI-A3",
+                "AQUA",
+                "StrategyQA",
+                "MNLI"
+            ],
+            "base_models": [
+                "PaLM-540B"
+            ],
+            "note": "Analysis based on truncated paper text"
+        }
+    },
+    "Self-Refine Iterative Refinement with Self-Feedback": {
+        "filename": "Self-Refine Iterative Refinement with Self-Feedback.pdf",
+        "analysis": {
+            "benchmarks": [
+                "Dialogue Response Generation (Mehri and Eskenazi, 2020)",
+                "Code Optimization (Madaan et al., 2023)",
+                "Code Readability Improvement (Puri et al., 2021)",
+                "Math Reasoning (Cobbe et al., 2021)",
+                "Sentiment Reversal (Zhang et al., 2015)",
+                "Acronym Generation (custom dataset)",
+                "Constrained Generation (custom dataset)"
+            ],
+            "base_models": [
+                "GPT-3.5 (text-davinci-003 and gpt-3.5-turbo)",
+                "GPT-4",
+                "Codex (code-davinci-002)"
+            ],
+            "note": "Analysis based on truncated paper text"
+        }
+    },
+    "Reflexion language agents with verbal reinforcement learning": {
+        "filename": "Reflexion language agents with verbal reinforcement learning.pdf",
+        "analysis": {
+            "benchmarks": [
+                "HumanEval",
+                "HotPotQA",
+                "AlfWorld",
+                "LeetcodeHardGym"
+            ],
+            "base_models": [
+                "GPT-4"
+            ],
+            "note": "Analysis based on truncated paper text. Missing MBPP"
+        }
+    },
+    "PREFER Prompt Ensemble Learning via Feedback-Reflect-Refine": {
+        "filename": "PREFER Prompt Ensemble Learning via Feedback-Reflect-Refine.pdf",
+        "analysis": {
+            "benchmarks": [
+                "SNLI",
+                "MNLI",
+                "RTE",
+                "QNLI",
+                "Ethos",
+                "Liar",
+                "ArSarcasm"
+            ],
+            "base_models": [
+                "GPT-4"
+            ]
+        }
+    },
+    "N-Critics Self-Refinement of Large Language Models with Ensemble of Critics": {
+        "filename": "N-Critics Self-Refinement of Large Language Models with Ensemble of Critics.pdf",
+        "analysis": {
+            "benchmarks": [
+                "REALTOXICITYPROMPTS",
+                "AmbigNQ",
+                "TriviaQA",
+                "HotpotQA"
+            ],
+            "base_models": [
+                "LLaMA-70b",
+                "WizardLM-70b",
+                "WizardLM-13b",
+                "Koala-13b",
+                "Vicuna-13b"
+            ]
+        }
+    },
+    "Improving Factuality and Reasoning in Language Models through Multiagent Debate": {
+        "filename": "Improving Factuality and Reasoning in Language Models through Multiagent Debate.pdf",
+        "analysis": {
+            "benchmarks": [
+                "GSM8K",
+                "MMLU",
+                "BIG-Bench Chess-State Tracking Benchmark",
+                "custom biography dataset"
+            ],
+            "base_models": [
+                "chatGPT",
+                "Bard"
+            ],
+            "note": "Analysis based on truncated paper text. Missing arithmetic benchmark."
+        }
+    },
+    "Self-Consistency Improves Chain of Thought Reasoning in Language Models": {
+        "filename": "Self-Consistency Improves Chain of Thought Reasoning in Language Models.pdf",
+        "analysis": {
+            "benchmarks": [
+                "GSM8K",
+                "SVAMP",
+                "AQuA",
+                "StrategyQA",
+                "ARC-challenge"
+            ],
+            "base_models": [
+                "UL2-20B",
+                "GPT-3-175B",
+                "LaMDA-137B",
+                "PaLM-540B"
+            ],
+            "note": "Analysis based on truncated paper text. Missing MultiArith, CSQA, last letter concatenation, and coin flip benchmarks."
+        }
+    },
+    "Universal Self-Consistency for Large Language Model Generation": {
+        "filename": "Universal Self-Consistency for Large Language Model Generation.pdf",
+        "analysis": {
+            "benchmarks": [
+                "GSM8K",
+                "MATH",
+                "BIRD-SQL",
+                "ARCADE",
+                "GovReport",
+                "SummScreen",
+                "TruthfulQA"
+            ],
+            "base_models": [
+                "PaLM 2-L",
+                "gpt-3.5-turbo"
+            ]
+        }
+    },
+    "Found in the Middle Permutation Self-Consistency Improves Listwise Ranking in Large Language Models": {
+        "filename": "Found in the Middle Permutation Self-Consistency Improves Listwise Ranking in Large Language Models.pdf",
+        "analysis": {
+            "benchmarks": [
+                "TREC-DL19",
+                "TREC-DL20",
+                "MathSort",
+                "WordSort",
+                "GSM8KSort"
+            ],
+            "base_models": [
+                "Mistral-7B",
+                "GPT-3.5",
+                "GPT-4",
+                "LLaMA v2 (70B)",
+                "Zephyr β-7B"
+            ],
+            "note": "Analysis based on truncated paper text. Missing Llama 2 7 and 13B."
+        }
+    },
+    "Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate": {
+        "filename": "Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate.pdf",
+        "analysis": {
+            "benchmarks": [
+                "Common MT",
+                "Counter-Intuitive AR"
+            ],
+            "base_models": [
+                "GPT-3.5-Turbo",
+                "GPT-4",
+                "vicuna-7b-v1.5-16k",
+                "vicuna-13b-v1.5-16k"
+            ],
+            "note": "Analysis based on truncated paper text"
+        }
+    },
+    "Boosting Language Models Reasoning with Chain-of-Knowledge Prompting": {
+        "filename": "Boosting Language Models Reasoning with Chain-of-Knowledge Prompting.pdf",
+        "analysis": {
+            "benchmarks": [
+                "CommonsenseQA",
+                "StrategyQA",
+                "OpenBookQA",
+                "ARC-c",
+                "BoolQ",
+                "GSM8K",
+                "SVAMP",
+                "AQuA",
+                "MultiArith"
+            ],
+            "base_models": [
+                "GPT-3 (175B)",
+                "gpt-3.5-turbo",
+                "gpt-4"
+            ],
+            "note": "Analysis based on truncated paper. Missing sports understanding form BIG Bench and last letter concatenation and coin flip."
+        }
+    },
+    "Chain-of-Note Enhancing Robustness in Retrieval-Augmented Language Models": {
+        "filename": "Chain-of-Note Enhancing Robustness in Retrieval-Augmented Language Models.pdf",
+        "analysis": {
+            "benchmarks": [
+                "NQ",
+                "TriviaQA",
+                "WebQ",
+                "RealTimeQA"
+            ],
+            "base_models": [
+                "GPT-4",
+                "LLaMa-2 7B"
+            ],
+            "note": "Analysis based on truncated paper text. Llama-2 was fine tuned."
+        }
+    },
+    "Active Prompting with Chain-of-Thought for Large Language Models": {
+        "filename": "Active Prompting with Chain-of-Thought for Large Language Models.pdf",
+        "analysis": {
+            "benchmarks": [
+                "GSM8K",
+                "ASDiv",
+                "SVAMP",
+                "AQuA",
+                "SingleEq",
+                "CSQA",
+                "StrategyQA",
+                "last letter concatenation"
+            ],
+            "base_models": [
+                "code-davinci-002",
+                "text-davinci-002",
+                "text-davinci-003",
+                "gpt-3.5-turbo",
+                "Llama2-70b-chat"
+            ],
+            "note": "Analysis based on truncated paper text"
+        }
+    },
+    "Rephrase and Respond Let Large Language Models Ask Better Questions for Themselves": {
+        "filename": "Rephrase and Respond Let Large Language Models Ask Better Questions for Themselves.pdf",
+        "analysis": {
+            "benchmarks": [
+                "MultiNLI",
+                "CSQA",
+                "Date Understanding",
+                "Last Letter Concatenation",
+                "Coin Flip",
+                "Sports"
+            ],
+            "base_models": [
+                "GPT-4",
+                "GPT-3.5-turbo-0613",
+                "Vicuna-13b-v1.5 (based on LLaMA-2)"
+            ],
+            "note": "Analysis based on truncated paper text"
+        }
+    },
+    "Take a Step Back Evoking Reasoning via Abstraction in Large Language Models": {
+        "filename": "Take a Step Back Evoking Reasoning via Abstraction in Large Language Models.pdf",
+        "analysis": {
+            "benchmarks": [
+                "MMLU (Physics and Chemistry)",
+                "TimeQA",
+                "MuSiQue",
+                "SituatedQA",
+                "GSM8K",
+                "StrategyQA"
+            ],
+            "base_models": [
+                "PaLM-2L",
+                "GPT-4",
+                "Llama2-70B"
+            ],
+            "note": "Analysis based on truncated paper text"
+        }
+    },
+    "Synthetic Prompting Generating Chain-of-Thought Demonstrations for Large Language Models": {
+        "filename": "Synthetic Prompting Generating Chain-of-Thought Demonstrations for Large Language Models.pdf",
+        "analysis": {
+            "benchmarks": [
+                "GSM8K",
+                "GSM-Hard",
+                "SVAMP",
+                "ASDiv",
+                "SingleOp",
+                "Colored Objects",
+                "Repeat Copy"
+            ],
+            "base_models": [
+                "InstructGPT (text-davinci-003)"
+            ],
+            "note": "Analysis based on truncated paper text"
+        }
+    },
+    "Towards Expert-Level Medical Question Answering with Large Language Models": {
+        "filename": "Towards Expert-Level Medical Question Answering with Large Language Models.pdf",
+        "analysis": {
+            "benchmarks": [
+                "MedQA (USMLE)",
+                "MedMCQA",
+                "PubMedQA",
+                "MMLU clinical topics",
+                "MultiMedQA 140",
+                "MultiMedQA 1066",
+                "Adversarial (General)",
+                "Adversarial (Health equity)"
+            ],
+            "base_models": [
+                "PaLM 2"
+            ],
+            "note": "Analysis based on truncated paper text"
+        }
+    },
+    "Embodied LLM Agents Learn to Cooperate in Organized Teams": {
+        "filename": "Embodied LLM Agents Learn to Cooperate in Organized Teams.pdf",
+        "analysis": {
+            "benchmarks": [
+                "VirtualHome-Social"
+            ],
+            "base_models": [
+                "GPT-4",
+                "GPT-3.5-turbo",
+                "Llama2-70B"
+            ],
+            "note": "Analysis based on truncated paper text"
+        }
+    },
+    "The Consensus Game Language Model Generation via Equilibrium Search": {
+        "filename": "The Consensus Game Language Model Generation via Equilibrium Search.pdf",
+        "analysis": {
+            "benchmarks": [
+                "MMLU",
+                "ARC",
+                "RACE",
+                "HHH",
+                "TruthfulQA",
+                "GSM8K"
+            ],
+            "base_models": [
+                "LLaMA-7B",
+                "LLaMA-13B",
+                "LLaMA-65B",
+                "PaLM-540B"
+            ],
+            "note": "Analysis based on truncated paper text. Incorrectly categorizes LLaMA-65B and PaLM"
+        }
+    },
+    "RELIC Investigating Large Language Model Responses using Self-Consistency": {
+        "filename": "RELIC Investigating Large Language Model Responses using Self-Consistency.pdf",
+        "analysis": {
+            "benchmarks": [],
+            "base_models": [
+                "InstructGPT"
+            ],
+            "note": "Analysis based on truncated paper text"
+        }
+    },
+    "Better Zero-Shot Reasoning with Self-Adaptive Prompting": {
+        "filename": "Better Zero-Shot Reasoning with Self-Adaptive Prompting.pdf",
+        "analysis": {
+            "benchmarks": [
+                "MultiArith",
+                "AddSub",
+                "SingleEq",
+                "GSM-8K",
+                "CSQA",
+                "StrategyQA"
+            ],
+            "base_models": [
+                "PaLM-62B",
+                "PaLM-540B",
+                "GPT-3 (175B)"
+            ],
+            "note": "Analysis based on truncated paper text"
+        }
+    },
+    "Universal Self-adaptive Prompting": {
+        "filename": "Universal Self-adaptive Prompting.pdf",
+        "analysis": {
+            "benchmarks": [
+                "winogrande",
+                "piqa",
+                "storycloze",
+                "anlir1",
+                "anlir2",
+                "anlir3",
+                "boolq",
+                "copa",
+                "rte",
+                "wic",
+                "wsc",
+                "arc_e",
+                "arc_c",
+                "raceh",
+                "racem",
+                "lambada",
+                "web_questions",
+                "natural_questions",
+                "triviaqa_wiki",
+                "squad",
+                "xsum",
+                "wikilingua (en)",
+                "BIG-bench Hard (BBH)"
+            ],
+            "base_models": [
+                "PaLM-62B",
+                "PaLM-540B",
+                "PaLM 2-M"
+            ],
+            "note": "Analysis based on truncated paper text"
+        }
+    }
+}
